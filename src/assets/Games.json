@@ -1,0 +1,1913 @@
+{
+    "1": {
+        "name": "Dead by Daylight",
+        "urls": [
+            "https://deadbydaylight.com/en",
+            "https://store.steampowered.com/app/381210/Dead_by_Daylight/"
+        ],
+        "genreIds": [
+            100,
+            104,
+            117
+        ],
+        "comment": ""
+    },
+    "2": {
+        "name": "The Forest",
+        "urls": [
+            "https://endnightgames.com/games/the-forest",
+            "https://store.steampowered.com/app/242760/The_Forest/"
+        ],
+        "genreIds": [
+            104
+        ],
+        "comment": ""
+    },
+    "3": {
+        "name": "Nuclear Throne",
+        "urls": [
+            "http://nuclearthrone.com/",
+            "https://store.steampowered.com/app/242680/Nuclear_Throne/"
+        ],
+        "genreIds": [
+            1,
+            4,
+            102
+        ],
+        "comment": ""
+    },
+    "4": {
+        "name": "Eggggg",
+        "urls": [
+            "https://store.steampowered.com/app/638470/Eggggg__The_platform_puker/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "5": {
+        "name": "I wanna save the Earth",
+        "urls": [
+            "https://w.atwiki.jp/iwannabethewiki/pages/1779.html"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "6": {
+        "name": "VVVVVV",
+        "urls": [
+            "https://thelettervsixtim.es/",
+            "https://store.steampowered.com/app/70300/VVVVVV/"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "7": {
+        "name": "Slay the Spire",
+        "urls": [
+            "https://www.megacrit.com/",
+            "https://store.steampowered.com/app/646570/Slay_the_Spire/"
+        ],
+        "genreIds": [
+            102,
+            106
+        ],
+        "comment": ""
+    },
+    "8": {
+        "name": "タイトル未定Forever",
+        "urls": [
+            "https://kusoi.site/kadai/"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "9": {
+        "name": "MaGiCAT",
+        "urls": [
+            "http://www.togeproductions.com/project/magicat/",
+            "https://store.steampowered.com/app/656970/__MagiCat/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "10": {
+        "name": "Hand Simulator",
+        "urls": [
+            "http://hfmgames.net/",
+            "https://store.steampowered.com/app/657200/Hand_Simulator/"
+        ],
+        "genreIds": [
+            100,
+            101
+        ],
+        "comment": ""
+    },
+    "11": {
+        "name": "Minion Masters",
+        "urls": [
+            "https://minionmastersthegame.com/",
+            "https://store.steampowered.com/app/489520/Minion_Masters/"
+        ],
+        "genreIds": [
+            106,
+            109
+        ],
+        "comment": ""
+    },
+    "12": {
+        "name": "還願",
+        "urls": [
+            "http://www.redcandlegames.com/devotion/",
+            "https://store.steampowered.com/app/1026010/Devotion__Original_Soundtracks/"
+        ],
+        "genreIds": [
+            2,
+            100
+        ],
+        "comment": ""
+    },
+    "13": {
+        "name": "Downwell",
+        "urls": [
+            "https://downwellgame.com/",
+            "https://store.steampowered.com/app/360740/Downwell/?l=japanese"
+        ],
+        "genreIds": [
+            4,
+            119
+        ],
+        "comment": ""
+    },
+    "14": {
+        "name": "Pit People®",
+        "urls": [
+            "https://pitpeople.com/",
+            "https://store.steampowered.com/app/291860/Pit_People/?l=japanese"
+        ],
+        "genreIds": [
+            3,
+            5
+        ],
+        "comment": ""
+    },
+    "15": {
+        "name": "Moon Hunters",
+        "urls": [
+            "http://www.moonhuntersgame.com/",
+            "https://store.steampowered.com/app/320040/Moon_Hunters/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            3,
+            102
+        ],
+        "comment": ""
+    },
+    "16": {
+        "name": "PewDiePie: Legend of Brofist",
+        "urls": [
+            "https://outerminds.com/game/pewdiepie-legend-of-the-brofist/",
+            "https://store.steampowered.com/app/390520/PewDiePie_Legend_of_the_Brofist/"
+        ],
+        "genreIds": [
+            1,
+            2,
+            118
+        ],
+        "comment": ""
+    },
+    "17": {
+        "name": "PUBG (PlayerUnknown's Battlegrounds)",
+        "urls": [
+            "https://www.pubg.com/ja/",
+            "https://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/"
+        ],
+        "genreIds": [
+            128
+        ],
+        "comment": ""
+    },
+    "18": {
+        "name": "Risk of Rain 2",
+        "urls": [
+            "https://www.riskofrain.com/",
+            "https://store.steampowered.com/app/632360/Risk_of_Rain_2/?l=japanese"
+        ],
+        "genreIds": [
+            7,
+            102
+        ],
+        "comment": ""
+    },
+    "19": {
+        "name": "オーバーライド 巨大メカ大乱闘",
+        "urls": [
+            "https://www.3goo.co.jp/product/%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%89-%E5%B7%A8%E5%A4%A7%E3%83%A1%E3%82%AB%E5%A4%A7%E4%B9%B1%E9%97%98/"
+        ],
+        "genreIds": [
+            11,
+            117
+        ],
+        "comment": ""
+    },
+    "20": {
+        "name": "Rock of Ages 2: Bigger & Boulder",
+        "urls": [
+            "http://www.rockofages2.com/",
+            "https://store.steampowered.com/app/434460/Rock_of_Ages_2_Bigger__Boulder/?l=japanese"
+        ],
+        "genreIds": [
+            10,
+            109
+        ],
+        "comment": ""
+    },
+    "21": {
+        "name": "Cuphead",
+        "urls": [
+            "http://www.cupheadgame.com/",
+            "https://store.steampowered.com/app/268910/Cuphead/?l=japanese&amp;cc=ru"
+        ],
+        "genreIds": [
+            1,
+            4
+        ],
+        "comment": ""
+    },
+    "22": {
+        "name": "Katana ZERO",
+        "urls": [
+            "https://www.katanazero.com/",
+            "https://store.steampowered.com/app/460950/Katana_ZERO/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            118
+        ],
+        "comment": ""
+    },
+    "23": {
+        "name": "DYO",
+        "urls": [
+            "http://press.teamdyo.com/",
+            "https://store.steampowered.com/app/791470/DYO/?l=japanese"
+        ],
+        "genreIds": [
+            9,
+            116
+        ],
+        "comment": ""
+    },
+    "24": {
+        "name": "FNAF (Five Nights at Freddy's)",
+        "urls": [
+            "http://www.scottgames.com/",
+            "https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/?l=japanese"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "25": {
+        "name": "Overdungeon",
+        "urls": [
+            "https://www.pocketpair.jp/overdungeon?lang=ja",
+            "https://store.steampowered.com/app/919370/Overdungeon/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            106
+        ],
+        "comment": ""
+    },
+    "26": {
+        "name": "39 Days to Mars",
+        "urls": [
+            "http://www.itsanecdotal.com/39days/",
+            "https://store.steampowered.com/app/504920/39_Days_to_Mars/?l=japanese"
+        ],
+        "genreIds": [
+            2,
+            9
+        ],
+        "comment": ""
+    },
+    "27": {
+        "name": "DUNGEON MAZE",
+        "urls": [],
+        "genreIds": [
+            3,
+            9,
+            102
+        ],
+        "comment": ""
+    },
+    "28": {
+        "name": "Aragami",
+        "urls": [
+            "https://linceworks.com/games/aragami/",
+            "https://store.steampowered.com/app/280160/Aragami/"
+        ],
+        "genreIds": [
+            1,
+            2
+        ],
+        "comment": ""
+    },
+    "29": {
+        "name": "The Dishwasher: Vampire Smile",
+        "urls": [
+            "https://ska-studios.com/games/the-dishwasher-vampire-smile/",
+            "https://store.steampowered.com/app/268990/The_Dishwasher_Vampire_Smile/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            118
+        ],
+        "comment": ""
+    },
+    "30": {
+        "name": "Bloody Trapland",
+        "urls": [
+            "http://www.bloodytrapland.com/",
+            "https://store.steampowered.com/app/257750/Bloody_Trapland/"
+        ],
+        "genreIds": [
+            101,
+            103
+        ],
+        "comment": ""
+    },
+    "31": {
+        "name": "A Fistful of Gun",
+        "urls": [
+            "http://fistfulofgun.com/",
+            "https://store.steampowered.com/app/229810/A_Fistful_of_Gun/"
+        ],
+        "genreIds": [
+            4
+        ],
+        "comment": ""
+    },
+    "32": {
+        "name": "Layers of Fear",
+        "urls": [
+            "https://www.blooberteam.com/layers-of-fear",
+            "https://store.steampowered.com/app/391720/Layers_of_Fear/?l=japanese"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "33": {
+        "name": "slither.io",
+        "urls": [
+            "http://slither.io/"
+        ],
+        "genreIds": [
+            101,
+            115
+        ],
+        "comment": ""
+    },
+    "34": {
+        "name": "Warlocks vs Shadows",
+        "urls": [
+            "https://www.omlgames.com/game/warlock-of-shadows/",
+            "https://store.steampowered.com/app/330270/Warlocks_vs_Shadows/"
+        ],
+        "genreIds": [
+            1,
+            3
+        ],
+        "comment": ""
+    },
+    "35": {
+        "name": "Blade Rondo",
+        "urls": [
+            "https://www.dominagames.com/blade-rondo"
+        ],
+        "genreIds": [
+            106,
+            125
+        ],
+        "comment": ""
+    },
+    "36": {
+        "name": "アイドルマスター シャイニーカラーズ",
+        "urls": [
+            "https://shinycolors.idolmaster.jp/"
+        ],
+        "genreIds": [
+            5,
+            121
+        ],
+        "comment": ""
+    },
+    "37": {
+        "name": "Nidhogg",
+        "urls": [
+            "http://nidhogggame.com/",
+            "https://store.steampowered.com/app/94400/Nidhogg/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            11,
+            118
+        ],
+        "comment": ""
+    },
+    "38": {
+        "name": "World of Warships",
+        "urls": [
+            "https://worldofwarships.asia/ja/"
+        ],
+        "genreIds": [
+            101,
+            107
+        ],
+        "comment": ""
+    },
+    "39": {
+        "name": "RWBY: Grimm Eclipse",
+        "urls": [
+            "https://roosterteeth.com/series?genres=RWBY%2520Series&amp;order=desc",
+            "https://store.steampowered.com/app/418340/RWBY_Grimm_Eclipse/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "40": {
+        "name": "こもらの見斬り",
+        "urls": [],
+        "genreIds": [
+            130
+        ],
+        "comment": ""
+    },
+    "41": {
+        "name": "Cat Quest II",
+        "urls": [
+            "https://www.thegentlebros.com/catquest2/",
+            "https://store.steampowered.com/app/914710/Cat_Quest_II/"
+        ],
+        "genreIds": [
+            1,
+            3
+        ],
+        "comment": ""
+    },
+    "42": {
+        "name": "Never Give Up",
+        "urls": [
+            "https://armorgamesstudios.com/games/never-give-up/",
+            "https://store.steampowered.com/app/609420/Never_Give_Up/"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "43": {
+        "name": "Plague Inc: Evolved",
+        "urls": [
+            "https://www.ndemiccreations.com/en/25-plague-inc-evolved",
+            "https://store.steampowered.com/app/246620/Plague_Inc_Evolved/"
+        ],
+        "genreIds": [
+            5
+        ],
+        "comment": ""
+    },
+    "44": {
+        "name": "Painkiller Hell & Damnation",
+        "urls": [
+            "https://store.steampowered.com/app/214870/Painkiller_Hell__Damnation/"
+        ],
+        "genreIds": [
+            8
+        ],
+        "comment": ""
+    },
+    "45": {
+        "name": "Rage in Peace",
+        "urls": [
+            "https://rollingglory.com/jam/rageinpeace/",
+            "https://store.steampowered.com/app/658690/Rage_in_Peace/"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "46": {
+        "name": "Visage",
+        "urls": [
+            "https://sadsquarestudio.com/pages/visage.html",
+            "https://store.steampowered.com/app/594330/Visage/?l=japanese"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "47": {
+        "name": "Roof Rage",
+        "urls": [
+            "https://jinjinjink.github.io/roof-rage-website/",
+            "https://store.steampowered.com/app/724300/Roof_Rage/"
+        ],
+        "genreIds": [
+            11,
+            127
+        ],
+        "comment": ""
+    },
+    "48": {
+        "name": "NeuroVoider",
+        "urls": [
+            "http://neurovoider.com/",
+            "https://store.steampowered.com/app/400450/NeuroVoider/"
+        ],
+        "genreIds": [
+            1,
+            102
+        ],
+        "comment": ""
+    },
+    "49": {
+        "name": "Paunch",
+        "urls": [
+            "https://paunchgame.com/",
+            "https://store.steampowered.com/app/792220/Paunch/"
+        ],
+        "genreIds": [
+            11,
+            117
+        ],
+        "comment": ""
+    },
+    "50": {
+        "name": "Scrap Garden",
+        "urls": [
+            "http://scrap-garden.com/",
+            "https://store.steampowered.com/app/465760/Scrap_Garden/"
+        ],
+        "genreIds": [
+            1,
+            2
+        ],
+        "comment": ""
+    },
+    "51": {
+        "name": "スーパーマリオ ヨッシーアイランド",
+        "urls": [
+            "https://www.nintendo.co.jp/n02/shvc/yi/index.html"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "52": {
+        "name": "Jump King",
+        "urls": [
+            "https://nexile.se/jump-king/",
+            "https://store.steampowered.com/app/1061090/Jump_King/?l=japanese"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "53": {
+        "name": "Soda Drinker Pro",
+        "urls": [
+            "http://sodadrinkerpro.com/",
+            "https://store.steampowered.com/app/347720/Soda_Drinker_Pro/?l=japanese"
+        ],
+        "genreIds": [
+            113
+        ],
+        "comment": ""
+    },
+    "54": {
+        "name": "星のカービィ スーパーデラックス",
+        "urls": [
+            "https://www.nintendo.co.jp/n02/shvc/p_akfj/index.html"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "55": {
+        "name": "HACKTAG",
+        "urls": [
+            "http://www.hacktag-thegame.com/",
+            "https://store.steampowered.com/app/622770/Hacktag/"
+        ],
+        "genreIds": [
+            1,
+            115
+        ],
+        "comment": ""
+    },
+    "56": {
+        "name": "スーパーマリオメーカー2",
+        "urls": [
+            "https://www.nintendo.co.jp/switch/baaqa/pc/index.html"
+        ],
+        "genreIds": [
+            110
+        ],
+        "comment": ""
+    },
+    "57": {
+        "name": "Viscera Cleanup Detail",
+        "urls": [
+            "http://www.runestorm.com/viscera",
+            "https://store.steampowered.com/app/246900/Viscera_Cleanup_Detail/?l=japanese"
+        ],
+        "genreIds": [
+            5
+        ],
+        "comment": ""
+    },
+    "58": {
+        "name": "ヨッシーのたまご",
+        "urls": [
+            "https://www.nintendo.co.jp/n02/dmg/yoj/index.html"
+        ],
+        "genreIds": [
+            9
+        ],
+        "comment": ""
+    },
+    "59": {
+        "name": "Wizard of Legend",
+        "urls": [
+            "http://wizardoflegend.com/",
+            "https://store.steampowered.com/app/445980/Wizard_of_Legend/?l=japanese"
+        ],
+        "genreIds": [
+            3,
+            102
+        ],
+        "comment": ""
+    },
+    "60": {
+        "name": "港詭實錄 ParanormalHK",
+        "urls": [
+            "https://store.steampowered.com/app/1178490/ParanormalHK/?l=japanese"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "61": {
+        "name": "バイオハザード RE:3",
+        "urls": [
+            "https://www.capcom.co.jp/biohazard/re3/",
+            "https://store.steampowered.com/app/952060/BIOHAZARD_RE3/"
+        ],
+        "genreIds": [
+            100,
+            104
+        ],
+        "comment": ""
+    },
+    "62": {
+        "name": "ロックマンX",
+        "urls": [
+            "https://www.capcom.co.jp/rxac/about/index.html",
+            "https://store.steampowered.com/app/743890/X/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "63": {
+        "name": "killer7",
+        "urls": [
+            "https://www.grasshopper.co.jp/projects/killer7.html",
+            "https://store.steampowered.com/app/868520/killer7/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            2
+        ],
+        "comment": ""
+    },
+    "64": {
+        "name": "Universe 24",
+        "urls": [
+            "https://allsvinn.org/universe-24",
+            "https://store.steampowered.com/app/1046530/Universe_24/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "65": {
+        "name": "コモラ・リアルワールドエスケープ",
+        "urls": [
+            "https://twitter.com/koyakinoko",
+            "https://store.steampowered.com/app/1350820/_/"
+        ],
+        "genreIds": [
+            1,
+            107
+        ],
+        "comment": ""
+    },
+    "66": {
+        "name": "ロックマンX2",
+        "urls": [
+            "https://www.capcom.co.jp/rxac/about/index.html",
+            "https://store.steampowered.com/app/743890/X/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "67": {
+        "name": "Celeste",
+        "urls": [
+            "http://www.celestegame.com/",
+            "https://store.steampowered.com/app/504230/Celeste/?l=japanese"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "68": {
+        "name": "アクション対魔忍",
+        "urls": [
+            "https://www.actiontaimanin.net/",
+            "https://store.steampowered.com/app/1335200/_/"
+        ],
+        "genreIds": [
+            1,
+            120
+        ],
+        "comment": ""
+    },
+    "69": {
+        "name": "Fortnite",
+        "urls": [
+            "https://www.epicgames.com/fortnite/ja/home"
+        ],
+        "genreIds": [
+            128
+        ],
+        "comment": ""
+    },
+    "70": {
+        "name": "Apex Legends",
+        "urls": [
+            "https://www.ea.com/ja-jp/games/apex-legends"
+        ],
+        "genreIds": [
+            128
+        ],
+        "comment": ""
+    },
+    "71": {
+        "name": "TETRIS 99",
+        "urls": [
+            "https://www.nintendo.co.jp/switch/arzna/index.html"
+        ],
+        "genreIds": [
+            9
+        ],
+        "comment": ""
+    },
+    "72": {
+        "name": "Iris.Fall",
+        "urls": [
+            "https://www.nextstudios.com/iris/index_en.html",
+            "https://store.steampowered.com/app/907470/IrisFall/?l=japanese"
+        ],
+        "genreIds": [
+            2,
+            9
+        ],
+        "comment": ""
+    },
+    "73": {
+        "name": "Skul: The Hero Slayer",
+        "urls": [
+            "http://skulthegame.com/",
+            "https://store.steampowered.com/app/1147560/Skul_The_Hero_Slayer/"
+        ],
+        "genreIds": [
+            1,
+            102
+        ],
+        "comment": ""
+    },
+    "74": {
+        "name": "ローション侍",
+        "urls": [
+            "https://twitter.com/Retsu324",
+            "https://store.steampowered.com/app/1291370/_/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "75": {
+        "name": "DEAD OR SCHOOL",
+        "urls": [
+            "https://www.nanafushi.jp/pages/3516134/gallery",
+            "https://store.steampowered.com/app/789760/DEAD_OR_SCHOOL/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            3
+        ],
+        "comment": ""
+    },
+    "76": {
+        "name": "Helltaker",
+        "urls": [
+            "https://store.steampowered.com/app/1289310/Helltaker/"
+        ],
+        "genreIds": [
+            9
+        ],
+        "comment": ""
+    },
+    "77": {
+        "name": "King of Crabs",
+        "urls": [
+            "https://robotsquid.com/games/",
+            "https://store.steampowered.com/app/1273710/King_of_Crabs/?l=japanese"
+        ],
+        "genreIds": [
+            11,
+            117
+        ],
+        "comment": ""
+    },
+    "78": {
+        "name": "ロックマンX3",
+        "urls": [
+            "https://www.capcom.co.jp/rxac/about/index.html",
+            "https://store.steampowered.com/app/743890/X/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "79": {
+        "name": "Dark Deception",
+        "urls": [
+            "https://www.glowstickentertainment.com/games/darkdeception",
+            "https://store.steampowered.com/app/332950/Dark_Deception/?l=japanese"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "80": {
+        "name": "世界のアソビ大全51",
+        "urls": [
+            "https://www.nintendo.co.jp/switch/as7ta/"
+        ],
+        "genreIds": [
+            112
+        ],
+        "comment": ""
+    },
+    "81": {
+        "name": "オシャレになりたいタワーバトル",
+        "urls": [
+            "https://unityroom.com/games/peanutstowerbattle"
+        ],
+        "genreIds": [
+            9
+        ],
+        "comment": ""
+    },
+    "82": {
+        "name": "Towaga: Among Shadows",
+        "urls": [
+            "https://www.sunnysidegames.ch/",
+            "https://store.steampowered.com/app/907600/Towaga_Among_Shadows/"
+        ],
+        "genreIds": [
+            4
+        ],
+        "comment": ""
+    },
+    "83": {
+        "name": "SCP - CONTAINMENT BREACH",
+        "urls": [
+            "https://www.scpcbgame.com/"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "84": {
+        "name": "Phantom Breaker: Battle Grounds",
+        "urls": [
+            "https://www.degicagames.com/a/games/phantom-breaker-battle-grounds",
+            "https://store.steampowered.com/app/329490/Phantom_Breaker_Battle_Grounds/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            11
+        ],
+        "comment": ""
+    },
+    "85": {
+        "name": "軟体轟輪ゲルタンク",
+        "urls": [
+            "https://twitter.com/koki_thlal",
+            "https://store.steampowered.com/app/1305390/_/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "86": {
+        "name": "Ninjin: Clash of Carrots",
+        "urls": [
+            "https://ninjingame.com/us/",
+            "https://store.steampowered.com/app/809870/Ninjin_Clash_of_Carrots/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "87": {
+        "name": "タワーハンター ～エルザの試炼～",
+        "urls": [
+            "https://twitter.com/TowerHunter_Erz",
+            "https://store.steampowered.com/app/844850/_/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "88": {
+        "name": "Zelle",
+        "urls": [
+            "https://www.bijutsukukann.com/bijitsukukan-en",
+            "https://store.steampowered.com/app/725330/Zelle/"
+        ],
+        "genreIds": [
+            2
+        ],
+        "comment": ""
+    },
+    "89": {
+        "name": "One Step From Eden",
+        "urls": [
+            "https://www.onestepfromeden.com/",
+            "https://store.steampowered.com/app/960690/One_Step_From_Eden/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            102
+        ],
+        "comment": ""
+    },
+    "90": {
+        "name": "Bladed fury",
+        "urls": [
+            "https://www.nextstudios.com/bladedfury/",
+            "https://store.steampowered.com/app/927250/Bladed_Fury/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "91": {
+        "name": "Fall Guys: Ultimate Knockout",
+        "urls": [
+            "https://fallguys.com/",
+            "https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/"
+        ],
+        "genreIds": [
+            128
+        ],
+        "comment": ""
+    },
+    "92": {
+        "name": "League of Legends",
+        "urls": [
+            "https://na.leagueoflegends.com/ja-jp/"
+        ],
+        "genreIds": [
+            129
+        ],
+        "comment": ""
+    },
+    "93": {
+        "name": "Indivisible",
+        "urls": [
+            "https://indivisiblegame.com/ja/",
+            "https://store.steampowered.com/app/421170/Indivisible/?l=japanese"
+        ],
+        "genreIds": [
+            3
+        ],
+        "comment": ""
+    },
+    "94": {
+        "name": "闘獣王",
+        "urls": [
+            "http://www.usamimi.info/~nekonekonekoneko/"
+        ],
+        "genreIds": [
+            106
+        ],
+        "comment": ""
+    },
+    "95": {
+        "name": "Fate/Grand Order",
+        "urls": [
+            "https://www.fate-go.jp/"
+        ],
+        "genreIds": [
+            3
+        ],
+        "comment": ""
+    },
+    "96": {
+        "name": "人生オワタの大冒険2",
+        "urls": [
+            "http://king-soukutu.com/flash/owata2.html"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "97": {
+        "name": "斬妖Raksasi",
+        "urls": [
+            "https://twitter.com/glassescatgames",
+            "https://store.steampowered.com/app/1016600/Raksasi/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            102
+        ],
+        "comment": ""
+    },
+    "98": {
+        "name": "Left 4 Dead 2",
+        "urls": [
+            "https://www.l4d.com/blog/",
+            "https://store.steampowered.com/app/550/Left_4_Dead_2/?l=japanese"
+        ],
+        "genreIds": [
+            8,
+            101
+        ],
+        "comment": ""
+    },
+    "99": {
+        "name": "ロックマンX4",
+        "urls": [
+            "https://www.capcom.co.jp/rxac/about/index.html",
+            "https://store.steampowered.com/app/743890/X/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "100": {
+        "name": "終末列車",
+        "urls": [
+            "https://twitter.com/VLGSirGkF0sr7wp",
+            "https://store.steampowered.com/app/1337030/EnTrain/?l=japanese"
+        ],
+        "genreIds": [
+            126
+        ],
+        "comment": ""
+    },
+    "101": {
+        "name": "ダンジョンメーカー",
+        "urls": [
+            "https://dungeonmaker.games.dmm.com/"
+        ],
+        "genreIds": [
+            102,
+            106
+        ],
+        "comment": ""
+    },
+    "102": {
+        "name": "BLEACH Brave Souls",
+        "urls": [
+            "https://www.bleach-bravesouls.com/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "103": {
+        "name": "マイエクササイズ",
+        "urls": [
+            "https://myex.jp/",
+            "https://store.steampowered.com/app/1004330/_/?l=japanese"
+        ],
+        "genreIds": [
+            124
+        ],
+        "comment": ""
+    },
+    "104": {
+        "name": "カービィファイターズ2",
+        "urls": [
+            "https://www.nintendo.co.jp/switch/awmfa/index.html"
+        ],
+        "genreIds": [
+            1,
+            117
+        ],
+        "comment": ""
+    },
+    "105": {
+        "name": "スーパーマリオ64",
+        "urls": [
+            "https://www.nintendo.co.jp/switch/avp3a/detail01/index.html"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "106": {
+        "name": "Alice | 愛莉澄",
+        "urls": [
+            "https://twitter.com/838sManiacs",
+            "https://store.steampowered.com/app/1338650/Alice/"
+        ],
+        "genreIds": [
+            100,
+            102
+        ],
+        "comment": ""
+    },
+    "107": {
+        "name": "スーパーマリオブラザーズ 35",
+        "urls": [
+            "https://www.nintendo.co.jp/switch/ayama/index.html"
+        ],
+        "genreIds": [
+            1,
+            101
+        ],
+        "comment": ""
+    },
+    "108": {
+        "name": "ハードコア・メカ",
+        "urls": [
+            "http://www.rocketpunchgames.com/",
+            "https://store.steampowered.com/app/746580/_/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "109": {
+        "name": "Get-A-Grip Chip",
+        "urls": [
+            "https://redstart.io/",
+            "https://store.steampowered.com/app/1269590/GetAGrip_Chip/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "110": {
+        "name": "WHAT THE GOLF?",
+        "urls": [
+            "https://whatthegolf.com/?from=steam",
+            "https://store.steampowered.com/app/785790/WHAT_THE_GOLF/?l=japanese"
+        ],
+        "genreIds": [
+            6
+        ],
+        "comment": ""
+    },
+    "111": {
+        "name": "ロックマンX DiVE",
+        "urls": [
+            "https://mobile.capcom.com/rxd/"
+        ],
+        "genreIds": [
+            1,
+            3
+        ],
+        "comment": ""
+    },
+    "112": {
+        "name": "アイドルマスター シンデレラガールズ スターライトステージ",
+        "urls": [
+            "https://cinderella.idolmaster.jp/sl-stage/"
+        ],
+        "genreIds": [
+            5,
+            121
+        ],
+        "comment": ""
+    },
+    "113": {
+        "name": "Yuppie Psycho: Executive Edition",
+        "urls": [
+            "https://twitter.com/baroquedecay",
+            "https://store.steampowered.com/app/597760/Yuppie_Psycho_Executive_Edition/"
+        ],
+        "genreIds": [
+            2,
+            100
+        ],
+        "comment": ""
+    },
+    "114": {
+        "name": "がんばれ!うんていロボ",
+        "urls": [
+            "https://twitter.com/norayorozoo",
+            "https://store.steampowered.com/app/1391720/_/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "115": {
+        "name": "Blazing Chrome",
+        "urls": [
+            "http://joymasher.com/blazing-chrome/",
+            "https://store.steampowered.com/app/609110/Blazing_Chrome/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "116": {
+        "name": "WILD GUNS",
+        "urls": [
+            "http://www.natsumeatari.co.jp/wild-guns-reloaded/"
+        ],
+        "genreIds": [
+            4
+        ],
+        "comment": ""
+    },
+    "117": {
+        "name": "SUPER DRINK BROS.",
+        "urls": [
+            "https://www.youtube.com/channel/UCST0xPC8O-rT_IAUo72ymfw",
+            "https://store.steampowered.com/app/1460750/SUPER_DRINK_BROS//"
+        ],
+        "genreIds": [
+            1,
+            11
+        ],
+        "comment": ""
+    },
+    "118": {
+        "name": "Shephy",
+        "urls": [
+            "http://www.bouken.jp/pd/sp/",
+            "https://store.steampowered.com/app/651340/Shephy/?l=japanese"
+        ],
+        "genreIds": [
+            106
+        ],
+        "comment": ""
+    },
+    "119": {
+        "name": "White Day VR: The Courage Test",
+        "urls": [
+            "https://pqube.co.uk/latest-asia-games/",
+            "https://store.steampowered.com/app/1442650/White_Day_VR_The_Courage_Test/"
+        ],
+        "genreIds": [
+            100,
+            105
+        ],
+        "comment": ""
+    },
+    "120": {
+        "name": "Gone Golfing",
+        "urls": [
+            "https://icehelm.com/",
+            "https://store.steampowered.com/app/1359900/Gone_Golfing/?l=japanese"
+        ],
+        "genreIds": [
+            100,
+            104
+        ],
+        "comment": ""
+    },
+    "121": {
+        "name": "Chicken Police - Paint it RED!",
+        "urls": [
+            "https://twitter.com/ChickenPoliceG",
+            "https://store.steampowered.com/app/1084640/Chicken_Police__Paint_it_RED/?l=japanese"
+        ],
+        "genreIds": [
+            2
+        ],
+        "comment": ""
+    },
+    "122": {
+        "name": "Metal Unit",
+        "urls": [
+            "https://playneowiz.com/metalunit",
+            "https://store.steampowered.com/app/1173200/Metal_Unit/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "123": {
+        "name": "Fight'N Rage",
+        "urls": [
+            "https://sebagamesdev.github.io/#games",
+            "https://store.steampowered.com/app/674520/FightN_Rage/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            114
+        ],
+        "comment": ""
+    },
+    "124": {
+        "name": "Racket Fury: Table Tennis VR",
+        "urls": [
+            "http://www.pixeledgegames.com/",
+            "https://store.steampowered.com/app/555050/Racket_Fury_Table_Tennis_VR/"
+        ],
+        "genreIds": [
+            6,
+            105
+        ],
+        "comment": ""
+    },
+    "125": {
+        "name": "Apple Slash",
+        "urls": [
+            "https://twitter.com/Agelvik",
+            "https://store.steampowered.com/app/1127850/Apple_Slash/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            2
+        ],
+        "comment": ""
+    },
+    "126": {
+        "name": "Super Meat Boy",
+        "urls": [
+            "http://www.supermeatboy.com/",
+            "https://store.steampowered.com/app/40800/Super_Meat_Boy/?l=japanese"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "127": {
+        "name": "返校 Detention",
+        "urls": [
+            "https://redcandlegames.com/detention/?lang=jp",
+            "https://store.steampowered.com/app/555220/Detention/"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "128": {
+        "name": "Cooking Simulator",
+        "urls": [
+            "https://www.facebook.com/CookingSimulator/",
+            "https://store.steampowered.com/app/641320/Cooking_Simulator/?l=japanese"
+        ],
+        "genreIds": [
+            5
+        ],
+        "comment": ""
+    },
+    "129": {
+        "name": "Steam",
+        "urls": [
+            "https://store.steampowered.com/?l=japanese"
+        ],
+        "genreIds": [
+            110
+        ],
+        "comment": ""
+    },
+    "130": {
+        "name": "Hover Ship",
+        "urls": [
+            "https://store.steampowered.com/app/1504030/Hover_Ship/"
+        ],
+        "genreIds": [
+            10
+        ],
+        "comment": ""
+    },
+    "131": {
+        "name": "Rocket Golf",
+        "urls": [
+            "http://www.rocketgolf.com/",
+            "https://store.steampowered.com/app/984910/Rocket_Golf/"
+        ],
+        "genreIds": [
+            6
+        ],
+        "comment": ""
+    },
+    "132": {
+        "name": "Space Kettle",
+        "urls": [
+            "https://twitter.com/maxkres",
+            "https://store.steampowered.com/app/1380830/Space_Kettle/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "133": {
+        "name": "アンリアルライフ",
+        "urls": [
+            "https://www.unreal-life.net/",
+            "https://store.steampowered.com/app/1335560/_/"
+        ],
+        "genreIds": [
+            2
+        ],
+        "comment": ""
+    },
+    "134": {
+        "name": "Fallen Rebellion",
+        "urls": [
+            "https://store.steampowered.com/app/1501640/Fallen_Rebellion/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "135": {
+        "name": "Christmas Race",
+        "urls": [
+            "https://store.steampowered.com/app/755600/Christmas_Race/"
+        ],
+        "genreIds": [
+            10
+        ],
+        "comment": ""
+    },
+    "136": {
+        "name": "Cart Racer",
+        "urls": [
+            "https://store.steampowered.com/app/587420/Cart_Racer/"
+        ],
+        "genreIds": [
+            10
+        ],
+        "comment": ""
+    },
+    "137": {
+        "name": "ロックマン",
+        "urls": [
+            "https://www.capcom.co.jp/RCC/",
+            "https://store.steampowered.com/app/363440/_/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "138": {
+        "name": "Teke Teke - テケテケ",
+        "urls": [
+            "https://store.steampowered.com/app/1253690/Teke_Teke/"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "139": {
+        "name": "Fat Prisoner Simulator 3",
+        "urls": [
+            "https://store.steampowered.com/app/1498590/Fat_Prisoner_Simulator_3/"
+        ],
+        "genreIds": [
+            6
+        ],
+        "comment": ""
+    },
+    "140": {
+        "name": "Fat Prisoner Simulator 2",
+        "urls": [
+            "https://store.steampowered.com/app/1085270/Fat_Prisoner_Simulator_2/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "141": {
+        "name": "Fat Prisoner Simulator",
+        "urls": [
+            "https://store.steampowered.com/app/1037560/Fat_Prisoner_Simulator/"
+        ],
+        "genreIds": [
+            6
+        ],
+        "comment": ""
+    },
+    "142": {
+        "name": "Star Island",
+        "urls": [
+            "https://store.steampowered.com/app/1391960/Star_Island/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "143": {
+        "name": "Celeste 2",
+        "urls": [
+            "https://mattmakesgames.itch.io/celeste-classic-2"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "144": {
+        "name": "KnightOut",
+        "urls": [
+            "http://knightoutgame.com/",
+            "https://store.steampowered.com/app/700360/KnightOut/"
+        ],
+        "genreIds": [
+            5,
+            116
+        ],
+        "comment": ""
+    },
+    "145": {
+        "name": "Frog Space",
+        "urls": [
+            "https://www.youtube.com/channel/UCyVrq7yXlr3zu6PK1LGaBSg",
+            "https://store.steampowered.com/app/1275850/Frog_Space/?l=japanese"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "146": {
+        "name": "Freaky Awesome",
+        "urls": [
+            "http://mandragoragames.com/freakyawesome/",
+            "https://store.steampowered.com/app/622370/Freaky_Awesome/"
+        ],
+        "genreIds": [
+            1,
+            102
+        ],
+        "comment": ""
+    },
+    "147": {
+        "name": "Stilt Fella",
+        "urls": [
+            "https://store.steampowered.com/app/1133590/Stilt_Fella/"
+        ],
+        "genreIds": [
+            6
+        ],
+        "comment": ""
+    },
+    "148": {
+        "name": "DARIUSBURST Chronicle Saviours",
+        "urls": [
+            "https://darius.jp/dbcs/",
+            "https://store.steampowered.com/app/377870/DARIUSBURST_Chronicle_Saviours/"
+        ],
+        "genreIds": [
+            4
+        ],
+        "comment": ""
+    },
+    "149": {
+        "name": "Pogostuck: Rage With Your Friends",
+        "urls": [
+            "https://store.steampowered.com/app/688130/Pogostuck_Rage_With_Your_Friends/?l=japanese"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "150": {
+        "name": "グランド・セフト・オートV",
+        "urls": [
+            "https://www.rockstargames.com/V/jp",
+            "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=japanese"
+        ],
+        "genreIds": [
+            108
+        ],
+        "comment": ""
+    },
+    "151": {
+        "name": "大乱闘スマッシュブラザーズ SPECIAL",
+        "urls": [
+            "https://www.smashbros.com/ja_JP/"
+        ],
+        "genreIds": [
+            1,
+            11
+        ],
+        "comment": ""
+    },
+    "152": {
+        "name": "Table Manners: Physics-Based Dating Game",
+        "urls": [
+            "https://www.curve-digital.com/en-gb/games/detail/48/table-manners/",
+            "https://store.steampowered.com/app/1019450/Table_Manners_PhysicsBased_Dating_Game/?l=japanese"
+        ],
+        "genreIds": [
+            5
+        ],
+        "comment": ""
+    },
+    "153": {
+        "name": "Time to GOLF",
+        "urls": [
+            "https://store.steampowered.com/app/1528880/Time_to_GOLF/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "154": {
+        "name": "Skeleton King",
+        "urls": [
+            "https://store.steampowered.com/app/1516320/Skeleton_King/?l=japanese"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "155": {
+        "name": "PEC-MEN",
+        "urls": [
+            "https://kusoi.site/pec-men/"
+        ],
+        "genreIds": [
+            113
+        ],
+        "comment": ""
+    },
+    "156": {
+        "name": "ロックマン2",
+        "urls": [
+            "https://www.capcom.co.jp/RCC/",
+            "https://store.steampowered.com/app/363440/_/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "157": {
+        "name": "Dicey Dungeons",
+        "urls": [
+            "https://diceydungeons.com/",
+            "https://store.steampowered.com/app/861540/Dicey_Dungeons/?l=japanese"
+        ],
+        "genreIds": [
+            102,
+            106
+        ],
+        "comment": ""
+    },
+    "158": {
+        "name": "Everhood",
+        "urls": [
+            "https://everhoodgame.com/",
+            "https://store.steampowered.com/app/1229380/Everhood/"
+        ],
+        "genreIds": [
+            3,
+            122
+        ],
+        "comment": ""
+    },
+    "159": {
+        "name": "GUILTY GEAR Xrd REV 2",
+        "urls": [
+            "http://www.ggxrd.com/rev/",
+            "https://store.steampowered.com/app/631560/GUILTY_GEAR_Xrd_REV_2_Upgrade/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            11
+        ],
+        "comment": ""
+    },
+    "160": {
+        "name": "Ratropolis",
+        "urls": [
+            "https://www.casselgames.com/",
+            "https://store.steampowered.com/app/1108370/Ratropolis/"
+        ],
+        "genreIds": [
+            106,
+            107
+        ],
+        "comment": ""
+    },
+    "161": {
+        "name": "ZADETTE",
+        "urls": [
+            "https://twitter.com/Zadette_theGame",
+            "https://store.steampowered.com/app/1510670/ZADETTE/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "162": {
+        "name": "Super Animal Royale",
+        "urls": [
+            "https://animalroyale.com/",
+            "https://store.steampowered.com/app/843380/Super_Animal_Royale/?l=japanese"
+        ],
+        "genreIds": [
+            128
+        ],
+        "comment": ""
+    },
+    "163": {
+        "name": "Mask Up",
+        "urls": [
+            "https://store.steampowered.com/app/1537430/Mask_Up/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "164": {
+        "name": "I wanna be the RUKIMIN!7(SEVEN!)",
+        "urls": [
+            "http://rukimi.happy888.net/i_wanna_be_the_rukimin/downlord.htm"
+        ],
+        "genreIds": [
+            103
+        ],
+        "comment": ""
+    },
+    "165": {
+        "name": "The Caregiver | 終焉介護",
+        "urls": [
+            "https://twitter.com/ChillasArt",
+            "https://store.steampowered.com/app/1503670/The_Caregiver/?l=japanese"
+        ],
+        "genreIds": [
+            100
+        ],
+        "comment": ""
+    },
+    "166": {
+        "name": "帰ってきた 魔界村",
+        "urls": [
+            "https://www.capcom.co.jp/makaimura/return/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "167": {
+        "name": "It Takes Two",
+        "urls": [
+            "https://www.ea.com/ja-jp/games/it-takes-two",
+            "https://store.steampowered.com/app/1426210/It_Takes_Two/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            116
+        ],
+        "comment": ""
+    },
+    "168": {
+        "name": "Before Your Eyes",
+        "urls": [
+            "https://www.beforeyoureyesgame.com/",
+            "https://store.steampowered.com/app/1082430/Before_Your_Eyes/"
+        ],
+        "genreIds": [
+            2
+        ],
+        "comment": ""
+    },
+    "169": {
+        "name": "PAC-MAN 99",
+        "urls": [
+            "https://pacapl.pacman.com/"
+        ],
+        "genreIds": [
+            1
+        ],
+        "comment": ""
+    },
+    "170": {
+        "name": "Super Clown Adventures",
+        "urls": [
+            "https://store.steampowered.com/app/1537820/Super_Clown_Adventures/?l=japanese"
+        ],
+        "genreIds": [
+            2
+        ],
+        "comment": ""
+    },
+    "171": {
+        "name": "Totally Accurate Battle Simulator",
+        "urls": [
+            "https://landfall.se/",
+            "https://store.steampowered.com/app/508440/Totally_Accurate_Battle_Simulator/"
+        ],
+        "genreIds": [
+            111
+        ],
+        "comment": ""
+    },
+    "172": {
+        "name": "Among Us",
+        "urls": [
+            "https://innersloth.com/gameAmongUs.php",
+            "https://store.steampowered.com/app/945360/Among_Us/"
+        ],
+        "genreIds": [
+            123
+        ],
+        "comment": ""
+    },
+    "9999": {
+        "name": "TERM",
+        "urls": [],
+        "genreIds": [],
+        "comment": ""
+    }
+}

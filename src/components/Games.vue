@@ -5,8 +5,12 @@
         <table class="table">
           <thead>
             <tr>
-              <th colspan="4" class="pale">ゲーム</th>
-              <th colspan="5" class="dark">動画</th>
+              <th colspan="4" class="pale">
+                {{ "ゲーム (" + gameCount + ")" }}
+              </th>
+              <th colspan="5" class="dark">
+                {{ "動画 (" + movieCount + ")" }}
+              </th>
             </tr>
             <tr>
               <th class="pale">#</th>
@@ -65,7 +69,13 @@
                     <a :href="movie.url" target="_blank">{{ movie.name }}</a>
                   </td>
                   <td class="text-upper text-center">
-                    <img v-for="(actor, actorIndex) in movie.actors" :key="'actor_'+actorIndex" :src="require('../assets/actor_'+actor.id+'.png')" :title="actor.name" class="actor"/>
+                    <img
+                      v-for="(actor, actorIndex) in movie.actors"
+                      :key="'actor_' + actorIndex"
+                      :src="require('../assets/actor_' + actor.id + '.png')"
+                      :title="actor.name"
+                      class="actor"
+                    />
                   </td>
                   <td>
                     <div class="text-upper text-center">
@@ -94,7 +104,6 @@ export default {
     // テーブル要素リスト作成
     let items = [];
     Object.keys(gamesData)
-      .filter((key) => key != 9999)
       .sort(function (a, b) {
         return Number(a) - Number(b);
       })
@@ -137,11 +146,12 @@ export default {
               ("0" + date[2]).slice(-2),
             name: movie.name,
             url: movie.url,
-            actors: movie.actorIds
-              .map((actorId) => { return {
+            actors: movie.actorIds.map((actorId) => {
+              return {
                 id: actorId,
-                name: actorsData[actorId].name
-              }}),
+                name: actorsData[actorId].name,
+              };
+            }),
             chat: movie.chat,
           });
         });
@@ -165,6 +175,8 @@ export default {
 
     return {
       items: items,
+      gameCount: Object.keys(gamesData).length,
+      movieCount: Object.keys(moviesData).length,
     };
   },
 };

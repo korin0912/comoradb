@@ -1904,10 +1904,28 @@
         ],
         "comment": ""
     },
-    "9999": {
-        "name": "TERM",
-        "urls": [],
-        "genreIds": [],
+    "173": {
+        "name": "Hades",
+        "urls": [
+            "https://www.supergiantgames.com",
+            "https://store.steampowered.com/app/1145360/Hades/?l=japanese"
+        ],
+        "genreIds": [
+            1,
+            102
+        ],
+        "comment": ""
+    },
+    "174": {
+        "name": "Tree Simulator 2021",
+        "urls": [
+            "https://twitter.com/revmatek",
+            "https://store.steampowered.com/app/1282090/Tree_Simulator_2021/"
+        ],
+        "genreIds": [
+            132,
+            113
+        ],
         "comment": ""
     }
 }

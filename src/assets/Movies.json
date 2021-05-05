@@ -13,19 +13,6 @@
         "chat": false,
         "comment": ""
     },
-    "391": {
-        "name": "【雑談】散髪を語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=aQpa-WjGRMg",
-        "releaseDate": "2021/01/22",
-        "gameIds": [
-            1
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
     "2": {
         "name": "【鉄腕ナッツ】The Forest ～恐怖の村にイッテQ！～ #1",
         "url": "https://www.youtube.com/watch?v=V5MmcGmrM1c",
@@ -52,33 +39,6 @@
             2
         ],
         "chat": false,
-        "comment": ""
-    },
-    "50": {
-        "name": "【コモラ1周年】ついにコモラ&チャンチョがゲーム内に潜入!? 【Nuclear Throne】",
-        "url": "https://www.youtube.com/watch?v=11RfEBYdeAY",
-        "releaseDate": "2019/08/29",
-        "gameIds": [
-            3
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "188": {
-        "name": "【雑談】ゲーム遍歴を語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=ScklTpfaRpw",
-        "releaseDate": "2020/07/06",
-        "gameIds": [
-            3
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
         "comment": ""
     },
     "4": {
@@ -151,19 +111,6 @@
         "chat": false,
         "comment": ""
     },
-    "216": {
-        "name": "【雑談】インターネットを語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=u6A65f04x0o",
-        "releaseDate": "2020/08/03",
-        "gameIds": [
-            7
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
     "9": {
         "name": "【激ムズ】タイトル未定Foreverとかいう寿司ロックマンストレッチディズニーゲームがムズい。。。",
         "url": "https://www.youtube.com/watch?v=J11ZqNBb6DQ",
@@ -233,6 +180,20 @@
         "chat": false,
         "comment": ""
     },
+    "14": {
+        "name": "【気持ちいい！】落下ゲーが爽快すぎて止まらない…！！【Downwell 実況】",
+        "url": "https://www.youtube.com/watch?v=Yfoha4qMOC0",
+        "releaseDate": "2019/02/27",
+        "gameIds": [
+            13
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "15": {
         "name": "物議を醸して配信停止になったホラーゲーム　還願～Devotion～ #2",
         "url": "https://www.youtube.com/watch?v=mzUFxmk6xlU",
@@ -273,33 +234,6 @@
             2
         ],
         "chat": false,
-        "comment": ""
-    },
-    "14": {
-        "name": "【気持ちいい！】落下ゲーが爽快すぎて止まらない…！！【Downwell 実況】",
-        "url": "https://www.youtube.com/watch?v=Yfoha4qMOC0",
-        "releaseDate": "2019/02/27",
-        "gameIds": [
-            13
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "223": {
-        "name": "【雑談】一人暮らしを語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=KVpN9DS9uwM",
-        "releaseDate": "2020/08/10",
-        "gameIds": [
-            13
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
         "comment": ""
     },
     "18": {
@@ -344,20 +278,6 @@
         "chat": false,
         "comment": ""
     },
-    "25": {
-        "name": "世界一のYouTuberの秘密の関係に全世界が涙した・・・。【PewDiePie：Legend of the Brofist #2】",
-        "url": "https://www.youtube.com/watch?v=kcJApjEVGI8",
-        "releaseDate": "2019/05/09",
-        "gameIds": [
-            16
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
     "21": {
         "name": "もしも大蛇丸がPUBGのボイスチャットに現れたら…？【実況】",
         "url": "https://www.youtube.com/watch?v=Uxcs67lwVAQ",
@@ -385,33 +305,6 @@
         "chat": false,
         "comment": ""
     },
-    "196": {
-        "name": "【雑談】好きな食べ物を語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=bdNFCSore-M",
-        "releaseDate": "2020/07/14",
-        "gameIds": [
-            18
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "237": {
-        "name": "Risk of Rain 2 が正式リリースされたのでラスボスに挨拶してきた",
-        "url": "https://www.youtube.com/watch?v=3EGKBEiLVNM",
-        "releaseDate": "2020/08/23",
-        "gameIds": [
-            18
-        ],
-        "actorIds": [
-            1,
-            4
-        ],
-        "chat": false,
-        "comment": ""
-    },
     "23": {
         "name": "【巨大メカのスマブラ】スケールでけぇぇ！街をぶっ壊しまくりロボット大乱闘！ オーバーライド 巨大メカ大乱闘 コモラ実況",
         "url": "https://www.youtube.com/watch?v=goXozEs4TO8",
@@ -432,6 +325,20 @@
         "releaseDate": "2019/05/04",
         "gameIds": [
             20
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "25": {
+        "name": "世界一のYouTuberの秘密の関係に全世界が涙した・・・。【PewDiePie：Legend of the Brofist #2】",
+        "url": "https://www.youtube.com/watch?v=kcJApjEVGI8",
+        "releaseDate": "2019/05/09",
+        "gameIds": [
+            16
         ],
         "actorIds": [
             1,
@@ -762,12 +669,12 @@
         "chat": false,
         "comment": ""
     },
-    "126": {
-        "name": "【slither.io】1位になってぽんぽこ24を世界に宣伝する リベンジ！【コモラ】",
-        "url": "https://www.youtube.com/watch?v=BqZewRvXAgE",
-        "releaseDate": "2020/05/10",
+    "49": {
+        "name": "【明日仕事イヤ】堕天使コモラ、社会の闇に立ち向かう！【WARLOCKS vs SHADOWS 実況】",
+        "url": "https://www.youtube.com/watch?v=e0zNcf79bko",
+        "releaseDate": "2019/08/25",
         "gameIds": [
-            33
+            34
         ],
         "actorIds": [
             1,
@@ -776,12 +683,12 @@
         "chat": false,
         "comment": ""
     },
-    "49": {
-        "name": "【明日仕事イヤ】堕天使コモラ、社会の闇に立ち向かう！【WARLOCKS vs SHADOWS 実況】",
-        "url": "https://www.youtube.com/watch?v=e0zNcf79bko",
-        "releaseDate": "2019/08/25",
+    "50": {
+        "name": "【コモラ1周年】ついにコモラ&チャンチョがゲーム内に潜入!? 【Nuclear Throne】",
+        "url": "https://www.youtube.com/watch?v=11RfEBYdeAY",
+        "releaseDate": "2019/08/29",
         "gameIds": [
-            34
+            3
         ],
         "actorIds": [
             1,
@@ -814,98 +721,6 @@
         "actorIds": [
             1,
             2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "78": {
-        "name": "【シャニマス】推しが5回出るまでガチャを回し続ける！小宮果穂ちゃ～～～ん！",
-        "url": "https://www.youtube.com/watch?v=ErzTsKgflqE",
-        "releaseDate": "2020/02/08",
-        "gameIds": [
-            36
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "115": {
-        "name": "コモラ流、浅倉 透を初プロデュースでSランク【シャニマス】＃前編",
-        "url": "https://www.youtube.com/watch?v=uuVv9YOJqTE",
-        "releaseDate": "2020/05/01",
-        "gameIds": [
-            36
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "116": {
-        "name": "コモラ流、浅倉 透を初プロデュースでSランク【シャニマス】＃後編",
-        "url": "https://www.youtube.com/watch?v=huIqtrfxUgc",
-        "releaseDate": "2020/05/02",
-        "gameIds": [
-            36
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "183": {
-        "name": "ガシャ900回分のジュエル貯めてるvtuber他におる？【シャニマス】",
-        "url": "https://www.youtube.com/watch?v=AWep4WOEUbo",
-        "releaseDate": "2020/07/01",
-        "gameIds": [
-            36
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "383": {
-        "name": "果穂ちゃんと初詣！！！！【シャニマス】",
-        "url": "https://www.youtube.com/watch?v=32iqG_n7iJM",
-        "releaseDate": "2021/01/14",
-        "gameIds": [
-            36
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "482": {
-        "name": "【ガチャ】800連分のジュエルが浅倉 透を襲う！【シャニマス】",
-        "url": "https://www.youtube.com/watch?v=bnJVO2iLD8k",
-        "releaseDate": "2021/04/21",
-        "gameIds": [
-            36
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "484": {
-        "name": "透と一緒【シャニマス】",
-        "url": "https://www.youtube.com/watch?v=8MZvwDHnZJc",
-        "releaseDate": "2021/04/23",
-        "gameIds": [
-            36
-        ],
-        "actorIds": [
-            1
         ],
         "chat": false,
         "comment": ""
@@ -1190,19 +1005,6 @@
         "chat": false,
         "comment": ""
     },
-    "234": {
-        "name": "【雑談】元同僚Tさんを語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=p_4RJHS0rKE",
-        "releaseDate": "2020/08/21",
-        "gameIds": [
-            51
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
     "73": {
         "name": "【耐久】ジャンプするだけのゲームが難しすぎて精神崩壊寸前…【Jump King 実況 #1】",
         "url": "https://www.youtube.com/watch?v=-yFWuTsfvOA",
@@ -1259,25 +1061,26 @@
         "chat": false,
         "comment": ""
     },
-    "252": {
-        "name": "【雑談】２周年記念とやらかした話を語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=cj355zZ6KG0",
-        "releaseDate": "2020/09/07",
-        "gameIds": [
-            54
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
     "77": {
         "name": "【潜入】ハッキングして敵のデータを盗め！コモラの孤独なスパイ物語【HACKTAG 実況】",
         "url": "https://www.youtube.com/watch?v=k31w3HMN4YI",
         "releaseDate": "2020/02/01",
         "gameIds": [
             55
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "78": {
+        "name": "【シャニマス】推しが5回出るまでガチャを回し続ける！小宮果穂ちゃ～～～ん！",
+        "url": "https://www.youtube.com/watch?v=ErzTsKgflqE",
+        "releaseDate": "2020/02/08",
+        "gameIds": [
+            36
         ],
         "actorIds": [
             1,
@@ -1296,32 +1099,6 @@
         "actorIds": [
             1,
             2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "215": {
-        "name": "ランクマッチがあるらしい【マリオメーカー2】",
-        "url": "https://www.youtube.com/watch?v=dv0KahpUvIM",
-        "releaseDate": "2020/08/02",
-        "gameIds": [
-            56
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "245": {
-        "name": "正直、実力はAランクやと思ってる【マリオメーカー2】",
-        "url": "https://www.youtube.com/watch?v=pY0z8kwM84g",
-        "releaseDate": "2020/08/31",
-        "gameIds": [
-            56
-        ],
-        "actorIds": [
-            1
         ],
         "chat": false,
         "comment": ""
@@ -1400,33 +1177,6 @@
         "name": "激コワ傀儡に追い込まれました…もう逃げられません【ParanormalHK #3】",
         "url": "https://www.youtube.com/watch?v=fXzQogGDK5c",
         "releaseDate": "2020/03/31",
-        "gameIds": [
-            60
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "97": {
-        "name": "【ピンポ～ン】招かれざる訪問者（幽霊）が押し寄せてきた…。【ParanormalHK part4】",
-        "url": "https://www.youtube.com/watch?v=7iZNJVoeCyE",
-        "releaseDate": "2020/04/14",
-        "gameIds": [
-            60
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "108": {
-        "name": "【最終回】コモラ撮影部隊の悲惨な結末…【ParanormalHK Part5】",
-        "url": "https://www.youtube.com/watch?v=YeGmzJZ9DPs",
-        "releaseDate": "2020/04/24",
         "gameIds": [
             60
         ],
@@ -1580,6 +1330,19 @@
         "chat": false,
         "comment": ""
     },
+    "97": {
+        "name": "【ピンポ～ン】招かれざる訪問者（幽霊）が押し寄せてきた…。【ParanormalHK part4】",
+        "url": "https://www.youtube.com/watch?v=7iZNJVoeCyE",
+        "releaseDate": "2020/04/14",
+        "gameIds": [
+            60
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "98": {
         "name": "無限の可能性【ロックマンX雑談実況】＃1",
         "url": "https://www.youtube.com/watch?v=yea45npFubc",
@@ -1710,6 +1473,20 @@
         "chat": false,
         "comment": ""
     },
+    "108": {
+        "name": "【最終回】コモラ撮影部隊の悲惨な結末…【ParanormalHK Part5】",
+        "url": "https://www.youtube.com/watch?v=YeGmzJZ9DPs",
+        "releaseDate": "2020/04/24",
+        "gameIds": [
+            60
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "109": {
         "name": "日本に200発のミサイルが撃たれたので花火します【killer7】＃3",
         "url": "https://www.youtube.com/watch?v=XVb63l0x28o",
@@ -1788,6 +1565,32 @@
         "chat": false,
         "comment": ""
     },
+    "115": {
+        "name": "コモラ流、浅倉 透を初プロデュースでSランク【シャニマス】＃前編",
+        "url": "https://www.youtube.com/watch?v=uuVv9YOJqTE",
+        "releaseDate": "2020/05/01",
+        "gameIds": [
+            36
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "116": {
+        "name": "コモラ流、浅倉 透を初プロデュースでSランク【シャニマス】＃後編",
+        "url": "https://www.youtube.com/watch?v=huIqtrfxUgc",
+        "releaseDate": "2020/05/02",
+        "gameIds": [
+            36
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "117": {
         "name": "ダンを殺った男【killer7】＃9",
         "url": "https://www.youtube.com/watch?v=QUKAF-ozOZU",
@@ -1810,6 +1613,34 @@
         ],
         "actorIds": [
             1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "119": {
+        "name": "ぽんぽこ24、コモラ無理やり出ます【Universe 24】",
+        "url": "https://www.youtube.com/watch?v=E8Wn_GYev28",
+        "releaseDate": "2020/05/05",
+        "gameIds": [
+            64
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "120": {
+        "name": "コモラリアルワールドエスケープ PV　（7月3日配布予定）",
+        "url": "https://www.youtube.com/watch?v=mW-kSDjDyv0",
+        "releaseDate": "2020/05/06",
+        "gameIds": [
+            65
+        ],
+        "actorIds": [
+            1,
+            2,
+            3
         ],
         "chat": false,
         "comment": ""
@@ -1879,40 +1710,12 @@
         "chat": false,
         "comment": ""
     },
-    "119": {
-        "name": "ぽんぽこ24、コモラ無理やり出ます【Universe 24】",
-        "url": "https://www.youtube.com/watch?v=E8Wn_GYev28",
-        "releaseDate": "2020/05/05",
+    "126": {
+        "name": "【slither.io】1位になってぽんぽこ24を世界に宣伝する リベンジ！【コモラ】",
+        "url": "https://www.youtube.com/watch?v=BqZewRvXAgE",
+        "releaseDate": "2020/05/10",
         "gameIds": [
-            64
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "120": {
-        "name": "コモラリアルワールドエスケープ PV　（7月3日配布予定）",
-        "url": "https://www.youtube.com/watch?v=mW-kSDjDyv0",
-        "releaseDate": "2020/05/06",
-        "gameIds": [
-            65
-        ],
-        "actorIds": [
-            1,
-            2,
-            3
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "185": {
-        "name": "【重大発表】コモラがゲームになりました。〜Komora Real World Escape〜",
-        "url": "https://www.youtube.com/watch?v=yJLgsMKb51c",
-        "releaseDate": "2020/07/03",
-        "gameIds": [
-            65
+            33
         ],
         "actorIds": [
             1,
@@ -1925,84 +1728,6 @@
         "name": "新たな戦い【ロックマンX2雑談実況】＃1",
         "url": "https://www.youtube.com/watch?v=f2g4LzYktVQ",
         "releaseDate": "2020/05/11",
-        "gameIds": [
-            66
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "130": {
-        "name": "詐欺師と友情が芽生えたと思ってた【ロックマンX2雑談実況】＃2",
-        "url": "https://www.youtube.com/watch?v=cKKwE-njcQE",
-        "releaseDate": "2020/05/14",
-        "gameIds": [
-            66
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "132": {
-        "name": "ゲームってのは友達を作るモノじゃない【ロックマンX2雑談実況】＃3",
-        "url": "https://www.youtube.com/watch?v=VLmkBy5PZm0",
-        "releaseDate": "2020/05/16",
-        "gameIds": [
-            66
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "135": {
-        "name": "LOLのランクマいくと３回に１回は味方が敵になる【ロックマンX2雑談実況】＃4",
-        "url": "https://www.youtube.com/watch?v=g0AlaAAgPbc",
-        "releaseDate": "2020/05/19",
-        "gameIds": [
-            66
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "139": {
-        "name": "卒業アルバムは捨てない方がいいよ【ロックマンX2雑談実況】＃5",
-        "url": "https://www.youtube.com/watch?v=veSlKEq4TYo",
-        "releaseDate": "2020/05/22",
-        "gameIds": [
-            66
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "143": {
-        "name": "某vtuberとコラボしたかった【ロックマンX2雑談実況】＃6",
-        "url": "https://www.youtube.com/watch?v=39dFHj6hubw",
-        "releaseDate": "2020/05/26",
-        "gameIds": [
-            66
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "147": {
-        "name": "自分へのご褒美ってOL感ある、なんとなく【ロックマンX2雑談実況】＃7(終)",
-        "url": "https://www.youtube.com/watch?v=9mxuiR8Crzs",
-        "releaseDate": "2020/05/29",
         "gameIds": [
             66
         ],
@@ -2025,6 +1750,32 @@
         "chat": false,
         "comment": ""
     },
+    "129": {
+        "name": "【アクション対魔忍】スウ・ジンレイちゃんを使ってみます【コモラ】",
+        "url": "https://www.youtube.com/watch?v=vqpXnw29HWI",
+        "releaseDate": "2020/05/13",
+        "gameIds": [
+            68
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "130": {
+        "name": "詐欺師と友情が芽生えたと思ってた【ロックマンX2雑談実況】＃2",
+        "url": "https://www.youtube.com/watch?v=cKKwE-njcQE",
+        "releaseDate": "2020/05/14",
+        "gameIds": [
+            66
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "131": {
         "name": "陽キャと陰キャのツーショット【Celeste】＃2",
         "url": "https://www.youtube.com/watch?v=5ye1k9cvf3k",
@@ -2036,6 +1787,19 @@
             1
         ],
         "chat": false,
+        "comment": ""
+    },
+    "132": {
+        "name": "ゲームってのは友達を作るモノじゃない【ロックマンX2雑談実況】＃3",
+        "url": "https://www.youtube.com/watch?v=VLmkBy5PZm0",
+        "releaseDate": "2020/05/16",
+        "gameIds": [
+            66
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
         "comment": ""
     },
     "133": {
@@ -2064,6 +1828,19 @@
         "chat": false,
         "comment": ""
     },
+    "135": {
+        "name": "LOLのランクマいくと３回に１回は味方が敵になる【ロックマンX2雑談実況】＃4",
+        "url": "https://www.youtube.com/watch?v=g0AlaAAgPbc",
+        "releaseDate": "2020/05/19",
+        "gameIds": [
+            66
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "136": {
         "name": "マリオ3やんけ！【Celeste】＃5",
         "url": "https://www.youtube.com/watch?v=DrhN62nNYvs",
@@ -2073,6 +1850,19 @@
         ],
         "actorIds": [
             1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "137": {
+        "name": "【フォートナイト】ゆるキャラGP覇者がフォートナイトを制す！？初のビクロイなるか…！",
+        "url": "https://www.youtube.com/watch?v=xEBtj3ZgQi0",
+        "releaseDate": "2020/05/20",
+        "gameIds": [
+            69
+        ],
+        "actorIds": [
+            3
         ],
         "chat": false,
         "comment": ""
@@ -2090,6 +1880,19 @@
         "chat": false,
         "comment": ""
     },
+    "139": {
+        "name": "卒業アルバムは捨てない方がいいよ【ロックマンX2雑談実況】＃5",
+        "url": "https://www.youtube.com/watch?v=veSlKEq4TYo",
+        "releaseDate": "2020/05/22",
+        "gameIds": [
+            66
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "140": {
         "name": "鏡の中にセオ【Celeste】＃7",
         "url": "https://www.youtube.com/watch?v=VM5X_229Guo",
@@ -2103,6 +1906,19 @@
         "chat": false,
         "comment": ""
     },
+    "141": {
+        "name": "【コモラちゃん】戦場で恋人を作ってはいけない【apex】",
+        "url": "https://www.youtube.com/watch?v=anBBu0eoL8I",
+        "releaseDate": "2020/05/24",
+        "gameIds": [
+            70
+        ],
+        "actorIds": [
+            5
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "142": {
         "name": "気づいたらこの２人仲良くなってるね【Celeste】＃8",
         "url": "https://www.youtube.com/watch?v=7-vlE13os2c",
@@ -2112,6 +1928,33 @@
         ],
         "actorIds": [
             1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "143": {
+        "name": "某vtuberとコラボしたかった【ロックマンX2雑談実況】＃6",
+        "url": "https://www.youtube.com/watch?v=39dFHj6hubw",
+        "releaseDate": "2020/05/26",
+        "gameIds": [
+            66
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "144": {
+        "name": "【激カワ】ゆるふわコモラちゃんの癒しボイステトリス～1位は誰にも譲らないかんね！～",
+        "url": "https://www.youtube.com/watch?v=z5yDVwZt-tU",
+        "releaseDate": "2020/05/26",
+        "gameIds": [
+            71
+        ],
+        "actorIds": [
+            2,
+            5
         ],
         "chat": false,
         "comment": ""
@@ -2142,6 +1985,19 @@
         "chat": false,
         "comment": ""
     },
+    "147": {
+        "name": "自分へのご褒美ってOL感ある、なんとなく【ロックマンX2雑談実況】＃7(終)",
+        "url": "https://www.youtube.com/watch?v=9mxuiR8Crzs",
+        "releaseDate": "2020/05/29",
+        "gameIds": [
+            66
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "148": {
         "name": "セオなんていなかった【Celeste】＃11",
         "url": "https://www.youtube.com/watch?v=k0QJFZ7IT2g",
@@ -2168,12 +2024,38 @@
         "chat": false,
         "comment": ""
     },
+    "150": {
+        "name": "よろしく、「アイリス」ちゃん【Iris.Fall】＃1",
+        "url": "https://www.youtube.com/watch?v=vJIObjDHIRo",
+        "releaseDate": "2020/06/01",
+        "gameIds": [
+            72
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "151": {
         "name": "B面攻略していくぞ！【Celeste】＃13",
         "url": "https://www.youtube.com/watch?v=FN9qJaZC4MA",
         "releaseDate": "2020/06/02",
         "gameIds": [
             67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "152": {
+        "name": "ルービックキューブが苦手【Iris.Fall】＃2",
+        "url": "https://www.youtube.com/watch?v=kQZ47nCsv9o",
+        "releaseDate": "2020/06/03",
+        "gameIds": [
+            72
         ],
         "actorIds": [
             1
@@ -2194,12 +2076,52 @@
         "chat": false,
         "comment": ""
     },
+    "154": {
+        "name": "女主人公好きになりがち【Iris.Fall】＃3",
+        "url": "https://www.youtube.com/watch?v=SsAOms_84iA",
+        "releaseDate": "2020/06/05",
+        "gameIds": [
+            72
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "155": {
         "name": "ひょっとして難しいゲームなのでは？【Celeste】＃15",
         "url": "https://www.youtube.com/watch?v=hs4T7SFCoZg",
         "releaseDate": "2020/06/06",
         "gameIds": [
             67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "156": {
+        "name": "骸骨になったコモラが勇者をぶっ倒す【Skul: The Hero Slayer】",
+        "url": "https://www.youtube.com/watch?v=tR6XJfGN6Ys",
+        "releaseDate": "2020/06/06",
+        "gameIds": [
+            73
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "157": {
+        "name": "さようなら、アイリスちゃん【Iris.Fall】＃4（終）",
+        "url": "https://www.youtube.com/watch?v=Hd5NpR2fQ3s",
+        "releaseDate": "2020/06/07",
+        "gameIds": [
+            72
         ],
         "actorIds": [
             1
@@ -2281,411 +2203,6 @@
         ],
         "actorIds": [
             1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "173": {
-        "name": "金イチゴとかいう地獄の入り口を発見してしまう【Celeste】＃22(おまけC面）",
-        "url": "https://www.youtube.com/watch?v=CnW9AJaj5r0",
-        "releaseDate": "2020/06/21",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "180": {
-        "name": "簡単やな（錯覚）【Celeste】＃23(C面チャプター3,4）",
-        "url": "https://www.youtube.com/watch?v=tQoQjly8uyc",
-        "releaseDate": "2020/06/28",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "184": {
-        "name": "画面の７割がトゲ・・・【Celeste】＃24(C面チャプター5,6）",
-        "url": "https://www.youtube.com/watch?v=7z8xVb4h9S4",
-        "releaseDate": "2020/07/02",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "191": {
-        "name": "ここにきて新コマンド・・・！【Celeste】＃25(C面チャプター7,8）",
-        "url": "https://www.youtube.com/watch?v=QhbLr-QFJwo",
-        "releaseDate": "2020/07/09",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "206": {
-        "name": "チャプター１の隠し金イチゴが難しい！【Celeste】＃26",
-        "url": "https://www.youtube.com/watch?v=u0lBNQQccXY",
-        "releaseDate": "2020/07/24",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "220": {
-        "name": "1ステージが長い・・・！【Celeste】＃27",
-        "url": "https://www.youtube.com/watch?v=RovFuGXq0NA",
-        "releaseDate": "2020/08/07",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "225": {
-        "name": "やっちまった・・・！【Celeste】チャプター4 A面金イチゴ＃28",
-        "url": "https://www.youtube.com/watch?v=5NrfXXd28Aw",
-        "releaseDate": "2020/08/12",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "243": {
-        "name": "寝起き最強説【Celeste】チャプター5 A面金イチゴ＃29",
-        "url": "https://www.youtube.com/watch?v=hNdfYbfQRec",
-        "releaseDate": "2020/08/29",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "251": {
-        "name": "ダークコモラちゃんが強すぎる【Celeste】チャプター6 A面金イチゴ＃30",
-        "url": "https://www.youtube.com/watch?v=gV-Q0SiB2Rs",
-        "releaseDate": "2020/09/06",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "264": {
-        "name": "２度目のラストステージ、もうあの頃の僕じゃない【Celeste】チャプター7 A面金イチゴ＃31",
-        "url": "https://www.youtube.com/watch?v=A_Yn2-Chj5o",
-        "releaseDate": "2020/09/19",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "270": {
-        "name": "B面大したことねぇな！【Celeste】チャプター1＆2 B面金イチゴ＃32",
-        "url": "https://www.youtube.com/watch?v=eoEGCbhYQcs",
-        "releaseDate": "2020/09/25",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "290": {
-        "name": "B面難しいな！【Celeste】チャプター3＆4 B面金イチゴ＃33",
-        "url": "https://www.youtube.com/watch?v=UJfaOgNVHkE",
-        "releaseDate": "2020/10/14",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "333": {
-        "name": "こんな上手いやつおる？【Celeste】チャプター5＆6 B面金イチゴ＃34",
-        "url": "https://www.youtube.com/watch?v=wkoEgVts-Qg",
-        "releaseDate": "2020/11/26",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "376": {
-        "name": "これが頂きと幻【Celeste】チャプター7 B面 金イチゴ＆チャプター9 隠しイチゴ＃35",
-        "url": "https://www.youtube.com/watch?v=Z5Tw0hwA3_c",
-        "releaseDate": "2021/01/07",
-        "gameIds": [
-            67
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "129": {
-        "name": "【アクション対魔忍】スウ・ジンレイちゃんを使ってみます【コモラ】",
-        "url": "https://www.youtube.com/watch?v=vqpXnw29HWI",
-        "releaseDate": "2020/05/13",
-        "gameIds": [
-            68
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "137": {
-        "name": "【フォートナイト】ゆるキャラGP覇者がフォートナイトを制す！？初のビクロイなるか…！",
-        "url": "https://www.youtube.com/watch?v=xEBtj3ZgQi0",
-        "releaseDate": "2020/05/20",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            3
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "172": {
-        "name": "【フォートナイト】ゆるキャラGP覇者が、シーズン3初ビクロイを目指す！【ピーナッツくん】",
-        "url": "https://www.youtube.com/watch?v=z1YZisMRNGQ",
-        "releaseDate": "2020/06/20",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            3
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "286": {
-        "name": "釣りしに来てるのに撃ってくる奴なんなん？【フォートナイト】",
-        "url": "https://www.youtube.com/watch?v=36LZJlb7x6M",
-        "releaseDate": "2020/10/11",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "292": {
-        "name": "完璧なコミュニケーション、見せたるわ【フォートナイト】",
-        "url": "https://www.youtube.com/watch?v=T6RGznAkvUQ",
-        "releaseDate": "2020/10/17",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "299": {
-        "name": "シャドーになって初ビクトリー！【フォートナイト】",
-        "url": "https://www.youtube.com/watch?v=6AMMZh4b14Y",
-        "releaseDate": "2020/10/24",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "307": {
-        "name": "スクワッドでチームを勝利に導きました【フォートナイト】",
-        "url": "https://www.youtube.com/watch?v=U5GHLDY56TM",
-        "releaseDate": "2020/11/01",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "314": {
-        "name": "このゲーム、高所をとった者が勝つ【フォートナイト】",
-        "url": "https://www.youtube.com/watch?v=5a3NOk0yjc4",
-        "releaseDate": "2020/11/07",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "322": {
-        "name": "ピンク髪の女には要注意【フォートナイト】",
-        "url": "https://www.youtube.com/watch?v=zrWTNljmszs",
-        "releaseDate": "2020/11/15",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "329": {
-        "name": "最強のチームの力、見せてやんよ【フォートナイト】",
-        "url": "https://www.youtube.com/watch?v=HYwdTpEXOxc",
-        "releaseDate": "2020/11/22",
-        "gameIds": [
-            69
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "141": {
-        "name": "【コモラちゃん】戦場で恋人を作ってはいけない【apex】",
-        "url": "https://www.youtube.com/watch?v=anBBu0eoL8I",
-        "releaseDate": "2020/05/24",
-        "gameIds": [
-            70
-        ],
-        "actorIds": [
-            5
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "144": {
-        "name": "【激カワ】ゆるふわコモラちゃんの癒しボイステトリス～1位は誰にも譲らないかんね！～",
-        "url": "https://www.youtube.com/watch?v=z5yDVwZt-tU",
-        "releaseDate": "2020/05/26",
-        "gameIds": [
-            71
-        ],
-        "actorIds": [
-            2,
-            5
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "150": {
-        "name": "よろしく、「アイリス」ちゃん【Iris.Fall】＃1",
-        "url": "https://www.youtube.com/watch?v=vJIObjDHIRo",
-        "releaseDate": "2020/06/01",
-        "gameIds": [
-            72
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "152": {
-        "name": "ルービックキューブが苦手【Iris.Fall】＃2",
-        "url": "https://www.youtube.com/watch?v=kQZ47nCsv9o",
-        "releaseDate": "2020/06/03",
-        "gameIds": [
-            72
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "154": {
-        "name": "女主人公好きになりがち【Iris.Fall】＃3",
-        "url": "https://www.youtube.com/watch?v=SsAOms_84iA",
-        "releaseDate": "2020/06/05",
-        "gameIds": [
-            72
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "157": {
-        "name": "さようなら、アイリスちゃん【Iris.Fall】＃4（終）",
-        "url": "https://www.youtube.com/watch?v=Hd5NpR2fQ3s",
-        "releaseDate": "2020/06/07",
-        "gameIds": [
-            72
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "156": {
-        "name": "骸骨になったコモラが勇者をぶっ倒す【Skul: The Hero Slayer】",
-        "url": "https://www.youtube.com/watch?v=tR6XJfGN6Ys",
-        "releaseDate": "2020/06/06",
-        "gameIds": [
-            73
-        ],
-        "actorIds": [
-            1,
-            2
         ],
         "chat": false,
         "comment": ""
@@ -2795,6 +2312,32 @@
         "chat": false,
         "comment": ""
     },
+    "172": {
+        "name": "【フォートナイト】ゆるキャラGP覇者が、シーズン3初ビクロイを目指す！【ピーナッツくん】",
+        "url": "https://www.youtube.com/watch?v=z1YZisMRNGQ",
+        "releaseDate": "2020/06/20",
+        "gameIds": [
+            69
+        ],
+        "actorIds": [
+            3
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "173": {
+        "name": "金イチゴとかいう地獄の入り口を発見してしまう【Celeste】＃22(おまけC面）",
+        "url": "https://www.youtube.com/watch?v=CnW9AJaj5r0",
+        "releaseDate": "2020/06/21",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "174": {
         "name": "戦車使ってゾンビに負ける人間弱すぎん？【Dead or School】＃8",
         "url": "https://www.youtube.com/watch?v=gG34I4SMfII",
@@ -2834,6 +2377,19 @@
         "chat": false,
         "comment": ""
     },
+    "177": {
+        "name": "魔界で悪魔を口説いてきます【Helltaker】",
+        "url": "https://www.youtube.com/watch?v=keqh0Bnt10M",
+        "releaseDate": "2020/06/25",
+        "gameIds": [
+            76
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "178": {
         "name": "サツキちゃんカワイイ【Dead or School】＃11",
         "url": "https://www.youtube.com/watch?v=F4a8-GSc-XQ",
@@ -2853,6 +2409,19 @@
         "releaseDate": "2020/06/27",
         "gameIds": [
             75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "180": {
+        "name": "簡単やな（錯覚）【Celeste】＃23(C面チャプター3,4）",
+        "url": "https://www.youtube.com/watch?v=tQoQjly8uyc",
+        "releaseDate": "2020/06/28",
+        "gameIds": [
+            67
         ],
         "actorIds": [
             1
@@ -2886,6 +2455,59 @@
         "chat": false,
         "comment": ""
     },
+    "183": {
+        "name": "ガシャ900回分のジュエル貯めてるvtuber他におる？【シャニマス】",
+        "url": "https://www.youtube.com/watch?v=AWep4WOEUbo",
+        "releaseDate": "2020/07/01",
+        "gameIds": [
+            36
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "184": {
+        "name": "画面の７割がトゲ・・・【Celeste】＃24(C面チャプター5,6）",
+        "url": "https://www.youtube.com/watch?v=7z8xVb4h9S4",
+        "releaseDate": "2020/07/02",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "185": {
+        "name": "【重大発表】コモラがゲームになりました。〜Komora Real World Escape〜",
+        "url": "https://www.youtube.com/watch?v=yJLgsMKb51c",
+        "releaseDate": "2020/07/03",
+        "gameIds": [
+            65
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "186": {
+        "name": "カニコモラはキングになれるのか？【King of Crabs】",
+        "url": "https://www.youtube.com/watch?v=R-TgJMRLCXM",
+        "releaseDate": "2020/07/04",
+        "gameIds": [
+            77
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "187": {
         "name": "友達いっぱいできました【Dead or School】＃15",
         "url": "https://www.youtube.com/watch?v=Bi8nm1NfA2o",
@@ -2899,12 +2521,51 @@
         "chat": false,
         "comment": ""
     },
+    "188": {
+        "name": "【雑談】ゲーム遍歴を語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=ScklTpfaRpw",
+        "releaseDate": "2020/07/06",
+        "gameIds": [
+            3
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "189": {
         "name": "おしり【Dead or School】＃16",
         "url": "https://www.youtube.com/watch?v=VDKBZQShKSk",
         "releaseDate": "2020/07/07",
         "gameIds": [
             75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "190": {
+        "name": "steamでvtuberが主役のゲームがあるの知ってる？【ロックマンX3雑談実況】＃1",
+        "url": "https://www.youtube.com/watch?v=LHPkJCJ2Rkw",
+        "releaseDate": "2020/07/08",
+        "gameIds": [
+            78
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "191": {
+        "name": "ここにきて新コマンド・・・！【Celeste】＃25(C面チャプター7,8）",
+        "url": "https://www.youtube.com/watch?v=QhbLr-QFJwo",
+        "releaseDate": "2020/07/09",
+        "gameIds": [
+            67
         ],
         "actorIds": [
             1
@@ -2938,201 +2599,6 @@
         "chat": false,
         "comment": ""
     },
-    "198": {
-        "name": "完全にセクハラ【Dead or School】＃19",
-        "url": "https://www.youtube.com/watch?v=Dkeb77f3frs",
-        "releaseDate": "2020/07/16",
-        "gameIds": [
-            75
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "199": {
-        "name": "すこ【Dead or School】＃20",
-        "url": "https://www.youtube.com/watch?v=sZZ7wBintYk",
-        "releaseDate": "2020/07/17",
-        "gameIds": [
-            75
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "204": {
-        "name": "デカ過ぎんだろ・・・【Dead or School】＃21",
-        "url": "https://www.youtube.com/watch?v=BXAMeV-BUmg",
-        "releaseDate": "2020/07/22",
-        "gameIds": [
-            75
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "205": {
-        "name": "迷いなく頭に得物をブッサス女子高生【Dead or School】＃22",
-        "url": "https://www.youtube.com/watch?v=B3y5wOuFjpU",
-        "releaseDate": "2020/07/23",
-        "gameIds": [
-            75
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "211": {
-        "name": "東京アラート【Dead or School】＃23",
-        "url": "https://www.youtube.com/watch?v=EvD8ouZaKZE",
-        "releaseDate": "2020/07/29",
-        "gameIds": [
-            75
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "212": {
-        "name": "ひさこちゃんと学校に通いたかった【Dead or School】＃24(終)",
-        "url": "https://www.youtube.com/watch?v=PC2czgAxv90",
-        "releaseDate": "2020/07/30",
-        "gameIds": [
-            75
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "177": {
-        "name": "魔界で悪魔を口説いてきます【Helltaker】",
-        "url": "https://www.youtube.com/watch?v=keqh0Bnt10M",
-        "releaseDate": "2020/06/25",
-        "gameIds": [
-            76
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "186": {
-        "name": "カニコモラはキングになれるのか？【King of Crabs】",
-        "url": "https://www.youtube.com/watch?v=R-TgJMRLCXM",
-        "releaseDate": "2020/07/04",
-        "gameIds": [
-            77
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "190": {
-        "name": "steamでvtuberが主役のゲームがあるの知ってる？【ロックマンX3雑談実況】＃1",
-        "url": "https://www.youtube.com/watch?v=LHPkJCJ2Rkw",
-        "releaseDate": "2020/07/08",
-        "gameIds": [
-            78
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "200": {
-        "name": "東京湾って知ってっか？【ロックマンX3雑談実況】＃2",
-        "url": "https://www.youtube.com/watch?v=G1JawerdQwI",
-        "releaseDate": "2020/07/18",
-        "gameIds": [
-            78
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "207": {
-        "name": "入院しました【ロックマンX3雑談実況】＃3",
-        "url": "https://www.youtube.com/watch?v=adGS0FZP0LI",
-        "releaseDate": "2020/07/25",
-        "gameIds": [
-            78
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "227": {
-        "name": "ガールズバーに行きたかった【ロックマンX3雑談実況】＃4",
-        "url": "https://www.youtube.com/watch?v=CD18d15yThk",
-        "releaseDate": "2020/08/14",
-        "gameIds": [
-            78
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "241": {
-        "name": "僕が健康体な理由【ロックマンX3雑談実況】＃5",
-        "url": "https://www.youtube.com/watch?v=UDKs2kjYN-w",
-        "releaseDate": "2020/08/27",
-        "gameIds": [
-            78
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "248": {
-        "name": "コモラのやらかし物語【ロックマンX3雑談実況】＃6",
-        "url": "https://www.youtube.com/watch?v=h8ispoy40Gw",
-        "releaseDate": "2020/09/03",
-        "gameIds": [
-            78
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "255": {
-        "name": "動物園デート行きました【ロックマンX3雑談実況】＃7(終)",
-        "url": "https://www.youtube.com/watch?v=GFCb4UDRMFM",
-        "releaseDate": "2020/09/10",
-        "gameIds": [
-            78
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
     "194": {
         "name": "暴走サルを手なずけるコモラ【Dark Deception】",
         "url": "https://www.youtube.com/watch?v=Qa8ONmz9NE0",
@@ -3161,6 +2627,19 @@
         "chat": false,
         "comment": ""
     },
+    "196": {
+        "name": "【雑談】好きな食べ物を語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=bdNFCSore-M",
+        "releaseDate": "2020/07/14",
+        "gameIds": [
+            18
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "197": {
         "name": "ONP総選挙1位にのみ許された所業【オシャレになりたいタワーバトル】",
         "url": "https://www.youtube.com/watch?v=aT1-TryI0B0",
@@ -3172,6 +2651,45 @@
             1
         ],
         "chat": false,
+        "comment": ""
+    },
+    "198": {
+        "name": "完全にセクハラ【Dead or School】＃19",
+        "url": "https://www.youtube.com/watch?v=Dkeb77f3frs",
+        "releaseDate": "2020/07/16",
+        "gameIds": [
+            75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "199": {
+        "name": "すこ【Dead or School】＃20",
+        "url": "https://www.youtube.com/watch?v=sZZ7wBintYk",
+        "releaseDate": "2020/07/17",
+        "gameIds": [
+            75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "200": {
+        "name": "東京湾って知ってっか？【ロックマンX3雑談実況】＃2",
+        "url": "https://www.youtube.com/watch?v=G1JawerdQwI",
+        "releaseDate": "2020/07/18",
+        "gameIds": [
+            78
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
         "comment": ""
     },
     "201": {
@@ -3207,6 +2725,58 @@
         "releaseDate": "2020/07/21",
         "gameIds": [
             84
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "204": {
+        "name": "デカ過ぎんだろ・・・【Dead or School】＃21",
+        "url": "https://www.youtube.com/watch?v=BXAMeV-BUmg",
+        "releaseDate": "2020/07/22",
+        "gameIds": [
+            75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "205": {
+        "name": "迷いなく頭に得物をブッサス女子高生【Dead or School】＃22",
+        "url": "https://www.youtube.com/watch?v=B3y5wOuFjpU",
+        "releaseDate": "2020/07/23",
+        "gameIds": [
+            75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "206": {
+        "name": "チャプター１の隠し金イチゴが難しい！【Celeste】＃26",
+        "url": "https://www.youtube.com/watch?v=u0lBNQQccXY",
+        "releaseDate": "2020/07/24",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "207": {
+        "name": "入院しました【ロックマンX3雑談実況】＃3",
+        "url": "https://www.youtube.com/watch?v=adGS0FZP0LI",
+        "releaseDate": "2020/07/25",
+        "gameIds": [
+            78
         ],
         "actorIds": [
             1
@@ -3254,6 +2824,32 @@
         "chat": true,
         "comment": ""
     },
+    "211": {
+        "name": "東京アラート【Dead or School】＃23",
+        "url": "https://www.youtube.com/watch?v=EvD8ouZaKZE",
+        "releaseDate": "2020/07/29",
+        "gameIds": [
+            75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "212": {
+        "name": "ひさこちゃんと学校に通いたかった【Dead or School】＃24(終)",
+        "url": "https://www.youtube.com/watch?v=PC2czgAxv90",
+        "releaseDate": "2020/07/30",
+        "gameIds": [
+            75
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "213": {
         "name": "不気味な城から脱出するオカルトアドベンチャー【Zelle】＃1",
         "url": "https://www.youtube.com/watch?v=ekmh_SVnPfc",
@@ -3280,6 +2876,32 @@
         "chat": false,
         "comment": ""
     },
+    "215": {
+        "name": "ランクマッチがあるらしい【マリオメーカー2】",
+        "url": "https://www.youtube.com/watch?v=dv0KahpUvIM",
+        "releaseDate": "2020/08/02",
+        "gameIds": [
+            56
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "216": {
+        "name": "【雑談】インターネットを語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=u6A65f04x0o",
+        "releaseDate": "2020/08/03",
+        "gameIds": [
+            7
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "217": {
         "name": "親近感ある【Zelle】＃3",
         "url": "https://www.youtube.com/watch?v=3sWrlwmv__E",
@@ -3293,12 +2915,39 @@
         "chat": false,
         "comment": ""
     },
+    "218": {
+        "name": "【世代感】ロックマンエグゼみたいなゲームにバカハマり中のコモラ",
+        "url": "https://www.youtube.com/watch?v=NG-Rvo_o1-U",
+        "releaseDate": "2020/08/05",
+        "gameIds": [
+            89
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "219": {
         "name": "弱そう【Zelle】＃4",
         "url": "https://www.youtube.com/watch?v=zoAtSwIBYzc",
         "releaseDate": "2020/08/06",
         "gameIds": [
             88
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "220": {
+        "name": "1ステージが長い・・・！【Celeste】＃27",
+        "url": "https://www.youtube.com/watch?v=RovFuGXq0NA",
+        "releaseDate": "2020/08/07",
+        "gameIds": [
+            67
         ],
         "actorIds": [
             1
@@ -3319,6 +2968,32 @@
         "chat": false,
         "comment": ""
     },
+    "222": {
+        "name": "【Bladed Fury】戦国を生き抜いた王姫【単発】",
+        "url": "https://www.youtube.com/watch?v=ucZwRt-HAM4",
+        "releaseDate": "2020/08/09",
+        "gameIds": [
+            90
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "223": {
+        "name": "【雑談】一人暮らしを語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=KVpN9DS9uwM",
+        "releaseDate": "2020/08/10",
+        "gameIds": [
+            13
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "224": {
         "name": "瞬歩の使い手でしたか【Zelle】＃6",
         "url": "https://www.youtube.com/watch?v=yTH8Uek7lM4",
@@ -3332,12 +3007,65 @@
         "chat": false,
         "comment": ""
     },
+    "225": {
+        "name": "やっちまった・・・！【Celeste】チャプター4 A面金イチゴ＃28",
+        "url": "https://www.youtube.com/watch?v=5NrfXXd28Aw",
+        "releaseDate": "2020/08/12",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "226": {
         "name": "地獄に行ってきます【Zelle】＃7",
         "url": "https://www.youtube.com/watch?v=Y2QkX4juybs",
         "releaseDate": "2020/08/13",
         "gameIds": [
             88
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "227": {
+        "name": "ガールズバーに行きたかった【ロックマンX3雑談実況】＃4",
+        "url": "https://www.youtube.com/watch?v=CD18d15yThk",
+        "releaseDate": "2020/08/14",
+        "gameIds": [
+            78
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "228": {
+        "name": "【FallGuys】コモラの実力見せたらぁ！",
+        "url": "https://www.youtube.com/watch?v=G2VzmsdX-5s",
+        "releaseDate": "2020/08/15",
+        "gameIds": [
+            91
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "229": {
+        "name": "【LoL】新キャラ ヨネ＆ヤスオの兄弟BOTレーンで大暴れ！？",
+        "url": "https://www.youtube.com/watch?v=RCaDg7kPaRA",
+        "releaseDate": "2020/08/16",
+        "gameIds": [
+            92
         ],
         "actorIds": [
             1
@@ -3371,73 +3099,6 @@
         "chat": false,
         "comment": ""
     },
-    "218": {
-        "name": "【世代感】ロックマンエグゼみたいなゲームにバカハマり中のコモラ",
-        "url": "https://www.youtube.com/watch?v=NG-Rvo_o1-U",
-        "releaseDate": "2020/08/05",
-        "gameIds": [
-            89
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "222": {
-        "name": "【Bladed Fury】戦国を生き抜いた王姫【単発】",
-        "url": "https://www.youtube.com/watch?v=ucZwRt-HAM4",
-        "releaseDate": "2020/08/09",
-        "gameIds": [
-            90
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "228": {
-        "name": "【FallGuys】コモラの実力見せたらぁ！",
-        "url": "https://www.youtube.com/watch?v=G2VzmsdX-5s",
-        "releaseDate": "2020/08/15",
-        "gameIds": [
-            91
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "293": {
-        "name": "大蛇丸がFallGuysでクラウンまで潜影蛇手するのよ。",
-        "url": "https://www.youtube.com/watch?v=Kxlt27FWQOY",
-        "releaseDate": "2020/10/18",
-        "gameIds": [
-            91
-        ],
-        "actorIds": [
-            6
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "229": {
-        "name": "【LoL】新キャラ ヨネ＆ヤスオの兄弟BOTレーンで大暴れ！？",
-        "url": "https://www.youtube.com/watch?v=RCaDg7kPaRA",
-        "releaseDate": "2020/08/16",
-        "gameIds": [
-            92
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
     "232": {
         "name": "アジュナちゃんの大冒険【インディヴィジブル闇を祓う魂たち】＃1",
         "url": "https://www.youtube.com/watch?v=Ms_7pNjvkCc",
@@ -3464,6 +3125,19 @@
         "chat": false,
         "comment": ""
     },
+    "234": {
+        "name": "【雑談】元同僚Tさんを語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=p_4RJHS0rKE",
+        "releaseDate": "2020/08/21",
+        "gameIds": [
+            51
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "235": {
         "name": "獣の王・・・？【インディヴィジブル闇を祓う魂たち】＃3",
         "url": "https://www.youtube.com/watch?v=QmKORfL19UQ",
@@ -3477,12 +3151,53 @@
         "chat": false,
         "comment": ""
     },
+    "236": {
+        "name": "闘獣王に、オレはなる！！",
+        "url": "https://www.youtube.com/watch?v=zsiR23ev86Y",
+        "releaseDate": "2020/08/22",
+        "gameIds": [
+            94
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "237": {
+        "name": "Risk of Rain 2 が正式リリースされたのでラスボスに挨拶してきた",
+        "url": "https://www.youtube.com/watch?v=3EGKBEiLVNM",
+        "releaseDate": "2020/08/23",
+        "gameIds": [
+            18
+        ],
+        "actorIds": [
+            1,
+            4
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "238": {
         "name": "新しい仲間がいきなり分身しました【インディヴィジブル闇を祓う魂たち】＃4",
         "url": "https://www.youtube.com/watch?v=w5IER-nRqpA",
         "releaseDate": "2020/08/24",
         "gameIds": [
             93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "239": {
+        "name": "【FGOガチャ】アビーちゃんの浮き輪になりたい",
+        "url": "https://www.youtube.com/watch?v=pIa3RJZ3sj8",
+        "releaseDate": "2020/08/25",
+        "gameIds": [
+            95
         ],
         "actorIds": [
             1
@@ -3503,12 +3218,65 @@
         "chat": false,
         "comment": ""
     },
+    "241": {
+        "name": "僕が健康体な理由【ロックマンX3雑談実況】＃5",
+        "url": "https://www.youtube.com/watch?v=UDKs2kjYN-w",
+        "releaseDate": "2020/08/27",
+        "gameIds": [
+            78
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "242": {
         "name": "何が彼をここまで変えたのか【インディヴィジブル闇を祓う魂たち】＃6",
         "url": "https://www.youtube.com/watch?v=XqowJRjdxG0",
         "releaseDate": "2020/08/28",
         "gameIds": [
             93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "243": {
+        "name": "寝起き最強説【Celeste】チャプター5 A面金イチゴ＃29",
+        "url": "https://www.youtube.com/watch?v=hNdfYbfQRec",
+        "releaseDate": "2020/08/29",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "244": {
+        "name": "オワタ",
+        "url": "https://www.youtube.com/watch?v=g97G5l8iC6E",
+        "releaseDate": "2020/08/30",
+        "gameIds": [
+            96
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "245": {
+        "name": "正直、実力はAランクやと思ってる【マリオメーカー2】",
+        "url": "https://www.youtube.com/watch?v=pY0z8kwM84g",
+        "releaseDate": "2020/08/31",
+        "gameIds": [
+            56
         ],
         "actorIds": [
             1
@@ -3542,6 +3310,19 @@
         "chat": false,
         "comment": ""
     },
+    "248": {
+        "name": "コモラのやらかし物語【ロックマンX3雑談実況】＃6",
+        "url": "https://www.youtube.com/watch?v=h8ispoy40Gw",
+        "releaseDate": "2020/09/03",
+        "gameIds": [
+            78
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "249": {
         "name": "ジンセンのご両親に挨拶【インディヴィジブル闇を祓う魂たち】＃9",
         "url": "https://www.youtube.com/watch?v=LOxTUcm-_Hc",
@@ -3551,333 +3332,6 @@
         ],
         "actorIds": [
             1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "254": {
-        "name": "復讐に燃える気高き傭兵【インディヴィジブル闇を祓う魂たち】＃10",
-        "url": "https://www.youtube.com/watch?v=lE8LB3gHQmg",
-        "releaseDate": "2020/09/09",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "256": {
-        "name": "タンガー、喋る【インディヴィジブル闇を祓う魂たち】＃11",
-        "url": "https://www.youtube.com/watch?v=k8DRepJLmMo",
-        "releaseDate": "2020/09/11",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "260": {
-        "name": "本当に遅れてくるヒーロー【インディヴィジブル闇を祓う魂たち】＃12",
-        "url": "https://www.youtube.com/watch?v=WBtTWEIxOoQ",
-        "releaseDate": "2020/09/15",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "262": {
-        "name": "ぺっ【インディヴィジブル闇を祓う魂たち】＃13",
-        "url": "https://www.youtube.com/watch?v=YotC2PCmTQY",
-        "releaseDate": "2020/09/17",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "267": {
-        "name": "顔つきオッサンやん【インディヴィジブル闇を祓う魂たち】＃14",
-        "url": "https://www.youtube.com/watch?v=3vwPpUTt6Rc",
-        "releaseDate": "2020/09/22",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "269": {
-        "name": "僕たち仲良くなりました【インディヴィジブル闇を祓う魂たち】＃15",
-        "url": "https://www.youtube.com/watch?v=zMMQ0b0M4is",
-        "releaseDate": "2020/09/24",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "271": {
-        "name": "誰かアジュナを止めて【インディヴィジブル闇を祓う魂たち】＃16",
-        "url": "https://www.youtube.com/watch?v=Clkb3_O7JUM",
-        "releaseDate": "2020/09/26",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "274": {
-        "name": "大切なものを失う【インディヴィジブル闇を祓う魂たち】＃17",
-        "url": "https://www.youtube.com/watch?v=l4dp0Xul95w",
-        "releaseDate": "2020/09/29",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "276": {
-        "name": "今、あなたと共に！【インディヴィジブル闇を祓う魂たち】＃18",
-        "url": "https://www.youtube.com/watch?v=UZYRqOEnv1g",
-        "releaseDate": "2020/10/01",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "281": {
-        "name": "僕のパーティには変態が2人いる【インディヴィジブル闇を祓う魂たち】＃19",
-        "url": "https://www.youtube.com/watch?v=fBeDd6GjxXQ",
-        "releaseDate": "2020/10/06",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "283": {
-        "name": "生きとったんか！【インディヴィジブル闇を祓う魂たち】＃20",
-        "url": "https://www.youtube.com/watch?v=_-ZV_r9PvKU",
-        "releaseDate": "2020/10/08",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "285": {
-        "name": "スライムになりたいと思ってた時期がありました【インディヴィジブル闇を祓う魂たち】＃21",
-        "url": "https://www.youtube.com/watch?v=D09eFu0L2II",
-        "releaseDate": "2020/10/10",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "289": {
-        "name": "サブイベ祭り【インディヴィジブル闇を祓う魂たち】＃22",
-        "url": "https://www.youtube.com/watch?v=lciwMAxBDIE",
-        "releaseDate": "2020/10/14",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "291": {
-        "name": "美少女の手料理【インディヴィジブル闇を祓う魂たち】＃23",
-        "url": "https://www.youtube.com/watch?v=fv2Gh9VoPko",
-        "releaseDate": "2020/10/16",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "295": {
-        "name": "唯一の公式カップリング【インディヴィジブル闇を祓う魂たち】＃24",
-        "url": "https://www.youtube.com/watch?v=HZ-j7XHN3k0",
-        "releaseDate": "2020/10/20",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "297": {
-        "name": "ダール・・・【インディヴィジブル闇を祓う魂たち】＃25",
-        "url": "https://www.youtube.com/watch?v=tiUPhxriOKo",
-        "releaseDate": "2020/10/22",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "302": {
-        "name": "真の友【インディヴィジブル闇を祓う魂たち】＃26",
-        "url": "https://www.youtube.com/watch?v=LJofQ9z1bGE",
-        "releaseDate": "2020/10/27",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "304": {
-        "name": "決戦と別れ【インディヴィジブル闇を祓う魂たち】＃27",
-        "url": "https://www.youtube.com/watch?v=gd-Wbs0fPPs",
-        "releaseDate": "2020/10/29",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "305": {
-        "name": "最高の仲間達【インディヴィジブル闇を祓う魂たち】＃28(終)",
-        "url": "https://www.youtube.com/watch?v=uyF9H3egp8w",
-        "releaseDate": "2020/10/30",
-        "gameIds": [
-            93
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "236": {
-        "name": "闘獣王に、オレはなる！！",
-        "url": "https://www.youtube.com/watch?v=zsiR23ev86Y",
-        "releaseDate": "2020/08/22",
-        "gameIds": [
-            94
-        ],
-        "actorIds": [
-            1,
-            2
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "239": {
-        "name": "【FGOガチャ】アビーちゃんの浮き輪になりたい",
-        "url": "https://www.youtube.com/watch?v=pIa3RJZ3sj8",
-        "releaseDate": "2020/08/25",
-        "gameIds": [
-            95
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "266": {
-        "name": "【雑談】思い出のゲーム「R?MJ」を語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=rAhUdx2Sinc",
-        "releaseDate": "2020/09/21",
-        "gameIds": [
-            95
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "372": {
-        "name": "【FGOガチャ】寒い季節の水着は逆にあり",
-        "url": "https://www.youtube.com/watch?v=pygo5hIMrl8",
-        "releaseDate": "2021/01/03",
-        "gameIds": [
-            95
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "412": {
-        "name": "【FGOガチャ】頭にハートのヤバい奴",
-        "url": "https://www.youtube.com/watch?v=UD3d8O2_TDo",
-        "releaseDate": "2021/02/11",
-        "gameIds": [
-            95
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "244": {
-        "name": "オワタ",
-        "url": "https://www.youtube.com/watch?v=g97G5l8iC6E",
-        "releaseDate": "2020/08/30",
-        "gameIds": [
-            96
-        ],
-        "actorIds": [
-            1,
-            2
         ],
         "chat": false,
         "comment": ""
@@ -3893,6 +3347,32 @@
             1
         ],
         "chat": false,
+        "comment": ""
+    },
+    "251": {
+        "name": "ダークコモラちゃんが強すぎる【Celeste】チャプター6 A面金イチゴ＃30",
+        "url": "https://www.youtube.com/watch?v=gV-Q0SiB2Rs",
+        "releaseDate": "2020/09/06",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "252": {
+        "name": "【雑談】２周年記念とやらかした話を語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=cj355zZ6KG0",
+        "releaseDate": "2020/09/07",
+        "gameIds": [
+            54
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
         "comment": ""
     },
     "253": {
@@ -3911,192 +3391,49 @@
         "chat": false,
         "comment": ""
     },
+    "254": {
+        "name": "復讐に燃える気高き傭兵【インディヴィジブル闇を祓う魂たち】＃10",
+        "url": "https://www.youtube.com/watch?v=lE8LB3gHQmg",
+        "releaseDate": "2020/09/09",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "255": {
+        "name": "動物園デート行きました【ロックマンX3雑談実況】＃7(終)",
+        "url": "https://www.youtube.com/watch?v=GFCb4UDRMFM",
+        "releaseDate": "2020/09/10",
+        "gameIds": [
+            78
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "256": {
+        "name": "タンガー、喋る【インディヴィジブル闇を祓う魂たち】＃11",
+        "url": "https://www.youtube.com/watch?v=k8DRepJLmMo",
+        "releaseDate": "2020/09/11",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "257": {
         "name": "僕のオーラが見えますか？【ロックマンX4雑談実況】＃1",
         "url": "https://www.youtube.com/watch?v=p9RZZtIpJ6c",
         "releaseDate": "2020/09/12",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "261": {
-        "name": "母の願いを叶えました【ロックマンX4雑談実況】＃2",
-        "url": "https://www.youtube.com/watch?v=MSG5BRwpPEE",
-        "releaseDate": "2020/09/16",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "268": {
-        "name": "薬飲む暇あったらゲームしろ【ロックマンX4雑談実況】＃3",
-        "url": "https://www.youtube.com/watch?v=aMA4ABYqCXs",
-        "releaseDate": "2020/09/23",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "278": {
-        "name": "僕の座右の銘【ロックマンX4雑談実況】＃4",
-        "url": "https://www.youtube.com/watch?v=dmmNG9KIxxQ",
-        "releaseDate": "2020/10/03",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "282": {
-        "name": "嫌いな虫の話【ロックマンX4雑談実況】＃5",
-        "url": "https://www.youtube.com/watch?v=BgC_dSMBzA8",
-        "releaseDate": "2020/10/07",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "284": {
-        "name": "夢にでてくる美少女【ロックマンX4雑談実況】＃6",
-        "url": "https://www.youtube.com/watch?v=J6QTVtcBkng",
-        "releaseDate": "2020/10/09",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "298": {
-        "name": "大蛇丸君は勝手に動く【ロックマンX4雑談実況】＃7",
-        "url": "https://www.youtube.com/watch?v=4Egv7nOuh0Q",
-        "releaseDate": "2020/10/23",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "312": {
-        "name": "シエルちゃんに会えない【ロックマンX4雑談実況】＃8",
-        "url": "https://www.youtube.com/watch?v=6piA7YC6lhw",
-        "releaseDate": "2020/11/05",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "319": {
-        "name": "ぼくの新衣装【ロックマンX4雑談実況】＃9",
-        "url": "https://www.youtube.com/watch?v=0yKMmPQH0Nw",
-        "releaseDate": "2020/11/12",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "327": {
-        "name": "父の特性ソース【ロックマンX4雑談実況】＃10",
-        "url": "https://www.youtube.com/watch?v=rgMOYEIhaXs",
-        "releaseDate": "2020/11/20",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "340": {
-        "name": "コモラは人を愛せない【ロックマンX4雑談実況】＃11",
-        "url": "https://www.youtube.com/watch?v=7-Eax4Nhq50",
-        "releaseDate": "2020/12/02",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "348": {
-        "name": "事故りかけた話【ロックマンX4雑談実況】＃12",
-        "url": "https://www.youtube.com/watch?v=KIE6aD63sVo",
-        "releaseDate": "2020/12/10",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "357": {
-        "name": "ゼロって〇ッパイあるよね【ロックマンX4雑談実況】＃13",
-        "url": "https://www.youtube.com/watch?v=_ijUx41xrCU",
-        "releaseDate": "2020/12/19",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "366": {
-        "name": "ステゴロじゃゴラァ！【ロックマンX4雑談実況】＃14",
-        "url": "https://www.youtube.com/watch?v=bD-A5zx-LDw",
-        "releaseDate": "2020/12/28",
-        "gameIds": [
-            99
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "378": {
-        "name": "もっとアイリスが見たかったね【ロックマンX4雑談実況】＃15(終)",
-        "url": "https://www.youtube.com/watch?v=y2ClHHaAcbg",
-        "releaseDate": "2021/01/09",
         "gameIds": [
             99
         ],
@@ -4132,6 +3469,45 @@
         "chat": true,
         "comment": ""
     },
+    "260": {
+        "name": "本当に遅れてくるヒーロー【インディヴィジブル闇を祓う魂たち】＃12",
+        "url": "https://www.youtube.com/watch?v=WBtTWEIxOoQ",
+        "releaseDate": "2020/09/15",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "261": {
+        "name": "母の願いを叶えました【ロックマンX4雑談実況】＃2",
+        "url": "https://www.youtube.com/watch?v=MSG5BRwpPEE",
+        "releaseDate": "2020/09/16",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "262": {
+        "name": "ぺっ【インディヴィジブル闇を祓う魂たち】＃13",
+        "url": "https://www.youtube.com/watch?v=YotC2PCmTQY",
+        "releaseDate": "2020/09/17",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "263": {
         "name": "大好きなBLEACHのガチャをいっぱい回すぞい！",
         "url": "https://www.youtube.com/watch?v=-9EcPPk-W0Q",
@@ -4146,6 +3522,19 @@
         "chat": false,
         "comment": ""
     },
+    "264": {
+        "name": "２度目のラストステージ、もうあの頃の僕じゃない【Celeste】チャプター7 A面金イチゴ＃31",
+        "url": "https://www.youtube.com/watch?v=A_Yn2-Chj5o",
+        "releaseDate": "2020/09/19",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "265": {
         "name": "ゆるゲーしながらゆるキャラGP出場者ぽんぽこちゃんを応援する【マイエクササイズ】",
         "url": "https://www.youtube.com/watch?v=tyVv4KFfdnk",
@@ -4156,6 +3545,84 @@
         "actorIds": [
             1,
             5
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "266": {
+        "name": "【雑談】思い出のゲーム「R?MJ」を語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=rAhUdx2Sinc",
+        "releaseDate": "2020/09/21",
+        "gameIds": [
+            95
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "267": {
+        "name": "顔つきオッサンやん【インディヴィジブル闇を祓う魂たち】＃14",
+        "url": "https://www.youtube.com/watch?v=3vwPpUTt6Rc",
+        "releaseDate": "2020/09/22",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "268": {
+        "name": "薬飲む暇あったらゲームしろ【ロックマンX4雑談実況】＃3",
+        "url": "https://www.youtube.com/watch?v=aMA4ABYqCXs",
+        "releaseDate": "2020/09/23",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "269": {
+        "name": "僕たち仲良くなりました【インディヴィジブル闇を祓う魂たち】＃15",
+        "url": "https://www.youtube.com/watch?v=zMMQ0b0M4is",
+        "releaseDate": "2020/09/24",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "270": {
+        "name": "B面大したことねぇな！【Celeste】チャプター1＆2 B面金イチゴ＃32",
+        "url": "https://www.youtube.com/watch?v=eoEGCbhYQcs",
+        "releaseDate": "2020/09/25",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "271": {
+        "name": "誰かアジュナを止めて【インディヴィジブル闇を祓う魂たち】＃16",
+        "url": "https://www.youtube.com/watch?v=Clkb3_O7JUM",
+        "releaseDate": "2020/09/26",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
         ],
         "chat": false,
         "comment": ""
@@ -4186,173 +3653,17 @@
         "chat": true,
         "comment": ""
     },
-    "280": {
-        "name": "【雑談】親戚の兄さんを語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=IRUShBU2wS8",
-        "releaseDate": "2020/10/05",
+    "274": {
+        "name": "大切なものを失う【インディヴィジブル闇を祓う魂たち】＃17",
+        "url": "https://www.youtube.com/watch?v=l4dp0Xul95w",
+        "releaseDate": "2020/09/29",
         "gameIds": [
-            105
+            93
         ],
         "actorIds": [
             1
         ],
-        "chat": true,
-        "comment": ""
-    },
-    "288": {
-        "name": "【雑談】ホームステイを語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=lu6wR-7wLAs",
-        "releaseDate": "2020/10/13",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "294": {
-        "name": "【雑談】遊園地に行きましたを語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=7s0lD_AyIVs",
-        "releaseDate": "2020/10/19",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "301": {
-        "name": "【雑談】色々語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=F3ap_8kzoA0",
-        "releaseDate": "2020/10/26",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "308": {
-        "name": "【雑談】映画館を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=HhO_dXxx6BE",
-        "releaseDate": "2020/11/02",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "317": {
-        "name": "【雑談】鬼滅の刃を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=BXi2yM3vSTI",
-        "releaseDate": "2020/11/10",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "325": {
-        "name": "【雑談】古の記憶を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=d0V_eEq_rZo",
-        "releaseDate": "2020/11/18",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "331": {
-        "name": "【雑談】FFを語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=CdW5GNhyz50",
-        "releaseDate": "2020/11/24",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "338": {
-        "name": "【雑談】教えてもらった漫画を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=wyg8mICZac0",
-        "releaseDate": "2020/11/30",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "346": {
-        "name": "【雑談】元上司山田を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=I4ER8dDXJo0",
-        "releaseDate": "2020/12/08",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "353": {
-        "name": "【雑談】無職を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=IcmGtHWVNes",
-        "releaseDate": "2020/12/15",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "364": {
-        "name": "【雑談】年越番組を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=lL4W-2GzSEY",
-        "releaseDate": "2020/12/26",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "385": {
-        "name": "【雑談】麻雀を語る【マリオ64しながら】",
-        "url": "https://www.youtube.com/watch?v=FXHvS-06u1E",
-        "releaseDate": "2021/01/16",
-        "gameIds": [
-            105
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
+        "chat": false,
         "comment": ""
     },
     "275": {
@@ -4369,12 +3680,142 @@
         "chat": false,
         "comment": ""
     },
+    "276": {
+        "name": "今、あなたと共に！【インディヴィジブル闇を祓う魂たち】＃18",
+        "url": "https://www.youtube.com/watch?v=UZYRqOEnv1g",
+        "releaseDate": "2020/10/01",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "277": {
         "name": "マリオでバトロワだぁぁぁああああ！！【マリオ35】",
         "url": "https://www.youtube.com/watch?v=XhukCdjQw0Y",
         "releaseDate": "2020/10/02",
         "gameIds": [
             107
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "278": {
+        "name": "僕の座右の銘【ロックマンX4雑談実況】＃4",
+        "url": "https://www.youtube.com/watch?v=dmmNG9KIxxQ",
+        "releaseDate": "2020/10/03",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "279": {
+        "name": "グレンラガンに勝てない【ハードコアメカ】",
+        "url": "https://www.youtube.com/watch?v=WKCsZSoSlq0",
+        "releaseDate": "2020/10/04",
+        "gameIds": [
+            108
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "280": {
+        "name": "【雑談】親戚の兄さんを語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=IRUShBU2wS8",
+        "releaseDate": "2020/10/05",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "281": {
+        "name": "僕のパーティには変態が2人いる【インディヴィジブル闇を祓う魂たち】＃19",
+        "url": "https://www.youtube.com/watch?v=fBeDd6GjxXQ",
+        "releaseDate": "2020/10/06",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "282": {
+        "name": "嫌いな虫の話【ロックマンX4雑談実況】＃5",
+        "url": "https://www.youtube.com/watch?v=BgC_dSMBzA8",
+        "releaseDate": "2020/10/07",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "283": {
+        "name": "生きとったんか！【インディヴィジブル闇を祓う魂たち】＃20",
+        "url": "https://www.youtube.com/watch?v=_-ZV_r9PvKU",
+        "releaseDate": "2020/10/08",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "284": {
+        "name": "夢にでてくる美少女【ロックマンX4雑談実況】＃6",
+        "url": "https://www.youtube.com/watch?v=J6QTVtcBkng",
+        "releaseDate": "2020/10/09",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "285": {
+        "name": "スライムになりたいと思ってた時期がありました【インディヴィジブル闇を祓う魂たち】＃21",
+        "url": "https://www.youtube.com/watch?v=D09eFu0L2II",
+        "releaseDate": "2020/10/10",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "286": {
+        "name": "釣りしに来てるのに撃ってくる奴なんなん？【フォートナイト】",
+        "url": "https://www.youtube.com/watch?v=36LZJlb7x6M",
+        "releaseDate": "2020/10/11",
+        "gameIds": [
+            69
         ],
         "actorIds": [
             1
@@ -4396,12 +3837,12 @@
         "chat": false,
         "comment": ""
     },
-    "440": {
-        "name": "【雑談】ウマ娘を語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=6MtiVRDqmck",
-        "releaseDate": "2021/03/11",
+    "288": {
+        "name": "【雑談】ホームステイを語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=lu6wR-7wLAs",
+        "releaseDate": "2020/10/13",
         "gameIds": [
-            107
+            105
         ],
         "actorIds": [
             1
@@ -4409,12 +3850,90 @@
         "chat": true,
         "comment": ""
     },
-    "279": {
-        "name": "グレンラガンに勝てない【ハードコアメカ】",
-        "url": "https://www.youtube.com/watch?v=WKCsZSoSlq0",
-        "releaseDate": "2020/10/04",
+    "289": {
+        "name": "サブイベ祭り【インディヴィジブル闇を祓う魂たち】＃22",
+        "url": "https://www.youtube.com/watch?v=lciwMAxBDIE",
+        "releaseDate": "2020/10/14",
         "gameIds": [
-            108
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "290": {
+        "name": "B面難しいな！【Celeste】チャプター3＆4 B面金イチゴ＃33",
+        "url": "https://www.youtube.com/watch?v=UJfaOgNVHkE",
+        "releaseDate": "2020/10/14",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "291": {
+        "name": "美少女の手料理【インディヴィジブル闇を祓う魂たち】＃23",
+        "url": "https://www.youtube.com/watch?v=fv2Gh9VoPko",
+        "releaseDate": "2020/10/16",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "292": {
+        "name": "完璧なコミュニケーション、見せたるわ【フォートナイト】",
+        "url": "https://www.youtube.com/watch?v=T6RGznAkvUQ",
+        "releaseDate": "2020/10/17",
+        "gameIds": [
+            69
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "293": {
+        "name": "大蛇丸がFallGuysでクラウンまで潜影蛇手するのよ。",
+        "url": "https://www.youtube.com/watch?v=Kxlt27FWQOY",
+        "releaseDate": "2020/10/18",
+        "gameIds": [
+            91
+        ],
+        "actorIds": [
+            6
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "294": {
+        "name": "【雑談】遊園地に行きましたを語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=7s0lD_AyIVs",
+        "releaseDate": "2020/10/19",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "295": {
+        "name": "唯一の公式カップリング【インディヴィジブル闇を祓う魂たち】＃24",
+        "url": "https://www.youtube.com/watch?v=HZ-j7XHN3k0",
+        "releaseDate": "2020/10/20",
+        "gameIds": [
+            93
         ],
         "actorIds": [
             1
@@ -4435,12 +3954,77 @@
         "chat": false,
         "comment": ""
     },
+    "297": {
+        "name": "ダール・・・【インディヴィジブル闇を祓う魂たち】＃25",
+        "url": "https://www.youtube.com/watch?v=tiUPhxriOKo",
+        "releaseDate": "2020/10/22",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "298": {
+        "name": "大蛇丸君は勝手に動く【ロックマンX4雑談実況】＃7",
+        "url": "https://www.youtube.com/watch?v=4Egv7nOuh0Q",
+        "releaseDate": "2020/10/23",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "299": {
+        "name": "シャドーになって初ビクトリー！【フォートナイト】",
+        "url": "https://www.youtube.com/watch?v=6AMMZh4b14Y",
+        "releaseDate": "2020/10/24",
+        "gameIds": [
+            69
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "300": {
         "name": "へんてこゴルフで紳士を目指す！【WHAT THE GOLF?】",
         "url": "https://www.youtube.com/watch?v=WLN6oUjtV8c",
         "releaseDate": "2020/10/25",
         "gameIds": [
             110
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "301": {
+        "name": "【雑談】色々語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=F3ap_8kzoA0",
+        "releaseDate": "2020/10/26",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "302": {
+        "name": "真の友【インディヴィジブル闇を祓う魂たち】＃26",
+        "url": "https://www.youtube.com/watch?v=LJofQ9z1bGE",
+        "releaseDate": "2020/10/27",
+        "gameIds": [
+            93
         ],
         "actorIds": [
             1
@@ -4461,6 +4045,32 @@
         "chat": false,
         "comment": ""
     },
+    "304": {
+        "name": "決戦と別れ【インディヴィジブル闇を祓う魂たち】＃27",
+        "url": "https://www.youtube.com/watch?v=gd-Wbs0fPPs",
+        "releaseDate": "2020/10/29",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "305": {
+        "name": "最高の仲間達【インディヴィジブル闇を祓う魂たち】＃28(終)",
+        "url": "https://www.youtube.com/watch?v=uyF9H3egp8w",
+        "releaseDate": "2020/10/30",
+        "gameIds": [
+            93
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "306": {
         "name": "フェス限　多田李衣菜を引く【デレステ】",
         "url": "https://www.youtube.com/watch?v=K_HTGz8xb0w",
@@ -4472,6 +4082,32 @@
             1
         ],
         "chat": false,
+        "comment": ""
+    },
+    "307": {
+        "name": "スクワッドでチームを勝利に導きました【フォートナイト】",
+        "url": "https://www.youtube.com/watch?v=U5GHLDY56TM",
+        "releaseDate": "2020/11/01",
+        "gameIds": [
+            69
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "308": {
+        "name": "【雑談】映画館を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=HhO_dXxx6BE",
+        "releaseDate": "2020/11/02",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
         "comment": ""
     },
     "309": {
@@ -4500,6 +4136,33 @@
         "chat": false,
         "comment": ""
     },
+    "311": {
+        "name": "陰キャなりにハロウィンを楽しむ。",
+        "url": "https://www.youtube.com/watch?v=a6iAkGMHghw",
+        "releaseDate": "2020/11/05",
+        "gameIds": [
+            114
+        ],
+        "actorIds": [
+            1,
+            2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "312": {
+        "name": "シエルちゃんに会えない【ロックマンX4雑談実況】＃8",
+        "url": "https://www.youtube.com/watch?v=6piA7YC6lhw",
+        "releaseDate": "2020/11/05",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "313": {
         "name": "魔女狩りの始まりじゃああああ！！【Yuppie Psycho】＃3",
         "url": "https://www.youtube.com/watch?v=m6um4SirJ5A",
@@ -4513,302 +4176,15 @@
         "chat": false,
         "comment": ""
     },
-    "318": {
-        "name": "これがPS5ですか？【Yuppie Psycho】＃4",
-        "url": "https://www.youtube.com/watch?v=dbjJ6woPLcs",
-        "releaseDate": "2020/11/11",
+    "314": {
+        "name": "このゲーム、高所をとった者が勝つ【フォートナイト】",
+        "url": "https://www.youtube.com/watch?v=5a3NOk0yjc4",
+        "releaseDate": "2020/11/07",
         "gameIds": [
-            113
+            69
         ],
         "actorIds": [
             1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "320": {
-        "name": "昇天ペガサスMIX盛り【Yuppie Psycho】＃5",
-        "url": "https://www.youtube.com/watch?v=cBJ3PkmMbGk",
-        "releaseDate": "2020/11/13",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "321": {
-        "name": "デュモン大佐に！命を捧げます！【Yuppie Psycho】＃6",
-        "url": "https://www.youtube.com/watch?v=CN05gcq7LwQ",
-        "releaseDate": "2020/11/14",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "324": {
-        "name": "ペットができました【Yuppie Psycho】＃7",
-        "url": "https://www.youtube.com/watch?v=QLxvXwSicak",
-        "releaseDate": "2020/11/17",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "326": {
-        "name": "チャイナ服着てる女は強い【Yuppie Psycho】＃8",
-        "url": "https://www.youtube.com/watch?v=0W0NVMiyu-M",
-        "releaseDate": "2020/11/19",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "328": {
-        "name": "私はお金で動く【Yuppie Psycho】＃9",
-        "url": "https://www.youtube.com/watch?v=WGtPk_HJaK0",
-        "releaseDate": "2020/11/21",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "330": {
-        "name": "モテる男は辛いぜ【Yuppie Psycho】＃10",
-        "url": "https://www.youtube.com/watch?v=m4VbixKsNaE",
-        "releaseDate": "2020/11/23",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "332": {
-        "name": "あなたは誰？【Yuppie Psycho】＃11",
-        "url": "https://www.youtube.com/watch?v=QOPD_I6VgBc",
-        "releaseDate": "2020/11/25",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "334": {
-        "name": "こんなにモジャモジャなのになぜハゲてしまうのか【Yuppie Psycho】＃12",
-        "url": "https://www.youtube.com/watch?v=9V3v6AMfWbs",
-        "releaseDate": "2020/11/27",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "337": {
-        "name": "人死にすぎやろこの会社【Yuppie Psycho】＃13",
-        "url": "https://www.youtube.com/watch?v=W8HJwju0Qrg",
-        "releaseDate": "2020/11/29",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "339": {
-        "name": "人はみなペルソナを持って生きている【Yuppie Psycho】＃14",
-        "url": "https://www.youtube.com/watch?v=Y5A-_7mVsfw",
-        "releaseDate": "2020/12/01",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "341": {
-        "name": "ヒューゴの部屋【Yuppie Psycho】＃15",
-        "url": "https://www.youtube.com/watch?v=cEFceB-NMfY",
-        "releaseDate": "2020/12/03",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "343": {
-        "name": "爪ながーい【Yuppie Psycho】＃16",
-        "url": "https://www.youtube.com/watch?v=sLECKg7FWG0",
-        "releaseDate": "2020/12/05",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "345": {
-        "name": "悪魔との契約【Yuppie Psycho】＃17",
-        "url": "https://www.youtube.com/watch?v=wbpIf-0-8mA",
-        "releaseDate": "2020/12/07",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "347": {
-        "name": "シントラどこいくん？【Yuppie Psycho】＃18",
-        "url": "https://www.youtube.com/watch?v=rP-TgzVDY0I",
-        "releaseDate": "2020/12/09",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "349": {
-        "name": "シントラ一家の真実【Yuppie Psycho】＃19",
-        "url": "https://www.youtube.com/watch?v=tM8eKenVLFM",
-        "releaseDate": "2020/12/11",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "352": {
-        "name": "真の相棒【Yuppie Psycho】＃20",
-        "url": "https://www.youtube.com/watch?v=BA2Y7QRimmI",
-        "releaseDate": "2020/12/14",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "354": {
-        "name": "守りたいこの泣き顔【Yuppie Psycho】＃21",
-        "url": "https://www.youtube.com/watch?v=H-r15QVc-8s",
-        "releaseDate": "2020/12/16",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "356": {
-        "name": "レイちゃん復活！【Yuppie Psycho】＃22",
-        "url": "https://www.youtube.com/watch?v=ygJSc-PKlQI",
-        "releaseDate": "2020/12/18",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "358": {
-        "name": "誰かを忘れている・・・【Yuppie Psycho】＃23",
-        "url": "https://www.youtube.com/watch?v=FILLPbzbubg",
-        "releaseDate": "2020/12/20",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "359": {
-        "name": "おつかれブライアン【Yuppie Psycho】＃24",
-        "url": "https://www.youtube.com/watch?v=ks7XZGShXpQ",
-        "releaseDate": "2020/12/21",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "362": {
-        "name": "魔女の呪いから会社を救った男【Yuppie Psycho】＃25(終)",
-        "url": "https://www.youtube.com/watch?v=Etrnv_yYxGA",
-        "releaseDate": "2020/12/24",
-        "gameIds": [
-            113
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "311": {
-        "name": "陰キャなりにハロウィンを楽しむ。",
-        "url": "https://www.youtube.com/watch?v=a6iAkGMHghw",
-        "releaseDate": "2020/11/05",
-        "gameIds": [
-            114
-        ],
-        "actorIds": [
-            1,
-            2
         ],
         "chat": false,
         "comment": ""
@@ -4840,6 +4216,84 @@
         "chat": false,
         "comment": ""
     },
+    "317": {
+        "name": "【雑談】鬼滅の刃を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=BXi2yM3vSTI",
+        "releaseDate": "2020/11/10",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "318": {
+        "name": "これがPS5ですか？【Yuppie Psycho】＃4",
+        "url": "https://www.youtube.com/watch?v=dbjJ6woPLcs",
+        "releaseDate": "2020/11/11",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "319": {
+        "name": "ぼくの新衣装【ロックマンX4雑談実況】＃9",
+        "url": "https://www.youtube.com/watch?v=0yKMmPQH0Nw",
+        "releaseDate": "2020/11/12",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "320": {
+        "name": "昇天ペガサスMIX盛り【Yuppie Psycho】＃5",
+        "url": "https://www.youtube.com/watch?v=cBJ3PkmMbGk",
+        "releaseDate": "2020/11/13",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "321": {
+        "name": "デュモン大佐に！命を捧げます！【Yuppie Psycho】＃6",
+        "url": "https://www.youtube.com/watch?v=CN05gcq7LwQ",
+        "releaseDate": "2020/11/14",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "322": {
+        "name": "ピンク髪の女には要注意【フォートナイト】",
+        "url": "https://www.youtube.com/watch?v=zrWTNljmszs",
+        "releaseDate": "2020/11/15",
+        "gameIds": [
+            69
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "323": {
         "name": "コーラが闘うゲームが本格格闘ゲームだった！！！！",
         "url": "https://www.youtube.com/watch?v=BAzwsZQ20hk",
@@ -4850,6 +4304,149 @@
         "actorIds": [
             1,
             2
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "324": {
+        "name": "ペットができました【Yuppie Psycho】＃7",
+        "url": "https://www.youtube.com/watch?v=QLxvXwSicak",
+        "releaseDate": "2020/11/17",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "325": {
+        "name": "【雑談】古の記憶を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=d0V_eEq_rZo",
+        "releaseDate": "2020/11/18",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "326": {
+        "name": "チャイナ服着てる女は強い【Yuppie Psycho】＃8",
+        "url": "https://www.youtube.com/watch?v=0W0NVMiyu-M",
+        "releaseDate": "2020/11/19",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "327": {
+        "name": "父の特性ソース【ロックマンX4雑談実況】＃10",
+        "url": "https://www.youtube.com/watch?v=rgMOYEIhaXs",
+        "releaseDate": "2020/11/20",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "328": {
+        "name": "私はお金で動く【Yuppie Psycho】＃9",
+        "url": "https://www.youtube.com/watch?v=WGtPk_HJaK0",
+        "releaseDate": "2020/11/21",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "329": {
+        "name": "最強のチームの力、見せてやんよ【フォートナイト】",
+        "url": "https://www.youtube.com/watch?v=HYwdTpEXOxc",
+        "releaseDate": "2020/11/22",
+        "gameIds": [
+            69
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "330": {
+        "name": "モテる男は辛いぜ【Yuppie Psycho】＃10",
+        "url": "https://www.youtube.com/watch?v=m4VbixKsNaE",
+        "releaseDate": "2020/11/23",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "331": {
+        "name": "【雑談】FFを語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=CdW5GNhyz50",
+        "releaseDate": "2020/11/24",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "332": {
+        "name": "あなたは誰？【Yuppie Psycho】＃11",
+        "url": "https://www.youtube.com/watch?v=QOPD_I6VgBc",
+        "releaseDate": "2020/11/25",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "333": {
+        "name": "こんな上手いやつおる？【Celeste】チャプター5＆6 B面金イチゴ＃34",
+        "url": "https://www.youtube.com/watch?v=wkoEgVts-Qg",
+        "releaseDate": "2020/11/26",
+        "gameIds": [
+            67
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "334": {
+        "name": "こんなにモジャモジャなのになぜハゲてしまうのか【Yuppie Psycho】＃12",
+        "url": "https://www.youtube.com/watch?v=9V3v6AMfWbs",
+        "releaseDate": "2020/11/27",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
         ],
         "chat": false,
         "comment": ""
@@ -4881,6 +4478,71 @@
         "chat": false,
         "comment": ""
     },
+    "337": {
+        "name": "人死にすぎやろこの会社【Yuppie Psycho】＃13",
+        "url": "https://www.youtube.com/watch?v=W8HJwju0Qrg",
+        "releaseDate": "2020/11/29",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "338": {
+        "name": "【雑談】教えてもらった漫画を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=wyg8mICZac0",
+        "releaseDate": "2020/11/30",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "339": {
+        "name": "人はみなペルソナを持って生きている【Yuppie Psycho】＃14",
+        "url": "https://www.youtube.com/watch?v=Y5A-_7mVsfw",
+        "releaseDate": "2020/12/01",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "340": {
+        "name": "コモラは人を愛せない【ロックマンX4雑談実況】＃11",
+        "url": "https://www.youtube.com/watch?v=7-Eax4Nhq50",
+        "releaseDate": "2020/12/02",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "341": {
+        "name": "ヒューゴの部屋【Yuppie Psycho】＃15",
+        "url": "https://www.youtube.com/watch?v=cEFceB-NMfY",
+        "releaseDate": "2020/12/03",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "342": {
         "name": "ゴルフ中に変な奴から追いかけられた。",
         "url": "https://www.youtube.com/watch?v=Eb-MtptAiDA",
@@ -4895,12 +4557,90 @@
         "chat": false,
         "comment": ""
     },
+    "343": {
+        "name": "爪ながーい【Yuppie Psycho】＃16",
+        "url": "https://www.youtube.com/watch?v=sLECKg7FWG0",
+        "releaseDate": "2020/12/05",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "344": {
         "name": "これがチキンのやり方さ【Chicken Police】",
         "url": "https://www.youtube.com/watch?v=unNsBPWG0Bw",
         "releaseDate": "2020/12/06",
         "gameIds": [
             121
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "345": {
+        "name": "悪魔との契約【Yuppie Psycho】＃17",
+        "url": "https://www.youtube.com/watch?v=wbpIf-0-8mA",
+        "releaseDate": "2020/12/07",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "346": {
+        "name": "【雑談】元上司山田を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=I4ER8dDXJo0",
+        "releaseDate": "2020/12/08",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "347": {
+        "name": "シントラどこいくん？【Yuppie Psycho】＃18",
+        "url": "https://www.youtube.com/watch?v=rP-TgzVDY0I",
+        "releaseDate": "2020/12/09",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "348": {
+        "name": "事故りかけた話【ロックマンX4雑談実況】＃12",
+        "url": "https://www.youtube.com/watch?v=KIE6aD63sVo",
+        "releaseDate": "2020/12/10",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "349": {
+        "name": "シントラ一家の真実【Yuppie Psycho】＃19",
+        "url": "https://www.youtube.com/watch?v=tM8eKenVLFM",
+        "releaseDate": "2020/12/11",
+        "gameIds": [
+            113
         ],
         "actorIds": [
             1
@@ -4936,12 +4676,103 @@
         "chat": true,
         "comment": ""
     },
+    "352": {
+        "name": "真の相棒【Yuppie Psycho】＃20",
+        "url": "https://www.youtube.com/watch?v=BA2Y7QRimmI",
+        "releaseDate": "2020/12/14",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "353": {
+        "name": "【雑談】無職を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=IcmGtHWVNes",
+        "releaseDate": "2020/12/15",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "354": {
+        "name": "守りたいこの泣き顔【Yuppie Psycho】＃21",
+        "url": "https://www.youtube.com/watch?v=H-r15QVc-8s",
+        "releaseDate": "2020/12/16",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "355": {
         "name": "お兄ちゃんに言われたので敵を倒します【Apple Slash】",
         "url": "https://www.youtube.com/watch?v=POyaiPK9EVg",
         "releaseDate": "2020/12/17",
         "gameIds": [
             125
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "356": {
+        "name": "レイちゃん復活！【Yuppie Psycho】＃22",
+        "url": "https://www.youtube.com/watch?v=ygJSc-PKlQI",
+        "releaseDate": "2020/12/18",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "357": {
+        "name": "ゼロって〇ッパイあるよね【ロックマンX4雑談実況】＃13",
+        "url": "https://www.youtube.com/watch?v=_ijUx41xrCU",
+        "releaseDate": "2020/12/19",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "358": {
+        "name": "誰かを忘れている・・・【Yuppie Psycho】＃23",
+        "url": "https://www.youtube.com/watch?v=FILLPbzbubg",
+        "releaseDate": "2020/12/20",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "359": {
+        "name": "おつかれブライアン【Yuppie Psycho】＃24",
+        "url": "https://www.youtube.com/watch?v=ks7XZGShXpQ",
+        "releaseDate": "2020/12/21",
+        "gameIds": [
+            113
         ],
         "actorIds": [
             1
@@ -4975,6 +4806,19 @@
         "chat": false,
         "comment": ""
     },
+    "362": {
+        "name": "魔女の呪いから会社を救った男【Yuppie Psycho】＃25(終)",
+        "url": "https://www.youtube.com/watch?v=Etrnv_yYxGA",
+        "releaseDate": "2020/12/24",
+        "gameIds": [
+            113
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "363": {
         "name": "とある学校で起きた悲劇の物語【返校】＃1",
         "url": "https://www.youtube.com/watch?v=wwT_6STomm8",
@@ -4986,6 +4830,19 @@
             1
         ],
         "chat": false,
+        "comment": ""
+    },
+    "364": {
+        "name": "【雑談】年越番組を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=lL4W-2GzSEY",
+        "releaseDate": "2020/12/26",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
         "comment": ""
     },
     "365": {
@@ -5001,49 +4858,23 @@
         "chat": false,
         "comment": ""
     },
+    "366": {
+        "name": "ステゴロじゃゴラァ！【ロックマンX4雑談実況】＃14",
+        "url": "https://www.youtube.com/watch?v=bD-A5zx-LDw",
+        "releaseDate": "2020/12/28",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "367": {
         "name": "この扉だけ世界観違くね？【返校】＃3",
         "url": "https://www.youtube.com/watch?v=9BIdBE5oPEc",
         "releaseDate": "2020/12/29",
-        "gameIds": [
-            127
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "371": {
-        "name": "お手て飼いました【返校】＃4",
-        "url": "https://www.youtube.com/watch?v=MUlDg2CZ9UI",
-        "releaseDate": "2021/01/02",
-        "gameIds": [
-            127
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "373": {
-        "name": "ご時世的にアウト【返校】＃5",
-        "url": "https://www.youtube.com/watch?v=NI8WEErUS7Y",
-        "releaseDate": "2021/01/04",
-        "gameIds": [
-            127
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "375": {
-        "name": "何を想う？【返校】＃6(終)",
-        "url": "https://www.youtube.com/watch?v=9Ha-_lS3FkU",
-        "releaseDate": "2021/01/06",
         "gameIds": [
             127
         ],
@@ -5093,12 +4924,77 @@
         "chat": false,
         "comment": ""
     },
+    "371": {
+        "name": "お手て飼いました【返校】＃4",
+        "url": "https://www.youtube.com/watch?v=MUlDg2CZ9UI",
+        "releaseDate": "2021/01/02",
+        "gameIds": [
+            127
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "372": {
+        "name": "【FGOガチャ】寒い季節の水着は逆にあり",
+        "url": "https://www.youtube.com/watch?v=pygo5hIMrl8",
+        "releaseDate": "2021/01/03",
+        "gameIds": [
+            95
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "373": {
+        "name": "ご時世的にアウト【返校】＃5",
+        "url": "https://www.youtube.com/watch?v=NI8WEErUS7Y",
+        "releaseDate": "2021/01/04",
+        "gameIds": [
+            127
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "374": {
         "name": "空飛ぶケトルゲーが鬼畜すぎる【Space Kettle】",
         "url": "https://www.youtube.com/watch?v=-d3oJsN6YTU",
         "releaseDate": "2021/01/05",
         "gameIds": [
             132
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "375": {
+        "name": "何を想う？【返校】＃6(終)",
+        "url": "https://www.youtube.com/watch?v=9Ha-_lS3FkU",
+        "releaseDate": "2021/01/06",
+        "gameIds": [
+            127
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "376": {
+        "name": "これが頂きと幻【Celeste】チャプター7 B面 金イチゴ＆チャプター9 隠しイチゴ＃35",
+        "url": "https://www.youtube.com/watch?v=Z5Tw0hwA3_c",
+        "releaseDate": "2021/01/07",
+        "gameIds": [
+            67
         ],
         "actorIds": [
             1
@@ -5119,153 +5015,23 @@
         "chat": false,
         "comment": ""
     },
+    "378": {
+        "name": "もっとアイリスが見たかったね【ロックマンX4雑談実況】＃15(終)",
+        "url": "https://www.youtube.com/watch?v=y2ClHHaAcbg",
+        "releaseDate": "2021/01/09",
+        "gameIds": [
+            99
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
     "379": {
         "name": "わかりかねます！【アンリアルライフ】＃2",
         "url": "https://www.youtube.com/watch?v=0N1Y3RCSsEs",
         "releaseDate": "2021/01/10",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "382": {
-        "name": "クチバシやから普通のタバコが吸えない【アンリアルライフ】＃3",
-        "url": "https://www.youtube.com/watch?v=78OPjZE-iWw",
-        "releaseDate": "2021/01/13",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "384": {
-        "name": "見た目ラスボスじゃん【アンリアルライフ】＃4",
-        "url": "https://www.youtube.com/watch?v=n4F_Eo2uYnc",
-        "releaseDate": "2021/01/15",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "386": {
-        "name": "友達いたんだぁ・・・【アンリアルライフ】＃5",
-        "url": "https://www.youtube.com/watch?v=LK9C_Vp263g",
-        "releaseDate": "2021/01/17",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "388": {
-        "name": "どっちか避けようとしろよ【アンリアルライフ】＃6",
-        "url": "https://www.youtube.com/watch?v=U1qLLzp_UIA",
-        "releaseDate": "2021/01/19",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "390": {
-        "name": "唐突にラノベ主人公みたいなイケメンがでてきたんだが？【アンリアルライフ】＃7",
-        "url": "https://www.youtube.com/watch?v=UFutjKh_SlU",
-        "releaseDate": "2021/01/21",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "392": {
-        "name": "2次元に恋した男【アンリアルライフ】＃8",
-        "url": "https://www.youtube.com/watch?v=HM3a43mZ1aw",
-        "releaseDate": "2021/01/23",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "394": {
-        "name": "いざ、幻駅へ【アンリアルライフ】＃9",
-        "url": "https://www.youtube.com/watch?v=8CGYNzx1X9o",
-        "releaseDate": "2021/01/25",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "396": {
-        "name": "信じる道【アンリアルライフ】＃10",
-        "url": "https://www.youtube.com/watch?v=Gglj_CU9D5c",
-        "releaseDate": "2021/01/27",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "398": {
-        "name": "僕もJKに戻りたい【アンリアルライフ】＃11",
-        "url": "https://www.youtube.com/watch?v=VxaNJX57Rd8",
-        "releaseDate": "2021/01/29",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "401": {
-        "name": "先生の物語【アンリアルライフ】＃12",
-        "url": "https://www.youtube.com/watch?v=8QbxfZMCGbk",
-        "releaseDate": "2021/01/31",
-        "gameIds": [
-            133
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "403": {
-        "name": "サクラが咲いてハルがくる【アンリアルライフ】＃13(終)",
-        "url": "https://www.youtube.com/watch?v=QPyJzktwGKU",
-        "releaseDate": "2021/02/02",
         "gameIds": [
             133
         ],
@@ -5302,12 +5068,90 @@
         "chat": false,
         "comment": ""
     },
+    "382": {
+        "name": "クチバシやから普通のタバコが吸えない【アンリアルライフ】＃3",
+        "url": "https://www.youtube.com/watch?v=78OPjZE-iWw",
+        "releaseDate": "2021/01/13",
+        "gameIds": [
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "383": {
+        "name": "果穂ちゃんと初詣！！！！【シャニマス】",
+        "url": "https://www.youtube.com/watch?v=32iqG_n7iJM",
+        "releaseDate": "2021/01/14",
+        "gameIds": [
+            36
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "384": {
+        "name": "見た目ラスボスじゃん【アンリアルライフ】＃4",
+        "url": "https://www.youtube.com/watch?v=n4F_Eo2uYnc",
+        "releaseDate": "2021/01/15",
+        "gameIds": [
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "385": {
+        "name": "【雑談】麻雀を語る【マリオ64しながら】",
+        "url": "https://www.youtube.com/watch?v=FXHvS-06u1E",
+        "releaseDate": "2021/01/16",
+        "gameIds": [
+            105
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "386": {
+        "name": "友達いたんだぁ・・・【アンリアルライフ】＃5",
+        "url": "https://www.youtube.com/watch?v=LK9C_Vp263g",
+        "releaseDate": "2021/01/17",
+        "gameIds": [
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "387": {
         "name": "無職のおっさんが自由に生きる【Cart Racer】",
         "url": "https://www.youtube.com/watch?v=6FuA79PSNuU",
         "releaseDate": "2021/01/18",
         "gameIds": [
             136
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "388": {
+        "name": "どっちか避けようとしろよ【アンリアルライフ】＃6",
+        "url": "https://www.youtube.com/watch?v=U1qLLzp_UIA",
+        "releaseDate": "2021/01/19",
+        "gameIds": [
+            133
         ],
         "actorIds": [
             1
@@ -5328,12 +5172,25 @@
         "chat": true,
         "comment": ""
     },
-    "397": {
-        "name": "【雑談実況】鼻だしマスクという信念【ロックマン】＃2",
-        "url": "https://www.youtube.com/watch?v=RTgfUj-NYL0",
-        "releaseDate": "2021/01/28",
+    "390": {
+        "name": "唐突にラノベ主人公みたいなイケメンがでてきたんだが？【アンリアルライフ】＃7",
+        "url": "https://www.youtube.com/watch?v=UFutjKh_SlU",
+        "releaseDate": "2021/01/21",
         "gameIds": [
-            137
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "391": {
+        "name": "【雑談】散髪を語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=aQpa-WjGRMg",
+        "releaseDate": "2021/01/22",
+        "gameIds": [
+            1
         ],
         "actorIds": [
             1
@@ -5341,43 +5198,17 @@
         "chat": true,
         "comment": ""
     },
-    "407": {
-        "name": "【雑談実況】やっぱ一平ちゃんよ【ロックマン】＃3",
-        "url": "https://www.youtube.com/watch?v=Uup97anp1vk",
-        "releaseDate": "2021/02/06",
+    "392": {
+        "name": "2次元に恋した男【アンリアルライフ】＃8",
+        "url": "https://www.youtube.com/watch?v=HM3a43mZ1aw",
+        "releaseDate": "2021/01/23",
         "gameIds": [
-            137
+            133
         ],
         "actorIds": [
             1
         ],
-        "chat": true,
-        "comment": ""
-    },
-    "414": {
-        "name": "【雑談実況】チー牛食べてる時が幸せ【ロックマン】＃4",
-        "url": "https://www.youtube.com/watch?v=6WQ61mPBNuQ",
-        "releaseDate": "2021/02/13",
-        "gameIds": [
-            137
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "421": {
-        "name": "【雑談実況】他人の顔が怖い【ロックマン】＃5(終)",
-        "url": "https://www.youtube.com/watch?v=FALSZsnmqxM",
-        "releaseDate": "2021/02/20",
-        "gameIds": [
-            137
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
+        "chat": false,
         "comment": ""
     },
     "393": {
@@ -5393,6 +5224,19 @@
         "chat": false,
         "comment": ""
     },
+    "394": {
+        "name": "いざ、幻駅へ【アンリアルライフ】＃9",
+        "url": "https://www.youtube.com/watch?v=8CGYNzx1X9o",
+        "releaseDate": "2021/01/25",
+        "gameIds": [
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "395": {
         "name": "獄中で行われる地獄のスポーツ【Fat Prisoner Simulator3】",
         "url": "https://www.youtube.com/watch?v=1d0Z02ERF8U",
@@ -5401,6 +5245,45 @@
             139,
             140,
             141
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "396": {
+        "name": "信じる道【アンリアルライフ】＃10",
+        "url": "https://www.youtube.com/watch?v=Gglj_CU9D5c",
+        "releaseDate": "2021/01/27",
+        "gameIds": [
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "397": {
+        "name": "【雑談実況】鼻だしマスクという信念【ロックマン】＃2",
+        "url": "https://www.youtube.com/watch?v=RTgfUj-NYL0",
+        "releaseDate": "2021/01/28",
+        "gameIds": [
+            137
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "398": {
+        "name": "僕もJKに戻りたい【アンリアルライフ】＃11",
+        "url": "https://www.youtube.com/watch?v=VxaNJX57Rd8",
+        "releaseDate": "2021/01/29",
+        "gameIds": [
+            133
         ],
         "actorIds": [
             1
@@ -5435,6 +5318,19 @@
         "chat": false,
         "comment": ""
     },
+    "401": {
+        "name": "先生の物語【アンリアルライフ】＃12",
+        "url": "https://www.youtube.com/watch?v=8QbxfZMCGbk",
+        "releaseDate": "2021/01/31",
+        "gameIds": [
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "402": {
         "name": "【2人実況】僕達は王を守るナイトです【Knight Out】",
         "url": "https://www.youtube.com/watch?v=o81eAJL_3yU",
@@ -5449,36 +5345,23 @@
         "chat": false,
         "comment": ""
     },
+    "403": {
+        "name": "サクラが咲いてハルがくる【アンリアルライフ】＃13(終)",
+        "url": "https://www.youtube.com/watch?v=QPyJzktwGKU",
+        "releaseDate": "2021/02/02",
+        "gameIds": [
+            133
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "404": {
         "name": "なぜ彼は跳び続けるのか【Frog Space】＃1",
         "url": "https://www.youtube.com/watch?v=3KVndDolgxk",
         "releaseDate": "2021/02/03",
-        "gameIds": [
-            145
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "413": {
-        "name": "カエル君は飛べるのか【Frog Space】＃2",
-        "url": "https://www.youtube.com/watch?v=i06YHjxs3Cw",
-        "releaseDate": "2021/02/12",
-        "gameIds": [
-            145
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "415": {
-        "name": "なぜ彼は泳げないのか【Frog Space】＃3",
-        "url": "https://www.youtube.com/watch?v=hdwm7ATzcXY",
-        "releaseDate": "2021/02/14",
         "gameIds": [
             145
         ],
@@ -5514,23 +5397,23 @@
         "chat": false,
         "comment": ""
     },
-    "408": {
-        "name": "竹馬で世界を旅する男【Stilt Fella】＃2",
-        "url": "https://www.youtube.com/watch?v=ym8TBSh42l0",
-        "releaseDate": "2021/02/07",
+    "407": {
+        "name": "【雑談実況】やっぱ一平ちゃんよ【ロックマン】＃3",
+        "url": "https://www.youtube.com/watch?v=Uup97anp1vk",
+        "releaseDate": "2021/02/06",
         "gameIds": [
-            147
+            137
         ],
         "actorIds": [
             1
         ],
-        "chat": false,
+        "chat": true,
         "comment": ""
     },
-    "410": {
-        "name": "カウボーイは王になる【Stilt Fella】＃3(終)",
-        "url": "https://www.youtube.com/watch?v=HgBD5yH9fBk",
-        "releaseDate": "2021/02/09",
+    "408": {
+        "name": "竹馬で世界を旅する男【Stilt Fella】＃2",
+        "url": "https://www.youtube.com/watch?v=ym8TBSh42l0",
+        "releaseDate": "2021/02/07",
         "gameIds": [
             147
         ],
@@ -5553,6 +5436,19 @@
         "chat": false,
         "comment": ""
     },
+    "410": {
+        "name": "カウボーイは王になる【Stilt Fella】＃3(終)",
+        "url": "https://www.youtube.com/watch?v=HgBD5yH9fBk",
+        "releaseDate": "2021/02/09",
+        "gameIds": [
+            147
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "411": {
         "name": "【雑談】マナーを語る【これがコモラ】",
         "url": "https://www.youtube.com/watch?v=uGx13NrOnmA",
@@ -5566,12 +5462,38 @@
         "chat": true,
         "comment": ""
     },
-    "432": {
-        "name": "【雑談】ランダムワードで語る【これがコモラ】",
-        "url": "https://www.youtube.com/watch?v=VDwjpfSjbj4",
-        "releaseDate": "2021/03/03",
+    "412": {
+        "name": "【FGOガチャ】頭にハートのヤバい奴",
+        "url": "https://www.youtube.com/watch?v=UD3d8O2_TDo",
+        "releaseDate": "2021/02/11",
         "gameIds": [
-            149
+            95
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "413": {
+        "name": "カエル君は飛べるのか【Frog Space】＃2",
+        "url": "https://www.youtube.com/watch?v=i06YHjxs3Cw",
+        "releaseDate": "2021/02/12",
+        "gameIds": [
+            145
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "414": {
+        "name": "【雑談実況】チー牛食べてる時が幸せ【ロックマン】＃4",
+        "url": "https://www.youtube.com/watch?v=6WQ61mPBNuQ",
+        "releaseDate": "2021/02/13",
+        "gameIds": [
+            137
         ],
         "actorIds": [
             1
@@ -5579,465 +5501,23 @@
         "chat": true,
         "comment": ""
     },
-    "492": {
-        "name": "【雑談】教えてもらった漫画を語る【2回目】",
-        "url": "https://www.youtube.com/watch?v=CW8Tx0Uixw0",
-        "releaseDate": "2021/05/01",
+    "415": {
+        "name": "なぜ彼は泳げないのか【Frog Space】＃3",
+        "url": "https://www.youtube.com/watch?v=hdwm7ATzcXY",
+        "releaseDate": "2021/02/14",
         "gameIds": [
-            149
+            145
         ],
         "actorIds": [
             1
         ],
-        "chat": true,
+        "chat": false,
         "comment": ""
     },
     "416": {
         "name": "はじめてのじーてぃーえー【GTAⅤ】＃1(上げ直し)",
         "url": "https://www.youtube.com/watch?v=ltiPjkA4Xfo",
         "releaseDate": "2021/02/15",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "418": {
-        "name": "僕の相棒はクズです【GTAⅤ】＃2",
-        "url": "https://www.youtube.com/watch?v=ZrC_QiobXqQ",
-        "releaseDate": "2021/02/17",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "420": {
-        "name": "あまりにも不幸な男【GTAⅤ】＃3",
-        "url": "https://www.youtube.com/watch?v=yM4HDH91KGI",
-        "releaseDate": "2021/02/19",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "422": {
-        "name": "ダイナミック不倫男【GTAⅤ】＃4",
-        "url": "https://www.youtube.com/watch?v=-vxN-ALG_GY",
-        "releaseDate": "2021/02/21",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "424": {
-        "name": "テンションの上げ方を間違ってるオタク【GTAⅤ】＃5",
-        "url": "https://www.youtube.com/watch?v=wsZburfiWUI",
-        "releaseDate": "2021/02/23",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "427": {
-        "name": "娘の水着のセンスが悪くて困ってます【GTAⅤ】＃6",
-        "url": "https://www.youtube.com/watch?v=o93qAgATEKM",
-        "releaseDate": "2021/02/26",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "429": {
-        "name": "作業員を装うなら武器を隠せ【GTAⅤ】＃7",
-        "url": "https://www.youtube.com/watch?v=XVXySDVeTuI",
-        "releaseDate": "2021/02/28",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "431": {
-        "name": "3人目の主人公はクレイジー！【GTAⅤ】＃8",
-        "url": "https://www.youtube.com/watch?v=xogNUt4gBcQ",
-        "releaseDate": "2021/03/02",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "433": {
-        "name": "積荷を降ろせというに【GTAⅤ】＃9",
-        "url": "https://www.youtube.com/watch?v=KJMr9d0Yf3Y",
-        "releaseDate": "2021/03/04",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "435": {
-        "name": "キレたおっさんは怖い【GTAⅤ】＃10",
-        "url": "https://www.youtube.com/watch?v=n9_b9gjRV8w",
-        "releaseDate": "2021/03/06",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "437": {
-        "name": "期待の新人 トレイシーの独壇場だ！【GTAⅤ】＃11",
-        "url": "https://www.youtube.com/watch?v=v7a_Q_EnDXU",
-        "releaseDate": "2021/03/08",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "439": {
-        "name": "筋肉を鍛えれば銃弾を跳ね返せる説【GTAⅤ】＃12",
-        "url": "https://www.youtube.com/watch?v=A8twdc930vY",
-        "releaseDate": "2021/03/10",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "441": {
-        "name": "サルと遊んでたらキャトられた【GTAⅤ】＃13",
-        "url": "https://www.youtube.com/watch?v=k-Qjwol30js",
-        "releaseDate": "2021/03/12",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "443": {
-        "name": "ウェイド君とフロイド君の受難【GTAⅤ】＃14",
-        "url": "https://www.youtube.com/watch?v=qeHl3wNTk_k",
-        "releaseDate": "2021/03/14",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "446": {
-        "name": "初めての拷問【GTAⅤ】＃15",
-        "url": "https://www.youtube.com/watch?v=8C4TZyxhjNs",
-        "releaseDate": "2021/03/17",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "448": {
-        "name": "トレバー、やらかす【GTAⅤ】＃16",
-        "url": "https://www.youtube.com/watch?v=S2E-sUihYyk",
-        "releaseDate": "2021/03/19",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "450": {
-        "name": "ロスサントス最強の変質者集団【GTAⅤ】＃17",
-        "url": "https://www.youtube.com/watch?v=JPigR75s5T0",
-        "releaseDate": "2021/03/21",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "452": {
-        "name": "新しい上司はノリがウザい【GTAⅤ】＃18",
-        "url": "https://www.youtube.com/watch?v=eBjHdHu2l9U",
-        "releaseDate": "2021/03/23",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "454": {
-        "name": "ヒロイン登場【GTAⅤ】＃19",
-        "url": "https://www.youtube.com/watch?v=vLcU2LMutCM",
-        "releaseDate": "2021/03/25",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "456": {
-        "name": "おいおい、彼女かよ【GTAⅤ】＃20",
-        "url": "https://www.youtube.com/watch?v=JQzd843VvFE",
-        "releaseDate": "2021/03/27",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "460": {
-        "name": "家事してくれるって幸せ【GTAⅤ】＃21",
-        "url": "https://www.youtube.com/watch?v=8jGBMsvrct8",
-        "releaseDate": "2021/03/30",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "462": {
-        "name": "最強トリオの一角が墜ちる【GTAⅤ】＃22",
-        "url": "https://www.youtube.com/watch?v=AlPl-Alv51c",
-        "releaseDate": "2021/04/01",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "464": {
-        "name": "逃避行の終わり【GTAⅤ】＃23",
-        "url": "https://www.youtube.com/watch?v=mp8aq1DCIvY",
-        "releaseDate": "2021/04/03",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "468": {
-        "name": "ついにキレた！【GTAⅤ】＃24",
-        "url": "https://www.youtube.com/watch?v=Ozd6bf7WrzU",
-        "releaseDate": "2021/04/07",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "471": {
-        "name": "ついに決裂【GTAⅤ】＃25",
-        "url": "https://www.youtube.com/watch?v=fN295quj07U",
-        "releaseDate": "2021/04/10",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "473": {
-        "name": "吊られたマイケル【GTAⅤ】＃26",
-        "url": "https://www.youtube.com/watch?v=Ih1d94nRvUU",
-        "releaseDate": "2021/04/12",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "476": {
-        "name": "物分かり良すぎるおじさん【GTAⅤ】＃27",
-        "url": "https://www.youtube.com/watch?v=TLccbQoBQVs",
-        "releaseDate": "2021/04/15",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "478": {
-        "name": "マイケル一族、集結【GTAⅤ】＃28",
-        "url": "https://www.youtube.com/watch?v=YqaVCm2Hkkg",
-        "releaseDate": "2021/04/17",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "480": {
-        "name": "新チームという名の人数合わせ【GTAⅤ】＃29",
-        "url": "https://www.youtube.com/watch?v=0jGIWN3qwDk",
-        "releaseDate": "2021/04/19",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "483": {
-        "name": "お前が裏切るんかい！【GTAⅤ】＃30",
-        "url": "https://www.youtube.com/watch?v=Ezus4CoBxao",
-        "releaseDate": "2021/04/22",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "485": {
-        "name": "なんでフランクリンの周りはクズが多いん？【GTAⅤ】＃31",
-        "url": "https://www.youtube.com/watch?v=YXYa8fK_q1c",
-        "releaseDate": "2021/04/24",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "487": {
-        "name": "ブラピおるやん！【GTAⅤ】＃32",
-        "url": "https://www.youtube.com/watch?v=A-lhol2j0jo",
-        "releaseDate": "2021/04/26",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "489": {
-        "name": "最後の強盗、連邦保管庫【GTAⅤ】＃33",
-        "url": "https://www.youtube.com/watch?v=UiYMyRqUzlI",
-        "releaseDate": "2021/04/28",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "491": {
-        "name": "ラストバトル前にケンカすな【GTAⅤ】＃34",
-        "url": "https://www.youtube.com/watch?v=aoHIeOLkVNQ",
-        "releaseDate": "2021/04/30",
-        "gameIds": [
-            150
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "493": {
-        "name": "僕達はズッ友です【GTAⅤ】＃35(終)",
-        "url": "https://www.youtube.com/watch?v=H-m29QbOYkg",
-        "releaseDate": "2021/05/02",
         "gameIds": [
             150
         ],
@@ -6060,12 +5540,64 @@
         "chat": false,
         "comment": ""
     },
+    "418": {
+        "name": "僕の相棒はクズです【GTAⅤ】＃2",
+        "url": "https://www.youtube.com/watch?v=ZrC_QiobXqQ",
+        "releaseDate": "2021/02/17",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "419": {
         "name": "社会人コモラのテーブルマナー【Table Manners】",
         "url": "https://www.youtube.com/watch?v=q93Z7LaTXE8",
         "releaseDate": "2021/02/18",
         "gameIds": [
             152
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "420": {
+        "name": "あまりにも不幸な男【GTAⅤ】＃3",
+        "url": "https://www.youtube.com/watch?v=yM4HDH91KGI",
+        "releaseDate": "2021/02/19",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "421": {
+        "name": "【雑談実況】他人の顔が怖い【ロックマン】＃5(終)",
+        "url": "https://www.youtube.com/watch?v=FALSZsnmqxM",
+        "releaseDate": "2021/02/20",
+        "gameIds": [
+            137
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "422": {
+        "name": "ダイナミック不倫男【GTAⅤ】＃4",
+        "url": "https://www.youtube.com/watch?v=-vxN-ALG_GY",
+        "releaseDate": "2021/02/21",
+        "gameIds": [
+            150
         ],
         "actorIds": [
             1
@@ -6083,6 +5615,19 @@
         "actorIds": [
             1,
             4
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "424": {
+        "name": "テンションの上げ方を間違ってるオタク【GTAⅤ】＃5",
+        "url": "https://www.youtube.com/watch?v=wsZburfiWUI",
+        "releaseDate": "2021/02/23",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
         ],
         "chat": false,
         "comment": ""
@@ -6114,6 +5659,19 @@
         "chat": false,
         "comment": ""
     },
+    "427": {
+        "name": "娘の水着のセンスが悪くて困ってます【GTAⅤ】＃6",
+        "url": "https://www.youtube.com/watch?v=o93qAgATEKM",
+        "releaseDate": "2021/02/26",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "428": {
         "name": "【雑談実況】長生きの秘訣【ロックマン2】＃1",
         "url": "https://www.youtube.com/watch?v=_NRlZCigCMc",
@@ -6125,6 +5683,71 @@
             1
         ],
         "chat": true,
+        "comment": ""
+    },
+    "429": {
+        "name": "作業員を装うなら武器を隠せ【GTAⅤ】＃7",
+        "url": "https://www.youtube.com/watch?v=XVXySDVeTuI",
+        "releaseDate": "2021/02/28",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "430": {
+        "name": "勝ちたければサイコロを振れ[Dicey Dungeons]",
+        "url": "https://www.youtube.com/watch?v=dgE3XFQ9wng",
+        "releaseDate": "2021/03/01",
+        "gameIds": [
+            157
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "431": {
+        "name": "3人目の主人公はクレイジー！【GTAⅤ】＃8",
+        "url": "https://www.youtube.com/watch?v=xogNUt4gBcQ",
+        "releaseDate": "2021/03/02",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "432": {
+        "name": "【雑談】ランダムワードで語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=VDwjpfSjbj4",
+        "releaseDate": "2021/03/03",
+        "gameIds": [
+            149
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "433": {
+        "name": "積荷を降ろせというに【GTAⅤ】＃9",
+        "url": "https://www.youtube.com/watch?v=KJMr9d0Yf3Y",
+        "releaseDate": "2021/03/04",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
         "comment": ""
     },
     "434": {
@@ -6140,51 +5763,12 @@
         "chat": true,
         "comment": ""
     },
-    "449": {
-        "name": "【雑談実況】退魔忍コモラ【ロックマン2】＃3",
-        "url": "https://www.youtube.com/watch?v=CfUdUJLPr84",
-        "releaseDate": "2021/03/20",
+    "435": {
+        "name": "キレたおっさんは怖い【GTAⅤ】＃10",
+        "url": "https://www.youtube.com/watch?v=n9_b9gjRV8w",
+        "releaseDate": "2021/03/06",
         "gameIds": [
-            156
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "472": {
-        "name": "【雑談実況】僕の車はピッカピカ【ロックマン2】＃4",
-        "url": "https://www.youtube.com/watch?v=ogcjXnVRYy0",
-        "releaseDate": "2021/04/11",
-        "gameIds": [
-            156
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "481": {
-        "name": "【雑談実況】8000人に1人の逸材になりました【ロックマン2】＃5",
-        "url": "https://www.youtube.com/watch?v=ib8xbfEZD6Q",
-        "releaseDate": "2021/04/20",
-        "gameIds": [
-            156
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": true,
-        "comment": ""
-    },
-    "430": {
-        "name": "勝ちたければサイコロを振れ[Dicey Dungeons]",
-        "url": "https://www.youtube.com/watch?v=dgE3XFQ9wng",
-        "releaseDate": "2021/03/01",
-        "gameIds": [
-            157
+            150
         ],
         "actorIds": [
             1
@@ -6205,12 +5789,64 @@
         "chat": false,
         "comment": ""
     },
+    "437": {
+        "name": "期待の新人 トレイシーの独壇場だ！【GTAⅤ】＃11",
+        "url": "https://www.youtube.com/watch?v=v7a_Q_EnDXU",
+        "releaseDate": "2021/03/08",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "438": {
         "name": "エモエモスライムブラザーズ【Everhood（最高難度）】＃2",
         "url": "https://www.youtube.com/watch?v=3U0kRwpAF6Q",
         "releaseDate": "2021/03/09",
         "gameIds": [
             158
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "439": {
+        "name": "筋肉を鍛えれば銃弾を跳ね返せる説【GTAⅤ】＃12",
+        "url": "https://www.youtube.com/watch?v=A8twdc930vY",
+        "releaseDate": "2021/03/10",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "440": {
+        "name": "【雑談】ウマ娘を語る【これがコモラ】",
+        "url": "https://www.youtube.com/watch?v=6MtiVRDqmck",
+        "releaseDate": "2021/03/11",
+        "gameIds": [
+            107
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "441": {
+        "name": "サルと遊んでたらキャトられた【GTAⅤ】＃13",
+        "url": "https://www.youtube.com/watch?v=k-Qjwol30js",
+        "releaseDate": "2021/03/12",
+        "gameIds": [
+            150
         ],
         "actorIds": [
             1
@@ -6231,25 +5867,12 @@
         "chat": false,
         "comment": ""
     },
-    "447": {
-        "name": "みんなと仲良くゲーム【Everhood（最高難度）】＃4",
-        "url": "https://www.youtube.com/watch?v=JR2yB064ET4",
-        "releaseDate": "2021/03/18",
+    "443": {
+        "name": "ウェイド君とフロイド君の受難【GTAⅤ】＃14",
+        "url": "https://www.youtube.com/watch?v=qeHl3wNTk_k",
+        "releaseDate": "2021/03/14",
         "gameIds": [
-            158
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "455": {
-        "name": "焚火を囲む木人形の気持ち【Everhood（最高難度）】＃5",
-        "url": "https://www.youtube.com/watch?v=Tys1FJC5Lqg",
-        "releaseDate": "2021/03/26",
-        "gameIds": [
-            158
+            150
         ],
         "actorIds": [
             1
@@ -6261,47 +5884,6 @@
         "name": "ギルティギアの大会に行ってきます[ARC CHARITY CUP 2021]",
         "url": "https://www.youtube.com/watch?v=BOjs_e5SgBk",
         "releaseDate": "2021/03/15",
-        "gameIds": [
-            159
-        ],
-        "actorIds": [
-            1,
-            4
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "451": {
-        "name": "一週間がんばりました[ARC CHARITY CUP 2021にむけて]",
-        "url": "https://www.youtube.com/watch?v=r3La7J-hIzc",
-        "releaseDate": "2021/03/22",
-        "gameIds": [
-            159
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "457": {
-        "name": "【極秘】私たちの訓練風景をお見せします～格ゲー上達の極意～【GGxrdRev2】",
-        "url": "https://www.youtube.com/watch?v=eqPsmWyYTig",
-        "releaseDate": "2021/03/27",
-        "gameIds": [
-            159
-        ],
-        "actorIds": [
-            1,
-            4
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "459": {
-        "name": "大会を振り返りながら話す【GGxrdRev2】",
-        "url": "https://www.youtube.com/watch?v=6Wx4Vg6AP7A",
-        "releaseDate": "2021/03/29",
         "gameIds": [
             159
         ],
@@ -6326,6 +5908,97 @@
         "chat": false,
         "comment": ""
     },
+    "446": {
+        "name": "初めての拷問【GTAⅤ】＃15",
+        "url": "https://www.youtube.com/watch?v=8C4TZyxhjNs",
+        "releaseDate": "2021/03/17",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "447": {
+        "name": "みんなと仲良くゲーム【Everhood（最高難度）】＃4",
+        "url": "https://www.youtube.com/watch?v=JR2yB064ET4",
+        "releaseDate": "2021/03/18",
+        "gameIds": [
+            158
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "448": {
+        "name": "トレバー、やらかす【GTAⅤ】＃16",
+        "url": "https://www.youtube.com/watch?v=S2E-sUihYyk",
+        "releaseDate": "2021/03/19",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "449": {
+        "name": "【雑談実況】退魔忍コモラ【ロックマン2】＃3",
+        "url": "https://www.youtube.com/watch?v=CfUdUJLPr84",
+        "releaseDate": "2021/03/20",
+        "gameIds": [
+            156
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "450": {
+        "name": "ロスサントス最強の変質者集団【GTAⅤ】＃17",
+        "url": "https://www.youtube.com/watch?v=JPigR75s5T0",
+        "releaseDate": "2021/03/21",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "451": {
+        "name": "一週間がんばりました[ARC CHARITY CUP 2021にむけて]",
+        "url": "https://www.youtube.com/watch?v=r3La7J-hIzc",
+        "releaseDate": "2021/03/22",
+        "gameIds": [
+            159
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "452": {
+        "name": "新しい上司はノリがウザい【GTAⅤ】＃18",
+        "url": "https://www.youtube.com/watch?v=eBjHdHu2l9U",
+        "releaseDate": "2021/03/23",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "453": {
         "name": "剣と筋肉は裏切らない【ZADETTE】",
         "url": "https://www.youtube.com/watch?v=s-hqdItLfDI",
@@ -6339,12 +6012,92 @@
         "chat": false,
         "comment": ""
     },
+    "454": {
+        "name": "ヒロイン登場【GTAⅤ】＃19",
+        "url": "https://www.youtube.com/watch?v=vLcU2LMutCM",
+        "releaseDate": "2021/03/25",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "455": {
+        "name": "焚火を囲む木人形の気持ち【Everhood（最高難度）】＃5",
+        "url": "https://www.youtube.com/watch?v=Tys1FJC5Lqg",
+        "releaseDate": "2021/03/26",
+        "gameIds": [
+            158
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "456": {
+        "name": "おいおい、彼女かよ【GTAⅤ】＃20",
+        "url": "https://www.youtube.com/watch?v=JQzd843VvFE",
+        "releaseDate": "2021/03/27",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "457": {
+        "name": "【極秘】私たちの訓練風景をお見せします～格ゲー上達の極意～【GGxrdRev2】",
+        "url": "https://www.youtube.com/watch?v=eqPsmWyYTig",
+        "releaseDate": "2021/03/27",
+        "gameIds": [
+            159
+        ],
+        "actorIds": [
+            1,
+            4
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "458": {
         "name": "動物達のバトロワゲームでビクロイしてみせる【Super Animal Royale】",
         "url": "https://www.youtube.com/watch?v=cSwXOGfRkf0",
         "releaseDate": "2021/03/28",
         "gameIds": [
             162
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "459": {
+        "name": "大会を振り返りながら話す【GGxrdRev2】",
+        "url": "https://www.youtube.com/watch?v=6Wx4Vg6AP7A",
+        "releaseDate": "2021/03/29",
+        "gameIds": [
+            159
+        ],
+        "actorIds": [
+            1,
+            4
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "460": {
+        "name": "家事してくれるって幸せ【GTAⅤ】＃21",
+        "url": "https://www.youtube.com/watch?v=8jGBMsvrct8",
+        "releaseDate": "2021/03/30",
+        "gameIds": [
+            150
         ],
         "actorIds": [
             1
@@ -6365,6 +6118,19 @@
         "chat": true,
         "comment": ""
     },
+    "462": {
+        "name": "最強トリオの一角が墜ちる【GTAⅤ】＃22",
+        "url": "https://www.youtube.com/watch?v=AlPl-Alv51c",
+        "releaseDate": "2021/04/01",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "463": {
         "name": "【2人実況】抜群のコンビネーション、見せたるで【I wanna be the RUKIMIN!】＃1",
         "url": "https://www.youtube.com/watch?v=sbulkGl7TJY",
@@ -6379,36 +6145,23 @@
         "chat": false,
         "comment": ""
     },
+    "464": {
+        "name": "逃避行の終わり【GTAⅤ】＃23",
+        "url": "https://www.youtube.com/watch?v=mp8aq1DCIvY",
+        "releaseDate": "2021/04/03",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "465": {
         "name": "おじいちゃんを探せ！【終焉介護】前編",
         "url": "https://www.youtube.com/watch?v=gTyh8xw3lN4",
         "releaseDate": "2021/04/04",
-        "gameIds": [
-            165
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "467": {
-        "name": "じゃんけんすれば仲良くなれる【終焉介護】中編",
-        "url": "https://www.youtube.com/watch?v=3KQil3z-Uvw",
-        "releaseDate": "2021/04/06",
-        "gameIds": [
-            165
-        ],
-        "actorIds": [
-            1
-        ],
-        "chat": false,
-        "comment": ""
-    },
-    "469": {
-        "name": "天狗が全部、悪いんや【終焉介護】後編",
-        "url": "https://www.youtube.com/watch?v=vEVwQzXlonw",
-        "releaseDate": "2021/04/08",
         "gameIds": [
             165
         ],
@@ -6432,6 +6185,45 @@
         "chat": false,
         "comment": ""
     },
+    "467": {
+        "name": "じゃんけんすれば仲良くなれる【終焉介護】中編",
+        "url": "https://www.youtube.com/watch?v=3KQil3z-Uvw",
+        "releaseDate": "2021/04/06",
+        "gameIds": [
+            165
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "468": {
+        "name": "ついにキレた！【GTAⅤ】＃24",
+        "url": "https://www.youtube.com/watch?v=Ozd6bf7WrzU",
+        "releaseDate": "2021/04/07",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "469": {
+        "name": "天狗が全部、悪いんや【終焉介護】後編",
+        "url": "https://www.youtube.com/watch?v=vEVwQzXlonw",
+        "releaseDate": "2021/04/08",
+        "gameIds": [
+            165
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "470": {
         "name": "【2人実況】友達がいないとできないゲーム【It Takes Two】",
         "url": "https://www.youtube.com/watch?v=G9sVS0UF0y0",
@@ -6442,6 +6234,45 @@
         "actorIds": [
             1,
             4
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "471": {
+        "name": "ついに決裂【GTAⅤ】＃25",
+        "url": "https://www.youtube.com/watch?v=fN295quj07U",
+        "releaseDate": "2021/04/10",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "472": {
+        "name": "【雑談実況】僕の車はピッカピカ【ロックマン2】＃4",
+        "url": "https://www.youtube.com/watch?v=ogcjXnVRYy0",
+        "releaseDate": "2021/04/11",
+        "gameIds": [
+            156
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "473": {
+        "name": "吊られたマイケル【GTAⅤ】＃26",
+        "url": "https://www.youtube.com/watch?v=Ih1d94nRvUU",
+        "releaseDate": "2021/04/12",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
         ],
         "chat": false,
         "comment": ""
@@ -6473,6 +6304,19 @@
         "chat": false,
         "comment": ""
     },
+    "476": {
+        "name": "物分かり良すぎるおじさん【GTAⅤ】＃27",
+        "url": "https://www.youtube.com/watch?v=TLccbQoBQVs",
+        "releaseDate": "2021/04/15",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "477": {
         "name": "【雑談】タトゥーを語る【これがコモラ】",
         "url": "https://www.youtube.com/watch?v=sl7BPkvAOns",
@@ -6486,12 +6330,103 @@
         "chat": true,
         "comment": ""
     },
+    "478": {
+        "name": "マイケル一族、集結【GTAⅤ】＃28",
+        "url": "https://www.youtube.com/watch?v=YqaVCm2Hkkg",
+        "releaseDate": "2021/04/17",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
     "479": {
         "name": "ワイ、軍師の才能を開花させる【TABS】第1戦",
         "url": "https://www.youtube.com/watch?v=UZilPGfX7KM",
         "releaseDate": "2021/04/18",
         "gameIds": [
             171
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "480": {
+        "name": "新チームという名の人数合わせ【GTAⅤ】＃29",
+        "url": "https://www.youtube.com/watch?v=0jGIWN3qwDk",
+        "releaseDate": "2021/04/19",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "481": {
+        "name": "【雑談実況】8000人に1人の逸材になりました【ロックマン2】＃5",
+        "url": "https://www.youtube.com/watch?v=ib8xbfEZD6Q",
+        "releaseDate": "2021/04/20",
+        "gameIds": [
+            156
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "482": {
+        "name": "【ガチャ】800連分のジュエルが浅倉 透を襲う！【シャニマス】",
+        "url": "https://www.youtube.com/watch?v=bnJVO2iLD8k",
+        "releaseDate": "2021/04/21",
+        "gameIds": [
+            36
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "483": {
+        "name": "お前が裏切るんかい！【GTAⅤ】＃30",
+        "url": "https://www.youtube.com/watch?v=Ezus4CoBxao",
+        "releaseDate": "2021/04/22",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "484": {
+        "name": "透と一緒【シャニマス】",
+        "url": "https://www.youtube.com/watch?v=8MZvwDHnZJc",
+        "releaseDate": "2021/04/23",
+        "gameIds": [
+            36
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "485": {
+        "name": "なんでフランクリンの周りはクズが多いん？【GTAⅤ】＃31",
+        "url": "https://www.youtube.com/watch?v=YXYa8fK_q1c",
+        "releaseDate": "2021/04/24",
+        "gameIds": [
+            150
         ],
         "actorIds": [
             1
@@ -6512,12 +6447,12 @@
         "chat": false,
         "comment": ""
     },
-    "490": {
-        "name": "残酷なゲームやでほんま【TABS】第3戦",
-        "url": "https://www.youtube.com/watch?v=SlsysiOEHMU",
-        "releaseDate": "2021/04/29",
+    "487": {
+        "name": "ブラピおるやん！【GTAⅤ】＃32",
+        "url": "https://www.youtube.com/watch?v=A-lhol2j0jo",
+        "releaseDate": "2021/04/26",
         "gameIds": [
-            171
+            150
         ],
         "actorIds": [
             1
@@ -6531,6 +6466,71 @@
         "releaseDate": "2021/04/27",
         "gameIds": [
             172
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "489": {
+        "name": "最後の強盗、連邦保管庫【GTAⅤ】＃33",
+        "url": "https://www.youtube.com/watch?v=UiYMyRqUzlI",
+        "releaseDate": "2021/04/28",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "490": {
+        "name": "残酷なゲームやでほんま【TABS】第3戦",
+        "url": "https://www.youtube.com/watch?v=SlsysiOEHMU",
+        "releaseDate": "2021/04/29",
+        "gameIds": [
+            171
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "491": {
+        "name": "ラストバトル前にケンカすな【GTAⅤ】＃34",
+        "url": "https://www.youtube.com/watch?v=aoHIeOLkVNQ",
+        "releaseDate": "2021/04/30",
+        "gameIds": [
+            150
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
+    },
+    "492": {
+        "name": "【雑談】教えてもらった漫画を語る【2回目】",
+        "url": "https://www.youtube.com/watch?v=CW8Tx0Uixw0",
+        "releaseDate": "2021/05/01",
+        "gameIds": [
+            149
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
+    },
+    "493": {
+        "name": "僕達はズッ友です【GTAⅤ】＃35(終)",
+        "url": "https://www.youtube.com/watch?v=H-m29QbOYkg",
+        "releaseDate": "2021/05/02",
+        "gameIds": [
+            150
         ],
         "actorIds": [
             1
@@ -6562,6 +6562,19 @@
             1
         ],
         "chat": true,
+        "comment": ""
+    },
+    "496": {
+        "name": "僕の弓で彼女のハートを射止めたい【Hades】＃2",
+        "url": "https://www.youtube.com/watch?v=_k1LQoPKROg",
+        "releaseDate": "2021/05/05",
+        "gameIds": [
+            173
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
         "comment": ""
     }
 }

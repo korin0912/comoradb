@@ -6576,5 +6576,18 @@
         ],
         "chat": false,
         "comment": ""
+    },
+    "497": {
+        "name": "【雑談実況】ドン・ファンって知ってる？【ロックマン2】＃6",
+        "url": "https://www.youtube.com/watch?v=sp9gH3dSyRU",
+        "releaseDate": "2021/05/06",
+        "gameIds": [
+            156
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": true,
+        "comment": ""
     }
 }

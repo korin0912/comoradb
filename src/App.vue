@@ -106,18 +106,35 @@ h1 span {
 }
 
 table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0px;
 }
 
 th {
   font-size: 0.8rem;
   font-weight: 200;
   padding: 2px 5px 2px 5px;
-  border-width: 1px;
+  border-width: 0px 1px 1px 0px;
   border-style: solid;
   border-color: #dddddd;
   position: sticky;
   top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+th.first {
+  border-top-width: 1px;
+  top: 0;
+}
+
+th.second {
+  /* 高さが変わるたびに調整が必要なので、良くない */
+  top: 26px;
+}
+
+th.left {
+  border-left-width: 1px;
 }
 
 th.pale {
@@ -134,10 +151,14 @@ td {
   font-size: 0.8rem;
   font-weight: 200;
   padding: 2px 5px 2px 5px;
-  border-width: 1px;
+  border-width: 0px 1px 1px 0px;
   border-style: solid;
   border-color: #dddddd;
   text-align: left;
+}
+
+td.left {
+  border-left-width: 1px;
 }
 
 td.genres {

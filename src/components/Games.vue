@@ -5,23 +5,23 @@
         <table class="table">
           <thead>
             <tr>
-              <th colspan="4" class="pale">
+              <th colspan="4" class="pale first left">
                 {{ "ゲーム (" + gameCount + ")" }}
               </th>
-              <th colspan="5" class="dark">
+              <th colspan="5" class="dark first">
                 {{ "動画 (" + movieCount + ")" }}
               </th>
             </tr>
             <tr>
-              <th class="pale">#</th>
-              <th class="pale">タイトル</th>
-              <th class="pale">リンク</th>
-              <th class="pale">ジャンル</th>
-              <th class="dark">#</th>
-              <th class="dark">公開日</th>
-              <th class="dark">タイトル</th>
-              <th class="dark">出演</th>
-              <th class="dark">雑談</th>
+              <th class="pale second left">#</th>
+              <th class="pale second">タイトル</th>
+              <th class="pale second">リンク</th>
+              <th class="pale second">ジャンル</th>
+              <th class="dark second">#</th>
+              <th class="dark second">公開日</th>
+              <th class="dark second">タイトル</th>
+              <th class="dark second">出演</th>
+              <th class="dark second">雑談</th>
             </tr>
           </thead>
           <tbody>
@@ -31,7 +31,7 @@
                   <template v-if="movieIndex == 0">
                     <td
                       :rowspan="item.movies.length"
-                      class="text-upper text-center"
+                      class="text-upper text-center left"
                     >
                       {{ item.game.id }}
                     </td>

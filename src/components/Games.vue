@@ -14,12 +14,11 @@
             </tr>
             <tr>
               <th class="pale second left">#</th>
-              <th class="pale second">タイトル</th>
-              <th class="pale second">リンク</th>
+              <th class="pale second" colspan="2">タイトル</th>
               <th class="pale second">ジャンル</th>
               <th class="dark second">#</th>
-              <th class="dark second">公開日</th>
               <th class="dark second">タイトル</th>
+              <th class="dark second">公開日</th>
               <th class="dark second">出演</th>
               <th class="dark second">雑談</th>
             </tr>
@@ -62,11 +61,11 @@
                     </td>
                   </template>
                   <td class="text-upper text-center">{{ movie.id }}</td>
-                  <td class="text-upper text-center">
-                    {{ movie.releaseDate }}
-                  </td>
                   <td class="text-upper movie">
                     <a :href="movie.url" target="_blank">{{ movie.name }}</a>
+                  </td>
+                  <td class="text-upper text-center">
+                    {{ movie.releaseDate }}
                   </td>
                   <td class="text-upper text-center">
                     <img

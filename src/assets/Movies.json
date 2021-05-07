@@ -6589,5 +6589,18 @@
         ],
         "chat": true,
         "comment": ""
+    },
+    "498": {
+        "name": "目の前で仲良くされるこの疎外感【Hades】＃3",
+        "url": "https://www.youtube.com/watch?v=O8zQb6z22mI",
+        "releaseDate": "2021/05/07",
+        "gameIds": [
+            173
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
     }
 }

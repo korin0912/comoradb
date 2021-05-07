@@ -11,7 +11,8 @@ Vue Cli を利用し、静的コンテンツとしてブラウザのみで動作
 * [Vue Cli](https://cli.vuejs.org)
 * [Vue.js](https://jp.vuejs.org/index.html)
 * [Vue-head](https://www.npmjs.com/package/vue-head)
-* [Font Awesome](https://fontawesome.com): ゲームジャンルのアイコン
+* [Font Awesome](https://fontawesome.com) (ゲームジャンルのアイコン)
+* [Google Fonts](https://googlefonts.github.io/japanese/#roundedmplus1c)
 
 ---
 

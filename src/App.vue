@@ -33,6 +33,14 @@ export default {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.6.1/css/all.css",
       },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap",
+      },
     ],
   },
 };
@@ -40,7 +48,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

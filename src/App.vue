@@ -59,30 +59,42 @@ export default {
   font-style: normal;
 }
 
-.urlicon {
+i.urlicon {
   padding: 2px 2px 2px 2px;
   vertical-align: middle;
   margin: 0 auto;
 }
 
-.urlicon.home {
+i.urlicon.home {
   color: #888888;
 }
 
-.urlicon.steam {
+i.urlicon.steam {
   color: #324b6c;
 }
 
-.urlicon.twitter {
+i.urlicon.twitter {
   color: #80cafd;
 }
 
-.urlicon.facebook {
+i.urlicon.facebook {
   color: #4267b2;
 }
 
-.urlicon.youtube {
+i.urlicon.youtube {
   color: #ff0000;
+}
+
+img.urlicon {
+  width: 20px;
+  height: 20px;
+  padding: 2px 2px 2px 2px;
+  vertical-align: middle;
+  margin: 0 auto;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
 }
 
 span.genre {

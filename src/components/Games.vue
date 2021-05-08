@@ -40,7 +40,12 @@
                     :href="url.url"
                     target="_blank"
                   >
-                    <i :class="url.icon + ' fa-lg urlicon'" />
+                    <template v-if="url.tag == 1">
+                      <i :class="url.icon" />
+                    </template>
+                    <template v-else-if="url.tag == 2">
+                      <img class="urlicon" :src="require('../assets/urlicon_' + url.icon)" />
+                    </template>
                   </a>
                 </td>
                 <td :rowspan="item.gameRow" class="text-upper genres">
@@ -113,14 +118,16 @@ export default {
       })
       .forEach((gameId) => {
         // ゲーム作成
-        var gameData = gamesData[gameId];
+        let gameData = gamesData[gameId];
         let game = {
           id: gameId,
           name: gameData.name,
           urls: gameData.urls.map((url) => {
+            let icontype = get_url_type(url);
             return {
               url: url,
-              icon: get_url_icon_class(get_url_type(url)),
+              icon: get_url_icon_class(icontype),
+              tag: get_url_icon_tag(icontype),
             };
           }),
           genres: gameData.genreIds.map((genreId) => gameGenresData[genreId]),
@@ -129,7 +136,7 @@ export default {
         // ゲームに対応しての動画のリスト作成
         let isPushItems = false;
         Object.keys(moviesData).forEach((movieId) => {
-          var movieData = moviesData[movieId];
+          let movieData = moviesData[movieId];
           if (movieData.gameIds.find((id) => gameId == id) == null) {
             return;
           }
@@ -227,6 +234,12 @@ function get_url_type(url) {
     return 4;
   } else if (url.indexOf("www.youtube.com") != -1) {
     return 5;
+  } else if (url.indexOf("www.nintendo.co.jp") != -1) {
+    return 6;
+  } else if (url.indexOf("www.ea.com") != -1) {
+    return 7;
+  } else if (url.indexOf("www.capcom.co.jp") != -1) {
+    return 8;
   } else {
     return 1;
   }
@@ -244,7 +257,25 @@ function get_url_icon_class(type) {
       return "fab fa-facebook-square fa-lg urlicon facebook";
     case 5:
       return "fab fa-youtube fa-lg urlicon youtube";
+    case 6:
+      return "nintendo.png";
+    case 7:
+      return "EA.jpg";
+    case 8:
+      return "CAPCOM.png";
   }
+}
+
+function get_url_icon_tag(type)
+{
+  switch (type) {
+    case 6:
+    case 7:
+    case 8:
+      return 2;
+  }
+
+  return 1;
 }
 </script>
 

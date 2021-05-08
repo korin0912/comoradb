@@ -225,6 +225,8 @@ function get_url_type(url) {
     return 3;
   } else if (url.indexOf("www.facebook.com") != -1) {
     return 4;
+  } else if (url.indexOf("www.youtube.com") != -1) {
+    return 5;
   } else {
     return 1;
   }
@@ -240,6 +242,8 @@ function get_url_icon_class(type) {
       return "fab fa-twitter-square fa-lg urlicon twitter";
     case 4:
       return "fab fa-facebook-square fa-lg urlicon facebook";
+    case 5:
+      return "fab fa-youtube fa-lg urlicon youtube";
   }
 }
 </script>

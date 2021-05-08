@@ -6602,5 +6602,18 @@
         ],
         "chat": false,
         "comment": ""
+    },
+    "499": {
+        "name": "仕事を辞めてラップで生きていこうと思う【ラッパーの人生シミュレーション】",
+        "url": "https://www.youtube.com/watch?v=sgHB2hNcsW4",
+        "releaseDate": "2021/05/08",
+        "gameIds": [
+            175
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
     }
 }

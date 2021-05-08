@@ -39,7 +39,7 @@ export default {
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100;300",
       },
     ],
   },
@@ -48,7 +48,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -79,6 +79,10 @@ export default {
 
 .urlicon.facebook {
   color: #4267b2;
+}
+
+.urlicon.youtube {
+  color: #ff0000;
 }
 
 span.genre {
@@ -119,6 +123,7 @@ table {
 }
 
 th {
+  height: 20px;
   font-size: 0.8rem;
   font-weight: 200;
   padding: 2px 5px 2px 5px;

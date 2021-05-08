@@ -1927,5 +1927,18 @@
             113
         ],
         "comment": ""
+    },
+    "175": {
+        "name": "ラッパーの人生シミュレーション",
+        "urls": [
+            "https://www.youtube.com/channel/UCk1AD_JDnufD3DGF8MpDLdw",
+            "https://store.steampowered.com/app/1581750/_/"
+        ],
+        "genreIds": [
+            5,
+            1,
+            2
+        ],
+        "comment": ""
     }
 }

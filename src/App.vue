@@ -86,9 +86,9 @@ i.urlicon.youtube {
 }
 
 img.urlicon {
-  width: 20px;
-  height: 20px;
-  padding: 2px 2px 2px 2px;
+  width: 17px;
+  height: 17px;
+  padding: 0;
   vertical-align: middle;
   margin: 0 auto;
   border-radius: 50%;
@@ -222,12 +222,12 @@ div.checkmark {
 }
 
 img.actor {
-  border-radius: 50%;
+  border-radius: 20%;
   border-style: solid;
   border-width: 1px;
   border-color: #dddddd;
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
   margin: 0px 2px 0px 0px;
 }
 

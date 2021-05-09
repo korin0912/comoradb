@@ -6615,5 +6615,18 @@
         ],
         "chat": false,
         "comment": ""
+    },
+    "500": {
+        "name": "たぶんいい人【Hades】＃4",
+        "url": "https://www.youtube.com/watch?v=6Zv0RipueRI",
+        "releaseDate": "2021/05/09",
+        "gameIds": [
+            173
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
     }
 }

@@ -6641,5 +6641,18 @@
         ],
         "chat": false,
         "comment": ""
+    },
+    "502": {
+        "name": "親子対決は熱い【Hades】＃5",
+        "url": "https://www.youtube.com/watch?v=pitq0r3GKNY",
+        "releaseDate": "2021/05/11",
+        "gameIds": [
+            173
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
     }
 }

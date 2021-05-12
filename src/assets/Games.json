@@ -1940,5 +1940,16 @@
             2
         ],
         "comment": ""
+    },
+    "176": {
+        "name": "Mountain",
+        "urls": [
+            "https://store.steampowered.com/app/313340/Mountain/?l=japanese"
+        ],
+        "genreIds": [
+            5,
+            133
+        ],
+        "comment": ""
     }
 }

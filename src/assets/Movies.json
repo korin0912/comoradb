@@ -6668,5 +6668,18 @@
         ],
         "chat": true,
         "comment": ""
+    },
+    "504": {
+        "name": "ザグレウスの戦いは続く【Hades】＃6(終)",
+        "url": "https://www.youtube.com/watch?v=HoQ-OxlWCQ4",
+        "releaseDate": "2021/05/13",
+        "gameIds": [
+            173
+        ],
+        "actorIds": [
+            1
+        ],
+        "chat": false,
+        "comment": ""
     }
 }

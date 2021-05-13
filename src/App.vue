@@ -1,10 +1,7 @@
 <template>
   <div id="app">
     <h1>
-      <a
-        href="https://www.youtube.com/channel/UC5fwtXKwDpgboOud4DbjQTg"
-        target="_blank"
-      >
+      <a href="https://www.youtube.com/channel/UC5fwtXKwDpgboOud4DbjQTg" target="_blank">
         <img alt="comoradb logo" src="./assets/logo.png" />
       </a>
       <span>『コモラとチャンチョのゲーム部屋』ゲーム一覧</span>
@@ -48,7 +45,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: "Kosugi Maru", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -158,6 +155,38 @@ th.second {
   top: 26px;
 }
 
+th.game-id {
+  width: 3%;
+}
+
+th.game-name {
+  width: 32%;
+}
+
+th.game-genres {
+  width: 10%;
+}
+
+th.movie-id {
+  width: 3%;
+}
+
+th.movie-name {
+  width: 40%;
+}
+
+th.movie-date {
+  width: 5%;
+}
+
+th.movie-actors {
+  width: 4%;
+}
+
+th.movie-chat {
+  width: 3%;
+}
+
 th.left {
   border-left-width: 1px;
 }
@@ -188,6 +217,10 @@ td.left {
 
 td.genres {
   width: 10%;
+}
+
+td.links {
+  width: 5%;
 }
 
 td.movie {
@@ -231,4 +264,43 @@ img.actor {
   margin: 0px 2px 0px 0px;
 }
 
+.container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 85% 15%;
+  grid-template-areas: "box1 box2";
+}
+
+.main {
+  grid-area: box1;
+}
+
+.sidebar {
+  grid-area: box2;
+}
+
+div.filter-box {
+  margin: 10px 10px 0px 10px;
+}
+
+input.filter-text {
+  width: 100%;
+  margin: 0;
+}
+
+div.filter-checkbox {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+input.filter-checkbox {
+  margin: 3px 3px 3px 0px;
+}
+
+label.filter-checkbox {
+  font-size: 0.8rem;
+  font-weight: 200;
+  vertical-align: middle;
+}
 </style>

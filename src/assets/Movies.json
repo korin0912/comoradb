@@ -6681,5 +6681,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "505": {
+    "name": "ぽんぽこ24生放送中にとあるゲームで勝手に宣伝するコモラ【slither.io】",
+    "url": "https://www.youtube.com/watch?v=6FLq2DfDFAw",
+    "releaseDate": "2021/05/14",
+    "gameIds": [
+      33
+    ],
+    "actorIds": [
+      1,
+      2
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

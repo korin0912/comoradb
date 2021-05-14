@@ -12,7 +12,7 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Games from "./components/Games.vue";
+import Games from "./components/Games/Games.vue";
 
 export default {
   name: "App",
@@ -23,7 +23,7 @@ export default {
     title: {
       inner: "コモラDB",
       separator: "|",
-      complement: "ゲームリスト",
+      complement: "ゲーム一覧",
     },
     link: [
       {
@@ -37,6 +37,10 @@ export default {
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100;300",
+      },
+      {
+        rel: "stylesheet",
+        href: require("./components/Common/Common.css"),
       },
     ],
   },
@@ -54,55 +58,6 @@ export default {
   font-size: 1.4rem;
   font-weight: 400;
   font-style: normal;
-}
-
-i.urlicon {
-  padding: 2px 2px 2px 2px;
-  vertical-align: middle;
-  margin: 0 auto;
-}
-
-i.urlicon.home {
-  color: #888888;
-}
-
-i.urlicon.steam {
-  color: #324b6c;
-}
-
-i.urlicon.twitter {
-  color: #80cafd;
-}
-
-i.urlicon.facebook {
-  color: #4267b2;
-}
-
-i.urlicon.youtube {
-  color: #ff0000;
-}
-
-img.urlicon {
-  width: 17px;
-  height: 17px;
-  padding: 0;
-  vertical-align: middle;
-  margin: 0 auto;
-  border-radius: 50%;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #dddddd;
-}
-
-span.genre {
-  font-size: 0.6rem;
-  border-radius: 5px 5px 5px 5px;
-  border-style: none;
-  background-color: #fbcb2d;
-  color: #000000;
-  margin: 1px 1px 0px 0px;
-  padding: 1px 5px 0px 5px;
-  display: inline-block;
 }
 
 h1 {
@@ -123,184 +78,6 @@ h1 img {
 
 h1 span {
   display: inline-block;
-  vertical-align: middle;
-}
-
-table {
-  border-collapse: separate;
-  border-spacing: 0px;
-}
-
-th {
-  height: 20px;
-  font-size: 0.8rem;
-  font-weight: 200;
-  padding: 2px 5px 2px 5px;
-  border-width: 0px 1px 1px 0px;
-  border-style: solid;
-  border-color: #dddddd;
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-th.first {
-  border-top-width: 1px;
-  top: 0;
-}
-
-th.second {
-  /* 高さが変わるたびに調整が必要なので、良くない */
-  top: 26px;
-}
-
-th.game-id {
-  width: 3%;
-}
-
-th.game-name {
-  width: 32%;
-}
-
-th.game-genres {
-  width: 10%;
-}
-
-th.movie-id {
-  width: 3%;
-}
-
-th.movie-name {
-  width: 40%;
-}
-
-th.movie-date {
-  width: 5%;
-}
-
-th.movie-actors {
-  width: 4%;
-}
-
-th.movie-chat {
-  width: 3%;
-}
-
-th.left {
-  border-left-width: 1px;
-}
-
-th.pale {
-  color: #ffffff;
-  background-color: #c1abd2;
-}
-
-th.dark {
-  color: #ffffff;
-  background-color: #8457a8;
-}
-
-td {
-  font-size: 0.8rem;
-  font-weight: 200;
-  padding: 2px 5px 2px 5px;
-  border-width: 0px 1px 1px 0px;
-  border-style: solid;
-  border-color: #dddddd;
-  text-align: left;
-}
-
-td.left {
-  border-left-width: 1px;
-}
-
-td.genres {
-  width: 10%;
-}
-
-td.links {
-  width: 5%;
-}
-
-td.movie {
-  font-size: 0.7rem;
-}
-
-td.actors {
-  font-size: 0.6rem;
-  width: 10%;
-}
-
-div.checkmark {
-  content: "";
-  width: 10px;
-  height: 5px;
-  border-left: 2px solid #25af01;
-  border-bottom: 2px solid #25af01;
-  transform: rotate(-45deg);
-  margin: 0 auto;
-}
-
-.text-upper {
-  vertical-align: top;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.check {
-  color: #25af01;
-}
-
-img.actor {
-  border-radius: 20%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #dddddd;
-  width: 15px;
-  height: 15px;
-  margin: 0px 2px 0px 0px;
-}
-
-.container {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 85% 15%;
-  grid-template-areas: "box1 box2";
-}
-
-.main {
-  grid-area: box1;
-}
-
-.sidebar {
-  grid-area: box2;
-}
-
-div.filter-box {
-  margin: 10px 10px 0px 10px;
-}
-
-input.filter-text {
-  width: 100%;
-  margin: 0;
-}
-
-div.filter-checkbox {
-  text-align: left;
-  width: 100%;
-  margin: 0;
-}
-
-input.filter-checkbox {
-  margin: 3px 3px 3px 0px;
-}
-
-label.filter-checkbox {
-  font-size: 0.8rem;
-  font-weight: 200;
   vertical-align: middle;
 }
 </style>

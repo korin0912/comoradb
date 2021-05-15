@@ -6695,5 +6695,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "506": {
+    "name": "【雑談】GW外出録を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=R8YMocJ29Zk",
+    "releaseDate": "2021/05/15",
+    "gameIds": [
+      173
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

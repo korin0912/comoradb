@@ -76,7 +76,7 @@
     </div>
     <div class="sidebar">
       <div class="filter-box">
-        <input v-on:change="filterTable" v-model="filterParams.text" placeholder="テキスト" class="filter-text" />
+        <input v-on:input="filterTable" v-model="filterParams.text" placeholder="テキストフィルター" class="filter-text" />
       </div>
       <div class="filter-box">
         <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
@@ -230,12 +230,12 @@ function getTableItems(filterParams) {
 
   // フィルター
   // console.log(filterParams);
-  let filterActors = null;
+  let filterText = null;
   if ("text" in filterParams && filterParams.text != null && filterParams.text != "") {
     filterText = filterParams.text.toLowerCase();
   }
 
-  let filterText = null;
+  let filterActors = null;
   if ("actors" in filterParams) {
     filterActors = filterParams.actors.filter((actor) => actor.check).map((actor) => actor.id);
     // console.log(filterActors);

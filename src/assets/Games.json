@@ -1951,5 +1951,17 @@
       133
     ],
     "comment": ""
+  },
+  "177": {
+    "name": "GUILTY GEAR -STRIVE-",
+    "urls": [
+      "https://www.guiltygear.com/ggst/jp/",
+      "https://store.steampowered.com/app/1384160/GUILTY_GEAR_STRIVE/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      11
+   ],
+    "comment": ""
   }
 }

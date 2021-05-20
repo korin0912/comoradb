@@ -1,7 +1,7 @@
-﻿import gamesData from "../../assets/Games.json";
-import gameGenresData from "../../assets/GameGenres.json";
-import moviesData from "../../assets/Movies.json";
-import actorsData from "../../assets/Actors.json";
+﻿import gamesData from "../../assets/resources/Games.json";
+import gameGenresData from "../../assets/resources/GameGenres.json";
+import moviesData from "../../assets/resources/Movies.json";
+import actorsData from "../../assets/resources/Actors.json";
 
 import common from "../Common/Common.js";
 
@@ -61,7 +61,7 @@ function getTableOriginalItems() {
               return {
                 id: actorId,
                 key: "actor-" + actorId,
-                icon: require("../../assets/actor_" + actorId + ".png"),
+                icon: require("../../assets/images/actor_" + actorId + ".png"),
                 name: actorsData[actorId].name,
               };
             }),

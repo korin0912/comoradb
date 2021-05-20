@@ -37,11 +37,11 @@ function getUrlIcon(type) {
     case 5:
       return "fab fa-youtube fa-lg urlicon youtube";
     case 6:
-      return require("../../assets/urlicon_nintendo.png");
+      return require("../../assets/images/urlicon_nintendo.png");
     case 7:
-      return require("../../assets/urlicon_EA.jpg");
+      return require("../../assets/images/urlicon_EA.jpg");
     case 8:
-      return require("../../assets/urlicon_CAPCOM.png");
+      return require("../../assets/images/urlicon_CAPCOM.png");
   }
 }
 

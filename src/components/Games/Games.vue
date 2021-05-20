@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import actorsData from "../../assets/Actors.json";
+import actorsData from "../../assets/resources/Actors.json";
 
 import common from "../Common/Common.js";
 import games from "./Games.js";

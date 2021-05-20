@@ -2,7 +2,7 @@
   <div id="app">
     <h1>
       <a href="https://www.youtube.com/channel/UC5fwtXKwDpgboOud4DbjQTg" target="_blank">
-        <img alt="comoradb logo" src="./assets/logo.png" />
+        <img alt="comoradb logo" src="./assets/images/logo.png" />
       </a>
       <span>『コモラとチャンチョのゲーム部屋』ゲーム一覧</span>
     </h1>

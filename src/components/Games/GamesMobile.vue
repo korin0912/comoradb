@@ -12,9 +12,9 @@
             </th>
           </tr>
           <tr>
-            <th class="pale second left game-id">##</th>
+            <th class="pale second left game-id">#</th>
             <th class="pale second game-name">タイトル</th>
-            <th class="dark second movie-id">##</th>
+            <th class="dark second movie-id">#</th>
             <th class="dark second movie-name">タイトル</th>
           </tr>
         </thead>

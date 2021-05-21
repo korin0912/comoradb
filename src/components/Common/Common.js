@@ -71,9 +71,18 @@ function isMobile()
   }
 }
 
+/**
+ * ディープコピー
+ */
+function copyDeep(params)
+{
+  return JSON.parse(JSON.stringify(params));
+}
+
 export default {
   getUrlType,
   getUrlIcon,
   getUrlTagType,
   isMobile,
+  copyDeep,
 }

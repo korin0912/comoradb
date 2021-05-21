@@ -1,5 +1,6 @@
 ﻿<template>
   <div class="container">
+    <!-- メインテーブル -->
     <div class="main">
       <table class="table">
         <thead>
@@ -81,14 +82,24 @@
         </tbody>
       </table>
     </div>
+    <!-- サイドバー -->
     <div class="sidebar">
+      <!-- テキスト -->
       <div class="filter-box">
-        <input v-on:change="filterTable" v-model="filterParams.text" placeholder="テキストフィルター" class="filter-text" />
+        <input v-on:input="filterTable" v-model="filterParams.text" placeholder="テキストフィルター" class="filter-text" />
       </div>
+      <!-- 出演者 -->
       <div class="filter-box">
         <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
           <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
           <label :for="'filter-actor-' + actor.id" class="filter-checkbox">{{ actor.name }}</label>
+        </div>
+      </div>
+      <!-- ジャンル -->
+      <div class="filter-box">
+        <div v-for="genre in filterParams.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
+          <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="filterTable" v-model="genre.check" class="filter-checkbox" />
+          <label :for="'filter-genre-' + genre.id" class="filter-checkbox">{{ genre.name }}</label>
         </div>
       </div>
     </div>
@@ -112,6 +123,7 @@ export default {
   methods: {
     filterTable: function () {
       console.clear();
+      this.filterParams = games.updateFilterParams(this.filterParams);
       let tableItems = games.getTableItems(this.filterParams);
       this.items = tableItems.items;
       this.gameCount = tableItems.gameCount;
@@ -123,6 +135,8 @@ export default {
 
 <style scoped>
 .container {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1600px;
   display: grid;
   grid-template-rows: auto;

@@ -133,54 +133,6 @@ a.icon {
   height: 23px;
 }
 
-div.filter-box {
-  position: relative;
-  font-size: 13px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #dddddd;
-  margin: 0px 10px 10px 10px;
-  padding: 13px 10px 10px 10px;
-}
-
-div.filter-box-outline {
-  padding: 13px 0px 0px 0px;
-}
-
-div.filter-box .caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1em;
-  padding: 0 1em;
-  margin: 0;
-  background-color: white;
-  transform: translateY(-50%) translateX(1em);
-}
-
-input.filter-text {
-  width: calc(100% - 8px);
-  margin: 0;
-  padding: 2px;
-}
-
-div.filter-checkbox {
-  text-align: left;
-  width: 100%;
-  margin: 0;
-}
-
-input.filter-checkbox {
-  margin: 0px 3px 0px 0px;
-}
-
-label.filter-checkbox {
-  font-size: 0.8rem;
-  font-weight: 200;
-  vertical-align: top;
-}
-
 .text-upper {
   vertical-align: top;
 }

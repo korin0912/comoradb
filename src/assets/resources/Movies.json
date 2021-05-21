@@ -6774,5 +6774,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "512": {
+    "name": "【雑談実況】父がVtuberを見ていた話【ロックマン2】＃7(終)",
+    "url": "https://www.youtube.com/watch?v=5mRjU-UgEJw",
+    "releaseDate": "2021/05/21",
+    "gameIds": [
+      156
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

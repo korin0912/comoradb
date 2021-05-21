@@ -130,6 +130,9 @@ function filterTableItems(items, filterParams) {
     // console.log(filterGenres);
   }
 
+  // 雑談
+  let filterChat = filterParams.chat;
+
   // フィルター
   return items.map((item) => {
     let del = false;
@@ -150,6 +153,13 @@ function filterTableItems(items, filterParams) {
     // ゲームジャンル
     if (filterGenres != null) {
       if (item.game.genres.filter((genre) => filterGenres.some((id) => id == 0 || id == genre.id)).length <= 0) {
+        del = true;
+      }
+    }
+
+    // 雑談
+    if (filterChat) {
+      if (!item.movie.chat) {
         del = true;
       }
     }
@@ -266,10 +276,14 @@ function getInitialFilterParams() {
     });
   });
 
+  // 雑談
+  let chat = false;
+
   originalFilterParams = {
     text: text,
     actors: actors,
     genres: genres,
+    chat: chat,
   }
 
   return common.copyDeep(originalFilterParams);
@@ -285,14 +299,15 @@ function updateFilterParams(filterParams) {
   originalFilterParams.actors = updateFilterParamsByCheckboxGroup(originalFilterParams.actors, filterParams.actors);
   // ジャンル
   originalFilterParams.genres = updateFilterParamsByCheckboxGroup(originalFilterParams.genres, filterParams.genres);
+  // 雑談
+  originalFilterParams.chat = filterParams.chat;
 
   // console.log(originalFilterParams);
 
   return common.copyDeep(originalFilterParams);
 }
 
-function updateFilterParamsByCheckboxGroup(orgParams, newParams)
-{
+function updateFilterParamsByCheckboxGroup(orgParams, newParams) {
   let orgAll = orgParams[0].check;
   let orgChoice = (orgParams.filter((actor) => actor.id != 0 && actor.check).length > 0);
   let newAll = newParams[0].check;

@@ -84,22 +84,36 @@
     </div>
     <!-- サイドバー -->
     <div class="sidebar">
-      <!-- テキスト -->
-      <div class="filter-box">
-        <input v-on:input="filterTable" v-model="filterParams.text" placeholder="テキストフィルター" class="filter-text" />
-      </div>
-      <!-- 出演者 -->
-      <div class="filter-box">
-        <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
-          <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
-          <label :for="'filter-actor-' + actor.id" class="filter-checkbox">{{ actor.name }}</label>
+      <div class="filter-box filter-box-outline">
+        <label class="caption">フィルター</label>
+        <!-- テキスト -->
+        <div class="filter-box">
+          <label class="caption">テキスト</label>
+          <input v-on:input="filterTable" v-model="filterParams.text" placeholder="" class="filter-text" />
         </div>
-      </div>
-      <!-- ジャンル -->
-      <div class="filter-box">
-        <div v-for="genre in filterParams.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
-          <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="filterTable" v-model="genre.check" class="filter-checkbox" />
-          <label :for="'filter-genre-' + genre.id" class="filter-checkbox">{{ genre.name }}</label>
+        <!-- 出演者 -->
+        <div class="filter-box">
+          <label class="caption">出演者</label>
+          <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
+            <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
+            <label :for="'filter-actor-' + actor.id" class="filter-checkbox">{{ actor.name }}</label>
+          </div>
+        </div>
+        <!-- ジャンル -->
+        <div class="filter-box">
+          <label class="caption">ゲームジャンル</label>
+          <div v-for="genre in filterParams.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
+            <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="filterTable" v-model="genre.check" class="filter-checkbox" />
+            <label :for="'filter-genre-' + genre.id" class="filter-checkbox">{{ genre.name }}</label>
+          </div>
+        </div>
+        <!-- 雑談 -->
+        <div class="filter-box">
+          <label class="caption">その他</label>
+          <div class="filter-checkbox">
+            <input type="checkbox" :id="'filter-chat'" v-on:change="filterTable" v-model="filterParams.chat" class="filter-checkbox" />
+            <label :for="'filter-chat'" class="filter-checkbox">雑談のみ</label>
+          </div>
         </div>
       </div>
     </div>

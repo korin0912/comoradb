@@ -44,6 +44,7 @@ export default {
 
 <style>
 table {
+  width: 100%;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -133,13 +134,29 @@ a.icon {
 }
 
 div.filter-box {
+  position: relative;
   font-size: 13px;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
   border-color: #dddddd;
   margin: 0px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  padding: 13px 10px 10px 10px;
+}
+
+div.filter-box-outline {
+  padding: 13px 0px 0px 0px;
+}
+
+div.filter-box .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+  padding: 0 1em;
+  margin: 0;
+  background-color: white;
+  transform: translateY(-50%) translateX(1em);
 }
 
 input.filter-text {

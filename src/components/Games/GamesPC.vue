@@ -1,5 +1,6 @@
 ﻿<template>
   <div class="container">
+    <!-- メインテーブル -->
     <div class="main">
       <table class="table">
         <thead>
@@ -81,14 +82,52 @@
         </tbody>
       </table>
     </div>
+    <!-- サイドバー -->
     <div class="sidebar">
-      <div class="filter-box">
-        <input v-on:change="filterTable" v-model="filterParams.text" placeholder="テキストフィルター" class="filter-text" />
-      </div>
-      <div class="filter-box">
-        <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
-          <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
-          <label :for="'filter-actor-' + actor.id" class="filter-checkbox">{{ actor.name }}</label>
+      <div class="filter-box filter-box-outline">
+        <label class="caption">フィルター</label>
+        <!-- テキスト -->
+        <div class="filter-box">
+          <label class="caption">テキスト</label>
+          <input v-on:input="filterTable" v-model="filterParams.text" placeholder="" class="filter-text" />
+          <button v-on:click="resetInput('text')" class="reset"><i :class="getResetIcon()" /></button>
+        </div>
+        <!-- 出演者 -->
+        <div class="filter-box">
+          <label class="caption">出演者</label>
+          <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
+            <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
+            <label :for="'filter-actor-' + actor.id" class="filter-checkbox">{{ actor.name }}</label>
+          </div>
+        </div>
+        <!-- 公開日 -->
+        <div class="filter-box">
+          <label class="caption">公開日</label>
+          <div>
+            <input type="date" id="filter-date-from" v-on:change="filterTable" v-model="filterParams.releaseDates.from" class="filter-date" />
+            <button v-on:click="resetInput('releaseDateFrom')" class="reset"><i :class="getResetIcon()" /></button>
+          </div>
+          <span>～</span>
+          <div>
+            <input type="date" id="filter-date-to" v-on:change="filterTable" v-model="filterParams.releaseDates.to" class="filter-date" />
+            <button v-on:click="resetInput('releaseDateTo')" class="reset"><i :class="getResetIcon()" /></button>
+          </div>
+        </div>
+        <!-- ジャンル -->
+        <div class="filter-box">
+          <label class="caption">ゲームジャンル</label>
+          <div v-for="genre in filterParams.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
+            <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="filterTable" v-model="genre.check" class="filter-checkbox" />
+            <label :for="'filter-genre-' + genre.id" class="filter-checkbox">{{ genre.name }}</label>
+          </div>
+        </div>
+        <!-- 雑談 -->
+        <div class="filter-box">
+          <label class="caption">その他</label>
+          <div class="filter-checkbox">
+            <input type="checkbox" :id="'filter-chat'" v-on:change="filterTable" v-model="filterParams.chat" class="filter-checkbox" />
+            <label :for="'filter-chat'" class="filter-checkbox">雑談のみ</label>
+          </div>
         </div>
       </div>
     </div>
@@ -96,6 +135,7 @@
 </template>
 
 <script>
+import common from "../Common/Common.js";
 import games from "./Games.js";
 
 export default {
@@ -112,6 +152,16 @@ export default {
   methods: {
     filterTable: function () {
       console.clear();
+      this.filterParams = games.updateFilterParams(this.filterParams);
+      let tableItems = games.getTableItems(this.filterParams);
+      this.items = tableItems.items;
+      this.gameCount = tableItems.gameCount;
+      this.movieCount = tableItems.movieCount;
+    },
+    getResetIcon: common.getResetIcon,
+    resetInput: function (filter) {
+      console.clear();
+      this.filterParams = games.resetFilterParamsInput(this.filterParams, filter);
       let tableItems = games.getTableItems(this.filterParams);
       this.items = tableItems.items;
       this.gameCount = tableItems.gameCount;
@@ -123,6 +173,8 @@ export default {
 
 <style scoped>
 .container {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1600px;
   display: grid;
   grid-template-rows: auto;
@@ -168,5 +220,74 @@ th.movie-actors {
 
 th.movie-chat {
   width: 3%;
+}
+
+div.filter-box {
+  position: relative;
+  font-size: 13px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+  margin: 0px 10px 10px 10px;
+  padding: 13px 10px 10px 10px;
+}
+
+div.filter-box-outline {
+  padding: 13px 0px 0px 0px;
+}
+
+div.filter-box .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+  padding: 0 1em;
+  margin: 0;
+  background-color: white;
+  transform: translateY(-50%) translateX(1em);
+}
+
+input.filter-text {
+  width: calc(100% - 8px - 23px);
+  margin: 0;
+  padding: 2px;
+}
+
+div.filter-checkbox {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+input.filter-checkbox {
+  margin: 0px 3px 0px 0px;
+}
+
+label.filter-checkbox {
+  font-size: 0.8rem;
+  font-weight: 200;
+  vertical-align: top;
+}
+
+input.filter-date {
+  text-align: left;
+  width: calc(100% - 8px - 23px);
+  margin: 0;
+}
+
+button.reset {
+  width: 21px;
+  height: 21px;
+  margin: 0 0 0 2px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  border-style: solid;
+  padding: 0;
+  content: "f057";
+}
+
+i.reset {
+  vertical-align: middle;
 }
 </style>

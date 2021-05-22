@@ -6,8 +6,6 @@
 </template>
 
 <script>
-import actorsData from "../../assets/resources/Actors.json";
-
 import common from "../Common/Common.js";
 import games from "./Games.js";
 
@@ -26,18 +24,7 @@ export default {
     var isMobile = common.isMobile();
 
     // 初期フィルターパラメータ取得
-    let actors = [];
-    Object.keys(actorsData).forEach((index) => {
-      actors.push({
-        id: index,
-        name: actorsData[index].name,
-        check: true,
-      });
-    });
-    let filterParams = {
-      text: "",
-      actors: actors,
-    };
+    let filterParams = games.getInitialFilterParams();
 
     // テーブルアイテム
     let tableItems = games.getTableItems(filterParams);
@@ -57,6 +44,7 @@ export default {
 
 <style>
 table {
+  width: 100%;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -143,31 +131,6 @@ a {
 a.icon {
   width: 23px;
   height: 23px;
-}
-
-div.filter-box {
-  margin: 10px 10px 0px 10px;
-}
-
-input.filter-text {
-  width: 100%;
-  margin: 0;
-}
-
-div.filter-checkbox {
-  text-align: left;
-  width: 100%;
-  margin: 0;
-}
-
-input.filter-checkbox {
-  margin: 3px 3px 3px 0px;
-}
-
-label.filter-checkbox {
-  font-size: 0.8rem;
-  font-weight: 200;
-  vertical-align: middle;
 }
 
 .text-upper {

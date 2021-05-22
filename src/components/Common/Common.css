@@ -61,3 +61,9 @@ img.actor {
   height: 15px;
   margin: 0px 2px 0px 0px;
 }
+
+input {
+  font-size: 0.8rem;
+  font-weight: 200;
+  font-family: "Kosugi Maru", sans-serif;
+}

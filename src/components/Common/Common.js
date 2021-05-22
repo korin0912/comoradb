@@ -1,6 +1,13 @@
 ﻿/**
- * URL種別取得
+ * リセットアイコン取得
  */
+function getResetIcon() {
+  return "far fa-times-circle fa-lg reset";
+}
+
+/**
+* URL種別取得
+*/
 function getUrlType(url) {
   if (url.indexOf("store.steampowered.com") != -1) {
     return 2;
@@ -62,8 +69,7 @@ function getUrlTagType(type) {
 /**
  * スマホモードチェック
  */
-function isMobile()
-{
+function isMobile() {
   if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
     return true;
   } else {
@@ -71,9 +77,18 @@ function isMobile()
   }
 }
 
+/**
+ * ディープコピー
+ */
+function copyDeep(params) {
+  return JSON.parse(JSON.stringify(params));
+}
+
 export default {
+  getResetIcon,
   getUrlType,
   getUrlIcon,
   getUrlTagType,
   isMobile,
+  copyDeep,
 }

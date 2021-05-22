@@ -8,14 +8,16 @@ import common from "../Common/Common.js";
 /**
  * テーブルのオリジナルデータアイテム
  */
-let tableOriginalItems = null;
+let originalTableItems = null;
 
 /**
  * テーブルのオリジナルアイテム取得
  */
-function getTableOriginalItems() {
-  if (tableOriginalItems == null) {
-    tableOriginalItems = [];
+function getOriginalTableItems() {
+  if (originalTableItems == null) {
+    console.log("create original table items");
+
+    originalTableItems = [];
     Object.keys(gamesData)
       .sort(function (a, b) {
         return Number(a) - Number(b);
@@ -37,6 +39,7 @@ function getTableOriginalItems() {
           }),
           genres: gameData.genreIds.map((genreId) => {
             return {
+              id: genreId,
               key: "genre-" + genreId,
               name: gameGenresData[genreId],
             };
@@ -68,8 +71,8 @@ function getTableOriginalItems() {
             chat: movieData.chat,
           };
 
-          tableOriginalItems.push({
-            key: "games-" + tableOriginalItems.length,
+          originalTableItems.push({
+            key: "games-" + originalTableItems.length,
             gameRow: 1,
             game: game,
             movieRow: 1,
@@ -81,7 +84,7 @@ function getTableOriginalItems() {
 
         // 動画がないことはおそらく無いはずだけど、ガードとして
         if (!isPushItems) {
-          tableOriginalItems.push({
+          originalTableItems.push({
             gameRow: 1,
             game: game,
             movieRow: 1,
@@ -99,7 +102,7 @@ function getTableOriginalItems() {
   }
 
   // 呼び出し元で加工されるので、ディープコピーを返す
-  return JSON.parse(JSON.stringify(tableOriginalItems));
+  return common.copyDeep(originalTableItems);
 }
 
 /**
@@ -113,12 +116,34 @@ function filterTableItems(items, filterParams) {
     filterText = filterParams.text.toLowerCase();
   }
 
+  // 公開日
+  let filterReleaseDateFrom = null;
+  if (filterParams.releaseDates.from) {
+    filterReleaseDateFrom = filterParams.releaseDates.from.replaceAll('-', '/');
+    // console.log(`filter: from: ${filterReleaseDateFrom}`);
+  }
+  let filterReleaseDateTo = null;
+  if (filterParams.releaseDates.to) {
+    filterReleaseDateTo = filterParams.releaseDates.to.replaceAll('-', '/');
+    // console.log(`filter: to: ${filterReleaseDateTo}`);
+  }
+
   // 出演者
   let filterActors = null;
   if ("actors" in filterParams) {
     filterActors = filterParams.actors.filter((actor) => actor.check).map((actor) => actor.id);
     // console.log(filterActors);
   }
+
+  // ゲームジャンル
+  let filterGenres = null;
+  if ("genres" in filterParams) {
+    filterGenres = filterParams.genres.filter((genre) => genre.check).map((genre) => genre.id);
+    // console.log(filterGenres);
+  }
+
+  // 雑談
+  let filterChat = filterParams.chat;
 
   // フィルター
   return items.map((item) => {
@@ -132,7 +157,35 @@ function filterTableItems(items, filterParams) {
 
     // 出演者
     if (filterActors != null) {
-      if (item.movie.actors.filter((actor) => filterActors.some((id) => id == actor.id)).length <= 0) {
+      if (item.movie.actors.filter((actor) => filterActors.some((id) => id == 0 || id == actor.id)).length <= 0) {
+        del = true;
+      }
+    }
+
+    // 公開日 (から)
+    if (filterReleaseDateFrom) {
+      if (item.movie.releaseDate < filterReleaseDateFrom) {
+        del = true;
+      }
+    }
+
+    // 公開日 (まで)
+    if (filterReleaseDateTo) {
+      if (item.movie.releaseDate > filterReleaseDateTo) {
+        del = true;
+      }
+    }
+
+    // ゲームジャンル
+    if (filterGenres != null) {
+      if (item.game.genres.filter((genre) => filterGenres.some((id) => id == 0 || id == genre.id)).length <= 0) {
+        del = true;
+      }
+    }
+
+    // 雑談
+    if (filterChat) {
+      if (!item.movie.chat) {
         del = true;
       }
     }
@@ -157,7 +210,7 @@ function getTableItems(filterParams) {
   // console.log("get table data");
 
   // 1行で1ゲーム1動画のリスト作成
-  let items = getTableOriginalItems(gamesData, gameGenresData, moviesData, actorsData);
+  let items = getOriginalTableItems(gamesData, gameGenresData, moviesData, actorsData);
   // console.log(items);
 
   // フィルター
@@ -210,8 +263,139 @@ function getTableItems(filterParams) {
   };
 }
 
+let originalFilterParams = null;
+
+/**
+ * 初期フィルターパラメータ取得
+ */
+function getInitialFilterParams() {
+  // テキスト
+  let text = "";
+
+  // 出演者
+  let actors = [];
+  actors.push({
+    id: "0",
+    name: "すべて",
+    check: true,
+  });
+  Object.keys(actorsData).forEach((index) => {
+    actors.push({
+      id: index,
+      name: actorsData[index].name,
+      check: false,
+    });
+  });
+
+  // 公開日
+  let releaseDates = {
+    from: "",
+    to: "",
+  };
+
+  // ジャンル
+  let genres = [];
+  genres.push({
+    id: "0",
+    name: "すべて",
+    check: true,
+  });
+  Object.keys(gameGenresData).forEach((index) => {
+    genres.push({
+      id: index,
+      name: gameGenresData[index],
+      check: false,
+    });
+  });
+
+  // 雑談
+  let chat = false;
+
+  originalFilterParams = {
+    text: text,
+    actors: actors,
+    releaseDates: releaseDates,
+    genres: genres,
+    chat: chat,
+  }
+
+  return common.copyDeep(originalFilterParams);
+}
+
+/**
+ * フィルターパラメータ更新
+ */
+function updateFilterParams(filterParams) {
+  // テキスト
+  originalFilterParams.text = filterParams.text;
+  // 出演者
+  originalFilterParams.actors = updateFilterParamsByCheckboxGroup(originalFilterParams.actors, filterParams.actors);
+  // 公開日
+  originalFilterParams.releaseDates.from = filterParams.releaseDates.from;
+  originalFilterParams.releaseDates.to = filterParams.releaseDates.to;
+  // ジャンル
+  originalFilterParams.genres = updateFilterParamsByCheckboxGroup(originalFilterParams.genres, filterParams.genres);
+  // 雑談
+  originalFilterParams.chat = filterParams.chat;
+
+  // console.log(originalFilterParams);
+
+  return common.copyDeep(originalFilterParams);
+}
+
+function updateFilterParamsByCheckboxGroup(orgParams, newParams) {
+  let orgAll = orgParams[0].check;
+  let orgChoice = (orgParams.filter((actor) => actor.id != 0 && actor.check).length > 0);
+  let newAll = newParams[0].check;
+  let newChoice = (newParams.filter((actor) => actor.id != 0 && actor.check).length > 0);
+  let allCheck = orgAll;
+  let choiceCheck = orgChoice;
+
+  // all -> 個別選択
+  if (orgAll && !orgChoice && newChoice) {
+    console.log("all -> choice");
+    allCheck = false;
+    choiceCheck = true;
+  }
+
+  // 個別選択 -> all
+  if (!orgAll && orgChoice && (newAll || !newChoice)) {
+    console.log("choice -> all");
+    allCheck = true;
+    choiceCheck = false;
+  }
+
+  // パラメータ更新
+  orgParams[0].check = allCheck;
+  for (let i = 1; i < orgParams.length; i++) {
+    orgParams[i].check = choiceCheck ? newParams[i].check : false;
+  }
+
+  return orgParams;
+}
+
+/**
+ * フィルターパラメータリセット
+ */
+function resetFilterParamsInput(filterParams, filter) {
+  if (filter == "text") {
+    filterParams.text = "";
+  }
+
+  if (filter == "releaseDateFrom") {
+    filterParams.releaseDates.from = "";
+  }
+
+  if (filter == "releaseDateTo") {
+    filterParams.releaseDates.to = "";
+  }
+
+  return updateFilterParams(filterParams);
+}
+
 export default {
   getTableItems,
-  getTableOriginalItems,
-  filterTableItems,
+  getInitialFilterParams,
+  updateFilterParams,
+  resetFilterParamsInput,
 }

@@ -90,6 +90,7 @@
         <div class="filter-box">
           <label class="caption">テキスト</label>
           <input v-on:input="filterTable" v-model="filterParams.text" placeholder="" class="filter-text" />
+          <button v-on:click="resetInput('text')" class="reset"><i :class="getResetIcon()" /></button>
         </div>
         <!-- 出演者 -->
         <div class="filter-box">
@@ -97,6 +98,19 @@
           <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
             <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
             <label :for="'filter-actor-' + actor.id" class="filter-checkbox">{{ actor.name }}</label>
+          </div>
+        </div>
+        <!-- 公開日 -->
+        <div class="filter-box">
+          <label class="caption">公開日</label>
+          <div>
+            <input type="date" id="filter-date-from" v-on:change="filterTable" v-model="filterParams.releaseDates.from" class="filter-date" />
+            <button v-on:click="resetInput('releaseDateFrom')" class="reset"><i :class="getResetIcon()" /></button>
+          </div>
+          <span>～</span>
+          <div>
+            <input type="date" id="filter-date-to" v-on:change="filterTable" v-model="filterParams.releaseDates.to" class="filter-date" />
+            <button v-on:click="resetInput('releaseDateTo')" class="reset"><i :class="getResetIcon()" /></button>
           </div>
         </div>
         <!-- ジャンル -->
@@ -121,6 +135,7 @@
 </template>
 
 <script>
+import common from "../Common/Common.js";
 import games from "./Games.js";
 
 export default {
@@ -138,6 +153,15 @@ export default {
     filterTable: function () {
       console.clear();
       this.filterParams = games.updateFilterParams(this.filterParams);
+      let tableItems = games.getTableItems(this.filterParams);
+      this.items = tableItems.items;
+      this.gameCount = tableItems.gameCount;
+      this.movieCount = tableItems.movieCount;
+    },
+    getResetIcon: common.getResetIcon,
+    resetInput: function (filter) {
+      console.clear();
+      this.filterParams = games.resetFilterParamsInput(this.filterParams, filter);
       let tableItems = games.getTableItems(this.filterParams);
       this.items = tableItems.items;
       this.gameCount = tableItems.gameCount;
@@ -225,7 +249,7 @@ div.filter-box .caption {
 }
 
 input.filter-text {
-  width: calc(100% - 8px);
+  width: calc(100% - 8px - 23px);
   margin: 0;
   padding: 2px;
 }
@@ -244,5 +268,26 @@ label.filter-checkbox {
   font-size: 0.8rem;
   font-weight: 200;
   vertical-align: top;
+}
+
+input.filter-date {
+  text-align: left;
+  width: calc(100% - 8px - 23px);
+  margin: 0;
+}
+
+button.reset {
+  width: 21px;
+  height: 21px;
+  margin: 0 0 0 2px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  border-style: solid;
+  padding: 0;
+  content: "f057";
+}
+
+i.reset {
+  vertical-align: middle;
 }
 </style>

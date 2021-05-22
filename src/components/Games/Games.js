@@ -116,6 +116,18 @@ function filterTableItems(items, filterParams) {
     filterText = filterParams.text.toLowerCase();
   }
 
+  // 公開日
+  let filterReleaseDateFrom = null;
+  if (filterParams.releaseDates.from) {
+    filterReleaseDateFrom = filterParams.releaseDates.from.replaceAll('-', '/');
+    // console.log(`filter: from: ${filterReleaseDateFrom}`);
+  }
+  let filterReleaseDateTo = null;
+  if (filterParams.releaseDates.to) {
+    filterReleaseDateTo = filterParams.releaseDates.to.replaceAll('-', '/');
+    // console.log(`filter: to: ${filterReleaseDateTo}`);
+  }
+
   // 出演者
   let filterActors = null;
   if ("actors" in filterParams) {
@@ -146,6 +158,20 @@ function filterTableItems(items, filterParams) {
     // 出演者
     if (filterActors != null) {
       if (item.movie.actors.filter((actor) => filterActors.some((id) => id == 0 || id == actor.id)).length <= 0) {
+        del = true;
+      }
+    }
+
+    // 公開日 (から)
+    if (filterReleaseDateFrom) {
+      if (item.movie.releaseDate < filterReleaseDateFrom) {
+        del = true;
+      }
+    }
+
+    // 公開日 (まで)
+    if (filterReleaseDateTo) {
+      if (item.movie.releaseDate > filterReleaseDateTo) {
         del = true;
       }
     }
@@ -261,6 +287,12 @@ function getInitialFilterParams() {
     });
   });
 
+  // 公開日
+  let releaseDates = {
+    from: "",
+    to: "",
+  };
+
   // ジャンル
   let genres = [];
   genres.push({
@@ -282,6 +314,7 @@ function getInitialFilterParams() {
   originalFilterParams = {
     text: text,
     actors: actors,
+    releaseDates: releaseDates,
     genres: genres,
     chat: chat,
   }
@@ -297,6 +330,9 @@ function updateFilterParams(filterParams) {
   originalFilterParams.text = filterParams.text;
   // 出演者
   originalFilterParams.actors = updateFilterParamsByCheckboxGroup(originalFilterParams.actors, filterParams.actors);
+  // 公開日
+  originalFilterParams.releaseDates.from = filterParams.releaseDates.from;
+  originalFilterParams.releaseDates.to = filterParams.releaseDates.to;
   // ジャンル
   originalFilterParams.genres = updateFilterParamsByCheckboxGroup(originalFilterParams.genres, filterParams.genres);
   // 雑談
@@ -338,8 +374,28 @@ function updateFilterParamsByCheckboxGroup(orgParams, newParams) {
   return orgParams;
 }
 
+/**
+ * フィルターパラメータリセット
+ */
+function resetFilterParamsInput(filterParams, filter) {
+  if (filter == "text") {
+    filterParams.text = "";
+  }
+
+  if (filter == "releaseDateFrom") {
+    filterParams.releaseDates.from = "";
+  }
+
+  if (filter == "releaseDateTo") {
+    filterParams.releaseDates.to = "";
+  }
+
+  return updateFilterParams(filterParams);
+}
+
 export default {
   getTableItems,
   getInitialFilterParams,
   updateFilterParams,
+  resetFilterParamsInput,
 }

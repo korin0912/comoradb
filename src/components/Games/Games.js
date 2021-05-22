@@ -15,7 +15,7 @@ let originalTableItems = null;
  */
 function getOriginalTableItems() {
   if (originalTableItems == null) {
-    console.log("create original table items");
+    // console.log("create original table items");
 
     originalTableItems = [];
     Object.keys(gamesData)
@@ -353,14 +353,14 @@ function updateFilterParamsByCheckboxGroup(orgParams, newParams) {
 
   // all -> 個別選択
   if (orgAll && !orgChoice && newChoice) {
-    console.log("all -> choice");
+    // console.log("all -> choice");
     allCheck = false;
     choiceCheck = true;
   }
 
   // 個別選択 -> all
   if (!orgAll && orgChoice && (newAll || !newChoice)) {
-    console.log("choice -> all");
+    // console.log("choice -> all");
     allCheck = true;
     choiceCheck = false;
   }

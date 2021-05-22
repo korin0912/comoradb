@@ -115,7 +115,7 @@
         </div>
         <!-- ジャンル -->
         <div class="filter-box">
-          <label class="caption">ゲームジャンル</label>
+          <label class="caption">ジャンル</label>
           <div v-for="genre in filterParams.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
             <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="filterTable" v-model="genre.check" class="filter-checkbox" />
             <label :for="'filter-genre-' + genre.id" class="filter-checkbox">{{ genre.name }}</label>
@@ -228,13 +228,14 @@ div.filter-box {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #dddddd;
+  border-color: #c1abd2;
   margin: 0px 10px 10px 10px;
   padding: 13px 10px 10px 10px;
 }
 
 div.filter-box-outline {
   padding: 13px 0px 0px 0px;
+  border-color: #8457a8;
 }
 
 div.filter-box .caption {
@@ -249,9 +250,13 @@ div.filter-box .caption {
 }
 
 input.filter-text {
-  width: calc(100% - 8px - 23px);
+  width: calc(100% - 6px - 23px);
   margin: 0;
   padding: 2px;
+  border-radius: 4px 4px 4px 4px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
 }
 
 div.filter-checkbox {
@@ -272,8 +277,12 @@ label.filter-checkbox {
 
 input.filter-date {
   text-align: left;
-  width: calc(100% - 8px - 23px);
+  width: calc(100% - 6px - 23px);
   margin: 0;
+  border-radius: 4px 4px 4px 4px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
 }
 
 button.reset {

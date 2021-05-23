@@ -35,14 +35,16 @@
             </td>
             <!-- リンク -->
             <td :rowspan="item.gameRow" class="text-center links">
-              <a v-for="(url, urlIndex) in item.game.urls" :key="url.keyPrefix + urlIndex" :href="url.url" target="_blank" class="urlicon">
-                <template v-if="url.tag == 1">
-                  <i :class="url.icon" />
-                </template>
-                <template v-else-if="url.tag == 2">
-                  <img class="urlicon" :src="url.icon" />
-                </template>
-              </a>
+              <div v-for="(url, urlIndex) in item.game.urls" :key="url.keyPrefix + urlIndex" class="urlicon">
+                <a :href="url.url" target="_blank">
+                  <template v-if="url.tag == 1">
+                    <i :class="url.icon" />
+                  </template>
+                  <template v-else-if="url.tag == 2">
+                    <img class="urlicon" :src="url.icon" />
+                  </template>
+                </a>
+              </div>
             </td>
             <!-- ジャンル -->
             <td :rowspan="item.gameRow" class="genres">
@@ -85,9 +87,7 @@ import games from "./Games.js";
 
 export default {
   name: "GamesPCTable",
-  props: [
-    "filterParams"
-  ],
+  props: ["filterParams"],
   data: function () {
     // テーブルアイテム
     let tableItems = games.getTableItems(this.filterParams);

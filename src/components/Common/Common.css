@@ -60,18 +60,21 @@ td.left {
   border-left-width: 1px;
 }
 
-a.urlicon {
-  width: 23px;
-  height: 23px;
+div.urlicon {
   display: block;
   float: left;
 }
 
 i.urlicon {
-  width: calc(100% - 4px);
-  height: calc(100% - 4px);
-  padding: 2px 2px 2px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  width: 17px;
+  height: 17px;
   vertical-align: middle;
+  text-align: center;
+  padding: 2px;
   margin: auto;
 }
 
@@ -100,7 +103,7 @@ img.urlicon {
   height: 17px;
   padding: 0;
   vertical-align: middle;
-  margin: 0 auto;
+  margin: 1px;
   border-radius: 50%;
   border-width: 1px;
   border-style: solid;

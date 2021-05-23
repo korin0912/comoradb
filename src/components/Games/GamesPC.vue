@@ -2,85 +2,7 @@
   <div class="container">
     <!-- メインテーブル -->
     <div class="main">
-      <table class="table">
-        <thead>
-          <tr>
-            <th colspan="4" class="pale first left">
-              {{ "ゲーム (" + gameCount + ")" }}
-            </th>
-            <th colspan="5" class="dark first">
-              {{ "動画 (" + movieCount + ")" }}
-            </th>
-          </tr>
-          <tr>
-            <th class="pale second left game-id">#</th>
-            <th class="pale second game-name" colspan="2">タイトル</th>
-            <th class="pale second game-genres">ジャンル</th>
-            <th class="dark second movie-id">#</th>
-            <th class="dark second movie-name">タイトル</th>
-            <th class="dark second movie-date">公開日</th>
-            <th class="dark second movie-actors">出演</th>
-            <th class="dark second movie-chat">雑談</th>
-          </tr>
-        </thead>
-        <tbody>
-          <template v-for="item in items">
-            <tr v-if="item.game != null || item.movie != null" :key="item.key" class="text-upper">
-              <!-- ゲーム -->
-              <template v-if="item.game != null">
-                <!-- ID -->
-                <td :rowspan="item.gameRow" class="text-center left">
-                  {{ item.game.id }}
-                </td>
-                <!-- タイトル -->
-                <td :rowspan="item.gameRow">
-                  {{ item.game.name }}
-                </td>
-                <!-- リンク -->
-                <td :rowspan="item.gameRow" class="text-center links">
-                  <a v-for="(url, urlIndex) in item.game.urls" :key="url.keyPrefix + urlIndex" :href="url.url" target="_blank" class="icon">
-                    <template v-if="url.tag == 1">
-                      <i :class="url.icon" />
-                    </template>
-                    <template v-else-if="url.tag == 2">
-                      <img class="urlicon" :src="url.icon" />
-                    </template>
-                  </a>
-                </td>
-                <!-- ジャンル -->
-                <td :rowspan="item.gameRow" class="genres">
-                  <span v-for="genre in item.game.genres" :key="genre.key" class="genre">
-                    {{ genre.name }}
-                  </span>
-                </td>
-              </template>
-              <!-- 動画 -->
-              <template v-if="item.movie != null">
-                <!-- ID -->
-                <td :rowspan="item.movieRow" class="text-center">
-                  {{ item.movie.id }}
-                </td>
-                <!-- タイトル -->
-                <td :rowspan="item.movieRow" class="movie">
-                  <a :href="item.movie.url" target="_blank">{{ item.movie.name }}</a>
-                </td>
-                <!-- 公開日 -->
-                <td :rowspan="item.movieRow" class="text-center">
-                  {{ item.movie.releaseDate }}
-                </td>
-                <!-- 出演者 -->
-                <td :rowspan="item.movieRow" class="text-center">
-                  <img v-for="actor in item.movie.actors" :key="actor.key" :src="actor.icon" :title="actor.name" class="actor" />
-                </td>
-                <!-- 雑談 -->
-                <td :rowspan="item.movieRow" class="text-center">
-                  <i v-if="item.movie.chat" class="fas fa-check fa-lg checkmark" />
-                </td>
-              </template>
-            </tr>
-          </template>
-        </tbody>
-      </table>
+      <GamesTable :key="resetKey" :filterParams="filterParams" />
     </div>
     <!-- サイドバー -->
     <div class="sidebar">
@@ -97,7 +19,9 @@
           <label class="caption">出演者</label>
           <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
             <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
-            <label :for="'filter-actor-' + actor.id" class="filter-checkbox">{{ actor.name }}</label>
+            <label :for="'filter-actor-' + actor.id" class="filter-checkbox">
+              <router-link :to="{ name: 'Actors', query: { actorId: actor.id } }" target="_blank">{{ actor.name }}</router-link>
+            </label>
           </div>
         </div>
         <!-- 公開日 -->
@@ -137,45 +61,40 @@
 <script>
 import common from "../Common/Common.js";
 import games from "./Games.js";
+import GamesTable from "./GamesPCTable.vue";
 
 export default {
   name: "GamesPC",
-  props: ["data"],
+  components: {
+    GamesTable,
+  },
   data: function () {
+    let filterParams = games.getInitialFilterParams();
     return {
-      items: this.data.items,
-      gameCount: this.data.gameCount,
-      movieCount: this.data.movieCount,
-      filterParams: this.data.filterParams,
+      resetKey: 0,
+      filterParams: filterParams,
     };
   },
   methods: {
     filterTable: function () {
       console.clear();
       this.filterParams = games.updateFilterParams(this.filterParams);
-      let tableItems = games.getTableItems(this.filterParams);
-      this.items = tableItems.items;
-      this.gameCount = tableItems.gameCount;
-      this.movieCount = tableItems.movieCount;
+      this.resetKey ++;
     },
-    getResetIcon: common.getResetIcon,
     resetInput: function (filter) {
       console.clear();
       this.filterParams = games.resetFilterParamsInput(this.filterParams, filter);
-      let tableItems = games.getTableItems(this.filterParams);
-      this.items = tableItems.items;
-      this.gameCount = tableItems.gameCount;
-      this.movieCount = tableItems.movieCount;
+      this.resetKey ++;
     },
+    getResetIcon: common.getResetIcon,
   },
 };
 </script>
 
 <style scoped>
+@import "./Games.css";
+
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1600px;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 85% 15%;
@@ -188,38 +107,6 @@ export default {
 
 .sidebar {
   grid-area: box2;
-}
-
-th.game-id {
-  width: 3%;
-}
-
-th.game-name {
-  width: 32%;
-}
-
-th.game-genres {
-  width: 10%;
-}
-
-th.movie-id {
-  width: 3%;
-}
-
-th.movie-name {
-  width: 40%;
-}
-
-th.movie-date {
-  width: 5%;
-}
-
-th.movie-actors {
-  width: 4%;
-}
-
-th.movie-chat {
-  width: 3%;
 }
 
 div.filter-box {

@@ -1963,5 +1963,17 @@
       11
    ],
     "comment": ""
+  },
+  "178": {
+    "name": "Eggcelerate!",
+    "urls": [
+      "https://store.steampowered.com/app/1535490/Eggcelerate/"
+    ],
+    "genreIds": [
+      10,
+      133,
+      134
+   ],
+    "comment": ""
   }
 }

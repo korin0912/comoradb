@@ -1,12 +1,24 @@
 <template>
   <div id="app">
-    <router-view />
+    <h1>
+      <a href="https://www.youtube.com/channel/UC5fwtXKwDpgboOud4DbjQTg" target="_blank">
+        <img alt="comoradb logo" src="./assets/images/logo.png" />
+      </a>
+      <span>『コモラとチャンチョのゲーム部屋』ゲーム一覧</span>
+    </h1>
+    <Games />
   </div>
 </template>
 
 <script>
+// import HelloWorld from './components/HelloWorld.vue'
+import Games from "./components/Games/Games.vue";
+
 export default {
   name: "App",
+  components: {
+    Games,
+  },
   head: {
     title: {
       inner: "コモラDB",
@@ -37,9 +49,6 @@ export default {
 
 <style>
 #app {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1600px;
   font-family: "Kosugi Maru", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,5 +58,26 @@ export default {
   font-size: 1.4rem;
   font-weight: 400;
   font-style: normal;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+h1 img {
+  display: inline-block;
+  vertical-align: middle;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+h1 span {
+  display: inline-block;
+  vertical-align: middle;
 }
 </style>

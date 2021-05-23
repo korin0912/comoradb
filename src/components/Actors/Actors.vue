@@ -3,7 +3,10 @@
     <Header />
     <div class="container">
       <!-- 出演者 -->
-      <div class="actor">
+      <div :class="isMobile == false ? 'actor_pc' : 'actor_mobile'">
+        <img :src="require('../../assets/images/actor_' + this.$route.query.actorId + '.png')" class="actor" />
+        <br />
+        <br />
         <table>
           <tbody>
             <tr>
@@ -13,19 +16,11 @@
             <tr>
               <th class="left pale">リンク</th>
               <td>
-                <div v-for="(url, urlIndex) in urls" :key="url.keyPrefix + urlIndex" class="url">
-                  <a :href="url.url" target="_blank" class="urlicon">
-                    <template v-if="url.tag == 1">
-                      <i :class="url.icon" />
-                    </template>
-                    <template v-else-if="url.tag == 2">
-                      <img class="urlicon" :src="url.icon" />
-                    </template>
+                <li v-for="(url, urlIndex) in actor.urls" :key="'actor-' + actor.name + '-url-' + urlIndex">
+                  <a :href="url" class="url">
+                    {{ url }}
                   </a>
-                  <a :href="url.url" target="_blank" class="urlicon">
-                    <span class="url">{{ url.url }}</span>
-                  </a>
-                </div>
+                </li>
               </td>
             </tr>
             <tr>
@@ -36,7 +31,7 @@
         </table>
       </div>
     </div>
-    <br>
+    <br />
     <div class="container">
       <div class="games">
         <GamesPCTable v-if="isMobile == false" :filterParams="filterParams" />
@@ -64,28 +59,23 @@ export default {
     GamesMobileTable,
   },
   data: function () {
-    let actorIdx = Object.keys(actorsData).find(key => {
+    let actorIdx = Object.keys(actorsData).find((key) => {
       return key == this.$route.query.actorId;
     });
     let actor = actorsData[actorIdx];
-    let urls = actor.urls.map(url => {
-      return games.getUrlInfo(url, "actor-url-");
-    });
     let filterParams = games.getInitialFilterParams();
     // console.log(this.$route.query);
-    filterParams.actors.forEach(elem => {
-      if (elem.id == this.$route.query.actorId)
-      {
+    filterParams.actors.forEach((elem) => {
+      if (elem.id == this.$route.query.actorId) {
         elem.check = true;
       }
     });
     return {
       actor: actor,
-      urls: urls,
       isMobile: common.isMobile(),
       filterParams: filterParams,
     };
-  }
+  },
 };
 </script>
 
@@ -94,29 +84,33 @@ export default {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 15% 70% 15%;
-  grid-template-areas: "box1 box2 box3";
 }
 
-.actor {
-  grid-area: box2;
+.actor_pc {
+  grid-column: 2 / 3;
+}
+
+.actor_mobile {
+  grid-column: 1 / 4;
 }
 
 .games {
   grid-column: 1 / 4;
 }
 
+img.actor {
+  border-color: #c1abd2;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 16px;
+}
+
 th {
-  width: 40%;
+  width: 20%;
   text-align: left;
 }
 
-div.url {
-  height: 25px;
-}
-
-span.url {
-  text-align: left;
-  vertical-align: middle;
-  margin: 0 0 0 4px;
+a.url {
+  word-break: break-all;
 }
 </style>

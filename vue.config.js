@@ -1,6 +1,6 @@
 ﻿module.exports = {
   publicPath: '/comoradb',
   outputDir: 'docs',
-  filenameHashing: false,
+  filenameHashing: true,
   productionSourceMap: false,
 }

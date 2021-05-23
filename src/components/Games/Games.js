@@ -5,17 +5,6 @@ import actorsData from "../../assets/resources/Actors.json";
 
 import common from "../Common/Common.js";
 
-function getUrlInfo(url, keyPrefix)
-{
-  let icontype = common.getUrlType(url);
-  return {
-    keyPrefix: keyPrefix,
-    url: url,
-    icon: common.getUrlIcon(icontype),
-    tag: common.getUrlTagType(icontype),
-  };
-}
-
 /**
  * テーブルのオリジナルデータアイテム
  */
@@ -40,7 +29,13 @@ function getOriginalTableItems() {
           id: gameId,
           name: gameData.name,
           urls: gameData.urls.map((url) => {
-            return getUrlInfo(url, "url-" + gameId + "-");
+            let icontype = common.getUrlType(url);
+            return {
+              keyPrefix: "url-" + gameId + "-",
+              url: url,
+              icon: common.getUrlIcon(icontype),
+              tag: common.getUrlTagType(icontype),
+            };
           }),
           genres: gameData.genreIds.map((genreId) => {
             return {
@@ -69,7 +64,7 @@ function getOriginalTableItems() {
               return {
                 id: actorId,
                 key: "actor-" + actorId,
-                icon: require("../../assets/images/actoricon_" + actorId + ".png"),
+                icon: require("../../assets/images/actor_" + actorId + ".png"),
                 name: actorsData[actorId].name,
               };
             }),
@@ -117,7 +112,7 @@ function filterTableItems(items, filterParams) {
   // テキスト
   // console.log(filterParams);
   let filterText = null;
-  if (filterParams.text != null && filterParams.text != "") {
+  if ("text" in filterParams && filterParams.text != null && filterParams.text != "") {
     filterText = filterParams.text.toLowerCase();
   }
 
@@ -134,12 +129,18 @@ function filterTableItems(items, filterParams) {
   }
 
   // 出演者
-  let filterActors = filterParams.actors.filter((actor) => actor.check).map((actor) => actor.id);
-  // console.log(filterActors);
+  let filterActors = null;
+  if ("actors" in filterParams) {
+    filterActors = filterParams.actors.filter((actor) => actor.check).map((actor) => actor.id);
+    // console.log(filterActors);
+  }
 
   // ゲームジャンル
-  let filterGenres = filterParams.genres.filter((genre) => genre.check).map((genre) => genre.id);
-  // console.log(filterGenres);
+  let filterGenres = null;
+  if ("genres" in filterParams) {
+    filterGenres = filterParams.genres.filter((genre) => genre.check).map((genre) => genre.id);
+    // console.log(filterGenres);
+  }
 
   // 雑談
   let filterChat = filterParams.chat;
@@ -155,8 +156,8 @@ function filterTableItems(items, filterParams) {
     }
 
     // 出演者
-    if (filterActors != null && filterActors.length > 0) {
-      if (item.movie.actors.filter((actor) => filterActors.some((id) => id == actor.id)).length <= 0) {
+    if (filterActors != null) {
+      if (item.movie.actors.filter((actor) => filterActors.some((id) => id == 0 || id == actor.id)).length <= 0) {
         del = true;
       }
     }
@@ -176,8 +177,8 @@ function filterTableItems(items, filterParams) {
     }
 
     // ゲームジャンル
-    if (filterGenres != null && filterGenres.length > 0) {
-      if (item.game.genres.filter((genre) => filterGenres.some((id) => id == genre.id)).length <= 0) {
+    if (filterGenres != null) {
+      if (item.game.genres.filter((genre) => filterGenres.some((id) => id == 0 || id == genre.id)).length <= 0) {
         del = true;
       }
     }
@@ -273,6 +274,11 @@ function getInitialFilterParams() {
 
   // 出演者
   let actors = [];
+  actors.push({
+    id: "0",
+    name: "すべて",
+    check: true,
+  });
   Object.keys(actorsData).forEach((index) => {
     actors.push({
       id: index,
@@ -289,6 +295,11 @@ function getInitialFilterParams() {
 
   // ジャンル
   let genres = [];
+  genres.push({
+    id: "0",
+    name: "すべて",
+    check: true,
+  });
   Object.keys(gameGenresData).forEach((index) => {
     genres.push({
       id: index,
@@ -333,9 +344,31 @@ function updateFilterParams(filterParams) {
 }
 
 function updateFilterParamsByCheckboxGroup(orgParams, newParams) {
+  let orgAll = orgParams[0].check;
+  let orgChoice = (orgParams.filter((actor) => actor.id != 0 && actor.check).length > 0);
+  let newAll = newParams[0].check;
+  let newChoice = (newParams.filter((actor) => actor.id != 0 && actor.check).length > 0);
+  let allCheck = orgAll;
+  let choiceCheck = orgChoice;
+
+  // all -> 個別選択
+  if (orgAll && !orgChoice && newChoice) {
+    // console.log("all -> choice");
+    allCheck = false;
+    choiceCheck = true;
+  }
+
+  // 個別選択 -> all
+  if (!orgAll && orgChoice && (newAll || !newChoice)) {
+    // console.log("choice -> all");
+    allCheck = true;
+    choiceCheck = false;
+  }
+
   // パラメータ更新
+  orgParams[0].check = allCheck;
   for (let i = 1; i < orgParams.length; i++) {
-    orgParams[i].check = newParams[i].check;
+    orgParams[i].check = choiceCheck ? newParams[i].check : false;
   }
 
   return orgParams;
@@ -361,7 +394,6 @@ function resetFilterParamsInput(filterParams, filter) {
 }
 
 export default {
-  getUrlInfo,
   getTableItems,
   getInitialFilterParams,
   updateFilterParams,

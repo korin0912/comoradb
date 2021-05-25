@@ -1961,7 +1961,7 @@
     "genreIds": [
       1,
       11
-   ],
+    ],
     "comment": ""
   },
   "178": {
@@ -1973,7 +1973,19 @@
       10,
       133,
       134
-   ],
+    ],
+    "comment": ""
+  },
+  "179": {
+    "name": "Fight Party",
+    "urls": [
+      "https://store.steampowered.com/app/1617480/Fight_Party/"
+    ],
+    "genreIds": [
+      1,
+      11,
+      101
+    ],
     "comment": ""
   }
 }

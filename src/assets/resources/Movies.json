@@ -6826,5 +6826,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "516": {
+    "name": "【雑談】死を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=r1TccZaAO4Q",
+    "releaseDate": "2021/05/25",
+    "gameIds": [
+      179
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

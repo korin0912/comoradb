@@ -6852,5 +6852,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "518": {
+    "name": "この一撃、避けられるかな？【TABS】第5戦",
+    "url": "https://www.youtube.com/watch?v=srptJi5b-pU",
+    "releaseDate": "2021/05/27",
+    "gameIds": [
+      171
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

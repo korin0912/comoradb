@@ -1,9 +1,9 @@
-import Vue from 'vue'
+import Vue from 'vue';
 import VueHead from 'vue-head';
-import VueRouter from 'vue-router'
-import App from './App.vue'
+import VueRouter from 'vue-router';
+import App from './App.vue';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 Vue.use(VueHead);
 Vue.use(VueRouter);
 

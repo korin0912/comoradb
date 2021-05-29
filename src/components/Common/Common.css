@@ -131,6 +131,11 @@ img.actoricon {
   margin: 0px 2px 0px 0px;
 }
 
+i.icon-reset {
+  vertical-align: middle;
+  color: #888888;
+}
+
 .text-upper {
   vertical-align: top;
 }
@@ -141,4 +146,16 @@ img.actoricon {
 
 .text-bottom {
   vertical-align: bottom;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-rigth {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }

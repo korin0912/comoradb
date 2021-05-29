@@ -1520,7 +1520,7 @@
   "137": {
     "name": "ロックマン",
     "urls": [
-      "https://www.capcom.co.jp/RCC/",
+      "https://www.capcom.co.jp/RCC/1/",
       "https://store.steampowered.com/app/363440/_/"
     ],
     "genreIds": [
@@ -1720,7 +1720,7 @@
   "156": {
     "name": "ロックマン2",
     "urls": [
-      "https://www.capcom.co.jp/RCC/",
+      "https://www.capcom.co.jp/RCC/1/",
       "https://store.steampowered.com/app/363440/_/"
     ],
     "genreIds": [
@@ -1985,6 +1985,17 @@
       1,
       11,
       101
+    ],
+    "comment": ""
+  },
+  "180": {
+    "name": "ロックマン3",
+    "urls": [
+      "https://www.capcom.co.jp/RCC/1/",
+      "https://store.steampowered.com/app/363440/_/"
+    ],
+    "genreIds": [
+      1
     ],
     "comment": ""
   }

@@ -6878,5 +6878,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "520": {
+    "name": "【雑談実況】ガッキーってホッシーに進化するんかな？【ロックマン3】＃1",
+    "url": "https://www.youtube.com/watch?v=maESXII2A_g",
+    "releaseDate": "2021/05/29",
+    "gameIds": [
+      180
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

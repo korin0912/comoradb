@@ -334,10 +334,9 @@ function updateFilterParams(filterParams) {
 
 function updateFilterParamsByCheckboxGroup(orgParams, newParams) {
   // パラメータ更新
-  for (let i = 1; i < orgParams.length; i++) {
+  for (let i = 0; i < orgParams.length; i++) {
     orgParams[i].check = newParams[i].check;
   }
-
   return orgParams;
 }
 

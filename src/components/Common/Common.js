@@ -2,7 +2,7 @@
  * リセットアイコン取得
  */
 function getResetIcon() {
-  return "far fa-times-circle fa-lg reset";
+  return "far fa-times-circle fa-lg icon-reset";
 }
 
 /**

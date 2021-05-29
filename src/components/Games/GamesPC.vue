@@ -8,17 +8,21 @@
     <div class="sidebar">
       <div class="filter-box filter-box-outline">
         <label class="caption">フィルター</label>
+        <!-- リセットボタン -->
+        <div class="filter-init">
+          <button v-on:click="initFilter" class="filter-init">リセット</button>
+        </div>
         <!-- テキスト -->
         <div class="filter-box">
           <label class="caption">テキスト</label>
-          <input v-on:input="filterTable" v-model="filterParams.text" placeholder="" class="filter-text" />
-          <button v-on:click="resetInput('text')" class="reset"><i :class="getResetIcon()" /></button>
+          <input v-on:input="updateFilter" v-model="filterParams.text" placeholder="" class="filter-text" />
+          <button v-on:click="resetInput('text')" class="input-reset"><i :class="getResetIcon()" /></button>
         </div>
         <!-- 出演者 -->
         <div class="filter-box">
           <label class="caption">出演者</label>
           <div v-for="actor in filterParams.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
-            <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="filterTable" v-model="actor.check" class="filter-checkbox" />
+            <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="updateFilter" v-model="actor.check" class="filter-checkbox" />
             <label :for="'filter-actor-' + actor.id" class="filter-checkbox">
               <router-link :to="{ name: 'Actors', query: { actorId: actor.id } }" target="_blank">{{ actor.name }}</router-link>
             </label>
@@ -28,20 +32,20 @@
         <div class="filter-box">
           <label class="caption">公開日</label>
           <div>
-            <input type="date" id="filter-date-from" v-on:change="filterTable" v-model="filterParams.releaseDates.from" class="filter-date" />
-            <button v-on:click="resetInput('releaseDateFrom')" class="reset"><i :class="getResetIcon()" /></button>
+            <input type="date" id="filter-date-from" v-on:change="updateFilter" v-model="filterParams.releaseDates.from" class="filter-date" />
+            <button v-on:click="resetInput('releaseDateFrom')" class="input-reset"><i :class="getResetIcon()" /></button>
           </div>
           <span>～</span>
           <div>
-            <input type="date" id="filter-date-to" v-on:change="filterTable" v-model="filterParams.releaseDates.to" class="filter-date" />
-            <button v-on:click="resetInput('releaseDateTo')" class="reset"><i :class="getResetIcon()" /></button>
+            <input type="date" id="filter-date-to" v-on:change="updateFilter" v-model="filterParams.releaseDates.to" class="filter-date" />
+            <button v-on:click="resetInput('releaseDateTo')" class="input-reset"><i :class="getResetIcon()" /></button>
           </div>
         </div>
         <!-- ジャンル -->
         <div class="filter-box">
           <label class="caption">ジャンル</label>
           <div v-for="genre in filterParams.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
-            <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="filterTable" v-model="genre.check" class="filter-checkbox" />
+            <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="updateFilter" v-model="genre.check" class="filter-checkbox" />
             <label :for="'filter-genre-' + genre.id" class="filter-checkbox">{{ genre.name }}</label>
           </div>
         </div>
@@ -49,7 +53,7 @@
         <div class="filter-box">
           <label class="caption">その他</label>
           <div class="filter-checkbox">
-            <input type="checkbox" :id="'filter-chat'" v-on:change="filterTable" v-model="filterParams.chat" class="filter-checkbox" />
+            <input type="checkbox" :id="'filter-chat'" v-on:change="updateFilter" v-model="filterParams.chat" class="filter-checkbox" />
             <label :for="'filter-chat'" class="filter-checkbox">雑談のみ</label>
           </div>
         </div>
@@ -76,13 +80,15 @@ export default {
     };
   },
   methods: {
-    filterTable: function () {
-      console.clear();
+    initFilter: function() {
+      this.filterParams = games.getInitialFilterParams();
+      this.resetKey ++;
+    },
+    updateFilter: function () {
       this.filterParams = games.updateFilterParams(this.filterParams);
       this.resetKey ++;
     },
     resetInput: function (filter) {
-      console.clear();
       this.filterParams = games.resetFilterParamsInput(this.filterParams, filter);
       this.resetKey ++;
     },
@@ -172,7 +178,7 @@ input.filter-date {
   border-style: solid;
 }
 
-button.reset {
+button.input-reset {
   width: 21px;
   height: 21px;
   margin: 0 0 0 2px;
@@ -183,7 +189,21 @@ button.reset {
   content: "f057";
 }
 
-i.reset {
-  vertical-align: middle;
+div.filter-init {
+  position: relative;
+  border-radius: 5px;
+  border-width: 0px;
+  margin: 0px 10px 10px 10px;
+  padding: 0 0 5px 5px;
+  text-align: left;
+}
+
+button.filter-init {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 8px;
+  margin: 0;
+  padding: 1px 10px 1px 10px;
 }
 </style>

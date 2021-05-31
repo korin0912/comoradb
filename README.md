@@ -15,6 +15,7 @@ Vue Cli を利用し、静的コンテンツとしてブラウザのみで動作
 * [vue-burger-menu](https://github.com/mbj36/vue-burger-menu)
 * [Font Awesome](https://fontawesome.com) (ゲームジャンルのアイコン)
 * [Google Fonts](https://googlefonts.github.io/japanese/#roundedmplus1c)
+* [npm-run-all](https://github.com/mysticatea/npm-run-all) (ローカル環境の JSON 編集サーバのため)
 
 ---
 

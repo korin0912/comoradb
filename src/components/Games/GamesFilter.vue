@@ -1,28 +1,28 @@
 ﻿<template>
-  <div class="filter-box filter-box-outline">
+  <div class="box box-outline bottom-blank">
     <label class="caption">フィルター</label>
     <!-- リセットボタン -->
     <div class="filter-init">
       <button v-on:click="initFilter" class="filter-init">リセット</button>
     </div>
     <!-- テキスト -->
-    <div class="filter-box">
+    <div class="box">
       <label class="caption">テキスト</label>
       <input v-on:input="updateFilter" v-model="params.text" placeholder="" class="filter-text" />
       <button v-on:click="resetInput('text')" class="input-reset"><i :class="getResetIcon()" /></button>
     </div>
     <!-- 出演者 -->
-    <div class="filter-box">
+    <div class="box">
       <label class="caption">出演者</label>
       <div v-for="actor in params.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
         <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="updateFilter" v-model="actor.check" class="filter-checkbox" />
         <label :for="'filter-actor-' + actor.id" class="filter-checkbox">
-          <router-link :to="{ name: 'Actors', query: { actorId: actor.id } }" target="_blank">{{ actor.name }}</router-link>
+          <router-link :to="{ name: 'Actors', params: { actorId: actor.id } }" target="_blank">{{ actor.name }}</router-link>
         </label>
       </div>
     </div>
     <!-- 公開日 -->
-    <div class="filter-box">
+    <div class="box">
       <label class="caption">公開日</label>
       <div>
         <input type="date" id="filter-date-from" v-on:change="updateFilter" v-model="params.releaseDates.from" class="filter-date" />
@@ -35,7 +35,7 @@
       </div>
     </div>
     <!-- ジャンル -->
-    <div class="filter-box">
+    <div class="box">
       <label class="caption">ジャンル</label>
       <div v-for="genre in params.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
         <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="updateFilter" v-model="genre.check" class="filter-checkbox" />
@@ -43,7 +43,7 @@
       </div>
     </div>
     <!-- 雑談 -->
-    <div class="filter-box">
+    <div class="box">
       <label class="caption">その他</label>
       <div class="filter-checkbox">
         <input type="checkbox" :id="'filter-chat'" v-on:change="updateFilter" v-model="params.chat" class="filter-checkbox" />
@@ -85,37 +85,6 @@ export default {
 
 <style scoped>
 @import "./Games.css";
-
-div.filter-box {
-  position: relative;
-  font-size: 13px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #c1abd2;
-  margin: 0px 10px 10px 10px;
-  padding: 13px 10px 10px 10px;
-  color: #2c3e50;
-}
-
-div.filter-box-outline {
-  display: block;
-  padding: 13px 0px 0px 0px;
-  border-color: #8457a8;
-  background-color: #ffffff;
-  margin-bottom: 60px;
-}
-
-div.filter-box .caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1em;
-  padding: 0 1em;
-  margin: 0;
-  background-color: white;
-  transform: translateY(-50%) translateX(1em);
-}
 
 input.filter-text {
   width: calc(100% - 6px - 23px);
@@ -180,5 +149,9 @@ button.filter-init {
   border-radius: 8px;
   margin: 0;
   padding: 1px 10px 1px 10px;
+}
+
+.bottom-blank {
+  margin-bottom: 60px;
 }
 </style>

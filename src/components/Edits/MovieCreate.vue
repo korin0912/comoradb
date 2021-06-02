@@ -5,54 +5,56 @@
     <table>
       <tr>
         <th class="pale first">タイトル</th>
-        <td class="first"><input placeholder="" class="text" /></td>
+        <td class="first"><input placeholder="" class="text" v-model="inputs.title" /></td>
       </tr>
       <tr>
         <th class="pale">URL</th>
-        <td class="first">
-          <div style="display: flex">
-            <input placeholder="" class="text" />
-            <a href="#" class="icon-eraser"/>
+        <td>
+          <div v-for="(url, index) in inputs.urls" :key="'url-' + index" style="display: flex; margin-bottom: 4px">
+            <input placeholder="" class="text" v-model="inputs.urls[index]" />
+            <a v-show="index != 0" href="#" class="icon-eraser" v-on:click="removeUrl(index)" />
           </div>
-          <br>
-          <a href="#" class="icon-plus" />
+          <a href="#" class="icon-plus" v-on:click="addUrl()" />
         </td>
       </tr>
       <tr>
         <th class="pale">公開日</th>
-        <td><input type="date" class="date" /></td>
+        <td><input type="date" class="date" v-model="inputs.releaseDate" /></td>
       </tr>
       <tr>
         <th class="pale">ゲーム</th>
         <td>
-          <select name="game_1">
-            <option v-for="(game, index) in gamesData" :key="'game-' + index" :value="index">{{ game.name }}</option>
-          </select>
-          <a href="#" class="icon-eraser" />
-          <br />
-          <a href="#" class="icon-plus" />
+          <div v-for="(gameId, index) in inputs.gameIds" v-bind:key="'game-' + index" style="margin-bottom: 4px">
+            <select v-model="inputs.gameIds[index]">
+              <option v-for="(game, index) in gamesData" :key="'game-option-' + index" :value="index">{{ game.name }}</option>
+            </select>
+            <a v-show="index != 0" href="#" class="icon-eraser" v-on:click="removeGame(index)" />
+          </div>
+          <a href="#" class="icon-plus" v-on:click="addGame()" />
         </td>
       </tr>
       <tr>
         <th class="pale">出演者</th>
         <td>
-          <div v-for="(actor, index) in actorsData" :key="'actor-' + index" class="checkbox">
-            <input type="checkbox" :id="'actor-' + index" class="checkbox" />
-            <label :for="'actor-' + index" class="checkbox">{{ actor.name }}</label>
+          <div v-for="(actor, index) in inputs.actors" :key="'actor-' + index" class="checkbox">
+            <input type="checkbox" class="checkbox" v-model="inputs.actors[index].checked" />
+            <label :for="'actor-' + index" class="checkbox">{{ actorsData[actor.id].name }}</label>
           </div>
         </td>
       </tr>
       <tr>
         <th class="pale">雑談</th>
         <td>
-          <input type="checkbox" id="chat" class="checkbox" />
+          <input type="checkbox" class="checkbox" v-model="inputs.chat" />
         </td>
       </tr>
       <tr>
         <th class="pale">コメント</th>
-        <td class="first"><textarea placeholder="" rows="4" class="text" /></td>
+        <td class="first"><textarea placeholder="" rows="4" class="text" v-model="inputs.comment" /></td>
       </tr>
     </table>
+    <button class="create">作成</button>
+    <button class="cancel">戻る</button>
   </div>
 </template>
 
@@ -67,12 +69,59 @@ export default {
     Header,
   },
   data: function () {
+    let now = new Date();
+    let urls = [];
+    urls.push("");
+    let gameIds = [];
+    gameIds.push(1);
+    let actors = [];
+    Object.keys(actorsData).forEach((actorId) => {
+      actors.push({
+        id: actorId,
+        name: actorsData[actorId].name,
+        checked: actorId == 1 ? true : false,
+      });
+    });
+    let inputs = {
+      title: "",
+      urls: urls,
+      releaseDate: `${now.getFullYear()}-${("0" + (now.getMonth() + 1)).substring(-2)}-${("0" + now.getDate()).substring(-2)}`,
+      gameIds: gameIds,
+      actors: actors,
+      chat: false,
+      comment: "",
+    };
+    // console.log(inputs);
+
     return {
       gamesData: gamesData,
       actorsData: actorsData,
+      inputs: inputs,
     };
   },
+  methods: {
+    addUrl: addUrl,
+    removeUrl: removeUrl,
+    addGame: addGame,
+    removeGame: removeGame,
+  },
 };
+
+function addUrl() {
+  this.inputs.urls.push("");
+}
+
+function removeUrl(index) {
+  this.inputs.urls.splice(index, 1);
+}
+
+function addGame() {
+  this.inputs.gameIds.push(1);
+}
+
+function removeGame(index) {
+  this.inputs.gameIds.splice(index, 1);
+}
 </script>
 
 <style scoped>
@@ -128,11 +177,6 @@ label.checkbox {
 
 .icon-plus {
   height: 15px;
-  margin-top: 5px;
-}
-
-.icon-plus {
-  height: 15px;
   margin: auto 0 auto 0;
   vertical-align: middle;
 }
@@ -158,5 +202,23 @@ label.checkbox {
   font-size: 15px;
   font-weight: 900;
   color: #aaaaaa;
+}
+
+button.create {
+  background-color: #c1abd2;
+  margin: 4px 4px 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 8px;
+}
+
+button.cancel {
+  background-color: #8457a8;
+  margin: 4px 4px 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 8px;
 }
 </style>

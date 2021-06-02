@@ -9,7 +9,14 @@
       </tr>
       <tr>
         <th class="pale">URL</th>
-        <td class="first"><input placeholder="" class="text" /></td>
+        <td class="first">
+          <div style="display: flex">
+            <input placeholder="" class="text" />
+            <a href="#" class="icon-eraser"/>
+          </div>
+          <br>
+          <a href="#" class="icon-plus" />
+        </td>
       </tr>
       <tr>
         <th class="pale">公開日</th>
@@ -74,7 +81,7 @@ th {
 }
 
 input.text {
-  width: calc(100% - 6px);
+  width: calc(100% - 6px - 23px);
   margin: 0;
   padding: 2px;
   border-radius: 4px 4px 4px 4px;
@@ -124,13 +131,24 @@ label.checkbox {
   margin-top: 5px;
 }
 
+.icon-plus {
+  height: 15px;
+  margin: auto 0 auto 0;
+  vertical-align: middle;
+}
+
 .icon-plus::before {
   font-family: "Font Awesome 5 Free";
   content: "\f0fe";
   font-size: 15px;
   font-weight: 400;
-  margin-right: 4px;
   color: #aaaaaa;
+  vertical-align: middle;
+}
+
+.icon-eraser {
+  height: 15px;
+  margin: auto 0 auto 4px;
   vertical-align: middle;
 }
 
@@ -139,9 +157,6 @@ label.checkbox {
   content: "\f12d";
   font-size: 15px;
   font-weight: 900;
-  margin-right: 4px;
   color: #aaaaaa;
-  margin-left: 5px;
-  vertical-align: middle;
 }
 </style>

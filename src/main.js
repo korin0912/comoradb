@@ -20,7 +20,7 @@ let routes = [
   },
 ];
 
-if (process.env.NODE_ENV == 'local') {
+if (process.env.NODE_ENV == 'development') {
   routes.push({
     path: '/movies/create',
     name: 'MovieCreate',

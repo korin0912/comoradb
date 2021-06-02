@@ -35,8 +35,8 @@ export default {
   },
   data: function () {
     let filterParams = games.getInitialFilterParams();
-    let isLocal = process.env.NODE_ENV == "local";
-    console.log(process.env.NODE_ENV);
+    let isLocal = process.env.NODE_ENV == "development";
+    // console.log(process.env.NODE_ENV);
     return {
       isLocal: isLocal,
       resetKey: 0,

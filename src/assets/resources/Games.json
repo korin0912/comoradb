@@ -2010,5 +2010,15 @@
       118
     ],
     "comment": ""
+  },
+  "182": {
+    "name": "フードデリバリーサービス",
+    "urls": [
+      "https://store.steampowered.com/app/1581080/_/?l=japanese"
+    ],
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

@@ -1,5 +1,5 @@
 ﻿<template>
-  <div>
+  <div class="container">
     <Header />
     <h2>動画追加</h2>
     <table>
@@ -12,9 +12,9 @@
         <td>
           <div v-for="(url, index) in inputs.urls" :key="'url-' + index" style="display: flex; margin-bottom: 4px">
             <input placeholder="" class="text" v-model="inputs.urls[index]" />
-            <a v-show="index != 0" href="#" class="icon-eraser" v-on:click="removeUrl(index)" />
+            <a v-show="index != 0" href="#" class="icon eraser" style="margin-left: 4px" v-on:click="removeUrl(index)" />
           </div>
-          <a href="#" class="icon-plus" v-on:click="addUrl()" />
+          <a href="#" class="icon plus" v-on:click="addUrl()" />
         </td>
       </tr>
       <tr>
@@ -28,9 +28,9 @@
             <select v-model="inputs.gameIds[index]">
               <option v-for="(game, index) in gamesData" :key="'game-option-' + index" :value="index">{{ game.name }}</option>
             </select>
-            <a v-show="index != 0" href="#" class="icon-eraser" v-on:click="removeGame(index)" />
+            <a v-show="index != 0" href="#" class="icon eraser" style="margin-left: 4px" v-on:click="removeGame(index)" />
           </div>
-          <a href="#" class="icon-plus" v-on:click="addGame()" />
+          <a href="#" class="icon plus" v-on:click="addGame()" />
         </td>
       </tr>
       <tr>
@@ -54,7 +54,7 @@
       </tr>
     </table>
     <button class="create">作成</button>
-    <button class="cancel">戻る</button>
+    <router-link :to="{ name: 'Games' }"><button class="cancel">戻る</button></router-link>
   </div>
 </template>
 
@@ -125,6 +125,11 @@ function removeGame(index) {
 </script>
 
 <style scoped>
+.container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
 th {
   width: 100px;
 }
@@ -175,36 +180,8 @@ label.checkbox {
   vertical-align: top;
 }
 
-.icon-plus {
-  height: 15px;
-  margin: auto 0 auto 0;
-  vertical-align: middle;
-}
-
-.icon-plus::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f0fe";
-  font-size: 15px;
-  font-weight: 400;
-  color: #aaaaaa;
-  vertical-align: middle;
-}
-
-.icon-eraser {
-  height: 15px;
-  margin: auto 0 auto 4px;
-  vertical-align: middle;
-}
-
-.icon-eraser::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f12d";
-  font-size: 15px;
-  font-weight: 900;
-  color: #aaaaaa;
-}
-
 button.create {
+  float: left;
   background-color: #c1abd2;
   margin: 4px 4px 0 0;
   border-width: 1px;
@@ -214,11 +191,35 @@ button.create {
 }
 
 button.cancel {
+  float: right;
   background-color: #8457a8;
   margin: 4px 4px 0 0;
   border-width: 1px;
   border-style: solid;
   border-color: #dddddd;
   border-radius: 8px;
+}
+
+.icon {
+  height: 15px;
+  margin: auto 0 auto 0;
+  vertical-align: middle;
+}
+
+.icon.plus::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0fe";
+  font-size: 15px;
+  font-weight: 400;
+  color: #aaaaaa;
+  vertical-align: middle;
+}
+
+.icon.eraser::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f12d";
+  font-size: 15px;
+  font-weight: 900;
+  color: #aaaaaa;
 }
 </style>

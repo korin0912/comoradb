@@ -57,7 +57,12 @@
           <template v-if="item.movie != null">
             <!-- ID -->
             <td :rowspan="item.movieRow" class="text-center">
-              {{ item.movie.id }}
+              <div v-if="isLocal">
+                <router-link :to="{ name: 'MovieEdit', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
+              </div>
+              <div v-else>
+                {{ item.movie.id }}
+              </div>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.movieRow" class="movie">
@@ -89,9 +94,11 @@ export default {
   name: "GamesPCTable",
   props: ["filterParams"],
   data: function () {
+    let isLocal = process.env.NODE_ENV == "development";
     // テーブルアイテム
     let tableItems = games.getTableItems(this.filterParams);
     return {
+      isLocal: isLocal,
       items: tableItems.items,
       gameCount: tableItems.gameCount,
       movieCount: tableItems.movieCount,

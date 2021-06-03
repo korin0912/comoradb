@@ -12,7 +12,7 @@
         <div class="create">
           <button class="create">ゲーム</button>
           <br />
-          <router-link :to="{ name: 'MovieCreate' }">
+          <router-link :to="{ name: 'MovieEdit', params: { movieId: 0 } }">
             <button class="create">動画</button>
           </router-link>
         </div>

@@ -22,9 +22,9 @@ let routes = [
 
 if (process.env.NODE_ENV == 'development') {
   routes.push({
-    path: '/movies/create',
-    name: 'MovieCreate',
-    component: () => import('./components/Edits/MovieCreate.vue'),
+    path: '/movies/edit/:movieId',
+    name: 'MovieEdit',
+    component: () => import('./components/Edits/MovieEdit.vue'),
   });
 }
 

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "run-p serve:*",
-    "serve:vue-clie-service": "vue-cli-service serve",
+    "serve:vue-cli-service": "vue-cli-service serve",
     "serve:json-edit-server": "node .\\tools\\json_edit_server.js",
     "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint"

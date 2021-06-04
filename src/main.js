@@ -26,6 +26,11 @@ if (process.env.NODE_ENV == 'development') {
     name: 'MovieEdit',
     component: () => import('./components/Edits/MovieEdit.vue'),
   });
+  routes.push({
+    path: '/games/edit/:gameId',
+    name: 'GameEdit',
+    component: () => import('./components/Edits/GameEdit.vue'),
+  });
 }
 
 const router = new VueRouter({

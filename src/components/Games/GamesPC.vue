@@ -10,7 +10,9 @@
         <label class="caption">追加</label>
         <!-- 追加ボタン -->
         <div class="create">
-          <button class="create">ゲーム</button>
+          <router-link :to="{ name: 'GameEdit', params: { gameId: 0 } }">
+            <button class="create">ゲーム</button>
+          </router-link>
           <br />
           <router-link :to="{ name: 'MovieEdit', params: { movieId: 0 } }">
             <button class="create">動画</button>

@@ -20,22 +20,24 @@ const server = http.createServer((req, res) => {
   else if (req.method == 'POST' && req.url == '/movie/create') {
     // 動画: 作成
     console.log('movie create');
-    updateMovie(0, req, res);
+    updateJson(0, 'Movies', req, res);
   }
   else if (req.method == 'POST' && req.url.indexOf('/movie/edit/') == 0) {
     // 動画: 編集
     var id = parseInt(req.url.substring('/movie/edit/'.length));
     console.log(`movie edit: ${id}`);
-    updateMovie(id, req, res);
+    updateJson(id, 'Movies', req, res);
   }
   else if (req.method == 'POST' && req.url == '/game/create') {
     // ゲーム: 作成
     console.log('game create');
+    updateJson(0, 'Games', req, res);
   }
   else if (req.method == 'POST' && req.url.indexOf('/game/edit/') == 0) {
     // ゲーム: 編集
     var id = parseInt(req.url.substring('/game/edit/'.length));
     console.log(`game edit: ${id}`);
+    updateJson(id, 'Games', req, res);
   }
   else {
     // 不明
@@ -49,18 +51,18 @@ const server = http.createServer((req, res) => {
 
 });
 
-function updateMovie(id, req, res) {
+function updateJson(id, file, req, res) {
   // 動画データ読み込み
   var postData = {};
   req.on('data', function (data) {
     postData = JSON.parse(data);
   }).on('end', function () {
-    let moviesData = JSON.parse(fs.readFileSync("src/assets/resources/Movies.json"));
+    let data = JSON.parse(fs.readFileSync(`src/assets/resources/${file}.json`));
 
     // id 未指定の場合は、採番
     if (id == 0) {
       // ID 取得
-      Object.keys(moviesData).forEach(key => {
+      Object.keys(data).forEach(key => {
         if (id < parseInt(key)) {
           id = parseInt(key);
         }
@@ -70,10 +72,10 @@ function updateMovie(id, req, res) {
 
     // データ追加
     // console.log(JSON.stringify(postData));
-    moviesData[String(id)] = postData;
+    data[String(id)] = postData;
 
     // 動画データ保存
-    fs.writeFileSync("src/assets/resources/Movies.json", JSON.stringify(moviesData, null, 2));
+    fs.writeFileSync(`src/assets/resources/${file}.json`, JSON.stringify(data, null, 2));
 
     console.log('success');
     res.end('success');

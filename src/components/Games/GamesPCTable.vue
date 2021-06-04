@@ -27,7 +27,12 @@
           <template v-if="item.game != null">
             <!-- ID -->
             <td :rowspan="item.gameRow" class="text-center left">
-              {{ item.game.id }}
+              <div v-if="isLocal">
+                <router-link :to="{ name: 'GameEdit', params: { gameId: item.game.id } }">{{ item.game.id }}</router-link>
+              </div>
+              <div v-else>
+                {{ item.game.id }}
+              </div>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.gameRow">

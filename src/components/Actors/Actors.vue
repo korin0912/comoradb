@@ -4,7 +4,7 @@
     <div class="container">
       <!-- 出演者 -->
       <div :class="isMobile == false ? 'actor_pc' : 'actor_mobile'">
-        <img :src="require('../../assets/images/actor_' + this.$route.query.actorId + '.png')" class="actor" />
+        <img :src="require('../../assets/images/actor_' + this.$route.params.actorId + '.png')" class="actor" />
         <br />
         <br />
         <table>
@@ -60,13 +60,13 @@ export default {
   },
   data: function () {
     let actorIdx = Object.keys(actorsData).find((key) => {
-      return key == this.$route.query.actorId;
+      return key == this.$route.params.actorId;
     });
     let actor = actorsData[actorIdx];
     let filterParams = games.getInitialFilterParams();
-    // console.log(this.$route.query);
+    // console.log(this.$route.params);
     filterParams.actors.forEach((elem) => {
-      if (elem.id == this.$route.query.actorId) {
+      if (elem.id == this.$route.params.actorId) {
         elem.check = true;
       }
     });

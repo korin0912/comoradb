@@ -6,6 +6,19 @@
     </div>
     <!-- サイドバー -->
     <div class="sidebar">
+      <div v-if="isLocal" class="box box-outline">
+        <label class="caption">追加</label>
+        <!-- 追加ボタン -->
+        <div class="create">
+          <router-link :to="{ name: 'GameEdit', params: { gameId: 0 } }">
+            <button class="create">ゲーム</button>
+          </router-link>
+          <br />
+          <router-link :to="{ name: 'MovieEdit', params: { movieId: 0 } }">
+            <button class="create">動画</button>
+          </router-link>
+        </div>
+      </div>
       <GamesFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
     </div>
   </div>
@@ -24,7 +37,10 @@ export default {
   },
   data: function () {
     let filterParams = games.getInitialFilterParams();
+    let isLocal = process.env.NODE_ENV == "development";
+    // console.log(process.env.NODE_ENV);
     return {
+      isLocal: isLocal,
       resetKey: 0,
       filterParams: filterParams,
     };
@@ -54,5 +70,24 @@ export default {
 
 .sidebar {
   grid-area: box2;
+}
+
+div.create {
+  position: relative;
+  border-radius: 5px;
+  border-width: 0px;
+  margin: 0px 10px 0px 10px;
+  padding: 0 0 5px 0;
+  text-align: center;
+}
+
+button.create {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 8px;
+  margin: 0 0 5px 0;
+  padding: 1px 10px 1px 10px;
 }
 </style>

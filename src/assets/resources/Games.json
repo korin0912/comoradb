@@ -2020,5 +2020,17 @@
       2
     ],
     "comment": ""
+  },
+  "183": {
+    "name": "Lost Ruins",
+    "urls": [
+      "https://lostruins.dangenentertainment.com",
+      "https://store.steampowered.com/app/1306630/Lost_Ruins/"
+    ],
+    "genreIds": [
+      1,
+      135
+    ],
+    "comment": ""
   }
 }

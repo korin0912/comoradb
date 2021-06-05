@@ -13,9 +13,9 @@
         <td>
           <div v-for="(url, index) in inputs.urls" v-bind:key="'url-' + index" style="margin-bottom: 4px">
             <input placeholder="" class="edit-text" v-model="inputs.urls[index]" />
-            <a v-show="index != 0" href="#" class="edit-icon eraser" style="margin-left: 4px" v-on:click="removeUrl(index)" />
+            <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeUrl(index)" />
           </div>
-          <a href="#" class="edit-icon plus" v-on:click="addUrl()" />
+          <a href="#" class="icon plus" v-on:click="addUrl()" />
         </td>
       </tr>
       <tr>

@@ -72,26 +72,3 @@ button.edit-cancel {
   border-color: #dddddd;
   border-radius: 8px;
 }
-
-.edit-icon {
-  height: 15px;
-  margin: auto 0 auto 0;
-  vertical-align: middle;
-}
-
-.edit-icon.plus::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f0fe";
-  font-size: 15px;
-  font-weight: 400;
-  color: #aaaaaa;
-  vertical-align: middle;
-}
-
-.edit-icon.eraser::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f12d";
-  font-size: 15px;
-  font-weight: 900;
-  color: #aaaaaa;
-}

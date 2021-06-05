@@ -40,15 +40,8 @@
             </td>
             <!-- リンク -->
             <td :rowspan="item.gameRow" class="text-center links">
-              <div v-for="(url, urlIndex) in item.game.urls" :key="url.keyPrefix + urlIndex" class="urlicon">
-                <a :href="url.url" target="_blank">
-                  <template v-if="url.tag == 1">
-                    <i :class="url.icon" />
-                  </template>
-                  <template v-else-if="url.tag == 2">
-                    <img class="urlicon" :src="url.icon" />
-                  </template>
-                </a>
+              <div v-for="(url, urlIndex) in item.game.urls" :key="`url-${item.game.id}-${urlIndex}`" class="urlicon">
+                <a :href="url" target="_blank" :class="'icon ' + common.getUrlIconClass(url)" />
               </div>
             </td>
             <!-- ジャンル -->
@@ -79,11 +72,13 @@
             </td>
             <!-- 出演者 -->
             <td :rowspan="item.movieRow" class="text-center">
-              <img v-for="actor in item.movie.actors" :key="actor.key" :src="actor.icon" :title="actor.name" class="actoricon" />
+              <div v-for="actor in item.movie.actors" :key="`actor-${actor.id}`" class="actoricon">
+                <i :title="actor.name" :class="`icon actor-${actor.id}`" />
+              </div>
             </td>
             <!-- 雑談 -->
             <td :rowspan="item.movieRow" class="text-center">
-              <i v-if="item.movie.chat" class="fas fa-check fa-lg checkmark" />
+              <i v-if="item.movie.chat" class="icon check" />
             </td>
           </template>
         </tr>
@@ -93,6 +88,7 @@
 </template>
 
 <script>
+import common from "../Common/Common.js";
 import games from "./Games.js";
 
 export default {
@@ -103,6 +99,7 @@ export default {
     // テーブルアイテム
     let tableItems = games.getTableItems(this.filterParams);
     return {
+      common: common,
       isLocal: isLocal,
       items: tableItems.items,
       gameCount: tableItems.gameCount,
@@ -146,4 +143,21 @@ th.movie-actors {
 th.movie-chat {
   width: 3%;
 }
+
+div.urlicon {
+  width: 17px;
+  height: 17px;
+  display: block;
+  float: left;
+  margin: 0 2px 2px 0;
+}
+
+div.actoricon {
+  width: 17px;
+  height: 17px;
+  display: block;
+  float: left;
+  margin: 0 2px 2px 0;
+}
+
 </style>

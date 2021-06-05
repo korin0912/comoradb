@@ -9,7 +9,7 @@
     <div class="box">
       <label class="caption">テキスト</label>
       <input v-on:input="updateFilter" v-model="params.text" placeholder="" class="filter-text" />
-      <button v-on:click="resetInput('text')" class="input-reset"><i :class="getResetIcon()" /></button>
+      <button v-on:click="resetInput('text')" class="input-reset"><i class="icon reset" /></button>
     </div>
     <!-- 出演者 -->
     <div class="box">
@@ -26,12 +26,12 @@
       <label class="caption">公開日</label>
       <div>
         <input type="date" id="filter-date-from" v-on:change="updateFilter" v-model="params.releaseDates.from" class="filter-date" />
-        <button v-on:click="resetInput('releaseDateFrom')" class="input-reset"><i :class="getResetIcon()" /></button>
+        <button v-on:click="resetInput('releaseDateFrom')" class="input-reset"><i class="icon reset" /></button>
       </div>
       <span>～</span>
       <div>
         <input type="date" id="filter-date-to" v-on:change="updateFilter" v-model="params.releaseDates.to" class="filter-date" />
-        <button v-on:click="resetInput('releaseDateTo')" class="input-reset"><i :class="getResetIcon()" /></button>
+        <button v-on:click="resetInput('releaseDateTo')" class="input-reset"><i class="icon reset" /></button>
       </div>
     </div>
     <!-- ジャンル -->
@@ -54,7 +54,6 @@
 </template>
 
 <script>
-import common from "../Common/Common.js";
 import games from "./Games.js";
 
 export default {
@@ -78,7 +77,6 @@ export default {
       this.params = games.resetFilterParamsInput(this.params, filter);
       this.$emit('updateTable', this.params);
     },
-    getResetIcon: common.getResetIcon,
   },
 };
 </script>

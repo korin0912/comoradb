@@ -30,6 +30,10 @@ export default {
         rel: "stylesheet",
         href: require("./components/Common/Common.css"),
       },
+      {
+        rel: "stylesheet",
+        href: require("./components/Common/Icon.css"),
+      },
     ],
   },
 };

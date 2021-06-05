@@ -29,15 +29,8 @@
             <td :rowspan="item.gameRow">
               {{ item.game.name }}
               <div>
-                <div v-for="(url, urlIndex) in item.game.urls" :key="url.keyPrefix + urlIndex" class="urlicon">
-                  <a :href="url.url" target="_blank">
-                    <template v-if="url.tag == 1">
-                      <i :class="url.icon" />
-                    </template>
-                    <template v-else-if="url.tag == 2">
-                      <img class="urlicon" :src="url.icon" />
-                    </template>
-                  </a>
+                <div v-for="(url, urlIndex) in item.game.urls" :key="`url-${item.game.id}-${urlIndex}`" class="urlicon">
+                  <a :href="url" target="_blank" :class="'icon ' + common.getUrlIconClass(url)" />
                 </div>
               </div>
             </td>
@@ -60,6 +53,7 @@
 </template>
 
 <script>
+import common from "../Common/Common.js";
 import games from "./Games.js";
 
 export default {
@@ -69,6 +63,7 @@ export default {
     // テーブルアイテム
     let tableItems = games.getTableItems(this.filterParams);
     return {
+      common: common,
       items: tableItems.items,
       gameCount: tableItems.gameCount,
       movieCount: tableItems.movieCount,
@@ -94,5 +89,13 @@ th.movie-id {
 
 th.movie-name {
   width: 47%;
+}
+
+div.urlicon {
+  width: 17px;
+  height: 17px;
+  display: block;
+  float: left;
+  margin: 0 3px 3px 0;
 }
 </style>

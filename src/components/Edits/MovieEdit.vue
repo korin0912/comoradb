@@ -23,9 +23,9 @@
             <select v-model="inputs.gameIds[index]">
               <option v-for="(game, index) in gamesData" :key="'game-option-' + index" :value="index">{{ game.name }}</option>
             </select>
-            <a v-show="index != 0" href="#" class="edit-icon eraser" style="margin-left: 4px" v-on:click="removeGame(index)" />
+            <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeGame(index)" />
           </div>
-          <a href="#" class="edit-icon plus" v-on:click="addGame()" />
+          <a href="#" class="icon plus" v-on:click="addGame()" />
         </td>
       </tr>
       <tr>

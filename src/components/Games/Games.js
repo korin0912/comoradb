@@ -5,17 +5,6 @@ import actorsData from "../../assets/resources/Actors.json";
 
 import common from "../Common/Common.js";
 
-function getUrlInfo(url, keyPrefix)
-{
-  let icontype = common.getUrlType(url);
-  return {
-    keyPrefix: keyPrefix,
-    url: url,
-    icon: common.getUrlIcon(icontype),
-    tag: common.getUrlTagType(icontype),
-  };
-}
-
 /**
  * テーブルのオリジナルデータアイテム
  */
@@ -39,9 +28,7 @@ function getOriginalTableItems() {
         let game = {
           id: gameId,
           name: gameData.name,
-          urls: gameData.urls.map((url) => {
-            return getUrlInfo(url, "url-" + gameId + "-");
-          }),
+          urls: gameData.urls,
           genres: gameData.genreIds.map((genreId) => {
             return {
               id: genreId,
@@ -68,8 +55,6 @@ function getOriginalTableItems() {
             actors: movieData.actorIds.map((actorId) => {
               return {
                 id: actorId,
-                key: "actor-" + actorId,
-                icon: require("../../assets/images/actoricon_" + actorId + ".png"),
                 name: actorsData[actorId].name,
               };
             }),
@@ -360,7 +345,6 @@ function resetFilterParamsInput(filterParams, filter) {
 }
 
 export default {
-  getUrlInfo,
   getTableItems,
   getInitialFilterParams,
   updateFilterParams,

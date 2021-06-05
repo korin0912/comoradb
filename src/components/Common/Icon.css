@@ -1,0 +1,172 @@
+﻿.icon {
+  width: 17px;
+  height: 17px;
+  margin: auto 0 auto 0;
+  vertical-align: middle;
+  font-style: normal;
+}
+
+.icon.plus::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0fe";
+  font-size: 17px;
+  font-weight: 400;
+  color: #ff8888;
+  vertical-align: middle;
+}
+
+.icon.minus::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f146";
+  font-size: 17px;
+  font-weight: 400;
+  color: #888888;
+}
+
+.icon.reset::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f057";
+  font-size: 17px;
+  font-weight: 400;
+  color: #888888;
+}
+
+.icon.check::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-size: 17px;
+  font-weight: 900;
+  color: #25af01;
+}
+
+.icon.home::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f268";
+  font-size: 17px;
+  font-weight: 400;
+  color: #66cc44;
+}
+
+.icon.steam::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f1b6";
+  font-size: 17px;
+  font-weight: 400;
+  color: #324b6c;
+}
+
+.icon.twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f081";
+  font-size: 17px;
+  font-weight: 400;
+  color: #80cafd;
+}
+
+.icon.facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f082";
+  font-size: 17px;
+  font-weight: 400;
+  color: #4267b2;
+}
+
+.icon.youtube::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f431";
+  font-size: 17px;
+  font-weight: 400;
+  color: #ff0000;
+}
+
+.icon.nintendo::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-image: url("../../assets/images/urlicon_nintendo.png");
+  background-size: contain;
+}
+
+.icon.EA::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-image: url("../../assets/images/urlicon_EA.jpg");
+  background-size: contain;
+}
+
+.icon.capcom::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-image: url("../../assets/images/urlicon_CAPCOM.png");
+  background-size: contain;
+}
+
+.icon.actor-1::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../../assets/images/actor_1.png");
+  background-size: contain;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}
+
+.icon.actor-2::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../../assets/images/actor_2.png");
+  background-size: contain;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}
+
+.icon.actor-3::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../../assets/images/actor_3.png");
+  background-size: contain;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}
+
+.icon.actor-4::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../../assets/images/actor_4.png");
+  background-size: contain;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}
+
+.icon.actor-5::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../../assets/images/actor_5.png");
+  background-size: contain;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}

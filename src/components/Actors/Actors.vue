@@ -1,5 +1,5 @@
 ﻿<template>
-  <div>
+  <div class="bottom-blank">
     <Header />
     <div class="container">
       <!-- 出演者 -->

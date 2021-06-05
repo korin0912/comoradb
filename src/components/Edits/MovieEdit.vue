@@ -50,9 +50,11 @@
         </tr>
       </thead>
     </table>
-    <button v-if="movieId == 0" v-on:click="create()" class="edit-create">作成</button>
-    <button v-else v-on:click="create()" class="edit-create">更新</button>
-    <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
+    <div style="height: 60px;">
+      <button v-if="movieId == 0" v-on:click="create()" class="edit-create">作成</button>
+      <button v-else v-on:click="create()" class="edit-create">更新</button>
+      <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
+    </div>
   </div>
 </template>
 

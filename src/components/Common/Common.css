@@ -14,6 +14,10 @@ input {
   font-family: "Kosugi Maru", sans-serif;
 }
 
+.bottom-blank {
+  margin-bottom: 20px !important;
+}
+
 .text-upper {
   vertical-align: top;
 }

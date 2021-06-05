@@ -1,6 +1,6 @@
 ﻿<template>
   <div class="container">
-    <div class="main">
+    <div class="main bottom-blank">
       <GamesTable :key="resetKey" :filterParams="filterParams" />
     </div>
     <Slide right @openMenu="handleOpenMenu">

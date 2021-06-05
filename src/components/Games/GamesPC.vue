@@ -1,7 +1,7 @@
 ﻿<template>
   <div class="container">
     <!-- メインテーブル -->
-    <div class="main">
+    <div class="main bottom-blank">
       <GamesTable :key="resetKey" :filterParams="filterParams" />
     </div>
     <!-- サイドバー -->

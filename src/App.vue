@@ -38,6 +38,10 @@ export default {
         rel: "stylesheet",
         href: require("./components/Common/Table.css"),
       },
+      {
+        rel: "stylesheet",
+        href: require("./components/Common/Box.css"),
+      },
     ],
   },
 };

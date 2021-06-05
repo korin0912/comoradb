@@ -14,36 +14,6 @@ input {
   font-family: "Kosugi Maru", sans-serif;
 }
 
-div.box {
-  position: relative;
-  font-size: 13px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--comora-color-pale-purple);
-  margin: 0px 10px 10px 10px;
-  padding: 13px 10px 10px 10px;
-  color: #2c3e50;
-}
-
-div.box-outline {
-  display: block;
-  padding: 13px 0px 0px 0px;
-  border-color: var(--comora-color-dirk-purple);
-  background-color: #ffffff;
-}
-
-div.box .caption {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1em;
-  padding: 0 1em;
-  margin: 0;
-  background-color: white;
-  transform: translateY(-50%) translateX(1em);
-}
-
 .text-upper {
   vertical-align: top;
 }

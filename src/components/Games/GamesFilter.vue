@@ -1,18 +1,18 @@
 ﻿<template>
-  <div class="box box-outline bottom-blank">
+  <div class="outline-box filter" style="border-color: var(--comora-color-dirk-purple)">
     <label class="caption">フィルター</label>
     <!-- リセットボタン -->
     <div class="filter-init">
       <button v-on:click="initFilter" class="filter-init">リセット</button>
     </div>
     <!-- テキスト -->
-    <div class="box">
+    <div class="outline-box">
       <label class="caption">テキスト</label>
       <input v-on:input="updateFilter" v-model="params.text" placeholder="" class="filter-text" />
       <button v-on:click="resetInput('text')" class="input-reset"><i class="icon reset" /></button>
     </div>
     <!-- 出演者 -->
-    <div class="box">
+    <div class="outline-box">
       <label class="caption">出演者</label>
       <div v-for="actor in params.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
         <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="updateFilter" v-model="actor.check" class="filter-checkbox" />
@@ -22,7 +22,7 @@
       </div>
     </div>
     <!-- 公開日 -->
-    <div class="box">
+    <div class="outline-box">
       <label class="caption">公開日</label>
       <div>
         <input type="date" id="filter-date-from" v-on:change="updateFilter" v-model="params.releaseDates.from" class="filter-date" />
@@ -35,7 +35,7 @@
       </div>
     </div>
     <!-- ジャンル -->
-    <div class="box">
+    <div class="outline-box">
       <label class="caption">ジャンル</label>
       <div v-for="genre in params.genres" :key="'filter-genre-' + genre.id" class="filter-checkbox">
         <input type="checkbox" :id="'filter-genre-' + genre.id" v-on:change="updateFilter" v-model="genre.check" class="filter-checkbox" />
@@ -43,7 +43,7 @@
       </div>
     </div>
     <!-- 雑談 -->
-    <div class="box">
+    <div class="outline-box">
       <label class="caption">その他</label>
       <div class="filter-checkbox">
         <input type="checkbox" :id="'filter-chat'" v-on:change="updateFilter" v-model="params.chat" class="filter-checkbox" />
@@ -67,15 +67,15 @@ export default {
   methods: {
     initFilter: function () {
       this.params = games.getInitialFilterParams();
-      this.$emit('updateTable', this.params);
+      this.$emit("updateTable", this.params);
     },
     updateFilter: function () {
       this.params = games.updateFilterParams(this.params);
-      this.$emit('updateTable', this.params);
+      this.$emit("updateTable", this.params);
     },
     resetInput: function (filter) {
       this.params = games.resetFilterParamsInput(this.params, filter);
-      this.$emit('updateTable', this.params);
+      this.$emit("updateTable", this.params);
     },
   },
 };
@@ -133,8 +133,8 @@ div.filter-init {
   position: relative;
   border-radius: 5px;
   border-width: 0px;
-  margin: 0px 10px 10px 10px;
-  padding: 0 0 5px 5px;
+  margin: 0px 10px 10px 0px;
+  padding: 0 0 5px 0px;
   text-align: left;
 }
 
@@ -147,7 +147,7 @@ button.filter-init {
   padding: 1px 10px 1px 10px;
 }
 
-.bottom-blank {
-  margin-bottom: 60px;
+.filter {
+  margin: 10px 10px 60px 10px;
 }
 </style>

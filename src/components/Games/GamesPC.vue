@@ -6,18 +6,16 @@
     </div>
     <!-- サイドバー -->
     <div class="sidebar">
-      <div v-if="isLocal" class="box box-outline">
+      <div v-if="isLocal" class="outline-box create">
         <label class="caption">追加</label>
         <!-- 追加ボタン -->
-        <div class="create">
-          <router-link :to="{ name: 'GameEdit', params: { gameId: 0 } }">
-            <button class="create">ゲーム</button>
-          </router-link>
-          <br />
-          <router-link :to="{ name: 'MovieEdit', params: { movieId: 0 } }">
-            <button class="create">動画</button>
-          </router-link>
-        </div>
+        <router-link :to="{ name: 'GameEdit', params: { gameId: 0 } }">
+          <button class="create">ゲーム</button>
+        </router-link>
+        <br />
+        <router-link :to="{ name: 'MovieEdit', params: { movieId: 0 } }">
+          <button class="create">動画</button>
+        </router-link>
       </div>
       <GamesFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
     </div>
@@ -72,20 +70,18 @@ export default {
 
 div.create {
   position: relative;
-  border-radius: 5px;
-  border-width: 0px;
-  margin: 0px 10px 0px 10px;
-  padding: 0 0 5px 0;
-  text-align: center;
+  margin: 10px 10px 0px 10px;
+  border-color: var(--comora-color-dirk-purple);
 }
 
 button.create {
+  text-align: center;
   width: 100%;
   border-width: 1px;
   border-style: solid;
   border-color: #dddddd;
   border-radius: 8px;
-  margin: 0 0 5px 0;
-  padding: 1px 10px 1px 10px;
+  padding: 0;
+  margin: 2px 0 2px 0;
 }
 </style>

@@ -2,18 +2,18 @@
   <table class="table">
     <thead>
       <tr>
-        <th colspan="2" class="pale first left">
+        <th colspan="2" class="pale">
           {{ "ゲーム (" + gameCount + ")" }}
         </th>
-        <th colspan="2" class="dark first">
+        <th colspan="2" class="dark">
           {{ "動画 (" + movieCount + ")" }}
         </th>
       </tr>
       <tr>
-        <th class="pale second left game-id">#</th>
-        <th class="pale second game-name">タイトル</th>
-        <th class="dark second movie-id">#</th>
-        <th class="dark second movie-name">タイトル</th>
+        <th class="pale game-id">#</th>
+        <th class="pale game-name">タイトル</th>
+        <th class="dark movie-id">#</th>
+        <th class="dark movie-name">タイトル</th>
       </tr>
     </thead>
     <tbody>
@@ -22,7 +22,7 @@
           <!-- ゲーム -->
           <template v-if="item.game != null">
             <!-- ID -->
-            <td :rowspan="item.gameRow" class="text-center left">
+            <td :rowspan="item.gameRow" class="text-center">
               {{ item.game.id }}
             </td>
             <!-- タイトル -->

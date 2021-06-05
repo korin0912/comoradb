@@ -1,4 +1,10 @@
-﻿a {
+﻿:root {
+  --comora-color-pale-purple: #c1abd2;
+  --comora-color-dirk-purple: #8457a8;
+  --comora-color-yellow: #fbcb2d;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -8,81 +14,13 @@ input {
   font-family: "Kosugi Maru", sans-serif;
 }
 
-table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0px;
-}
-
-th.first {
-  border-top-width: 1px;
-}
-
-th {
-  height: 20px;
-  font-size: 0.8rem;
-  font-weight: 200;
-  padding: 2px 5px 2px 5px;
-  border-width: 0px 1px 1px 0px;
-  border-style: solid;
-  border-color: #dddddd;
-}
-
-th.left {
-  border-left-width: 1px;
-}
-
-th.pale {
-  color: #ffffff;
-  background-color: #c1abd2;
-}
-
-th.dark {
-  color: #ffffff;
-  background-color: #8457a8;
-}
-
-td {
-  font-size: 0.8rem;
-  font-weight: 200;
-  padding: 2px 5px 2px 5px;
-  border-width: 0px 1px 1px 0px;
-  border-style: solid;
-  border-color: #dddddd;
-  text-align: left;
-}
-
-td.first {
-  border-top-width: 1px;
-}
-
-td.left {
-  border-left-width: 1px;
-}
-
-span.genre {
-  font-size: 0.6rem;
-  border-radius: 5px 5px 5px 5px;
-  border-style: none;
-  background-color: #fbcb2d;
-  color: #000000;
-  margin: 1px 1px 0px 0px;
-  padding: 1px 5px 0px 5px;
-  display: inline-block;
-}
-
-i.icon-reset {
-  vertical-align: middle;
-  color: #888888;
-}
-
 div.box {
   position: relative;
   font-size: 13px;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #c1abd2;
+  border-color: var(--comora-color-pale-purple);
   margin: 0px 10px 10px 10px;
   padding: 13px 10px 10px 10px;
   color: #2c3e50;
@@ -91,7 +29,7 @@ div.box {
 div.box-outline {
   display: block;
   padding: 13px 0px 0px 0px;
-  border-color: #8457a8;
+  border-color: var(--comora-color-dirk-purple);
   background-color: #ffffff;
 }
 

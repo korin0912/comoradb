@@ -39,6 +39,7 @@
   color: #25af01;
 }
 
+/* WEBサイト */
 .icon.home::before {
   font-family: "Font Awesome 5 Brands";
   content: "\f268";
@@ -79,6 +80,7 @@
   color: #ff0000;
 }
 
+/* ゲーム会社 */
 .icon.nintendo::before {
   content: "";
   width: 17px;
@@ -106,6 +108,7 @@
   background-size: contain;
 }
 
+/* 出演者 */
 .icon.actor-1::before {
   content: "";
   width: 15px;

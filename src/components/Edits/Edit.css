@@ -55,7 +55,7 @@ label.edit-checkbox {
 
 button.edit-create {
   float: left;
-  background-color: #c1abd2;
+  background-color: var(--comora-color-pale-purple);
   margin: 4px 4px 0 0;
   border-width: 1px;
   border-style: solid;
@@ -65,7 +65,7 @@ button.edit-create {
 
 button.edit-cancel {
   float: right;
-  background-color: #8457a8;
+  background-color: var(--comora-color-dirk-purple);
   margin: 4px 4px 0 0;
   border-width: 1px;
   border-style: solid;

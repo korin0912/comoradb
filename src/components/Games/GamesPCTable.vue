@@ -2,22 +2,22 @@
   <table>
     <thead>
       <tr>
-        <th colspan="4" class="pale first left">
+        <th colspan="4" class="pale">
           {{ "ゲーム (" + gameCount + ")" }}
         </th>
-        <th colspan="5" class="dark first">
+        <th colspan="5" class="dark">
           {{ "動画 (" + movieCount + ")" }}
         </th>
       </tr>
       <tr>
-        <th class="pale second left game-id">#</th>
-        <th class="pale second game-name" colspan="2">タイトル</th>
-        <th class="pale second game-genres">ジャンル</th>
-        <th class="dark second movie-id">#</th>
-        <th class="dark second movie-name">タイトル</th>
-        <th class="dark second movie-date">公開日</th>
-        <th class="dark second movie-actors">出演</th>
-        <th class="dark second movie-chat">雑談</th>
+        <th class="pale game-id">#</th>
+        <th class="pale game-name" colspan="2">タイトル</th>
+        <th class="pale game-genres">ジャンル</th>
+        <th class="dark movie-id">#</th>
+        <th class="dark movie-name">タイトル</th>
+        <th class="dark movie-date">公開日</th>
+        <th class="dark movie-actors">出演</th>
+        <th class="dark movie-chat">雑談</th>
       </tr>
     </thead>
     <tbody>
@@ -26,7 +26,7 @@
           <!-- ゲーム -->
           <template v-if="item.game != null">
             <!-- ID -->
-            <td :rowspan="item.gameRow" class="text-center left">
+            <td :rowspan="item.gameRow" class="text-center">
               <div v-if="isLocal">
                 <router-link :to="{ name: 'GameEdit', params: { gameId: item.game.id } }">{{ item.game.id }}</router-link>
               </div>
@@ -160,4 +160,14 @@ div.actoricon {
   margin: 0 2px 2px 0;
 }
 
+span.genre {
+  font-size: 0.6rem;
+  border-radius: 5px 5px 5px 5px;
+  border-style: none;
+  background-color: var(--comora-color-yellow);
+  color: #000000;
+  margin: 1px 1px 0px 0px;
+  padding: 1px 5px 0px 5px;
+  display: inline-block;
+}
 </style>

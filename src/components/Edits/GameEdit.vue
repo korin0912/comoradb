@@ -4,7 +4,7 @@
     <h2 v-if="gameId == 0">ゲーム追加</h2>
     <h2 v-else>ゲーム更新</h2>
     <table>
-      <thread>
+      <thead>
         <tr>
           <th class="edit pale">タイトル</th>
           <td><input placeholder="" class="edit-text" v-model="inputs.title" /></td>
@@ -32,7 +32,7 @@
           <th class="edit pale">コメント</th>
           <td><textarea placeholder="" rows="4" class="edit-text" v-model="inputs.comment" /></td>
         </tr>
-      </thread>
+      </thead>
     </table>
     <button v-if="gameId == 0" v-on:click="create()" class="edit-create">作成</button>
     <button v-else v-on:click="create()" class="edit-create">更新</button>

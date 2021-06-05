@@ -13,7 +13,6 @@ th {
   border-style: solid;
   border-color: #dddddd;
   border-collapse: collapse;
-  white-space: nowrap;
 }
 
 thead tr:nth-child(1) th {
@@ -50,4 +49,36 @@ td {
 
 tbody tr td:nth-child(1) {
   border-left-width: 1px;
+}
+
+td.border-left-none {
+  border-left-width: 0px !important;
+}
+
+.sticky-table {
+  overflow: scroll;
+}
+
+.sticky-table thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  white-space: nowrap;
+}
+
+.sticky-table thead tr:nth-child(1) th {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sticky-table thead tr:nth-child(2) th {
+  top: calc(1.5rem + 2px);
+  left: 0;
+  z-index: 1;
+}
+
+.sticky-table thead tr:nth-child(3) th {
+  top: calc(3.0rem + 4px);
+  left: 0;
+  z-index: 1;
 }

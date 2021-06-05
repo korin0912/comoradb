@@ -1,5 +1,5 @@
 ﻿<template>
-  <table class="table">
+  <table class="sticky-table">
     <thead>
       <tr>
         <th colspan="2" class="pale">
@@ -38,7 +38,7 @@
           <!-- 動画 -->
           <template v-if="item.movie != null">
             <!-- ID -->
-            <td :rowspan="item.movieRow" class="text-center">
+            <td :rowspan="item.movieRow" :class="`text-center ${(item.game == null ? 'border-left-none' : '')}`">
               {{ item.movie.id }}
             </td>
             <!-- タイトル -->
@@ -73,8 +73,6 @@ export default {
 </script>
 
 <style scoped>
-@import "./Games.css";
-
 th.game-id {
   width: 3%;
 }
@@ -89,6 +87,10 @@ th.movie-id {
 
 th.movie-name {
   width: 47%;
+}
+
+td.movie {
+  font-size: 0.7rem;
 }
 
 div.urlicon {

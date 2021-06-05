@@ -82,8 +82,6 @@ export default {
 </script>
 
 <style scoped>
-@import "./Games.css";
-
 input.filter-text {
   width: calc(100% - 6px - 23px);
   margin: 0;

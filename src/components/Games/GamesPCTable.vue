@@ -1,13 +1,9 @@
 ﻿<template>
-  <table>
+  <table class="sticky-table">
     <thead>
       <tr>
-        <th colspan="4" class="pale">
-          {{ "ゲーム (" + gameCount + ")" }}
-        </th>
-        <th colspan="5" class="dark">
-          {{ "動画 (" + movieCount + ")" }}
-        </th>
+        <th colspan="4" class="pale">{{ "ゲーム (" + gameCount + ")" }}</th>
+        <th colspan="5" class="dark">{{ "動画 (" + movieCount + ")" }}</th>
       </tr>
       <tr>
         <th class="pale game-id">#</th>
@@ -45,7 +41,7 @@
               </div>
             </td>
             <!-- ジャンル -->
-            <td :rowspan="item.gameRow" class="genres">
+            <td :rowspan="item.gameRow">
               <span v-for="genre in item.game.genres" :key="genre.key" class="genre">
                 {{ genre.name }}
               </span>
@@ -54,7 +50,7 @@
           <!-- 動画 -->
           <template v-if="item.movie != null">
             <!-- ID -->
-            <td :rowspan="item.movieRow" class="text-center">
+            <td :rowspan="item.movieRow" :class="`text-center ${item.game == null ? 'border-left-none' : ''}`">
               <div v-if="isLocal">
                 <router-link :to="{ name: 'MovieEdit', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
               </div>
@@ -110,8 +106,6 @@ export default {
 </script>
 
 <style scoped>
-@import "./Games.css";
-
 th.game-id {
   width: 3%;
 }
@@ -142,6 +136,19 @@ th.movie-actors {
 
 th.movie-chat {
   width: 3%;
+}
+
+td.links {
+  width: 5%;
+}
+
+td.movie {
+  font-size: 0.7rem;
+}
+
+td.actors {
+  font-size: 0.6rem;
+  width: 10%;
 }
 
 div.urlicon {

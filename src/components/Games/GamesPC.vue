@@ -55,8 +55,6 @@ export default {
 </script>
 
 <style scoped>
-@import "./Games.css";
-
 .container {
   display: grid;
   grid-template-rows: auto;

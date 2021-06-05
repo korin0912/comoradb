@@ -1,0 +1,24 @@
+﻿div.outline-box {
+  position: relative;
+  font-size: 13px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--comora-color-pale-purple);
+  margin-top: 10px;
+  padding: 13px 10px 10px 10px;
+  color: #2c3e50;
+  background-color: #ffffff;
+  display: block;
+}
+
+div.outline-box .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+  padding: 0 1em;
+  margin: 0;
+  background-color: white;
+  transform: translateY(-50%) translateX(1em);
+}

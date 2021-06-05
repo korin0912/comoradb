@@ -1,6 +1,6 @@
 ﻿<template>
   <div class="container">
-    <div class="main">
+    <div class="main bottom-blank">
       <GamesTable :key="resetKey" :filterParams="filterParams" />
     </div>
     <Slide right @openMenu="handleOpenMenu">
@@ -46,8 +46,6 @@ export default {
 </script>
 
 <style scoped>
-@import "./Games.css";
-
 .container {
   display: grid;
   grid-template-rows: auto;

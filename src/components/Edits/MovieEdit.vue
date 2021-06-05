@@ -4,53 +4,57 @@
     <h2 v-if="movieId == 0">動画追加</h2>
     <h2 v-else>動画更新</h2>
     <table>
-      <tr>
-        <th class="edit pale first">タイトル</th>
-        <td class="first"><input placeholder="" class="edit-text" v-model="inputs.title" /></td>
-      </tr>
-      <tr>
-        <th class="edit pale">URL</th>
-        <td><input placeholder="" class="edit-text" v-model="inputs.url" /></td>
-      </tr>
-      <tr>
-        <th class="edit pale">公開日</th>
-        <td><input type="date" class="edit-date" v-model="inputs.releaseDate" /></td>
-      </tr>
-      <tr>
-        <th class="edit pale">ゲーム</th>
-        <td>
-          <div v-for="(gameId, index) in inputs.gameIds" v-bind:key="'game-' + index" style="margin-bottom: 4px">
-            <select v-model="inputs.gameIds[index]">
-              <option v-for="(game, index) in gamesData" :key="'game-option-' + index" :value="index">{{ game.name }}</option>
-            </select>
-            <a v-show="index != 0" href="#" class="edit-icon eraser" style="margin-left: 4px" v-on:click="removeGame(index)" />
-          </div>
-          <a href="#" class="edit-icon plus" v-on:click="addGame()" />
-        </td>
-      </tr>
-      <tr>
-        <th class="edit pale">出演者</th>
-        <td>
-          <div v-for="(actor, index) in inputs.actors" :key="'actor-' + index" class="edit-checkbox">
-            <input type="checkbox" class="edit-checkbox" v-model="inputs.actors[index].checked" />
-            <label :for="'actor-' + index" class="edit-checkbox">{{ actorsData[actor.id].name }}</label>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <th class="edit pale">雑談</th>
-        <td>
-          <input type="checkbox" class="edit-checkbox" v-model="inputs.chat" />
-        </td>
-      </tr>
-      <tr>
-        <th class="edit pale">コメント</th>
-        <td class="first"><textarea placeholder="" rows="4" class="edit-text" v-model="inputs.comment" /></td>
-      </tr>
+      <thead>
+        <tr>
+          <th class="edit pale">タイトル</th>
+          <td><input placeholder="" class="edit-text" v-model="inputs.title" /></td>
+        </tr>
+        <tr>
+          <th class="edit pale">URL</th>
+          <td><input placeholder="" class="edit-text" v-model="inputs.url" /></td>
+        </tr>
+        <tr>
+          <th class="edit pale">公開日</th>
+          <td><input type="date" class="edit-date" v-model="inputs.releaseDate" /></td>
+        </tr>
+        <tr>
+          <th class="edit pale">ゲーム</th>
+          <td>
+            <div v-for="(gameId, index) in inputs.gameIds" v-bind:key="'game-' + index" style="margin-bottom: 4px">
+              <select v-model="inputs.gameIds[index]">
+                <option v-for="(game, index) in gamesData" :key="'game-option-' + index" :value="index">{{ game.name }}</option>
+              </select>
+              <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeGame(index)" />
+            </div>
+            <a href="#" class="icon plus" v-on:click="addGame()" />
+          </td>
+        </tr>
+        <tr>
+          <th class="edit pale">出演者</th>
+          <td>
+            <div v-for="(actor, index) in inputs.actors" :key="'actor-' + index" class="edit-checkbox">
+              <input type="checkbox" class="edit-checkbox" v-model="inputs.actors[index].checked" />
+              <label :for="'actor-' + index" class="edit-checkbox">{{ actorsData[actor.id].name }}</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th class="edit pale">雑談</th>
+          <td>
+            <input type="checkbox" class="edit-checkbox" v-model="inputs.chat" />
+          </td>
+        </tr>
+        <tr>
+          <th class="edit pale">コメント</th>
+          <td><textarea placeholder="" rows="4" class="edit-text" v-model="inputs.comment" /></td>
+        </tr>
+      </thead>
     </table>
-    <button v-if="movieId == 0" v-on:click="create()" class="edit-create">作成</button>
-    <button v-else v-on:click="create()" class="edit-create">更新</button>
-    <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
+    <div style="height: 60px;">
+      <button v-if="movieId == 0" v-on:click="create()" class="edit-create">作成</button>
+      <button v-else v-on:click="create()" class="edit-create">更新</button>
+      <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
+    </div>
   </div>
 </template>
 

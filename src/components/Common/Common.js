@@ -1,69 +1,24 @@
 ﻿/**
- * リセットアイコン取得
- */
-function getResetIcon() {
-  return "far fa-times-circle fa-lg icon-reset";
-}
-
-/**
 * URL種別取得
 */
-function getUrlType(url) {
+function getUrlIconClass(url) {
   if (url.indexOf("store.steampowered.com") != -1) {
-    return 2;
+    return "steam";
   } else if (url.indexOf("twitter.com") != -1) {
-    return 3;
+    return "twitter";
   } else if (url.indexOf("www.facebook.com") != -1) {
-    return 4;
+    return "facebook";
   } else if (url.indexOf("www.youtube.com") != -1) {
-    return 5;
+    return "youtube";
   } else if (url.indexOf("www.nintendo.co.jp") != -1) {
-    return 6;
+    return "nintendo";
   } else if (url.indexOf("www.ea.com") != -1) {
-    return 7;
+    return "EA";
   } else if (url.indexOf("www.capcom.co.jp") != -1) {
-    return 8;
+    return "capcom";
   } else {
-    return 1;
+    return "home";
   }
-}
-
-/**
- * URLアイコン取得
- */
-function getUrlIcon(type) {
-  switch (type) {
-    case 1:
-      return "fas fa-home fa-lg urlicon home";
-    case 2:
-      return "fab fa-steam fa-lg urlicon steam";
-    case 3:
-      return "fab fa-twitter-square fa-lg urlicon twitter";
-    case 4:
-      return "fab fa-facebook-square fa-lg urlicon facebook";
-    case 5:
-      return "fab fa-youtube fa-lg urlicon youtube";
-    case 6:
-      return require("../../assets/images/urlicon_nintendo.png");
-    case 7:
-      return require("../../assets/images/urlicon_EA.jpg");
-    case 8:
-      return require("../../assets/images/urlicon_CAPCOM.png");
-  }
-}
-
-/**
- * URLタグ種別取得
- */
-function getUrlTagType(type) {
-  switch (type) {
-    case 6:
-    case 7:
-    case 8:
-      return 2;
-  }
-
-  return 1;
 }
 
 /**
@@ -85,10 +40,7 @@ function copyDeep(params) {
 }
 
 export default {
-  getResetIcon,
-  getUrlType,
-  getUrlIcon,
-  getUrlTagType,
+  getUrlIconClass,
   isMobile,
   copyDeep,
 }

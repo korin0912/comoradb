@@ -1,5 +1,5 @@
 ﻿<template>
-  <div>
+  <div class="bottom-blank">
     <Header />
     <div class="container">
       <!-- 出演者 -->
@@ -8,13 +8,13 @@
         <br />
         <br />
         <table>
-          <tbody>
+          <thead>
             <tr>
-              <th class="left first pale">名前</th>
-              <td class="first">{{ actor.name }}</td>
+              <th class="pale">名前</th>
+              <td>{{ actor.name }}</td>
             </tr>
             <tr>
-              <th class="left pale">リンク</th>
+              <th class="pale">リンク</th>
               <td>
                 <li v-for="(url, urlIndex) in actor.urls" :key="'actor-' + actor.name + '-url-' + urlIndex">
                   <a :href="url" target="_blank" class="url">
@@ -24,10 +24,10 @@
               </td>
             </tr>
             <tr>
-              <th class="left pale">コメント</th>
+              <th class="pale">コメント</th>
               <td>{{ actor.comment }}</td>
             </tr>
-          </tbody>
+          </thead>
         </table>
       </div>
     </div>
@@ -99,7 +99,7 @@ export default {
 }
 
 img.actor {
-  border-color: #c1abd2;
+  border-color: var(--comora-color-pale-purple);
   border-style: solid;
   border-width: 1px;
   border-radius: 16px;

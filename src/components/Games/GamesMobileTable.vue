@@ -1,19 +1,19 @@
 ﻿<template>
-  <table class="table">
+  <table class="sticky-table">
     <thead>
       <tr>
-        <th colspan="2" class="pale first left">
+        <th colspan="2" class="pale">
           {{ "ゲーム (" + gameCount + ")" }}
         </th>
-        <th colspan="2" class="dark first">
+        <th colspan="2" class="dark">
           {{ "動画 (" + movieCount + ")" }}
         </th>
       </tr>
       <tr>
-        <th class="pale second left game-id">#</th>
-        <th class="pale second game-name">タイトル</th>
-        <th class="dark second movie-id">#</th>
-        <th class="dark second movie-name">タイトル</th>
+        <th class="pale game-id">#</th>
+        <th class="pale game-name">タイトル</th>
+        <th class="dark movie-id">#</th>
+        <th class="dark movie-name">タイトル</th>
       </tr>
     </thead>
     <tbody>
@@ -22,22 +22,15 @@
           <!-- ゲーム -->
           <template v-if="item.game != null">
             <!-- ID -->
-            <td :rowspan="item.gameRow" class="text-center left">
+            <td :rowspan="item.gameRow" class="text-center">
               {{ item.game.id }}
             </td>
             <!-- タイトル -->
             <td :rowspan="item.gameRow">
               {{ item.game.name }}
               <div>
-                <div v-for="(url, urlIndex) in item.game.urls" :key="url.keyPrefix + urlIndex" class="urlicon">
-                  <a :href="url.url" target="_blank">
-                    <template v-if="url.tag == 1">
-                      <i :class="url.icon" />
-                    </template>
-                    <template v-else-if="url.tag == 2">
-                      <img class="urlicon" :src="url.icon" />
-                    </template>
-                  </a>
+                <div v-for="(url, urlIndex) in item.game.urls" :key="`url-${item.game.id}-${urlIndex}`" class="urlicon">
+                  <a :href="url" target="_blank" :class="'icon ' + common.getUrlIconClass(url)" />
                 </div>
               </div>
             </td>
@@ -45,7 +38,7 @@
           <!-- 動画 -->
           <template v-if="item.movie != null">
             <!-- ID -->
-            <td :rowspan="item.movieRow" class="text-center">
+            <td :rowspan="item.movieRow" :class="`text-center ${(item.game == null ? 'border-left-none' : '')}`">
               {{ item.movie.id }}
             </td>
             <!-- タイトル -->
@@ -60,6 +53,7 @@
 </template>
 
 <script>
+import common from "../Common/Common.js";
 import games from "./Games.js";
 
 export default {
@@ -69,6 +63,7 @@ export default {
     // テーブルアイテム
     let tableItems = games.getTableItems(this.filterParams);
     return {
+      common: common,
       items: tableItems.items,
       gameCount: tableItems.gameCount,
       movieCount: tableItems.movieCount,
@@ -78,8 +73,6 @@ export default {
 </script>
 
 <style scoped>
-@import "./Games.css";
-
 th.game-id {
   width: 3%;
 }
@@ -94,5 +87,17 @@ th.movie-id {
 
 th.movie-name {
   width: 47%;
+}
+
+td.movie {
+  font-size: 0.7rem;
+}
+
+div.urlicon {
+  width: 17px;
+  height: 17px;
+  display: block;
+  float: left;
+  margin: 0 3px 3px 0;
 }
 </style>

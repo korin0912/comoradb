@@ -4,37 +4,41 @@
     <h2 v-if="gameId == 0">ゲーム追加</h2>
     <h2 v-else>ゲーム更新</h2>
     <table>
-      <tr>
-        <th class="edit pale first">タイトル</th>
-        <td class="first"><input placeholder="" class="edit-text" v-model="inputs.title" /></td>
-      </tr>
-      <tr>
-        <th class="edit pale">URL</th>
-        <td>
-          <div v-for="(url, index) in inputs.urls" v-bind:key="'url-' + index" style="margin-bottom: 4px">
-            <input placeholder="" class="edit-text" v-model="inputs.urls[index]" />
-            <a v-show="index != 0" href="#" class="edit-icon eraser" style="margin-left: 4px" v-on:click="removeUrl(index)" />
-          </div>
-          <a href="#" class="edit-icon plus" v-on:click="addUrl()" />
-        </td>
-      </tr>
-      <tr>
-        <th class="edit pale">ジャンル</th>
-        <td>
-          <div v-for="(genre, index) in inputs.genres" :key="'genre-' + index" class="edit-checkbox">
-            <input type="checkbox" class="edit-checkbox" v-model="inputs.genres[index].checked" />
-            <label :for="'genre-' + index" class="edit-checkbox">{{ gameGenresData[genre.id] }}</label>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <th class="edit pale">コメント</th>
-        <td class="first"><textarea placeholder="" rows="4" class="edit-text" v-model="inputs.comment" /></td>
-      </tr>
+      <thead>
+        <tr>
+          <th class="edit pale">タイトル</th>
+          <td><input placeholder="" class="edit-text" v-model="inputs.title" /></td>
+        </tr>
+        <tr>
+          <th class="edit pale">URL</th>
+          <td>
+            <div v-for="(url, index) in inputs.urls" v-bind:key="'url-' + index" style="margin-bottom: 4px">
+              <input placeholder="" class="edit-text" v-model="inputs.urls[index]" />
+              <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeUrl(index)" />
+            </div>
+            <a href="#" class="icon plus" v-on:click="addUrl()" />
+          </td>
+        </tr>
+        <tr>
+          <th class="edit pale">ジャンル</th>
+          <td>
+            <div v-for="(genre, index) in inputs.genres" :key="'genre-' + index" class="edit-checkbox">
+              <input type="checkbox" class="edit-checkbox" v-model="inputs.genres[index].checked" />
+              <label :for="'genre-' + index" class="edit-checkbox">{{ gameGenresData[genre.id] }}</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th class="edit pale">コメント</th>
+          <td><textarea placeholder="" rows="4" class="edit-text" v-model="inputs.comment" /></td>
+        </tr>
+      </thead>
     </table>
-    <button v-if="gameId == 0" v-on:click="create()" class="edit-create">作成</button>
-    <button v-else v-on:click="create()" class="edit-create">更新</button>
-    <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
+    <div style="height: 60px;">
+      <button v-if="gameId == 0" v-on:click="create()" class="edit-create">作成</button>
+      <button v-else v-on:click="create()" class="edit-create">更新</button>
+      <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
+    </div>
   </div>
 </template>
 

@@ -1,0 +1,84 @@
+﻿table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+th {
+  height: 20px;
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding: 2px 5px 2px 5px;
+  border-width: 0px 1px 1px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-collapse: collapse;
+}
+
+thead tr:nth-child(1) th {
+  border-top-width: 1px;
+}
+
+thead tr th:nth-child(1) {
+  border-left-width: 1px;
+}
+
+thead tr:nth-child(1) td {
+  border-top-width: 1px;
+}
+
+th.pale {
+  color: #ffffff;
+  background-color: var(--comora-color-pale-purple);
+}
+
+th.dark {
+  color: #ffffff;
+  background-color: var(--comora-color-dirk-purple);
+}
+
+td {
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding: 2px 5px 2px 5px;
+  border-width: 0px 1px 1px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+  text-align: left;
+}
+
+tbody tr td:nth-child(1) {
+  border-left-width: 1px;
+}
+
+td.border-left-none {
+  border-left-width: 0px !important;
+}
+
+.sticky-table {
+  overflow: scroll;
+}
+
+.sticky-table thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  white-space: nowrap;
+}
+
+.sticky-table thead tr:nth-child(1) th {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sticky-table thead tr:nth-child(2) th {
+  top: calc(1.5rem + 2px);
+  left: 0;
+  z-index: 1;
+}
+
+.sticky-table thead tr:nth-child(3) th {
+  top: calc(3.0rem + 4px);
+  left: 0;
+  z-index: 1;
+}

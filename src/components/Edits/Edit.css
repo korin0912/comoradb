@@ -55,8 +55,8 @@ label.edit-checkbox {
 
 button.edit-create {
   float: left;
-  background-color: #c1abd2;
-  margin: 4px 4px 0 0;
+  background-color: var(--comora-color-pale-purple);
+  margin: 4px 0 0 0;
   border-width: 1px;
   border-style: solid;
   border-color: #dddddd;
@@ -65,33 +65,10 @@ button.edit-create {
 
 button.edit-cancel {
   float: right;
-  background-color: #8457a8;
-  margin: 4px 4px 0 0;
+  background-color: var(--comora-color-dirk-purple);
+  margin: 4px 0 0 0;
   border-width: 1px;
   border-style: solid;
   border-color: #dddddd;
   border-radius: 8px;
-}
-
-.edit-icon {
-  height: 15px;
-  margin: auto 0 auto 0;
-  vertical-align: middle;
-}
-
-.edit-icon.plus::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f0fe";
-  font-size: 15px;
-  font-weight: 400;
-  color: #aaaaaa;
-  vertical-align: middle;
-}
-
-.edit-icon.eraser::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f12d";
-  font-size: 15px;
-  font-weight: 900;
-  color: #aaaaaa;
 }

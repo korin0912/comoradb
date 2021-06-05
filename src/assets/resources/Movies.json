@@ -6969,5 +6969,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "527": {
+    "name": "【雑談】退職を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=iR6KGnE_kSQ",
+    "releaseDate": "2021/06/05",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

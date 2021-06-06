@@ -1,5 +1,5 @@
 ﻿<template>
-  <div class="container">
+  <div v-if="loaded" class="container">
     <!-- メインテーブル -->
     <div class="main bottom-blank">
       <GamesTable :key="resetKey" :filterParams="filterParams" />
@@ -34,13 +34,13 @@ export default {
     GamesFilter,
   },
   data: function () {
-    let filterParams = games.getInitialFilterParams();
     let isLocal = process.env.NODE_ENV == "development";
     // console.log(process.env.NODE_ENV);
     return {
+      loaded: false,
       isLocal: isLocal,
       resetKey: 0,
-      filterParams: filterParams,
+      filterParams: {},
     };
   },
   methods: {
@@ -48,6 +48,10 @@ export default {
       this.filterParams = newFilterParams;
       this.resetKey++;
     },
+  },
+  mounted: async function () {
+    this.filterParams = await games.getInitialFilterParams();
+    this.loaded = true;
   },
 };
 </script>

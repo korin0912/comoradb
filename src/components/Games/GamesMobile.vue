@@ -1,5 +1,5 @@
 ﻿<template>
-  <div class="container">
+  <div v-if="loaded" class="container">
     <div class="main bottom-blank">
       <GamesTable :key="resetKey" :filterParams="filterParams" />
     </div>
@@ -23,10 +23,10 @@ export default {
     Slide,
   },
   data: function () {
-    let filterParams = games.getInitialFilterParams();
     return {
+      loaded: false,
       resetKey: 0,
-      filterParams: filterParams,
+      filterParams: {},
     };
   },
   methods: {
@@ -35,12 +35,18 @@ export default {
       this.resetKey++;
     },
     handleOpenMenu: function () {
-      let bm_menu_style = document.querySelector('.bm-menu').style;
-      bm_menu_style.backgroundColor = '#ffffff';
-      bm_menu_style.paddingTop = '40px';
-      let bm_item_list_style = document.querySelector('.bm-item-list').style;
-      bm_item_list_style.marginLeft = '0';
-    }
+      let bm_menu_style = document.querySelector(".bm-menu").style;
+      bm_menu_style.backgroundColor = "#ffffff";
+      bm_menu_style.paddingTop = "40px";
+      let bm_item_list_style = document.querySelector(".bm-item-list").style;
+      bm_item_list_style.marginLeft = "0";
+    },
+  },
+  mounted: async function () {
+    let filterParams = await games.getInitialFilterParams();
+    this.filterParams = filterParams;
+
+    this.loaded = true;
   },
 };
 </script>

@@ -65,8 +65,8 @@ export default {
     };
   },
   methods: {
-    initFilter: function () {
-      this.params = games.getInitialFilterParams();
+    initFilter: async function () {
+      this.params = await games.getInitialFilterParams();
       this.$emit("updateTable", this.params);
     },
     updateFilter: function () {

@@ -1,5 +1,5 @@
 ﻿<template>
-  <div class="edit-container">
+  <div v-if="loaded" class="edit-container">
     <Header />
     <h2 v-if="gameId == 0">ゲーム追加</h2>
     <h2 v-else>ゲーム更新</h2>
@@ -34,7 +34,7 @@
         </tr>
       </thead>
     </table>
-    <div style="height: 60px;">
+    <div style="height: 60px">
       <button v-if="gameId == 0" v-on:click="create()" class="edit-create">作成</button>
       <button v-else v-on:click="create()" class="edit-create">更新</button>
       <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
@@ -44,8 +44,8 @@
 
 <script>
 import Header from "../Common/Header.vue";
-import gamesData from "../../assets/resources/Games.json";
-import gameGenresData from "../../assets/resources/GameGenres.json";
+
+import resources from "../Common/Resources.js";
 
 export default {
   name: "GameEdit",
@@ -53,10 +53,27 @@ export default {
     Header,
   },
   data: function () {
-    let inputs = {};
     let gameId = this.$route.params.gameId;
-    // console.log(gameId);
-    if (gameId == 0) {
+    return {
+      loaded: false,
+      gameId: gameId,
+      gamesData: {},
+      gameGenresData: {},
+      inputs: {},
+    };
+  },
+  methods: {
+    addUrl: addUrl,
+    removeUrl: removeUrl,
+    create: create,
+  },
+  mounted: async function () {
+    let gamesData = await resources.getGamesData();
+    let gameGenresData = await resources.getGameGenresData();
+
+    let inputs = {};
+    // console.log(this.gameId);
+    if (this.gameId == 0) {
       let gameIds = [];
       gameIds.push(1);
 
@@ -75,7 +92,7 @@ export default {
         comment: "",
       };
     } else {
-      var org = gamesData[String(gameId)];
+      var org = gamesData[String(this.gameId)];
       // console.log(org);
 
       let genres = [];
@@ -94,18 +111,12 @@ export default {
       };
     }
     // console.log(inputs);
+    this.inputs = inputs;
 
-    return {
-      gameId: gameId,
-      gamesData: gamesData,
-      gameGenresData: gameGenresData,
-      inputs: inputs,
-    };
-  },
-  methods: {
-    addUrl: addUrl,
-    removeUrl: removeUrl,
-    create: create,
+    this.gamesData = gamesData;
+    this.gameGenresData = gameGenresData;
+
+    this.loaded = true;
   },
 };
 
@@ -135,6 +146,7 @@ function create() {
   request.setRequestHeader("Content-Type", "application/json");
   request.onload = () => {
     console.log(`success: ${request.status}`);
+    resources.clearData();
     this.$router.push({ name: "Games" });
   };
   request.onerror = () => {

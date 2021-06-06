@@ -1,5 +1,5 @@
 ﻿<template>
-  <table class="sticky-table">
+  <table v-if="loaded" class="sticky-table">
     <thead>
       <tr>
         <th colspan="4" class="pale">{{ "ゲーム (" + gameCount + ")" }}</th>
@@ -92,15 +92,22 @@ export default {
   props: ["filterParams"],
   data: function () {
     let isLocal = process.env.NODE_ENV == "development";
-    // テーブルアイテム
-    let tableItems = games.getTableItems(this.filterParams);
     return {
+      loaded: false,
       common: common,
       isLocal: isLocal,
-      items: tableItems.items,
-      gameCount: tableItems.gameCount,
-      movieCount: tableItems.movieCount,
+      items: {},
+      gameCount: 0,
+      movieCount: 0,
     };
+  },
+  mounted: async function () {
+    // テーブルアイテム
+    let tableItems = await games.getTableItems(this.filterParams);
+    this.items = tableItems.items;
+    this.gameCount = tableItems.gameCount;
+    this.movieCount = tableItems.movieCount;
+    this.loaded = true;
   },
 };
 </script>

@@ -1,5 +1,5 @@
 ﻿<template>
-  <div class="bottom-blank">
+  <div v-if="loaded" class="bottom-blank">
     <Header />
     <div class="container">
       <!-- 出演者 -->
@@ -42,13 +42,12 @@
 </template>
 
 <script>
-import actorsData from "../../assets/resources/Actors.json";
-
 import Header from "../Common/Header.vue";
 import GamesPCTable from "../Games/GamesPCTable.vue";
 import GamesMobileTable from "../Games/GamesMobileTable.vue";
 
 import common from "../Common/Common.js";
+import resources from "../Common/Resources.js";
 import games from "../Games/Games.js";
 
 export default {
@@ -59,22 +58,29 @@ export default {
     GamesMobileTable,
   },
   data: function () {
+    return {
+      loaded: false,
+      actor: {},
+      isMobile: common.isMobile(),
+      filterParams: {},
+    };
+  },
+  mounted: async function () {
+    let actorsData = await resources.getActorsData();
     let actorIdx = Object.keys(actorsData).find((key) => {
       return key == this.$route.params.actorId;
     });
-    let actor = actorsData[actorIdx];
-    let filterParams = games.getInitialFilterParams();
-    // console.log(this.$route.params);
+    this.actor = actorsData[actorIdx];
+
+    let filterParams = await games.getInitialFilterParams();
     filterParams.actors.forEach((elem) => {
       if (elem.id == this.$route.params.actorId) {
         elem.check = true;
       }
     });
-    return {
-      actor: actor,
-      isMobile: common.isMobile(),
-      filterParams: filterParams,
-    };
+    this.filterParams = filterParams;
+
+    this.loaded = true;
   },
 };
 </script>

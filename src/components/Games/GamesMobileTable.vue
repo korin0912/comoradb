@@ -1,5 +1,5 @@
 ﻿<template>
-  <table class="sticky-table">
+  <table v-if="loaded" class="sticky-table">
     <thead>
       <tr>
         <th colspan="2" class="pale">
@@ -38,7 +38,7 @@
           <!-- 動画 -->
           <template v-if="item.movie != null">
             <!-- ID -->
-            <td :rowspan="item.movieRow" :class="`text-center ${(item.game == null ? 'border-left-none' : '')}`">
+            <td :rowspan="item.movieRow" :class="`text-center ${item.game == null ? 'border-left-none' : ''}`">
               {{ item.movie.id }}
             </td>
             <!-- タイトル -->
@@ -60,14 +60,22 @@ export default {
   name: "GamesMobileTable",
   props: ["filterParams"],
   data: function () {
-    // テーブルアイテム
-    let tableItems = games.getTableItems(this.filterParams);
     return {
+      loaded: false,
       common: common,
-      items: tableItems.items,
-      gameCount: tableItems.gameCount,
-      movieCount: tableItems.movieCount,
+      items: {},
+      gameCount: 0,
+      movieCount: 0,
     };
+  },
+  mounted: async function () {
+    // テーブルアイテム
+    let tableItems = await games.getTableItems(this.filterParams);
+    this.items = tableItems.items;
+    this.gameCount = tableItems.gameCount;
+    this.movieCount = tableItems.movieCount;
+
+    this.loaded = true;
   },
 };
 </script>

@@ -1,5 +1,5 @@
 ﻿<template>
-  <div class="edit-container">
+  <div v-if="loaded" class="edit-container">
     <Header />
     <h2 v-if="movieId == 0">動画追加</h2>
     <h2 v-else>動画更新</h2>
@@ -50,7 +50,7 @@
         </tr>
       </thead>
     </table>
-    <div style="height: 60px;">
+    <div style="height: 60px">
       <button v-if="movieId == 0" v-on:click="create()" class="edit-create">作成</button>
       <button v-else v-on:click="create()" class="edit-create">更新</button>
       <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
@@ -60,9 +60,8 @@
 
 <script>
 import Header from "../Common/Header.vue";
-import moviesData from "../../assets/resources/Movies.json";
-import gamesData from "../../assets/resources/Games.json";
-import actorsData from "../../assets/resources/Actors.json";
+
+import resources from "../Common/Resources.js";
 
 export default {
   name: "MovieEdit",
@@ -70,10 +69,28 @@ export default {
     Header,
   },
   data: function () {
-    let inputs = {};
     let movieId = this.$route.params.movieId;
-    // console.log(movieId);
-    if (movieId == 0) {
+    return {
+      loaded: false,
+      movieId: movieId,
+      gamesData: {},
+      actorsData: {},
+      inputs: {},
+    };
+  },
+  methods: {
+    addGame: addGame,
+    removeGame: removeGame,
+    create: create,
+  },
+  mounted: async function () {
+    let moviesData = await resources.getMoviesData();
+    let gamesData = await resources.getGamesData();
+    let actorsData = await resources.getActorsData();
+
+    let inputs = {};
+    // console.log(this.movieId);
+    if (this.movieId == 0) {
       let now = new Date();
 
       let gameIds = [];
@@ -97,7 +114,7 @@ export default {
         comment: "",
       };
     } else {
-      var org = moviesData[String(movieId)];
+      var org = moviesData[String(this.movieId)];
       // console.log(org);
 
       let actors = [];
@@ -121,17 +138,11 @@ export default {
     }
     // console.log(inputs);
 
-    return {
-      movieId: movieId,
-      gamesData: gamesData,
-      actorsData: actorsData,
-      inputs: inputs,
-    };
-  },
-  methods: {
-    addGame: addGame,
-    removeGame: removeGame,
-    create: create,
+    this.gamesData = gamesData;
+    this.actorsData = actorsData;
+    this.inputs = inputs;
+
+    this.loaded = true;
   },
 };
 
@@ -164,6 +175,7 @@ function create() {
   request.setRequestHeader("Content-Type", "application/json");
   request.onload = () => {
     console.log(`success: ${request.status}`);
+    resources.clearData();
     this.$router.push({ name: "Games" });
   };
   request.onerror = () => {

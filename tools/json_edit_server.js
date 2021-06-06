@@ -57,7 +57,7 @@ function updateJson(id, file, req, res) {
   req.on('data', function (data) {
     postData = JSON.parse(data);
   }).on('end', function () {
-    let data = JSON.parse(fs.readFileSync(`src/assets/resources/${file}.json`));
+    let data = JSON.parse(fs.readFileSync(`public/resources/${file}.json`));
 
     // id 未指定の場合は、採番
     if (id == 0) {
@@ -75,7 +75,7 @@ function updateJson(id, file, req, res) {
     data[String(id)] = postData;
 
     // 動画データ保存
-    fs.writeFileSync(`src/assets/resources/${file}.json`, JSON.stringify(data, null, 2));
+    fs.writeFileSync(`public/resources/${file}.json`, JSON.stringify(data, null, 2));
 
     console.log('success');
     res.end('success');

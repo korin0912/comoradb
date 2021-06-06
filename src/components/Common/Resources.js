@@ -9,7 +9,7 @@ function getPath(jsonName)
   {
     ret += process.env.BASE_URL;
   }
-  ret += ret + `/resources/${jsonName}.json`;
+  ret += `/resources/${jsonName}.json`;
   ret = ret.replaceAll('//', '/');
   // console.log(ret);
   return ret;

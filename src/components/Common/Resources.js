@@ -2,22 +2,9 @@
 
 const { default: axios } = require("axios");
 
-function getPath(jsonName)
-{
-  let ret = "";
-  if (process.env.NODE_ENV != 'development')
-  {
-    ret += process.env.BASE_URL;
-  }
-  ret += ret + `/resources/${jsonName}.json`;
-  ret = ret.replaceAll('//', '/');
-  // console.log(ret);
-  return ret;
-}
-
 async function getActorsData() {
   if (!Vue.prototype.$actorsData) {
-    await axios.get(getPath('Actors'))
+    await axios.get('/resources/Actors.json')
       .then(res => {
         // console.log(res.data);
         Vue.prototype.$actorsData = res.data;
@@ -32,7 +19,7 @@ async function getActorsData() {
 
 async function getGameGenresData() {
   if (!Vue.prototype.$gameGenresData) {
-    await axios.get(getPath('GameGenres'))
+    await axios.get('/resources/GameGenres.json')
       .then(res => {
         // console.log(res.data);
         Vue.prototype.$gameGenresData = res.data;
@@ -47,7 +34,7 @@ async function getGameGenresData() {
 
 async function getGamesData() {
   if (!Vue.prototype.$gamesData) {
-    await axios.get(getPath('Games'))
+    await axios.get('/resources/Games.json')
       .then(res => {
         // console.log(res.data);
         Vue.prototype.$gamesData = res.data;
@@ -62,7 +49,7 @@ async function getGamesData() {
 
 async function getMoviesData() {
   if (!Vue.prototype.$moviesData) {
-    await axios.get(getPath('Movies'))
+    await axios.get('/resources/Movies.json')
       .then(res => {
         // console.log(res.data);
         Vue.prototype.$moviesData = res.data;

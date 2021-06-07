@@ -17,7 +17,7 @@
       <div v-for="actor in params.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
         <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="updateFilter" v-model="actor.check" class="filter-checkbox" />
         <label :for="'filter-actor-' + actor.id" class="filter-checkbox">
-          <router-link :to="{ name: 'Actors', params: { actorId: actor.id } }" target="_blank">{{ actor.name }}</router-link>
+          <router-link :to="{ name: 'ActorShow', params: { actorId: actor.id } }" target="_blank">{{ actor.name }}</router-link>
         </label>
       </div>
     </div>
@@ -54,10 +54,10 @@
 </template>
 
 <script>
-import games from "./Games.js";
+import top from "./Top.js";
 
 export default {
-  name: "GamesFilter",
+  name: "TopFilter",
   props: ["initFilterParams"],
   data: function () {
     return {
@@ -66,15 +66,15 @@ export default {
   },
   methods: {
     initFilter: async function () {
-      this.params = await games.getInitialFilterParams();
+      this.params = await top.getInitialFilterParams();
       this.$emit("updateTable", this.params);
     },
     updateFilter: function () {
-      this.params = games.updateFilterParams(this.params);
+      this.params = top.updateFilterParams(this.params);
       this.$emit("updateTable", this.params);
     },
     resetInput: function (filter) {
-      this.params = games.resetFilterParamsInput(this.params, filter);
+      this.params = top.resetFilterParamsInput(this.params, filter);
       this.$emit("updateTable", this.params);
     },
   },

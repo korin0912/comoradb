@@ -34,8 +34,8 @@
     <br />
     <div class="container">
       <div class="games">
-        <GamesPCTable v-if="isMobile == false" :filterParams="filterParams" />
-        <GamesMobileTable v-else :filterParams="filterParams" />
+        <PCTable v-if="isMobile == false" :filterParams="filterParams" />
+        <MobileTable v-else :filterParams="filterParams" />
       </div>
     </div>
   </div>
@@ -43,19 +43,19 @@
 
 <script>
 import Header from "../Common/Header.vue";
-import GamesPCTable from "../Games/GamesPCTable.vue";
-import GamesMobileTable from "../Games/GamesMobileTable.vue";
+import PCTable from "../Top/PCTable.vue";
+import MobileTable from "../Top/MobileTable.vue";
 
 import common from "../Common/Common.js";
 import resources from "../Common/Resources.js";
-import games from "../Games/Games.js";
+import top from "../Top/Top.js";
 
 export default {
-  name: "Actors",
+  name: "ActorShow",
   components: {
     Header,
-    GamesPCTable,
-    GamesMobileTable,
+    PCTable,
+    MobileTable,
   },
   data: function () {
     return {
@@ -72,7 +72,7 @@ export default {
     });
     this.actor = actorsData[actorIdx];
 
-    let filterParams = await games.getInitialFilterParams();
+    let filterParams = await top.getInitialFilterParams();
     filterParams.actors.forEach((elem) => {
       if (elem.id == this.$route.params.actorId) {
         elem.check = true;

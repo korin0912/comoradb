@@ -10,26 +10,26 @@ Vue.use(VueRouter);
 let routes = [
   {
     path: '/',
-    name: 'Games',
-    component: () => import('./components/Games/Games.vue'),
+    name: 'TopShow',
+    component: () => import('./components/Top/Show.vue'),
   },
   {
-    path: '/actors/:actorId',
-    name: 'Actors',
-    component: () => import('./components/Actors/Actors.vue'),
+    path: '/actor/:actorId',
+    name: 'ActorShow',
+    component: () => import('./components/Actor/Show.vue'),
   },
 ];
 
 if (process.env.NODE_ENV == 'development') {
   routes.push({
-    path: '/movies/edit/:movieId',
-    name: 'MovieEdit',
-    component: () => import('./components/Edits/MovieEdit.vue'),
+    path: '/game/:gameId/edit',
+    name: 'GameEdit',
+    component: () => import('./components/Game/Edit.vue'),
   });
   routes.push({
-    path: '/games/edit/:gameId',
-    name: 'GameEdit',
-    component: () => import('./components/Edits/GameEdit.vue'),
+    path: '/movies/:movieId/edit',
+    name: 'MovieEdit',
+    component: () => import('./components/Movie/Edit.vue'),
   });
 }
 

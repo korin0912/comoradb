@@ -54,10 +54,10 @@
 
 <script>
 import common from "../Common/Common.js";
-import games from "./Games.js";
+import top from "./Top.js";
 
 export default {
-  name: "GamesMobileTable",
+  name: "TopMobileTable",
   props: ["filterParams"],
   data: function () {
     return {
@@ -70,7 +70,7 @@ export default {
   },
   mounted: async function () {
     // テーブルアイテム
-    let tableItems = await games.getTableItems(this.filterParams);
+    let tableItems = await top.getTableItems(this.filterParams);
     this.items = tableItems.items;
     this.gameCount = tableItems.gameCount;
     this.movieCount = tableItems.movieCount;

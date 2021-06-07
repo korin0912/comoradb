@@ -1,25 +1,25 @@
 ﻿<template>
   <div v-if="loaded" class="container">
     <div class="main bottom-blank">
-      <GamesTable :key="resetKey" :filterParams="filterParams" />
+      <MobileTable :key="resetKey" :filterParams="filterParams" />
     </div>
     <Slide right @openMenu="handleOpenMenu">
-      <GamesFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
+      <TopFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
     </Slide>
   </div>
 </template>
 
 <script>
-import games from "./Games.js";
-import GamesTable from "./GamesMobileTable.vue";
-import GamesFilter from "./GamesFilter.vue";
+import top from "./Top.js";
+import MobileTable from "./MobileTable.vue";
+import TopFilter from "./Filter.vue";
 import { Slide } from "vue-burger-menu";
 
 export default {
-  name: "GamesMobile",
+  name: "TopShowMobile",
   components: {
-    GamesTable,
-    GamesFilter,
+    MobileTable,
+    TopFilter,
     Slide,
   },
   data: function () {
@@ -43,7 +43,7 @@ export default {
     },
   },
   mounted: async function () {
-    let filterParams = await games.getInitialFilterParams();
+    let filterParams = await top.getInitialFilterParams();
     this.filterParams = filterParams;
 
     this.loaded = true;

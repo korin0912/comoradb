@@ -85,10 +85,10 @@
 
 <script>
 import common from "../Common/Common.js";
-import games from "./Games.js";
+import top from "./Top.js";
 
 export default {
-  name: "GamesPCTable",
+  name: "TopPCTable",
   props: ["filterParams"],
   data: function () {
     let isLocal = process.env.NODE_ENV == "development";
@@ -103,7 +103,7 @@ export default {
   },
   mounted: async function () {
     // テーブルアイテム
-    let tableItems = await games.getTableItems(this.filterParams);
+    let tableItems = await top.getTableItems(this.filterParams);
     this.items = tableItems.items;
     this.gameCount = tableItems.gameCount;
     this.movieCount = tableItems.movieCount;

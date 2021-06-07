@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded" class="edit-container">
+  <div v-if="loaded" class="container">
     <Header />
     <h2 v-if="gameId == 0">ゲーム追加</h2>
     <h2 v-else>ゲーム更新</h2>
@@ -7,13 +7,13 @@
       <thead>
         <tr>
           <th class="edit pale">タイトル</th>
-          <td><input placeholder="" class="edit-text" v-model="inputs.title" /></td>
+          <td><input placeholder="" class="text" v-model="inputs.title" /></td>
         </tr>
         <tr>
           <th class="edit pale">URL</th>
           <td>
             <div v-for="(url, index) in inputs.urls" v-bind:key="'url-' + index" style="margin-bottom: 4px">
-              <input placeholder="" class="edit-text" v-model="inputs.urls[index]" />
+              <input placeholder="" class="text" v-model="inputs.urls[index]" />
               <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeUrl(index)" />
             </div>
             <a href="#" class="icon plus" v-on:click="addUrl()" />
@@ -22,22 +22,22 @@
         <tr>
           <th class="edit pale">ジャンル</th>
           <td>
-            <div v-for="(genre, index) in inputs.genres" :key="'genre-' + index" class="edit-checkbox">
-              <input type="checkbox" class="edit-checkbox" v-model="inputs.genres[index].checked" />
-              <label :for="'genre-' + index" class="edit-checkbox">{{ gameGenresData[genre.id] }}</label>
+            <div v-for="(genre, index) in inputs.genres" :key="'genre-' + index" class="checkbox">
+              <input type="checkbox" class="checkbox" v-model="inputs.genres[index].checked" />
+              <label :for="'genre-' + index" class="checkbox">{{ gameGenresData[genre.id] }}</label>
             </div>
           </td>
         </tr>
         <tr>
           <th class="edit pale">コメント</th>
-          <td><textarea placeholder="" rows="4" class="edit-text" v-model="inputs.comment" /></td>
+          <td><textarea placeholder="" rows="4" class="text" v-model="inputs.comment" /></td>
         </tr>
       </thead>
     </table>
     <div style="height: 60px">
-      <button v-if="gameId == 0" v-on:click="create()" class="edit-create">作成</button>
-      <button v-else v-on:click="create()" class="edit-create">更新</button>
-      <router-link :to="{ name: 'Games' }"><button class="edit-cancel">戻る</button></router-link>
+      <button v-if="gameId == 0" v-on:click="create()" class="create">作成</button>
+      <button v-else v-on:click="create()" class="create">更新</button>
+      <router-link :to="{ name: 'TopShow' }"><button class="cancel">戻る</button></router-link>
     </div>
   </div>
 </template>
@@ -157,5 +157,78 @@ function create() {
 </script>
 
 <style scoped>
-@import "./Edit.css";
+.container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+th.edit {
+  width: 100px;
+}
+
+input.text {
+  width: calc(100% - 6px - 23px);
+  margin: 0;
+  padding: 2px;
+  border-radius: 4px 4px 4px 4px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
+}
+
+input.date {
+  text-align: left;
+  width: 200px;
+  margin: 0;
+  border-radius: 4px 4px 4px 4px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
+}
+
+textarea.text {
+  width: calc(100% - 6px);
+  margin: 0;
+  padding: 2px;
+  border-radius: 4px 4px 4px 4px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
+}
+
+div.checkbox {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
+input.checkbox {
+  margin: 0px 3px 0px 0px;
+}
+
+label.checkbox {
+  font-size: 0.8rem;
+  font-weight: 200;
+  vertical-align: top;
+}
+
+button.create {
+  float: left;
+  background-color: var(--comora-color-pale-purple);
+  margin: 4px 0 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 8px;
+}
+
+button.cancel {
+  float: right;
+  background-color: var(--comora-color-dirk-purple);
+  margin: 4px 0 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 8px;
+}
 </style>

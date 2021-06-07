@@ -1,24 +1,24 @@
 ﻿<template>
   <div>
     <Header />
-    <GamesPC v-if="isMobile == false" />
-    <GamesMobile v-else />
+    <ShowPC v-if="isMobile == false" />
+    <ShowMobile v-else />
   </div>
 </template>
 
 <script>
 import Header from "../Common/Header.vue";
-import GamesPC from "./GamesPC.vue";
-import GamesMobile from "./GamesMobile.vue";
+import ShowPC from "./ShowPC.vue";
+import ShowMobile from "./ShowMobile.vue";
 
 import common from "../Common/Common.js";
 
 export default {
-  name: "Games",
+  name: "TopShow",
   components: {
     Header,
-    GamesPC,
-    GamesMobile,
+    ShowPC,
+    ShowMobile,
   },
   data: function () {
     console.clear();

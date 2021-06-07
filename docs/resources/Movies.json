@@ -6995,5 +6995,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "529": {
+    "name": "ドライブトークしながら帰宅します【The Way Home】",
+    "url": "https://www.youtube.com/watch?v=DdbkO6jACso",
+    "releaseDate": "2021/06/07",
+    "gameIds": [
+      184
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -2032,5 +2032,17 @@
       135
     ],
     "comment": ""
+  },
+  "184": {
+    "name": "The Way Home",
+    "urls": [
+      "https://store.steampowered.com/dev/hiderumstudios",
+      "https://store.steampowered.com/app/1637820/The_Way_Home/?l=japanese",
+      "https://www.youtube.com/channel/UCDNwoinM4A43a6hAUgbekwQ"
+    ],
+    "genreIds": [
+      113
+    ],
+    "comment": ""
   }
 }

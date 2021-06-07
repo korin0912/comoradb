@@ -24,7 +24,7 @@
             <!-- ID -->
             <td :rowspan="item.gameRow" class="text-center">
               <div v-if="isLocal">
-                <router-link :to="{ name: 'GameEdit', params: { gameId: item.game.id } }">{{ item.game.id }}</router-link>
+                <router-link :to="{ name: 'GameShow', params: { gameId: item.game.id } }">{{ item.game.id }}</router-link>
               </div>
               <div v-else>
                 {{ item.game.id }}

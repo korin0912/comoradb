@@ -18,6 +18,11 @@ let routes = [
     name: 'ActorShow',
     component: () => import('./components/Actor/Show.vue'),
   },
+  {
+    path: '/game/:gameId/show',
+    name: 'GameShow',
+    component: () => import('./components/Game/Show.vue'),
+  }
 ];
 
 if (process.env.NODE_ENV == 'development') {

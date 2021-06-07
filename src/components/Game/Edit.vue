@@ -1,8 +1,7 @@
 ﻿<template>
   <div v-if="loaded" class="container">
     <Header />
-    <h2 v-if="gameId == 0">ゲーム追加</h2>
-    <h2 v-else>ゲーム更新</h2>
+    <h2>{{ gameId == 0 ? 'ゲーム追加' : 'ゲーム更新' }}</h2>
     <table>
       <thead>
         <tr>
@@ -35,9 +34,8 @@
       </thead>
     </table>
     <div style="height: 60px">
-      <button v-if="gameId == 0" v-on:click="create()" class="create">作成</button>
-      <button v-else v-on:click="create()" class="create">更新</button>
-      <router-link :to="{ name: 'TopShow' }"><button class="cancel">戻る</button></router-link>
+      <button v-on:click="create()" class="create">{{ gameId == 0 ? '作成' : '更新' }}</button>
+      <button v-on:click="$router.go(-1)" class="cancel">戻る</button>
     </div>
   </div>
 </template>
@@ -147,7 +145,7 @@ function create() {
   request.onload = () => {
     console.log(`success: ${request.status}`);
     resources.clearData();
-    this.$router.push({ name: "Games" });
+    this.$router.go(-1);
   };
   request.onerror = () => {
     console.log(`error: ${request.status}`);

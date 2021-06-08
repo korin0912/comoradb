@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="back">
-      <span v-if="$router.currentRoute.name != 'TopShow'" v-on:click="$router.back()" class="icon back" />
+      <div v-if="$router.currentRoute.name != 'TopShow'" v-on:click="$router.back()" class="icon back" />
     </div>
     <div id="app">
       <router-view />
@@ -70,18 +70,31 @@ export default {
 
 div.back {
   height: 32px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+div.back-sticky {
+  padding: 4px 4px 4px 4px;
 }
 
 .icon.back {
-  width: 32px;
-  height: 32px;
-  text-align: left;
-  margin: 0px auto auto 0px;
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+  border-radius: 25%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }
 
 .icon.back::before {
   font-size: 32px;
-  margin-top: 10px;
-  margin-left: 10px;
+  vertical-align: middle;
 }
 </style>

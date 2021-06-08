@@ -3,40 +3,44 @@
     <Header />
     <div class="container">
       <div :class="isMobile == false ? 'pc' : 'mobile'">
-        <h2>{{ game.name }}</h2>
+        <h2>{{ movie.name }}</h2>
         <table>
           <thead>
             <tr>
               <th class="pale">URL</th>
               <td>
+                <a :href="movie.url" target="_blank" class="url">{{ movie.url }}</a>
+              </td>
+            </tr>
+            <tr>
+              <th class="pale">公開日</th>
+              <td>{{ movie.releaseDate }}</td>
+            </tr>
+            <tr>
+              <th class="pale">出演者</th>
+              <td>
                 <ul>
-                  <li v-for="(url, index) in game.urls" v-bind:key="'url-' + index">
-                    <a :href="url" target="_blank" class="url">{{ url }}</a>
+                  <li v-for="(actorId, index) in movie.actorIds" :key="'actor-' + index">
+                    <router-link :to="{ name: 'ActorShow', params: { actorId: actorId } }">{{ actorsData[actorId].name }}</router-link>
                   </li>
                 </ul>
               </td>
             </tr>
             <tr>
-              <th class="pale">ジャンル</th>
-              <td>
-                <ul>
-                  <li v-for="(genreId, index) in game.genreIds" :key="'genre-' + index">
-                    {{ gameGenresData[genreId] }}
-                  </li>
-                </ul>
-              </td>
+              <th class="pale">雑談</th>
+              <td><i v-if="movie.chat" class="icon check" /></td>
             </tr>
             <tr>
               <th class="pale">コメント</th>
-              <td>{{ game.comment }}</td>
+              <td>{{ movie.comment }}</td>
             </tr>
           </thead>
         </table>
         <div v-if="isLocal && !isMobile" style="height: 21px; margin: 10px 0 10px 0">
-          <button v-on:click="$router.push({ name: 'GameEdit', params: { gameId: gameId } })" class="edit" style="float: right" />
+          <button v-on:click="$router.push({ name: 'MovieEdit', params: { movieId: movieId } })" class="edit" />
         </div>
         <div style="margin: 10px 0 60px 0">
-          <MovieTable :movieIds="movieIds" />
+          <GameTable :gameIds="gameIds" />
         </div>
       </div>
     </div>
@@ -45,42 +49,42 @@
 
 <script>
 import Header from "../Common/Header.vue";
-import MovieTable from "../Movie/Table.vue";
+import GameTable from "../Game/Table.vue";
 
 import common from "../Common/Common.js";
 import resources from "../Common/Resources.js";
 
 export default {
-  name: "GameShow",
+  name: "MovieShow",
   components: {
     Header,
-    MovieTable,
+    GameTable,
   },
   data: function () {
     let isLocal = process.env.NODE_ENV == "development";
     let isMobile = common.isMobile();
-    let gameId = this.$route.params.gameId;
+    let movieId = this.$route.params.movieId;
     return {
       isLocal: isLocal,
       isMobile: isMobile,
       loaded: false,
-      gameId: gameId,
-      game: {},
-      gameGenresData: {},
-      movieIds: [],
+      movieId: movieId,
+      movie: {},
+      gamesData: {},
+      actorsDat: {},
+      gameIds: [],
     };
   },
   mounted: async function () {
-    let gamesData = await resources.getGamesData();
-    let gameGenresData = await resources.getGameGenresData();
-    this.game = gamesData[String(this.gameId)];
-    this.gameGenresData = gameGenresData;
-
     let moviesData = await resources.getMoviesData();
-    Object.keys(moviesData).forEach((movieId) => {
-      if (moviesData[movieId].gameIds.findIndex((gameId) => gameId == this.gameId) != -1) {
-        this.movieIds.push(movieId);
-      }
+    let gamesData = await resources.getGamesData();
+    let actorsData = await resources.getActorsData();
+    this.movie = moviesData[String(this.movieId)];
+    this.gamesData = gamesData;
+    this.actorsData = actorsData;
+
+    this.movie.gameIds.forEach((gameId) => {
+      this.gameIds.push(gameId);
     });
 
     this.loaded = true;
@@ -118,5 +122,10 @@ th {
 
 td {
   width: 80%;
+}
+
+button.edit {
+  float: right;
+  margin-top: 4px;
 }
 </style>

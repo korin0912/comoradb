@@ -19,10 +19,15 @@ let routes = [
     component: () => import('./components/Actor/Show.vue'),
   },
   {
-    path: '/game/:gameId/show',
+    path: '/game/:gameId',
     name: 'GameShow',
     component: () => import('./components/Game/Show.vue'),
-  }
+  },
+  {
+    path: '/movie/:movieId',
+    name: 'MovieShow',
+    component: () => import('./components/Movie/Show.vue'),
+  },
 ];
 
 if (process.env.NODE_ENV == 'development') {
@@ -32,7 +37,7 @@ if (process.env.NODE_ENV == 'development') {
     component: () => import('./components/Game/Edit.vue'),
   });
   routes.push({
-    path: '/movies/:movieId/edit',
+    path: '/movie/:movieId/edit',
     name: 'MovieEdit',
     component: () => import('./components/Movie/Edit.vue'),
   });
@@ -42,6 +47,13 @@ const router = new VueRouter({
   mode: 'hash',
   base: process.env.BASE_URL,
   routes: routes,
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 });
 
 new Vue({

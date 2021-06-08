@@ -16,11 +16,13 @@
             <tr>
               <th class="pale">リンク</th>
               <td>
-                <li v-for="(url, urlIndex) in actor.urls" :key="'actor-' + actor.name + '-url-' + urlIndex">
-                  <a :href="url" target="_blank" class="url">
-                    {{ url }}
-                  </a>
-                </li>
+                <ul>
+                  <li v-for="(url, urlIndex) in actor.urls" :key="'actor-' + actor.name + '-url-' + urlIndex">
+                    <a :href="url" target="_blank" class="url">
+                      {{ url }}
+                    </a>
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr>

@@ -50,8 +50,7 @@
       </thead>
     </table>
     <div style="height: 60px">
-      <button v-on:click="create()" class="create">{{ movieId == 0 ? '作成' : '更新' }}</button>
-      <button v-on:click="$router.go(-1)" class="cancel">戻る</button>
+      <button v-on:click="create()" class="submit" />
     </div>
   </div>
 </template>
@@ -239,23 +238,8 @@ label.checkbox {
   vertical-align: top;
 }
 
-button.create {
-  float: left;
-  background-color: var(--comora-color-pale-purple);
-  margin: 4px 0 0 0;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #dddddd;
-  border-radius: 8px;
-}
-
-button.cancel {
+button.submit {
   float: right;
-  background-color: var(--comora-color-dirk-purple);
   margin: 4px 0 0 0;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #dddddd;
-  border-radius: 8px;
 }
 </style>

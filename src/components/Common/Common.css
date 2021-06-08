@@ -8,10 +8,62 @@ a {
   text-decoration: none;
 }
 
+a.url {
+  word-break: break-all;
+}
+
 input {
   font-size: 0.8rem;
   font-weight: 200;
   font-family: "Kosugi Maru", sans-serif;
+}
+
+button.submit {
+  font-weight: 400;
+  background-color: var(--comora-color-pale-purple);
+  margin: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--comora-color-dirk-purple);
+  border-radius: 8px;
+  padding: 2px 8px 2px 8px;
+}
+
+button.submit::before {
+  content: 'Submit';
+}
+
+button.cancel {
+  color: #888888;
+  font-weight: 400;
+  background-color: #dddddd;
+  margin: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  border-radius: 8px;
+  padding: 2px 8px 2px 8px;
+  text-align: center;
+}
+
+button.cancel::before {
+  content: 'Cancel';
+}
+
+button.edit {
+  color: #444444;
+  font-weight: 400;
+  background-color: var(--comora-color-yellow);
+  margin: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  border-radius: 8px;
+  padding: 2px 8px 2px 8px;
+}
+
+button.edit::before {
+  content: 'Edit';
 }
 
 .bottom-blank {
@@ -40,4 +92,18 @@ input {
 
 .text-center {
   text-align: center;
+}
+
+ul {
+  padding-left: 1rem;
+  margin: 0;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+li::marker {
+  color: var(--comora-color-dirk-purple);
 }

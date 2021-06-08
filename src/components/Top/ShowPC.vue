@@ -2,7 +2,7 @@
   <div v-if="loaded" class="container">
     <!-- メインテーブル -->
     <div class="main bottom-blank">
-      <GamesTable :key="resetKey" :filterParams="filterParams" />
+      <PCTable :key="resetKey" :filterParams="filterParams" />
     </div>
     <!-- サイドバー -->
     <div class="sidebar">
@@ -17,21 +17,21 @@
           <button class="create">動画</button>
         </router-link>
       </div>
-      <GamesFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
+      <TopFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
     </div>
   </div>
 </template>
 
 <script>
-import games from "./Games.js";
-import GamesTable from "./GamesPCTable.vue";
-import GamesFilter from "./GamesFilter.vue";
+import top from "./Top.js";
+import PCTable from "./PCTable.vue";
+import TopFilter from "./Filter.vue";
 
 export default {
-  name: "GamesPC",
+  name: "TopShowPC",
   components: {
-    GamesTable,
-    GamesFilter,
+    PCTable,
+    TopFilter,
   },
   data: function () {
     let isLocal = process.env.NODE_ENV == "development";
@@ -50,7 +50,7 @@ export default {
     },
   },
   mounted: async function () {
-    this.filterParams = await games.getInitialFilterParams();
+    this.filterParams = await top.getInitialFilterParams();
     this.loaded = true;
   },
 };

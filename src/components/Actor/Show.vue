@@ -3,7 +3,7 @@
     <Header />
     <div class="container">
       <!-- 出演者 -->
-      <div :class="isMobile == false ? 'actor_pc' : 'actor_mobile'">
+      <div :class="isMobile == false ? 'pc' : 'mobile'">
         <img :src="require('../../assets/images/actor_' + this.$route.params.actorId + '.png')" class="actor" />
         <br />
         <br />
@@ -16,11 +16,13 @@
             <tr>
               <th class="pale">リンク</th>
               <td>
-                <li v-for="(url, urlIndex) in actor.urls" :key="'actor-' + actor.name + '-url-' + urlIndex">
-                  <a :href="url" target="_blank" class="url">
-                    {{ url }}
-                  </a>
-                </li>
+                <ul>
+                  <li v-for="(url, urlIndex) in actor.urls" :key="'actor-' + actor.name + '-url-' + urlIndex">
+                    <a :href="url" target="_blank" class="url">
+                      {{ url }}
+                    </a>
+                  </li>
+                </ul>
               </td>
             </tr>
             <tr>
@@ -34,8 +36,8 @@
     <br />
     <div class="container">
       <div class="games">
-        <GamesPCTable v-if="isMobile == false" :filterParams="filterParams" />
-        <GamesMobileTable v-else :filterParams="filterParams" />
+        <PCTable v-if="isMobile == false" :filterParams="filterParams" />
+        <MobileTable v-else :filterParams="filterParams" />
       </div>
     </div>
   </div>
@@ -43,19 +45,19 @@
 
 <script>
 import Header from "../Common/Header.vue";
-import GamesPCTable from "../Games/GamesPCTable.vue";
-import GamesMobileTable from "../Games/GamesMobileTable.vue";
+import PCTable from "../Top/PCTable.vue";
+import MobileTable from "../Top/MobileTable.vue";
 
 import common from "../Common/Common.js";
 import resources from "../Common/Resources.js";
-import games from "../Games/Games.js";
+import top from "../Top/Top.js";
 
 export default {
-  name: "Actors",
+  name: "ActorShow",
   components: {
     Header,
-    GamesPCTable,
-    GamesMobileTable,
+    PCTable,
+    MobileTable,
   },
   data: function () {
     return {
@@ -72,7 +74,7 @@ export default {
     });
     this.actor = actorsData[actorIdx];
 
-    let filterParams = await games.getInitialFilterParams();
+    let filterParams = await top.getInitialFilterParams();
     filterParams.actors.forEach((elem) => {
       if (elem.id == this.$route.params.actorId) {
         elem.check = true;
@@ -92,11 +94,11 @@ export default {
   grid-template-columns: 15% 70% 15%;
 }
 
-.actor_pc {
+.pc {
   grid-column: 2 / 3;
 }
 
-.actor_mobile {
+.mobile {
   grid-column: 1 / 4;
 }
 
@@ -114,9 +116,5 @@ img.actor {
 th {
   width: 20%;
   text-align: left;
-}
-
-a.url {
-  word-break: break-all;
 }
 </style>

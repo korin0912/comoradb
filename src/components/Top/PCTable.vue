@@ -23,12 +23,7 @@
           <template v-if="item.game != null">
             <!-- ID -->
             <td :rowspan="item.gameRow" class="text-center">
-              <div v-if="isLocal">
-                <router-link :to="{ name: 'GameEdit', params: { gameId: item.game.id } }">{{ item.game.id }}</router-link>
-              </div>
-              <div v-else>
-                {{ item.game.id }}
-              </div>
+              <router-link :to="{ name: 'GameShow', params: { gameId: item.game.id } }">{{ item.game.id }}</router-link>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.gameRow">
@@ -51,12 +46,7 @@
           <template v-if="item.movie != null">
             <!-- ID -->
             <td :rowspan="item.movieRow" :class="`text-center ${item.game == null ? 'border-left-none' : ''}`">
-              <div v-if="isLocal">
-                <router-link :to="{ name: 'MovieEdit', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
-              </div>
-              <div v-else>
-                {{ item.movie.id }}
-              </div>
+              <router-link :to="{ name: 'MovieShow', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.movieRow" class="movie">
@@ -69,7 +59,7 @@
             <!-- 出演者 -->
             <td :rowspan="item.movieRow" class="text-center">
               <div v-for="actor in item.movie.actors" :key="`actor-${actor.id}`" class="actoricon">
-                <i :title="actor.name" :class="`icon actor-${actor.id}`" />
+                <router-link :to="{ name: 'ActorShow', params: { actorId: actor.id}}"><i :title="actor.name" :class="`icon actor-${actor.id}`" /></router-link>
               </div>
             </td>
             <!-- 雑談 -->
@@ -85,17 +75,15 @@
 
 <script>
 import common from "../Common/Common.js";
-import games from "./Games.js";
+import top from "./Top.js";
 
 export default {
-  name: "GamesPCTable",
+  name: "TopPCTable",
   props: ["filterParams"],
   data: function () {
-    let isLocal = process.env.NODE_ENV == "development";
     return {
       loaded: false,
       common: common,
-      isLocal: isLocal,
       items: {},
       gameCount: 0,
       movieCount: 0,
@@ -103,7 +91,7 @@ export default {
   },
   mounted: async function () {
     // テーブルアイテム
-    let tableItems = await games.getTableItems(this.filterParams);
+    let tableItems = await top.getTableItems(this.filterParams);
     this.items = tableItems.items;
     this.gameCount = tableItems.gameCount;
     this.movieCount = tableItems.movieCount;

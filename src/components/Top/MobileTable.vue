@@ -23,7 +23,7 @@
           <template v-if="item.game != null">
             <!-- ID -->
             <td :rowspan="item.gameRow" class="text-center">
-              {{ item.game.id }}
+              <router-link :to="{ name: 'GameShow', params: { gameId: item.game.id } }">{{ item.game.id }}</router-link>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.gameRow">
@@ -39,7 +39,7 @@
           <template v-if="item.movie != null">
             <!-- ID -->
             <td :rowspan="item.movieRow" :class="`text-center ${item.game == null ? 'border-left-none' : ''}`">
-              {{ item.movie.id }}
+              <router-link :to="{ name: 'MovieShow', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.movieRow" class="movie">
@@ -54,10 +54,10 @@
 
 <script>
 import common from "../Common/Common.js";
-import games from "./Games.js";
+import top from "./Top.js";
 
 export default {
-  name: "GamesMobileTable",
+  name: "TopMobileTable",
   props: ["filterParams"],
   data: function () {
     return {
@@ -70,7 +70,7 @@ export default {
   },
   mounted: async function () {
     // テーブルアイテム
-    let tableItems = await games.getTableItems(this.filterParams);
+    let tableItems = await top.getTableItems(this.filterParams);
     this.items = tableItems.items;
     this.gameCount = tableItems.gameCount;
     this.movieCount = tableItems.movieCount;

@@ -3,7 +3,7 @@
     <Header />
     <div class="container">
       <!-- 出演者 -->
-      <div :class="isMobile == false ? 'actor_pc' : 'actor_mobile'">
+      <div :class="isMobile == false ? 'pc' : 'mobile'">
         <img :src="require('../../assets/images/actor_' + this.$route.params.actorId + '.png')" class="actor" />
         <br />
         <br />
@@ -92,11 +92,11 @@ export default {
   grid-template-columns: 15% 70% 15%;
 }
 
-.actor_pc {
+.pc {
   grid-column: 2 / 3;
 }
 
-.actor_mobile {
+.mobile {
   grid-column: 1 / 4;
 }
 
@@ -114,9 +114,5 @@ img.actor {
 th {
   width: 20%;
   text-align: left;
-}
-
-a.url {
-  word-break: break-all;
 }
 </style>

@@ -17,7 +17,7 @@
       <div v-for="actor in params.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
         <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="updateFilter" v-model="actor.check" class="filter-checkbox" />
         <label :for="'filter-actor-' + actor.id" class="filter-checkbox">
-          <router-link :to="{ name: 'ActorShow', params: { actorId: actor.id } }" target="_blank">{{ actor.name }}</router-link>
+          <router-link :to="{ name: 'ActorShow', params: { actorId: actor.id } }">{{ actor.name }}</router-link>
         </label>
       </div>
     </div>

@@ -25,7 +25,7 @@
               </select>
               <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeGame(index)" />
             </div>
-            <a href="#" class="icon plus" v-on:click="addGame()" />
+            <i class="icon plus" v-on:click="addGame()" />
           </td>
         </tr>
         <tr>

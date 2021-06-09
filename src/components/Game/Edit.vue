@@ -15,7 +15,7 @@
               <input placeholder="" class="text" v-model="inputs.urls[index]" />
               <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeUrl(index)" />
             </div>
-            <a href="#" class="icon plus" v-on:click="addUrl()" />
+            <i class="icon plus" v-on:click="addUrl()" />
           </td>
         </tr>
         <tr>

@@ -17,7 +17,7 @@
       <div v-for="actor in params.actors" :key="'filter-actor-' + actor.id" class="filter-checkbox">
         <input type="checkbox" :id="'filter-actor-' + actor.id" v-on:change="updateFilter" v-model="actor.check" class="filter-checkbox" />
         <label :for="'filter-actor-' + actor.id" class="filter-checkbox">
-          <a href="#" v-on:click="goActor(actor.id)">{{ actor.name }}</a>
+          <a href="javascript:void(0)" v-on:click="goActor(actor.id)">{{ actor.name }}</a>
         </label>
       </div>
     </div>
@@ -78,7 +78,7 @@ export default {
       this.$emit("updateTable", this.params);
     },
     goActor: function (actorId) {
-      console.log(actorId);
+      // console.log(actorId);
       document.body.classList.remove("bm-overlay");
       this.$router.push({ name: "ActorShow", params: { actorId: actorId } });
     }

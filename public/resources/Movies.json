@@ -7021,5 +7021,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "531": {
+    "name": "【雑談実況】チー牛カレーとかいうチー牛の上位互換【ロックマン3】＃2",
+    "url": "https://www.youtube.com/watch?v=Ao368VTUuM0",
+    "releaseDate": "2021/06/09",
+    "gameIds": [
+      180
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

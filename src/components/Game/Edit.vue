@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded" class="container">
+  <div class="container">
     <Header />
     <h2>{{ gameId == 0 ? 'ゲーム追加' : 'ゲーム更新' }}</h2>
     <table>
@@ -51,26 +51,13 @@ export default {
   },
   data: function () {
     let gameId = this.$route.params.gameId;
-    return {
-      loaded: false,
-      gameId: gameId,
-      gamesData: {},
-      gameGenresData: {},
-      inputs: {},
-    };
-  },
-  methods: {
-    addUrl: addUrl,
-    removeUrl: removeUrl,
-    create: create,
-  },
-  mounted: async function () {
-    let gamesData = await resources.getGamesData();
-    let gameGenresData = await resources.getGameGenresData();
+
+    let gamesData = resources.getGamesData();
+    let gameGenresData = resources.getGameGenresData();
 
     let inputs = {};
-    // console.log(this.gameId);
-    if (this.gameId == 0) {
+    // console.log(gameId);
+    if (gameId == 0) {
       let gameIds = [];
       gameIds.push(1);
 
@@ -89,7 +76,7 @@ export default {
         comment: "",
       };
     } else {
-      var org = gamesData[String(this.gameId)];
+      var org = gamesData[String(gameId)];
       // console.log(org);
 
       let genres = [];
@@ -108,12 +95,18 @@ export default {
       };
     }
     // console.log(inputs);
-    this.inputs = inputs;
 
-    this.gamesData = gamesData;
-    this.gameGenresData = gameGenresData;
-
-    this.loaded = true;
+    return {
+      gameId: gameId,
+      gamesData: gamesData,
+      gameGenresData: gameGenresData,
+      inputs: inputs,
+    };
+  },
+  methods: {
+    addUrl: addUrl,
+    removeUrl: removeUrl,
+    create: create,
   },
 };
 
@@ -141,9 +134,10 @@ function create() {
     request.open("POST", `http://localhost:8081/game/edit/${this.gameId}`);
   }
   request.setRequestHeader("Content-Type", "application/json");
-  request.onload = () => {
+  request.onload = async () => {
     console.log(`success: ${request.status}`);
-    resources.clearData();
+    resources.clearAllData();
+    await resources.loadAllData();
     this.$router.go(-1);
   };
   request.onerror = () => {

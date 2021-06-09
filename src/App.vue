@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="loaded">
     <div class="back">
       <div v-if="$router.currentRoute.name != 'TopShow'" v-on:click="$router.back()" class="icon back" />
     </div>
@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import resource from "./components/Common/Resources.js";
+
 export default {
   name: "App",
   head: {
@@ -49,6 +51,16 @@ export default {
       },
     ],
   },
+  data: function () {
+    let loaded = resource.isLoadedAllData();
+    return {
+      loaded: loaded,
+    };
+  },
+  mounted: async function () {
+    await resource.loadAllData();
+    this.loaded = true;
+  }
 };
 </script>
 

@@ -21,7 +21,7 @@ export default {
     ShowMobile,
   },
   data: function () {
-    console.clear();
+    // console.clear();
     return {
       isMobile: common.isMobile(),
     };

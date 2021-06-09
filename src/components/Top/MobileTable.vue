@@ -1,5 +1,5 @@
 ﻿<template>
-  <table v-if="loaded" class="sticky-table">
+  <table class="sticky-table">
     <thead>
       <tr>
         <th colspan="2" class="pale">
@@ -60,22 +60,14 @@ export default {
   name: "TopMobileTable",
   props: ["filterParams"],
   data: function () {
-    return {
-      loaded: false,
-      common: common,
-      items: {},
-      gameCount: 0,
-      movieCount: 0,
-    };
-  },
-  mounted: async function () {
-    // テーブルアイテム
-    let tableItems = await top.getTableItems(this.filterParams);
-    this.items = tableItems.items;
-    this.gameCount = tableItems.gameCount;
-    this.movieCount = tableItems.movieCount;
+    let tableItems = top.getTableItems(this.filterParams);
 
-    this.loaded = true;
+    return {
+      common: common,
+      items: tableItems.items,
+      gameCount: tableItems.gameCount,
+      movieCount: tableItems.movieCount,
+    };
   },
 };
 </script>

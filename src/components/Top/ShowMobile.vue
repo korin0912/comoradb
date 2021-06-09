@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded" class="container">
+  <div class="container">
     <div class="main bottom-blank">
       <MobileTable :key="resetKey" :filterParams="filterParams" />
     </div>
@@ -23,10 +23,11 @@ export default {
     Slide,
   },
   data: function () {
+    let filterParams = top.getInitialFilterParams();
+
     return {
-      loaded: false,
       resetKey: 0,
-      filterParams: {},
+      filterParams: filterParams,
     };
   },
   methods: {
@@ -41,12 +42,6 @@ export default {
       let bm_item_list_style = document.querySelector(".bm-item-list").style;
       bm_item_list_style.marginLeft = "0";
     },
-  },
-  mounted: async function () {
-    let filterParams = await top.getInitialFilterParams();
-    this.filterParams = filterParams;
-
-    this.loaded = true;
   },
 };
 </script>

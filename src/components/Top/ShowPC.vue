@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded" class="container">
+  <div class="container">
     <!-- メインテーブル -->
     <div class="main bottom-blank">
       <PCTable :key="resetKey" :filterParams="filterParams" />
@@ -35,12 +35,13 @@ export default {
   },
   data: function () {
     let isLocal = process.env.NODE_ENV == "development";
+    let filterParams = top.getInitialFilterParams();
     // console.log(process.env.NODE_ENV);
+
     return {
-      loaded: false,
       isLocal: isLocal,
       resetKey: 0,
-      filterParams: {},
+      filterParams: filterParams,
     };
   },
   methods: {
@@ -48,10 +49,6 @@ export default {
       this.filterParams = newFilterParams;
       this.resetKey++;
     },
-  },
-  mounted: async function () {
-    this.filterParams = await top.getInitialFilterParams();
-    this.loaded = true;
   },
 };
 </script>

@@ -9,13 +9,13 @@ let originalTableItems = null;
 /**
  * テーブルのオリジナルアイテム取得
  */
-async function getOriginalTableItems() {
+function getOriginalTableItems() {
   if (originalTableItems == null) {
     // console.log("create original table items");
-    let gamesData = await resources.getGamesData();
-    let gameGenresData = await resources.getGameGenresData();
-    let moviesData = await resources.getMoviesData();
-    let actorsData = await resources.getActorsData();
+    let gamesData = resources.getGamesData();
+    let gameGenresData = resources.getGameGenresData();
+    let moviesData = resources.getMoviesData();
+    let actorsData = resources.getActorsData();
 
     originalTableItems = [];
     Object.keys(gamesData)
@@ -187,18 +187,18 @@ function filterTableItems(items, filterParams) {
 /**
  * テーブルアイテム取得
  */
-async function getTableItems(filterParams) {
+function getTableItems(filterParams) {
   // テーブル要素リスト作成
   // まず、1行で1ゲーム1動画のリストを作成
   // そのあとで、連続して重複するゲーム/動画を潰す
   // console.log("get table data");
 
   // 1行で1ゲーム1動画のリスト作成
-  let gamesData = await resources.getGamesData();
-  let gameGenresData = await resources.getGameGenresData();
-  let moviesData = await resources.getMoviesData();
-  let actorsData = await resources.getActorsData();
-  let items = await getOriginalTableItems(gamesData, gameGenresData, moviesData, actorsData);
+  let gamesData = resources.getGamesData();
+  let gameGenresData = resources.getGameGenresData();
+  let moviesData = resources.getMoviesData();
+  let actorsData = resources.getActorsData();
+  let items = getOriginalTableItems(gamesData, gameGenresData, moviesData, actorsData);
   // console.log(items);
 
   // フィルター
@@ -256,13 +256,13 @@ let originalFilterParams = null;
 /**
  * 初期フィルターパラメータ取得
  */
-async function getInitialFilterParams() {
+function getInitialFilterParams() {
   // テキスト
   let text = "";
 
   // 出演者
   let actors = [];
-  let actorsData = await resources.getActorsData();
+  let actorsData = resources.getActorsData();
   Object.keys(actorsData).forEach((index) => {
     actors.push({
       id: index,
@@ -279,7 +279,7 @@ async function getInitialFilterParams() {
 
   // ジャンル
   let genres = [];
-  let gameGenresData = await resources.getGameGenresData();
+  let gameGenresData = resources.getGameGenresData();
   Object.keys(gameGenresData).forEach((index) => {
     genres.push({
       id: index,

@@ -1,7 +1,7 @@
 ﻿<template>
-  <div v-if="loaded" class="container">
+  <div class="container">
     <Header />
-    <h2>{{ movieId == 0 ? '動画追加' : '動画更新' }}</h2>
+    <h2>{{ movieId == 0 ? "動画追加" : "動画更新" }}</h2>
     <table>
       <thead>
         <tr>
@@ -67,27 +67,14 @@ export default {
   },
   data: function () {
     let movieId = this.$route.params.movieId;
-    return {
-      loaded: false,
-      movieId: movieId,
-      gamesData: {},
-      actorsData: {},
-      inputs: {},
-    };
-  },
-  methods: {
-    addGame: addGame,
-    removeGame: removeGame,
-    create: create,
-  },
-  mounted: async function () {
-    let moviesData = await resources.getMoviesData();
-    let gamesData = await resources.getGamesData();
-    let actorsData = await resources.getActorsData();
+
+    let moviesData = resources.getMoviesData();
+    let gamesData = resources.getGamesData();
+    let actorsData = resources.getActorsData();
 
     let inputs = {};
-    // console.log(this.movieId);
-    if (this.movieId == 0) {
+    // console.log(movieId);
+    if (movieId == 0) {
       let now = new Date();
 
       let gameIds = [];
@@ -111,7 +98,7 @@ export default {
         comment: "",
       };
     } else {
-      var org = moviesData[String(this.movieId)];
+      var org = moviesData[String(movieId)];
       // console.log(org);
 
       let actors = [];
@@ -135,11 +122,17 @@ export default {
     }
     // console.log(inputs);
 
-    this.gamesData = gamesData;
-    this.actorsData = actorsData;
-    this.inputs = inputs;
-
-    this.loaded = true;
+    return {
+      movieId: movieId,
+      gamesData: gamesData,
+      actorsData: actorsData,
+      inputs: inputs,
+    };
+  },
+  methods: {
+    addGame: addGame,
+    removeGame: removeGame,
+    create: create,
   },
 };
 
@@ -170,9 +163,10 @@ function create() {
     request.open("POST", `http://localhost:8081/movie/edit/${this.movieId}`);
   }
   request.setRequestHeader("Content-Type", "application/json");
-  request.onload = () => {
+  request.onload = async () => {
     console.log(`success: ${request.status}`);
-    resources.clearData();
+    resources.clearAllData();
+    await resources.loadAllData();
     this.$router.go(-1);
   };
   request.onerror = () => {

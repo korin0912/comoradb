@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded">
+  <div>
     <Header />
     <div class="container">
       <div :class="isMobile == false ? 'pc' : 'mobile'">
@@ -64,30 +64,26 @@ export default {
     let isLocal = process.env.NODE_ENV == "development";
     let isMobile = common.isMobile();
     let movieId = this.$route.params.movieId;
+
+    let moviesData = resources.getMoviesData();
+    let gamesData = resources.getGamesData();
+    let actorsData = resources.getActorsData();
+    let movie = moviesData[String(movieId)];
+
+    let gameIds = [];
+    movie.gameIds.forEach((gameId) => {
+      gameIds.push(gameId);
+    });
+
     return {
       isLocal: isLocal,
       isMobile: isMobile,
-      loaded: false,
       movieId: movieId,
-      movie: {},
-      gamesData: {},
-      actorsDat: {},
-      gameIds: [],
+      movie: movie,
+      gamesData: gamesData,
+      actorsData: actorsData,
+      gameIds: gameIds,
     };
-  },
-  mounted: async function () {
-    let moviesData = await resources.getMoviesData();
-    let gamesData = await resources.getGamesData();
-    let actorsData = await resources.getActorsData();
-    this.movie = moviesData[String(this.movieId)];
-    this.gamesData = gamesData;
-    this.actorsData = actorsData;
-
-    this.movie.gameIds.forEach((gameId) => {
-      this.gameIds.push(gameId);
-    });
-
-    this.loaded = true;
   },
 };
 </script>

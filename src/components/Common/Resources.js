@@ -2,11 +2,9 @@
 
 const { default: axios } = require("axios");
 
-function getPath(jsonName)
-{
+function getPath(jsonName) {
   let ret = "";
-  if (process.env.NODE_ENV != 'development')
-  {
+  if (process.env.NODE_ENV != 'development') {
     ret += process.env.BASE_URL;
   }
   ret += `/resources/${jsonName}.json`;
@@ -15,7 +13,14 @@ function getPath(jsonName)
   return ret;
 }
 
-async function getActorsData() {
+function isLoadedAllData() {
+  return Vue.prototype.$actorsData &&
+    Vue.prototype.$gameGenresData &&
+    Vue.prototype.$gamesData &&
+    Vue.prototype.$moviesData;
+}
+
+async function loadAllData() {
   if (!Vue.prototype.$actorsData) {
     await axios.get(getPath('Actors'))
       .then(res => {
@@ -27,10 +32,7 @@ async function getActorsData() {
         Vue.prototype.$actorsData = {};
       });
   }
-  return Vue.prototype.$actorsData;
-}
 
-async function getGameGenresData() {
   if (!Vue.prototype.$gameGenresData) {
     await axios.get(getPath('GameGenres'))
       .then(res => {
@@ -42,10 +44,7 @@ async function getGameGenresData() {
         Vue.prototype.$gameGenresData = {};
       });
   }
-  return Vue.prototype.$gameGenresData;
-}
 
-async function getGamesData() {
   if (!Vue.prototype.$gamesData) {
     await axios.get(getPath('Games'))
       .then(res => {
@@ -57,10 +56,7 @@ async function getGamesData() {
         Vue.prototype.$gamesData = {};
       });
   }
-  return Vue.prototype.$gamesData;
-}
 
-async function getMoviesData() {
   if (!Vue.prototype.$moviesData) {
     await axios.get(getPath('Movies'))
       .then(res => {
@@ -72,20 +68,37 @@ async function getMoviesData() {
         Vue.prototype.$moviesData = {};
       });
   }
-  return Vue.prototype.$moviesData;
 }
 
-function clearData() {
+function clearAllData() {
   Vue.prototype.$actorsData = null;
   Vue.prototype.$gameGenresData = null;
   Vue.prototype.$gamesData = null;
   Vue.prototype.$moviesData = null;
 }
 
+function getActorsData() {
+  return Vue.prototype.$actorsData;
+}
+
+function getGameGenresData() {
+  return Vue.prototype.$gameGenresData;
+}
+
+function getGamesData() {
+  return Vue.prototype.$gamesData;
+}
+
+function getMoviesData() {
+  return Vue.prototype.$moviesData;
+}
+
 export default {
+  isLoadedAllData,
+  loadAllData,
+  clearAllData,
   getActorsData,
   getGameGenresData,
   getGamesData,
   getMoviesData,
-  clearData,
 }

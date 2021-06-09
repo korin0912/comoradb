@@ -65,8 +65,8 @@ export default {
     };
   },
   methods: {
-    initFilter: async function () {
-      this.params = await top.getInitialFilterParams();
+    initFilter: function () {
+      this.params = top.getInitialFilterParams();
       this.$emit("updateTable", this.params);
     },
     updateFilter: function () {

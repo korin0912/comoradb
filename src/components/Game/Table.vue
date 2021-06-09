@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded">
+  <div>
     <table>
       <thead>
         <tr>
@@ -11,14 +11,18 @@
       </thead>
       <tbody>
         <tr v-for="(game, index) in games" :key="'game-' + index">
-          <td class="text-center"><router-link :to="{ name: 'GameShow', params: { gameId: game.id } }">{{ game.id }}</router-link></td>
+          <td class="text-center">
+            <router-link :to="{ name: 'GameShow', params: { gameId: game.id } }">{{ game.id }}</router-link>
+          </td>
           <td>{{ game.data.name }}</td>
           <td>
             <div v-for="(url, index) in game.data.urls" :key="`url-` + index" class="urlicon">
               <a :href="url" target="_blank" :class="'icon ' + common.getUrlIconClass(url)" />
             </div>
           </td>
-          <td><span v-for="(genreId) in game.data.genreIds" :key="'genre-' + genreId" class="genre">{{ gameGenresData[genreId] }}</span></td>
+          <td>
+            <span v-for="genreId in game.data.genreIds" :key="'genre-' + genreId" class="genre">{{ gameGenresData[genreId] }}</span>
+          </td>
         </tr>
       </tbody>
     </table>
@@ -33,24 +37,20 @@ export default {
   name: "GameTable",
   props: ["gameIds"],
   data: function () {
-    return {
-      loaded: false,
-      games: {},
-      gameGenresData: {},
-      common: common,
-    };
-  },
-  mounted: async function () {
-    let gamesData = await resources.getGamesData();
-    let gameGenresData = await resources.getGameGenresData();
-    this.games = this.gameIds.map(gameId => {
+    let gamesData = resources.getGamesData();
+    let gameGenresData = resources.getGameGenresData();
+    let games = this.gameIds.map((gameId) => {
       return {
         id: gameId,
         data: gamesData[String(gameId)],
       };
     });
-    this.gameGenresData = gameGenresData;
-    this.loaded = true;
+
+    return {
+      games: games,
+      gameGenresData: gameGenresData,
+      common: common,
+    };
   },
 };
 </script>

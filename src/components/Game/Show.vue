@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded">
+  <div>
     <Header />
     <div class="container">
       <div :class="isMobile == false ? 'pc' : 'mobile'">
@@ -60,30 +60,29 @@ export default {
     let isLocal = process.env.NODE_ENV == "development";
     let isMobile = common.isMobile();
     let gameId = this.$route.params.gameId;
-    return {
-      isLocal: isLocal,
-      isMobile: isMobile,
-      loaded: false,
-      gameId: gameId,
-      game: {},
-      gameGenresData: {},
-      movieIds: [],
-    };
-  },
-  mounted: async function () {
-    let gamesData = await resources.getGamesData();
-    let gameGenresData = await resources.getGameGenresData();
-    this.game = gamesData[String(this.gameId)];
-    this.gameGenresData = gameGenresData;
 
-    let moviesData = await resources.getMoviesData();
+    let gamesData = resources.getGamesData();
+    let gameGenresData = resources.getGameGenresData();
+
+    let movieIds = [];
+    let moviesData = resources.getMoviesData();
     Object.keys(moviesData).forEach((movieId) => {
-      if (moviesData[movieId].gameIds.findIndex((gameId) => gameId == this.gameId) != -1) {
-        this.movieIds.push(movieId);
+      if (moviesData[movieId].gameIds.findIndex((id) => id == gameId) != -1) {
+        movieIds.push(movieId);
       }
     });
 
-    this.loaded = true;
+    return {
+      isLocal: isLocal,
+      isMobile: isMobile,
+      gameId: gameId,
+      game: gamesData[String(gameId)],
+      gameGenresData: gameGenresData,
+      movieIds: movieIds,
+    };
+  },
+  mounted: async function () {
+    await resources.execute();
   },
 };
 </script>

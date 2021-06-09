@@ -2,11 +2,9 @@
 
 const { default: axios } = require("axios");
 
-function getPath(jsonName)
-{
+function getPath(jsonName) {
   let ret = "";
-  if (process.env.NODE_ENV != 'development')
-  {
+  if (process.env.NODE_ENV != 'development') {
     ret += process.env.BASE_URL;
   }
   ret += `/resources/${jsonName}.json`;
@@ -15,77 +13,108 @@ function getPath(jsonName)
   return ret;
 }
 
-async function getActorsData() {
-  if (!Vue.prototype.$actorsData) {
-    await axios.get(getPath('Actors'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$actorsData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$actorsData = {};
-      });
-  }
+function isLoadedAllData() {
+  return Vue.prototype.$actorsData &&
+    Vue.prototype.$gameGenresData &&
+    Vue.prototype.$gamesData &&
+    Vue.prototype.$moviesData;
+}
+
+async function loadAllData() {
+  let responses = await Promise.all([
+    axios.get(getPath('Actors')),
+    axios.get(getPath('GameGenres')),
+    axios.get(getPath('Games')),
+    axios.get(getPath('Movies')),
+  ]);
+
+  Vue.prototype.$actorsData = responses[0].data;
+  Vue.prototype.$gameGenresData = responses[1].data;
+  Vue.prototype.$gamesData = responses[2].data;
+  Vue.prototype.$moviesData = responses[3].data;
+}
+
+function getActorsData() {
   return Vue.prototype.$actorsData;
 }
 
-async function getGameGenresData() {
-  if (!Vue.prototype.$gameGenresData) {
-    await axios.get(getPath('GameGenres'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$gameGenresData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$gameGenresData = {};
-      });
-  }
+function getGameGenresData() {
   return Vue.prototype.$gameGenresData;
 }
 
-async function getGamesData() {
-  if (!Vue.prototype.$gamesData) {
-    await axios.get(getPath('Games'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$gamesData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$gamesData = {};
-      });
-  }
+function getGamesData() {
   return Vue.prototype.$gamesData;
 }
 
-async function getMoviesData() {
-  if (!Vue.prototype.$moviesData) {
-    await axios.get(getPath('Movies'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$moviesData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$moviesData = {};
-      });
-  }
+function getMoviesData() {
   return Vue.prototype.$moviesData;
 }
 
-function clearData() {
-  Vue.prototype.$actorsData = null;
-  Vue.prototype.$gameGenresData = null;
-  Vue.prototype.$gamesData = null;
-  Vue.prototype.$moviesData = null;
+function updateMovie(movieId, postData) {
+  let url;
+  if (this.movieId == 0) {
+    url = "http://localhost:8081/movie/create";
+  } else {
+    url = `http://localhost:8081/movie/edit/${movieId}`;
+  }
+
+  if (!Vue.prototype.$editRequests) {
+    Vue.prototype.$editRequests = [];
+  }
+
+  Vue.prototype.$editRequests.push({
+    url: url,
+    postData: postData,
+  });
+}
+
+
+function updateGame(gameId, postData) {
+  let url;
+  if (this.gameId == 0) {
+    url = "http://localhost:8081/game/create";
+  } else {
+    url = `http://localhost:8081/game/edit/${gameId}`;
+  }
+
+  if (!Vue.prototype.$editRequests) {
+    Vue.prototype.$editRequests = [];
+  }
+
+  Vue.prototype.$editRequests.push({
+    url: url,
+    postData: postData,
+  });
+}
+
+async function execute() {
+  if (!Vue.prototype.$editRequests) {
+    return;
+  }
+
+  let update = false;
+  while (Vue.prototype.$editRequests.length > 0) {
+    var req = Vue.prototype.$editRequests.shift();
+    console.log(`edit request: ${req.url}`);
+    await axios.post(req.url, JSON.stringify(req.postData), { headers: { "Content-Type": "application/json" } }).then((res) => {
+      console.log(res.status);
+      update = true;
+    });
+  }
+
+  if (update) {
+    await loadAllData();
+  }
 }
 
 export default {
+  isLoadedAllData,
+  loadAllData,
   getActorsData,
   getGameGenresData,
   getGamesData,
   getMoviesData,
-  clearData,
+  updateMovie,
+  updateGame,
+  execute,
 }

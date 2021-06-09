@@ -1,7 +1,7 @@
 ﻿<template>
-  <div v-if="loaded" class="container">
+  <div class="container">
     <Header />
-    <h2>{{ gameId == 0 ? 'ゲーム追加' : 'ゲーム更新' }}</h2>
+    <h2>{{ gameId == 0 ? "ゲーム追加" : "ゲーム更新" }}</h2>
     <table>
       <thead>
         <tr>
@@ -22,7 +22,7 @@
           <th class="edit pale">ジャンル</th>
           <td>
             <div v-for="(genre, index) in inputs.genres" :key="'genre-' + index" class="checkbox">
-              <input type="checkbox" class="checkbox" v-model="inputs.genres[index].checked" />
+              <input type="checkbox" :name="'genre-' + index" :id="'genre-' + index" class="checkbox hoge" v-model="inputs.genres[index].checked" />
               <label :for="'genre-' + index" class="checkbox">{{ gameGenresData[genre.id] }}</label>
             </div>
           </td>
@@ -51,26 +51,13 @@ export default {
   },
   data: function () {
     let gameId = this.$route.params.gameId;
-    return {
-      loaded: false,
-      gameId: gameId,
-      gamesData: {},
-      gameGenresData: {},
-      inputs: {},
-    };
-  },
-  methods: {
-    addUrl: addUrl,
-    removeUrl: removeUrl,
-    create: create,
-  },
-  mounted: async function () {
-    let gamesData = await resources.getGamesData();
-    let gameGenresData = await resources.getGameGenresData();
+
+    let gamesData = resources.getGamesData();
+    let gameGenresData = resources.getGameGenresData();
 
     let inputs = {};
-    // console.log(this.gameId);
-    if (this.gameId == 0) {
+    // console.log(gameId);
+    if (gameId == 0) {
       let gameIds = [];
       gameIds.push(1);
 
@@ -89,7 +76,7 @@ export default {
         comment: "",
       };
     } else {
-      var org = gamesData[String(this.gameId)];
+      var org = gamesData[String(gameId)];
       // console.log(org);
 
       let genres = [];
@@ -108,12 +95,18 @@ export default {
       };
     }
     // console.log(inputs);
-    this.inputs = inputs;
 
-    this.gamesData = gamesData;
-    this.gameGenresData = gameGenresData;
-
-    this.loaded = true;
+    return {
+      gameId: gameId,
+      gamesData: gamesData,
+      gameGenresData: gameGenresData,
+      inputs: inputs,
+    };
+  },
+  methods: {
+    addUrl: addUrl,
+    removeUrl: removeUrl,
+    create: create,
   },
 };
 
@@ -125,31 +118,15 @@ function removeUrl(index) {
   this.inputs.urls.splice(index, 1);
 }
 
-function create() {
-  let postData = {
+async function create() {
+  resources.updateGame(this.gameId, {
     name: this.inputs.title,
     urls: this.inputs.urls,
     genreIds: this.inputs.genres.filter((v) => v.checked).map((v) => parseInt(v.id)),
     comment: this.inputs.comment,
-  };
+  });
 
-  let request = new XMLHttpRequest();
-  request.withCredentials = true;
-  if (this.gameId == 0) {
-    request.open("POST", "http://localhost:8081/game/create");
-  } else {
-    request.open("POST", `http://localhost:8081/game/edit/${this.gameId}`);
-  }
-  request.setRequestHeader("Content-Type", "application/json");
-  request.onload = () => {
-    console.log(`success: ${request.status}`);
-    resources.clearData();
-    this.$router.go(-1);
-  };
-  request.onerror = () => {
-    console.log(`error: ${request.status}`);
-  };
-  request.send(JSON.stringify(postData));
+  this.$router.back();
 }
 </script>
 

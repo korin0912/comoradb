@@ -1,5 +1,5 @@
 ﻿<template>
-  <table v-if="loaded" class="sticky-table">
+  <table class="sticky-table">
     <thead>
       <tr>
         <th colspan="4" class="pale">{{ "ゲーム (" + gameCount + ")" }}</th>
@@ -46,7 +46,7 @@
           <template v-if="item.movie != null">
             <!-- ID -->
             <td :rowspan="item.movieRow" :class="`text-center ${item.game == null ? 'border-left-none' : ''}`">
-              <router-link :to="{ name: 'MovieShow', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
+              <router-link v-if="item.movie.id" :to="{ name: 'MovieShow', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.movieRow" class="movie">
@@ -59,7 +59,7 @@
             <!-- 出演者 -->
             <td :rowspan="item.movieRow" class="text-center">
               <div v-for="actor in item.movie.actors" :key="`actor-${actor.id}`" class="actoricon">
-                <router-link :to="{ name: 'ActorShow', params: { actorId: actor.id}}"><i :title="actor.name" :class="`icon actor-${actor.id}`" /></router-link>
+                <router-link :to="{ name: 'ActorShow', params: { actorId: actor.id } }"><i :title="actor.name" :class="`icon actor-${actor.id}`" /></router-link>
               </div>
             </td>
             <!-- 雑談 -->
@@ -81,21 +81,14 @@ export default {
   name: "TopPCTable",
   props: ["filterParams"],
   data: function () {
+    let tableItems = top.getTableItems(this.filterParams);
+
     return {
-      loaded: false,
       common: common,
-      items: {},
-      gameCount: 0,
-      movieCount: 0,
+      items: tableItems.items,
+      gameCount: tableItems.gameCount,
+      movieCount: tableItems.movieCount,
     };
-  },
-  mounted: async function () {
-    // テーブルアイテム
-    let tableItems = await top.getTableItems(this.filterParams);
-    this.items = tableItems.items;
-    this.gameCount = tableItems.gameCount;
-    this.movieCount = tableItems.movieCount;
-    this.loaded = true;
   },
 };
 </script>

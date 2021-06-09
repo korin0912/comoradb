@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded">
+  <div>
     <table>
       <thead>
         <tr>
@@ -12,12 +12,16 @@
       </thead>
       <tbody>
         <tr v-for="(movie, index) in movies" :key="'movie-' + index">
-          <td class="text-center"><router-link :to="{ name: 'MovieShow', params: { movieId: movie.id } }">{{ movie.id }}</router-link></td>
-          <td><a :href="movie.data.url" target="_blank">{{ movie.data.name }}</a></td>
+          <td class="text-center">
+            <router-link :to="{ name: 'MovieShow', params: { movieId: movie.id } }">{{ movie.id }}</router-link>
+          </td>
+          <td>
+            <a :href="movie.data.url" target="_blank">{{ movie.data.name }}</a>
+          </td>
           <td class="text-center">{{ movie.data.releaseDate }}</td>
           <td class="text-center">
             <div v-for="actorId in movie.data.actorIds" :key="`actor-${actorId}`" class="actoricon">
-              <router-link :to="{ name: 'ActorShow', params: { actorId: actorId}}"><i :title="actorsData[actorId].name" :class="`icon actor-${actorId}`" /></router-link>
+              <router-link :to="{ name: 'ActorShow', params: { actorId: actorId } }"><i :title="actorsData[actorId].name" :class="`icon actor-${actorId}`" /></router-link>
             </div>
           </td>
           <td class="text-center"><i v-if="movie.data.chat" class="icon check" /></td>
@@ -34,24 +38,19 @@ export default {
   name: "MovieTable",
   props: ["movieIds"],
   data: function () {
-    return {
-      loaded: false,
-      movies: {},
-      gamesData: {},
-      actorsDat: {},
-    };
-  },
-  mounted: async function () {
-    let moviesData = await resources.getMoviesData();
-    let actorsData = await resources.getActorsData();
-    this.movies = this.movieIds.map(movieId => {
+    let moviesData = resources.getMoviesData();
+    let actorsData = resources.getActorsData();
+    let movies = this.movieIds.map((movieId) => {
       return {
         id: movieId,
         data: moviesData[String(movieId)],
       };
     });
-    this.actorsData = actorsData;
-    this.loaded = true;
+
+    return {
+      movies: movies,
+      actorsData: actorsData,
+    };
   },
 };
 </script>

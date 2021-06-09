@@ -1,5 +1,5 @@
 ﻿<template>
-  <div v-if="loaded" class="bottom-blank">
+  <div class="bottom-blank">
     <Header />
     <div class="container">
       <!-- 出演者 -->
@@ -60,29 +60,23 @@ export default {
     MobileTable,
   },
   data: function () {
-    return {
-      loaded: false,
-      actor: {},
-      isMobile: common.isMobile(),
-      filterParams: {},
-    };
-  },
-  mounted: async function () {
-    let actorsData = await resources.getActorsData();
+    let actorsData = resources.getActorsData();
     let actorIdx = Object.keys(actorsData).find((key) => {
       return key == this.$route.params.actorId;
     });
-    this.actor = actorsData[actorIdx];
 
-    let filterParams = await top.getInitialFilterParams();
+    let filterParams = top.getInitialFilterParams();
     filterParams.actors.forEach((elem) => {
       if (elem.id == this.$route.params.actorId) {
         elem.check = true;
       }
     });
-    this.filterParams = filterParams;
 
-    this.loaded = true;
+    return {
+      actor: actorsData[actorIdx],
+      isMobile: common.isMobile(),
+      filterParams: filterParams,
+    };
   },
 };
 </script>

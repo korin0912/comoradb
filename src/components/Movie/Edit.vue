@@ -1,7 +1,7 @@
 ﻿<template>
-  <div v-if="loaded" class="container">
+  <div class="container">
     <Header />
-    <h2>{{ movieId == 0 ? '動画追加' : '動画更新' }}</h2>
+    <h2>{{ movieId == 0 ? "動画追加" : "動画更新" }}</h2>
     <table>
       <thead>
         <tr>
@@ -32,7 +32,7 @@
           <th class="edit pale">出演者</th>
           <td>
             <div v-for="(actor, index) in inputs.actors" :key="'actor-' + index" class="checkbox">
-              <input type="checkbox" class="checkbox" v-model="inputs.actors[index].checked" />
+              <input type="checkbox" :name="'actor-' + index" :id="'actor-' + index" class="checkbox" v-model="inputs.actors[index].checked" />
               <label :for="'actor-' + index" class="checkbox">{{ actorsData[actor.id].name }}</label>
             </div>
           </td>
@@ -67,27 +67,14 @@ export default {
   },
   data: function () {
     let movieId = this.$route.params.movieId;
-    return {
-      loaded: false,
-      movieId: movieId,
-      gamesData: {},
-      actorsData: {},
-      inputs: {},
-    };
-  },
-  methods: {
-    addGame: addGame,
-    removeGame: removeGame,
-    create: create,
-  },
-  mounted: async function () {
-    let moviesData = await resources.getMoviesData();
-    let gamesData = await resources.getGamesData();
-    let actorsData = await resources.getActorsData();
+
+    let moviesData = resources.getMoviesData();
+    let gamesData = resources.getGamesData();
+    let actorsData = resources.getActorsData();
 
     let inputs = {};
-    // console.log(this.movieId);
-    if (this.movieId == 0) {
+    // console.log(movieId);
+    if (movieId == 0) {
       let now = new Date();
 
       let gameIds = [];
@@ -111,7 +98,7 @@ export default {
         comment: "",
       };
     } else {
-      var org = moviesData[String(this.movieId)];
+      var org = moviesData[String(movieId)];
       // console.log(org);
 
       let actors = [];
@@ -135,11 +122,17 @@ export default {
     }
     // console.log(inputs);
 
-    this.gamesData = gamesData;
-    this.actorsData = actorsData;
-    this.inputs = inputs;
-
-    this.loaded = true;
+    return {
+      movieId: movieId,
+      gamesData: gamesData,
+      actorsData: actorsData,
+      inputs: inputs,
+    };
+  },
+  methods: {
+    addGame: addGame,
+    removeGame: removeGame,
+    create: create,
   },
 };
 
@@ -151,8 +144,8 @@ function removeGame(index) {
   this.inputs.gameIds.splice(index, 1);
 }
 
-function create() {
-  let postData = {
+async function create() {
+  resources.updateMovie(this.movieId, {
     name: this.inputs.title,
     url: this.inputs.url,
     releaseDate: this.inputs.releaseDate.replaceAll("-", "/"),
@@ -160,25 +153,9 @@ function create() {
     actorIds: this.inputs.actors.filter((v) => v.checked).map((v) => parseInt(v.id)),
     chat: this.inputs.chat,
     comment: this.inputs.comment,
-  };
+  });
 
-  let request = new XMLHttpRequest();
-  request.withCredentials = true;
-  if (this.movieId == 0) {
-    request.open("POST", "http://localhost:8081/movie/create");
-  } else {
-    request.open("POST", `http://localhost:8081/movie/edit/${this.movieId}`);
-  }
-  request.setRequestHeader("Content-Type", "application/json");
-  request.onload = () => {
-    console.log(`success: ${request.status}`);
-    resources.clearData();
-    this.$router.go(-1);
-  };
-  request.onerror = () => {
-    console.log(`error: ${request.status}`);
-  };
-  request.send(JSON.stringify(postData));
+  this.$router.back();
 }
 </script>
 

@@ -21,60 +21,17 @@ function isLoadedAllData() {
 }
 
 async function loadAllData() {
-  if (!Vue.prototype.$actorsData) {
-    await axios.get(getPath('Actors'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$actorsData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$actorsData = {};
-      });
-  }
+  let responses = await Promise.all([
+    axios.get(getPath('Actors')),
+    axios.get(getPath('GameGenres')),
+    axios.get(getPath('Games')),
+    axios.get(getPath('Movies')),
+  ]);
 
-  if (!Vue.prototype.$gameGenresData) {
-    await axios.get(getPath('GameGenres'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$gameGenresData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$gameGenresData = {};
-      });
-  }
-
-  if (!Vue.prototype.$gamesData) {
-    await axios.get(getPath('Games'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$gamesData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$gamesData = {};
-      });
-  }
-
-  if (!Vue.prototype.$moviesData) {
-    await axios.get(getPath('Movies'))
-      .then(res => {
-        // console.log(res.data);
-        Vue.prototype.$moviesData = res.data;
-      })
-      .catch(err => {
-        console.log(err);
-        Vue.prototype.$moviesData = {};
-      });
-  }
-}
-
-function clearAllData() {
-  Vue.prototype.$actorsData = null;
-  Vue.prototype.$gameGenresData = null;
-  Vue.prototype.$gamesData = null;
-  Vue.prototype.$moviesData = null;
+  Vue.prototype.$actorsData = responses[0].data;
+  Vue.prototype.$gameGenresData = responses[1].data;
+  Vue.prototype.$gamesData = responses[2].data;
+  Vue.prototype.$moviesData = responses[3].data;
 }
 
 function getActorsData() {
@@ -93,12 +50,71 @@ function getMoviesData() {
   return Vue.prototype.$moviesData;
 }
 
+function updateMovie(movieId, postData) {
+  let url;
+  if (this.movieId == 0) {
+    url = "http://localhost:8081/movie/create";
+  } else {
+    url = `http://localhost:8081/movie/edit/${movieId}`;
+  }
+
+  if (!Vue.prototype.$editRequests) {
+    Vue.prototype.$editRequests = [];
+  }
+
+  Vue.prototype.$editRequests.push({
+    url: url,
+    postData: postData,
+  });
+}
+
+
+function updateGame(gameId, postData) {
+  let url;
+  if (this.gameId == 0) {
+    url = "http://localhost:8081/game/create";
+  } else {
+    url = `http://localhost:8081/game/edit/${gameId}`;
+  }
+
+  if (!Vue.prototype.$editRequests) {
+    Vue.prototype.$editRequests = [];
+  }
+
+  Vue.prototype.$editRequests.push({
+    url: url,
+    postData: postData,
+  });
+}
+
+async function execute() {
+  if (!Vue.prototype.$editRequests) {
+    return;
+  }
+
+  let update = false;
+  while (Vue.prototype.$editRequests.length > 0) {
+    var req = Vue.prototype.$editRequests.shift();
+    console.log(`edit request: ${req.url}`);
+    await axios.post(req.url, JSON.stringify(req.postData), { headers: { "Content-Type": "application/json" } }).then((res) => {
+      console.log(res.status);
+      update = true;
+    });
+  }
+
+  if (update) {
+    await loadAllData();
+  }
+}
+
 export default {
   isLoadedAllData,
   loadAllData,
-  clearAllData,
   getActorsData,
   getGameGenresData,
   getGamesData,
   getMoviesData,
+  updateMovie,
+  updateGame,
+  execute,
 }

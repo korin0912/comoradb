@@ -32,7 +32,7 @@
           <th class="edit pale">出演者</th>
           <td>
             <div v-for="(actor, index) in inputs.actors" :key="'actor-' + index" class="checkbox">
-              <input type="checkbox" class="checkbox" v-model="inputs.actors[index].checked" />
+              <input type="checkbox" :name="'actor-' + index" :id="'actor-' + index" class="checkbox" v-model="inputs.actors[index].checked" />
               <label :for="'actor-' + index" class="checkbox">{{ actorsData[actor.id].name }}</label>
             </div>
           </td>
@@ -144,8 +144,8 @@ function removeGame(index) {
   this.inputs.gameIds.splice(index, 1);
 }
 
-function create() {
-  let postData = {
+async function create() {
+  resources.updateMovie(this.movieId, {
     name: this.inputs.title,
     url: this.inputs.url,
     releaseDate: this.inputs.releaseDate.replaceAll("-", "/"),
@@ -153,26 +153,9 @@ function create() {
     actorIds: this.inputs.actors.filter((v) => v.checked).map((v) => parseInt(v.id)),
     chat: this.inputs.chat,
     comment: this.inputs.comment,
-  };
+  });
 
-  let request = new XMLHttpRequest();
-  request.withCredentials = true;
-  if (this.movieId == 0) {
-    request.open("POST", "http://localhost:8081/movie/create");
-  } else {
-    request.open("POST", `http://localhost:8081/movie/edit/${this.movieId}`);
-  }
-  request.setRequestHeader("Content-Type", "application/json");
-  request.onload = async () => {
-    console.log(`success: ${request.status}`);
-    resources.clearAllData();
-    await resources.loadAllData();
-    this.$router.go(-1);
-  };
-  request.onerror = () => {
-    console.log(`error: ${request.status}`);
-  };
-  request.send(JSON.stringify(postData));
+  this.$router.back();
 }
 </script>
 

@@ -85,6 +85,9 @@ export default {
       gameIds: gameIds,
     };
   },
+  mounted: async function () {
+    await resources.execute();
+  },
 };
 </script>
 

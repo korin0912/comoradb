@@ -81,6 +81,9 @@ export default {
       movieIds: movieIds,
     };
   },
+  mounted: async function () {
+    await resources.execute();
+  },
 };
 </script>
 

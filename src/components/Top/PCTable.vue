@@ -46,7 +46,7 @@
           <template v-if="item.movie != null">
             <!-- ID -->
             <td :rowspan="item.movieRow" :class="`text-center ${item.game == null ? 'border-left-none' : ''}`">
-              <router-link :to="{ name: 'MovieShow', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
+              <router-link v-if="item.movie.id" :to="{ name: 'MovieShow', params: { movieId: item.movie.id } }">{{ item.movie.id }}</router-link>
             </td>
             <!-- タイトル -->
             <td :rowspan="item.movieRow" class="movie">

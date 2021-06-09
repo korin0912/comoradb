@@ -1,7 +1,7 @@
 ﻿<template>
   <div class="container">
     <Header />
-    <h2>{{ gameId == 0 ? 'ゲーム追加' : 'ゲーム更新' }}</h2>
+    <h2>{{ gameId == 0 ? "ゲーム追加" : "ゲーム更新" }}</h2>
     <table>
       <thead>
         <tr>
@@ -22,7 +22,7 @@
           <th class="edit pale">ジャンル</th>
           <td>
             <div v-for="(genre, index) in inputs.genres" :key="'genre-' + index" class="checkbox">
-              <input type="checkbox" class="checkbox" v-model="inputs.genres[index].checked" />
+              <input type="checkbox" :name="'genre-' + index" :id="'genre-' + index" class="checkbox hoge" v-model="inputs.genres[index].checked" />
               <label :for="'genre-' + index" class="checkbox">{{ gameGenresData[genre.id] }}</label>
             </div>
           </td>
@@ -118,32 +118,15 @@ function removeUrl(index) {
   this.inputs.urls.splice(index, 1);
 }
 
-function create() {
-  let postData = {
+async function create() {
+  resources.updateGame(this.gameId, {
     name: this.inputs.title,
     urls: this.inputs.urls,
     genreIds: this.inputs.genres.filter((v) => v.checked).map((v) => parseInt(v.id)),
     comment: this.inputs.comment,
-  };
+  });
 
-  let request = new XMLHttpRequest();
-  request.withCredentials = true;
-  if (this.gameId == 0) {
-    request.open("POST", "http://localhost:8081/game/create");
-  } else {
-    request.open("POST", `http://localhost:8081/game/edit/${this.gameId}`);
-  }
-  request.setRequestHeader("Content-Type", "application/json");
-  request.onload = async () => {
-    console.log(`success: ${request.status}`);
-    resources.clearAllData();
-    await resources.loadAllData();
-    this.$router.go(-1);
-  };
-  request.onerror = () => {
-    console.log(`error: ${request.status}`);
-  };
-  request.send(JSON.stringify(postData));
+  this.$router.back();
 }
 </script>
 

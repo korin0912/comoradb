@@ -7034,5 +7034,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "532": {
+    "name": "どんどん露出度が上がっていくゲーム【Lost Ruins】＃4",
+    "url": "https://www.youtube.com/watch?v=cgsOuXvxa14",
+    "releaseDate": "2021/06/10",
+    "gameIds": [
+      183
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

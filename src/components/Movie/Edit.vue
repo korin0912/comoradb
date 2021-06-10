@@ -88,15 +88,18 @@ export default {
         });
       });
 
+      let month = "0" + (now.getMonth() + 1);
+      let day = "0" + now.getDate();
       inputs = {
         title: "",
         url: "",
-        releaseDate: `${now.getFullYear()}-${("0" + (now.getMonth() + 1)).substring(-2)}-${("0" + now.getDate()).substring(-2)}`,
+        releaseDate: `${now.getFullYear()}-${month.substring(month.length - 2)}-${day.substring(day.length - 2)}`,
         gameIds: gameIds,
         actors: actors,
         chat: false,
         comment: "",
       };
+      // console.log(inputs);
     } else {
       var org = moviesData[String(movieId)];
       // console.log(org);

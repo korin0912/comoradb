@@ -121,7 +121,7 @@ function removeUrl(index) {
 async function create() {
   resources.updateGame(this.gameId, {
     name: this.inputs.title,
-    urls: this.inputs.urls,
+    urls: this.inputs.urls.filter((v) => v),
     genreIds: this.inputs.genres.filter((v) => v.checked).map((v) => parseInt(v.id)),
     comment: this.inputs.comment,
   });

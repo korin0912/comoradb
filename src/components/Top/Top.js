@@ -211,6 +211,7 @@ function getTableItems(filterParams) {
   // 連続して重複するゲームを潰す
   let prevItem = null;
   let prevId = -1;
+  let gameIds = [];
   items.forEach((item) => {
     if (item.game == null) {
       return;
@@ -218,7 +219,10 @@ function getTableItems(filterParams) {
     if (item.game.id != prevId) {
       prevItem = item;
       prevId = item.game.id;
-      gameCount++;
+      if (gameIds.findIndex((id) => id == item.game.id) == -1) {
+        gameIds.push(item.game.id);
+        gameCount++;
+      }
     } else {
       prevItem.gameRow++;
       item.game = null;
@@ -228,6 +232,7 @@ function getTableItems(filterParams) {
   // 連続して重複する動画を潰す
   prevItem = null;
   prevId = -1;
+  let movieIds = [];
   items.forEach((item) => {
     if (item.movie == null) {
       return;
@@ -235,7 +240,10 @@ function getTableItems(filterParams) {
     if (item.movie.id != prevId) {
       prevItem = item;
       prevId = item.movie.id;
-      movieCount++;
+      if (movieIds.findIndex((id) => id == item.movie.id) == -1) {
+        movieIds.push(item.movie.id);
+        movieCount++;
+      }
     } else {
       prevItem.movieRow++;
       item.movie = null;

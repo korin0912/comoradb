@@ -7101,5 +7101,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "537": {
+    "name": "【雑談】お金を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=1E9xA3NROXM",
+    "releaseDate": "2021/06/15",
+    "gameIds": [
+      186
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -128,6 +128,7 @@ th.movie-chat {
 
 td.links {
   width: 5%;
+  padding: 2px 2px 2px 2px;
 }
 
 td.movie {

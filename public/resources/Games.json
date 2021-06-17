@@ -2062,5 +2062,17 @@
       113
     ],
     "comment": ""
+  },
+  "187": {
+    "name": "Mr. Hopp's Playhouse",
+    "urls": [
+      "https://twitter.com/moonbitgames",
+      "https://www.youtube.com/channel/UCaWucaIFgEBxwRh3y0LxzHA",
+      "https://store.steampowered.com/app/1182370/Mr_Hopps_Playhouse/?l=japanese"
+    ],
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

@@ -7127,5 +7127,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "539": {
+    "name": "隣にイル【Mr. Hopp's Playhouse】",
+    "url": "https://www.youtube.com/watch?v=YC6VJhPauW4",
+    "releaseDate": "2021/06/17",
+    "gameIds": [
+      187
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

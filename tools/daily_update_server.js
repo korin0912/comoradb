@@ -18,8 +18,10 @@ const server = http.createServer((req, res) => {
   }
   else if (req.method == 'POST' && req.url == '/daily-update') {
     // 日次更新
+    var postData = {};
     req.on("data", function (data) {
-      console.log(data);
+      postData = JSON.parse(data);
+      console.log(postData.commitMessage);
     }).on("end", function () {
       console.log('daily update');
       // copy public/resources/*.json => docs/resources/
@@ -34,11 +36,7 @@ const server = http.createServer((req, res) => {
         console.log(`copy json stdout: ${stdout}`)
 
         // git add + commit + push
-        let now = new Date();
-        let month = "0" + (now.getMonth() + 1);
-        let day = "0" + now.getDate();
-        let ymd = `${now.getFullYear()}/${month.substring(month.length - 2)}/${day.substring(day.length - 2)}`;
-        let cmd = `git add . && git commit -m \"daily update. ${ymd}\" && git push`;
+        let cmd = `git add . && git commit -m \"${postData.commitMessage}\" && git push`;
         exec(cmd, (err, stdout, stderr) => {
           if (err) {
             console.log(`git push stderr: ${stderr}`)

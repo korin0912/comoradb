@@ -1,5 +1,10 @@
 ﻿<template>
-  <div class="container">
+  <div v-if="isLoading" class="container">
+    <div v-if="isLoading">
+      <vue-loading type="spin" color="#333" :size="{ width: '50px', height: '50px' }"></vue-loading>
+    </div>
+  </div>
+  <div v-else class="container">
     <!-- メインテーブル -->
     <div class="main bottom-blank">
       <PCTable :key="resetKey" :filterParams="filterParams" />
@@ -21,6 +26,7 @@
       <div v-if="isLocal" class="outline-box create">
         <label class="caption">日次更新</label>
         <button class="create" v-on:click="dailyUpdate()">Git 反映</button>
+        <input v-model="commitMessage" placeholder="" class="commit-msg-text" />
       </div>
       <!-- フィルター -->
       <TopFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
@@ -29,6 +35,7 @@
 </template>
 
 <script>
+import { VueLoading } from "vue-loading-template";
 import top from "./Top.js";
 import PCTable from "./PCTable.vue";
 import TopFilter from "./Filter.vue";
@@ -37,16 +44,28 @@ const { default: axios } = require("axios");
 export default {
   name: "TopShowPC",
   components: {
+    VueLoading,
     PCTable,
     TopFilter,
   },
   data: function () {
     let isLocal = process.env.NODE_ENV == "development";
     let filterParams = top.getInitialFilterParams();
+    let commitMessage = "";
+    if (isLocal)
+    {
+        let now = new Date();
+        let month = "0" + (now.getMonth() + 1);
+        let day = "0" + now.getDate();
+        let ymd = `${now.getFullYear()}/${month.substring(month.length - 2)}/${day.substring(day.length - 2)}`;
+        commitMessage = `daily update. ${ymd}`;
+    }
     // console.log(process.env.NODE_ENV);
 
     return {
+      isLoading: false,
       isLocal: isLocal,
+      commitMessage: commitMessage,
       resetKey: 0,
       filterParams: filterParams,
     };
@@ -57,8 +76,10 @@ export default {
       this.resetKey++;
     },
     dailyUpdate: async function () {
-      await axios.post("http://localhost:8082/daily-update", "{}", { headers: { "Content-Type": "application/json" } }).then((res) => {
+      this.isLoading = true;
+      await axios.post("http://localhost:8082/daily-update", `{"commitMessage":"${this.commitMessage}"}`, { headers: { "Content-Type": "application/json" } }).then((res) => {
         console.log(res.status);
+        this.isLoading = false;
         alert(res.data);
       });
     },
@@ -97,5 +118,15 @@ button.create {
   border-radius: 8px;
   padding: 0;
   margin: 2px 0 2px 0;
+}
+
+input.commit-msg-text {
+  width: calc(100% - 6px);
+  margin: 0;
+  padding: 2px;
+  border-radius: 4px 4px 4px 4px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
 }
 </style>

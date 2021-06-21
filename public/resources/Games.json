@@ -2074,5 +2074,17 @@
       100
     ],
     "comment": ""
+  },
+  "188": {
+    "name": "Night Delivery | 例外配達",
+    "urls": [
+      "https://twitter.com/ChillasArt",
+      "https://store.steampowered.com/app/1611490/Night_Delivery/?l=japanese"
+    ],
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

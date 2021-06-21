@@ -23,20 +23,17 @@ const server = http.createServer((req, res) => {
     }).on("end", function () {
       console.log('daily update');
       // copy public/resources/*.json => docs/resources/
-      {
-        let cmd = 'copy public\\resources\\*.json docs\\resources\\';
-        exec(cmd, (err, stdout, stderr) => {
-          if (err) {
-            console.log(`copy json stderr: ${stderr}`)
-            res.statusCode = 501;
-            res.end('更新に失敗しました');
-            return;
-          }
-          console.log(`copy json stdout: ${stdout}`)
-        });
-      }
-      // git add + commit + push
-      {
+      let cmd = 'copy public\\resources\\*.json docs\\resources\\';
+      exec(cmd, (err, stdout, stderr) => {
+        if (err) {
+          console.log(`copy json stderr: ${stderr}`)
+          res.statusCode = 501;
+          res.end('更新に失敗しました');
+          return;
+        }
+        console.log(`copy json stdout: ${stdout}`)
+
+        // git add + commit + push
         let now = new Date();
         let month = "0" + (now.getMonth() + 1);
         let day = "0" + now.getDate();
@@ -50,9 +47,9 @@ const server = http.createServer((req, res) => {
             return;
           }
           console.log(`git push stdout: ${stdout}`)
+          res.end('更新しました');
         });
-      }
-      res.end('更新しました');
+      });
     });
   }
   else {

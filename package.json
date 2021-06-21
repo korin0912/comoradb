@@ -6,6 +6,7 @@
     "serve": "run-p serve:*",
     "serve:vue-cli-service": "vue-cli-service serve",
     "serve:json-edit-server": "node .\\tools\\json_edit_server.js",
+    "serve:daily-update-server": "node .\\tools\\daily_update_server.js",
     "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint",
     "daily-update": "run-s daily-update:{build,git-push}",

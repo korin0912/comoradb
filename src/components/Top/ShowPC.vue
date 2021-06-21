@@ -6,9 +6,9 @@
     </div>
     <!-- サイドバー -->
     <div class="sidebar">
+      <!-- 追加ボタン -->
       <div v-if="isLocal" class="outline-box create">
         <label class="caption">追加</label>
-        <!-- 追加ボタン -->
         <router-link :to="{ name: 'GameEdit', params: { gameId: 0 } }">
           <button class="create">ゲーム</button>
         </router-link>
@@ -17,6 +17,12 @@
           <button class="create">動画</button>
         </router-link>
       </div>
+      <!-- 日次更新ボタン -->
+      <div v-if="isLocal" class="outline-box create">
+        <label class="caption">日次更新</label>
+        <button class="create" v-on:click="dailyUpdate()">Git 反映</button>
+      </div>
+      <!-- フィルター -->
       <TopFilter v-on:updateTable="updateTable" :initFilterParams="filterParams" />
     </div>
   </div>
@@ -26,6 +32,7 @@
 import top from "./Top.js";
 import PCTable from "./PCTable.vue";
 import TopFilter from "./Filter.vue";
+const { default: axios } = require("axios");
 
 export default {
   name: "TopShowPC",
@@ -48,6 +55,12 @@ export default {
     updateTable: function (newFilterParams) {
       this.filterParams = newFilterParams;
       this.resetKey++;
+    },
+    dailyUpdate: async function () {
+      await axios.post("http://localhost:8082/daily-update", "{}", { headers: { "Content-Type": "application/json" } }).then((res) => {
+        console.log(res.status);
+        alert(res.data);
+      });
     },
   },
 };

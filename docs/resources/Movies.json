@@ -7192,5 +7192,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "544": {
+    "name": "生まれる姿を選べるわけじゃないんだぞ",
+    "url": "https://www.youtube.com/watch?v=E-JRzHkeGfs",
+    "releaseDate": "2021/06/22",
+    "gameIds": [
+      189
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -7218,5 +7218,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "546": {
+    "name": "【難易度MAX】死にゲー大好きVTuberが過酷ゲームでスイスイ進むぞ！【帰ってきた魔界村】",
+    "url": "https://www.youtube.com/watch?v=ZukLJzqQmUY",
+    "releaseDate": "2021/06/24",
+    "gameIds": [
+      166
+    ],
+    "actorIds": [
+      1,
+      2
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

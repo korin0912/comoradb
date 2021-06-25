@@ -2096,5 +2096,16 @@
       113
     ],
     "comment": ""
+  },
+  "190": {
+    "name": "Pokémon UNITE | ポケモンユナイト",
+    "urls": [
+      "https://www.pokemonunite.jp/ja/"
+    ],
+    "genreIds": [
+      107,
+      117
+    ],
+    "comment": ""
   }
 }

@@ -7232,5 +7232,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "547": {
+    "name": "5vs5のポケモンバトルが楽しすぎた【ポケモン ユナイト】",
+    "url": "https://www.youtube.com/watch?v=nsr28clzn1U",
+    "releaseDate": "2021/06/25",
+    "gameIds": [
+      190
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

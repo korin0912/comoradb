@@ -7258,5 +7258,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "549": {
+    "name": "【雑談】パンを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=NCuP-cmtcK4",
+    "releaseDate": "2021/06/27",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

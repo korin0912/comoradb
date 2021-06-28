@@ -7271,5 +7271,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "550": {
+    "name": "弱点は〇っぱい【Lost Ruins】＃11",
+    "url": "https://www.youtube.com/watch?v=6kI-1TDxxvs",
+    "releaseDate": "2021/06/28",
+    "gameIds": [
+      183
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

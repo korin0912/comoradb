@@ -2107,5 +2107,16 @@
       117
     ],
     "comment": ""
+  },
+  "191": {
+    "name": "No More Heroes",
+    "urls": [
+      "http://nomoreheroesseries.com",
+      "https://store.steampowered.com/app/1420290/No_More_Heroes/"
+    ],
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

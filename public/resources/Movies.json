@@ -7336,5 +7336,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "555": {
+    "name": "【雑談実況】ノリが悪いと言う奴は大抵 空気読めてない【ロックマン3】＃4",
+    "url": "https://www.youtube.com/watch?v=gMldohrmqEo",
+    "releaseDate": "2021/07/03",
+    "gameIds": [
+      180
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

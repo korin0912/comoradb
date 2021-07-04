@@ -7349,5 +7349,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "556": {
+    "name": "VS犯罪の総合デパート【No More Heroes】＃2",
+    "url": "https://www.youtube.com/watch?v=sfAThCuW5e8",
+    "releaseDate": "2021/07/04",
+    "gameIds": [
+      191
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -7362,5 +7362,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "557": {
+    "name": "ボールを落とさずに進め、筋肉を信じてな【IT TAKES THE BALL】",
+    "url": "https://www.youtube.com/watch?v=HZRtcNKEapo",
+    "releaseDate": "2021/07/05",
+    "gameIds": [
+      186
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

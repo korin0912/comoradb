@@ -7388,5 +7388,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "559": {
+    "name": "【公式実況付】ウサコモがまさかのGGST大会で入賞!?【切り抜き】",
+    "url": "https://www.youtube.com/watch?v=pC_7TVjJk7w",
+    "releaseDate": "2021/07/07",
+    "gameIds": [
+      177
+    ],
+    "actorIds": [
+      1,
+      4
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

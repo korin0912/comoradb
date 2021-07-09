@@ -7415,5 +7415,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "561": {
+    "name": "【雑談】夏の恒例行事を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=OMv9H0c_V0Q",
+    "releaseDate": "2021/07/09",
+    "gameIds": [
+      173
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

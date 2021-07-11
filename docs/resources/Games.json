@@ -2118,5 +2118,18 @@
       1
     ],
     "comment": ""
+  },
+  "192": {
+    "name": "SUPERゆきおんなちゃん",
+    "urls": [
+      "https://store.steampowered.com/app/1667920/SUPER/?",
+      "https://twitter.com/kitsunemimimode"
+    ],
+    "genreIds": [
+      1,
+      2,
+      118
+    ],
+    "comment": ""
   }
 }

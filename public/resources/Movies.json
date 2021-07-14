@@ -7480,5 +7480,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "566": {
+    "name": "【雑談実況】口を隠すのが悪という風潮、ファックだね【ロックマン3】＃5",
+    "url": "https://www.youtube.com/watch?v=kxcL3gGDh6w",
+    "releaseDate": "2021/07/14",
+    "gameIds": [
+      180
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

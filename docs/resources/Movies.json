@@ -7493,5 +7493,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "567": {
+    "name": "もう友達になればええやん【No More Heroes】＃7",
+    "url": "https://www.youtube.com/watch?v=_emAoXhnURg",
+    "releaseDate": "2021/07/15",
+    "gameIds": [
+      191
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

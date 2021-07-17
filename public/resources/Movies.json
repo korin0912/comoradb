@@ -7519,5 +7519,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "569": {
+    "name": "【雑談】宇宙を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=hvy9R0dDs9E",
+    "releaseDate": "2021/07/17",
+    "gameIds": [
+      149
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -2131,5 +2131,18 @@
       118
     ],
     "comment": ""
+  },
+  "193": {
+    "name": "みんなで空気読み。3",
+    "urls": [
+      "https://gmodecorp.com/cs/kuukiyomi3/",
+      "https://store-jp.nintendo.com/list/software/70010000037214.html",
+      "https://store.steampowered.com/app/1647250/3/?l=japanese"
+    ],
+    "genreIds": [
+      113,
+      116
+    ],
+    "comment": ""
   }
 }

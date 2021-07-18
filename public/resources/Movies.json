@@ -7532,5 +7532,19 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "570": {
+    "name": "【不仲説】二人で !? 空気読みをやってみた結果…。【チャンコモ】",
+    "url": "https://www.youtube.com/watch?v=rRo97dk7OTQ",
+    "releaseDate": "2021/07/18",
+    "gameIds": [
+      193
+    ],
+    "actorIds": [
+      1,
+      2
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

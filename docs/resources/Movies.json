@@ -7611,5 +7611,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "576": {
+    "name": "【雑談】20周年を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=K7jPHbTHkUI",
+    "releaseDate": "2021/07/24",
+    "gameIds": [
+      149
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

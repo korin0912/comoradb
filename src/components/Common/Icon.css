@@ -116,6 +116,14 @@
   background-size: contain;
 }
 
+.icon.playstation::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f3df";
+  font-size: 17px;
+  font-weight: 400;
+  color: #0060b2;
+}
+
 /* 出演者 */
 .icon.actor-1::before {
   content: "";

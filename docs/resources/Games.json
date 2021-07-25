@@ -2144,5 +2144,20 @@
       116
     ],
     "comment": ""
+  },
+  "194": {
+    "name": "Remothered: Tormented Fathers",
+    "urls": [
+      "https://www.remothered.com/remothered-tormented-fathers/",
+      "https://store.steampowered.com/app/633360/Remothered_Tormented_Fathers/?l=japanese",
+      "https://store-jp.nintendo.com/list/software/70010000028884.html",
+      "https://store.playstation.com/ja-jp/product/JP4236-CUSA18928_00-JPNREMOTHERED1TF/"
+    ],
+    "genreIds": [
+      1,
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

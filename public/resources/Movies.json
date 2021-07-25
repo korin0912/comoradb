@@ -7624,5 +7624,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "577": {
+    "name": "お年寄りだらけのホラーゲーム【リマザード：トーメンテッド ファーザーズ】＃1",
+    "url": "https://www.youtube.com/watch?v=He9dEHExPME",
+    "releaseDate": "2021/07/25",
+    "gameIds": [
+      194
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

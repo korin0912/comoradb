@@ -16,6 +16,8 @@ function getUrlIconClass(url) {
     return "EA";
   } else if (url.indexOf("www.capcom.co.jp") != -1) {
     return "capcom";
+  } else if (url.indexOf(".playstation.com") != -1) {
+    return "playstation";
   } else {
     return "home";
   }

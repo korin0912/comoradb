@@ -7637,5 +7637,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "578": {
+    "name": "【The Plane Effect Prologue】これがディストピア・アイソメトリック・アドベンチャー！",
+    "url": "https://www.youtube.com/watch?v=Bt2gYnvduYg",
+    "releaseDate": "2021/07/26",
+    "gameIds": [
+      195
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

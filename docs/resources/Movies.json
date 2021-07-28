@@ -7663,5 +7663,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "580": {
+    "name": "【雑談実況】ナースは僕を意識しているようだ【ロックマン3】＃6",
+    "url": "https://www.youtube.com/watch?v=UnMBLBnI5GU",
+    "releaseDate": "2021/07/28",
+    "gameIds": [
+      180
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

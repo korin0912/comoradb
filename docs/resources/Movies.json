@@ -7676,5 +7676,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "581": {
+    "name": "そこまでして鍵ほしいか？【リマザード：トーメンテッド ファーザーズ】＃3",
+    "url": "https://www.youtube.com/watch?v=yYejoFQZnXY",
+    "releaseDate": "2021/07/29",
+    "gameIds": [
+      194
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

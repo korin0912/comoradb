@@ -7728,5 +7728,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "585": {
+    "name": "化け物には化け物をぶつけたい【リマザード：トーメンテッド ファーザーズ】＃5",
+    "url": "https://www.youtube.com/watch?v=GhhneUoP0tU",
+    "releaseDate": "2021/08/02",
+    "gameIds": [
+      194
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

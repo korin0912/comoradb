@@ -7767,5 +7767,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "588": {
+    "name": "友達が来るまで息抜きに死にゲーをします",
+    "url": "https://www.youtube.com/watch?v=cwgZC8tzlrc",
+    "releaseDate": "2021/08/05",
+    "gameIds": [
+      196
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

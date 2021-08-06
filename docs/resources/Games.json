@@ -2179,5 +2179,18 @@
       1
     ],
     "comment": ""
+  },
+  "197": {
+    "name": "Knife To Meet You",
+    "urls": [
+      "https://knifeto.com",
+      "https://twitter.com/ktmygame",
+      "https://www.youtube.com/channel/UCBCwoXFltkVH2c6Ao9YMwjw",
+      "https://store.steampowered.com/app/1663650/Knife_To_Meet_You/?l=japanese"
+    ],
+    "genreIds": [
+      134
+    ],
+    "comment": ""
   }
 }

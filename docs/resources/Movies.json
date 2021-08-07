@@ -7659,7 +7659,8 @@
       194
     ],
     "actorIds": [
-      1
+      1,
+      7
     ],
     "chat": false,
     "comment": ""
@@ -7685,7 +7686,8 @@
       194
     ],
     "actorIds": [
-      1
+      1,
+      7
     ],
     "chat": false,
     "comment": ""
@@ -7711,7 +7713,8 @@
       194
     ],
     "actorIds": [
-      1
+      1,
+      7
     ],
     "chat": false,
     "comment": ""
@@ -7737,7 +7740,8 @@
       194
     ],
     "actorIds": [
-      1
+      1,
+      7
     ],
     "chat": false,
     "comment": ""
@@ -7763,7 +7767,8 @@
       194
     ],
     "actorIds": [
-      1
+      1,
+      7
     ],
     "chat": false,
     "comment": ""
@@ -7791,6 +7796,19 @@
     "actorIds": [
       1,
       2
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "590": {
+    "name": "フェルトン博士の最後【リマザード：トーメンテッド ファーザーズ】＃7",
+    "url": "https://www.youtube.com/watch?v=YqfqXBAnwVw",
+    "releaseDate": "2021/08/07",
+    "gameIds": [
+      1
+    ],
+    "actorIds": [
+      1
     ],
     "chat": false,
     "comment": ""

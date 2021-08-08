@@ -2192,5 +2192,18 @@
       134
     ],
     "comment": ""
+  },
+  "198": {
+    "name": "The Night Way Home | 帰り道",
+    "urls": [
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ",
+      "https://store.steampowered.com/app/1671550/The_Night_Way_Home/"
+    ],
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

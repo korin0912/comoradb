@@ -14,6 +14,11 @@ let routes = [
     component: () => import('./components/Top/Show.vue'),
   },
   {
+    path: '/calendar/:year/:month',
+    name: 'CalendarShow',
+    component: () => import('./components/Calendar/Show.vue'),
+  },
+  {
     path: '/actor/:actorId',
     name: 'ActorShow',
     component: () => import('./components/Actor/Show.vue'),

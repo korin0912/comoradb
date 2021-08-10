@@ -7840,5 +7840,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "593": {
+    "name": "【雑談実況】陰キャがファッションを語るとこうなる【ロックマン3】＃7",
+    "url": "https://www.youtube.com/watch?v=-NFtTFCT97Y",
+    "releaseDate": "2021/08/10",
+    "gameIds": [
+      180
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

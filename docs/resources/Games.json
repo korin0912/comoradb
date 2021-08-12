@@ -2205,5 +2205,17 @@
       100
     ],
     "comment": ""
+  },
+  "199": {
+    "name": "Dodgeball Academia",
+    "urls": [
+      "https://store-jp.nintendo.com/list/software/70010000040698.html",
+      "https://store.steampowered.com/app/1422420/Dodgeball_Academia/"
+    ],
+    "genreIds": [
+      2,
+      6
+    ],
+    "comment": ""
   }
 }

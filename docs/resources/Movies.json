@@ -7853,5 +7853,31 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "594": {
+    "name": "僕たちが最強のドッチボールチームだ！【Dodgeball Academia】",
+    "url": "https://www.youtube.com/watch?v=_DOx-5jclf0",
+    "releaseDate": "2021/08/11",
+    "gameIds": [
+      199
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "595": {
+    "name": "進めなければ待てばいい【帰り道】後編",
+    "url": "https://www.youtube.com/watch?v=axnuConBF84",
+    "releaseDate": "2021/08/12",
+    "gameIds": [
+      198
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

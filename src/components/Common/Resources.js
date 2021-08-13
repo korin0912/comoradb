@@ -94,7 +94,7 @@ async function execute() {
 
   let update = false;
   while (Vue.prototype.$editRequests.length > 0) {
-    var req = Vue.prototype.$editRequests.shift();
+    let req = Vue.prototype.$editRequests.shift();
     console.log(`edit request: ${req.url}`);
     await axios.post(req.url, JSON.stringify(req.postData), { headers: { "Content-Type": "application/json" } }).then((res) => {
       console.log(res.status);

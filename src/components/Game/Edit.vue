@@ -76,7 +76,7 @@ export default {
         comment: "",
       };
     } else {
-      var org = gamesData[String(gameId)];
+      let org = gamesData[String(gameId)];
       // console.log(org);
 
       let genres = [];

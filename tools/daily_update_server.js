@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
   }
   else if (req.method == 'POST' && req.url == '/daily-update') {
     // 日次更新
-    var postData = {};
+    let postData = {};
     req.on("data", function (data) {
       postData = JSON.parse(data);
       console.log(postData.commitMessage);

@@ -101,7 +101,7 @@ export default {
       };
       // console.log(inputs);
     } else {
-      var org = moviesData[String(movieId)];
+      let org = moviesData[String(movieId)];
       // console.log(org);
 
       let actors = [];

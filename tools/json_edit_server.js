@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
   }
   else if (req.method == 'POST' && req.url.indexOf('/movie/edit/') == 0) {
     // 動画: 編集
-    var id = parseInt(req.url.substring('/movie/edit/'.length));
+    let id = parseInt(req.url.substring('/movie/edit/'.length));
     console.log(`movie edit: ${id}`);
     updateJson(id, 'Movies', req, res);
   }
@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
   }
   else if (req.method == 'POST' && req.url.indexOf('/game/edit/') == 0) {
     // ゲーム: 編集
-    var id = parseInt(req.url.substring('/game/edit/'.length));
+    let id = parseInt(req.url.substring('/game/edit/'.length));
     console.log(`game edit: ${id}`);
     updateJson(id, 'Games', req, res);
   }
@@ -52,7 +52,7 @@ const server = http.createServer((req, res) => {
 
 function updateJson(id, file, req, res) {
   // 動画データ読み込み
-  var postData = {};
+  let postData = {};
   req.on('data', function (data) {
     postData = JSON.parse(data);
   }).on('end', function () {

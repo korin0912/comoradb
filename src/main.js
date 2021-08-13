@@ -14,7 +14,7 @@ let routes = [
     component: () => import('./components/Top/Show.vue'),
   },
   {
-    path: '/calendar/:year/:month',
+    path: '/calendar/:calendarMonth',
     name: 'CalendarShow',
     component: () => import('./components/Calendar/Show.vue'),
   },

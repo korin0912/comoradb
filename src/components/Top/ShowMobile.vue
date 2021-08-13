@@ -5,7 +5,7 @@
       <div class="outline-box calendar">
         <label class="caption">カレンダー</label>
         <input type="month" v-model="calendarMonth" class="calendar" />
-        <router-link :to="{ name: 'CalendarShow', params: { year: 2021, month: 8 } }">
+        <router-link :to="{ name: 'CalendarShow', params: { calendarMonth: calendarMonth } }">
           <i class="icon forward calendar" />
         </router-link>
       </div>

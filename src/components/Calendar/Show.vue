@@ -30,8 +30,9 @@ export default {
   },
   data: function () {
     // console.clear();
-    let year = this.$route.params.year;
-    let month = this.$route.params.month;
+    let calendarMonth = this.$route.params.calendarMonth;
+    let year = parseInt(calendarMonth.split("-")[0]);
+    let month = parseInt(calendarMonth.split("-")[1]);
     let days = makeDays(year, month);
     let weeks = makeWeeks(days);
 

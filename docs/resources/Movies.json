@@ -7892,5 +7892,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "597": {
+    "name": "【雑談】修学旅行を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=J6qHaYq-YP8",
+    "releaseDate": "2021/08/14",
+    "gameIds": [
+      200
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

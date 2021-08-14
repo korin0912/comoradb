@@ -2217,5 +2217,18 @@
       6
     ],
     "comment": ""
+  },
+  "200": {
+    "name": "PowerWash Simulator",
+    "urls": [
+      "https://futurlab.co.uk/game/powerwash-simulator-2/",
+      "https://twitter.com/PowerWashSim",
+      "https://store.steampowered.com/app/1290000/PowerWash_Simulator/?l=japanese"
+    ],
+    "genreIds": [
+      132,
+      133
+    ],
+    "comment": ""
   }
 }

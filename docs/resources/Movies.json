@@ -7905,5 +7905,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "598": {
+    "name": "需要と供給って知ってっか？【Dodgeball Academia】＃3",
+    "url": "https://www.youtube.com/watch?v=CUUCCFTHtv0",
+    "releaseDate": "2021/08/15",
+    "gameIds": [
+      199
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

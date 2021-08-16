@@ -2240,5 +2240,17 @@
       10
     ],
     "comment": ""
+  },
+  "202": {
+    "name": "OlliOlli: Switch Stance",
+    "urls": [
+      "https://store-jp.nintendo.com/list/software/70010000015545.html"
+    ],
+    "genreIds": [
+      1,
+      6,
+      118
+    ],
+    "comment": ""
   }
 }

@@ -2230,5 +2230,15 @@
       133
     ],
     "comment": ""
+  },
+  "201": {
+    "name": "マリオカート8 デラックス",
+    "urls": [
+      "https://www.nintendo.co.jp/switch/aabpa/index.html"
+    ],
+    "genreIds": [
+      10
+    ],
+    "comment": ""
   }
 }

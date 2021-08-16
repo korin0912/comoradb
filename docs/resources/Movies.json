@@ -7918,5 +7918,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "599": {
+    "name": "ヨッシーにだけは負けたくない【マリオカート8】",
+    "url": "https://www.youtube.com/watch?v=m1cywqFGoYc",
+    "releaseDate": "2021/08/16",
+    "gameIds": [
+      201
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

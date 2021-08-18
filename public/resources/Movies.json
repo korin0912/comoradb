@@ -7945,5 +7945,21 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "601": {
+    "name": "お盆休みにボツにしたゲーム実況達を紹介します",
+    "url": "https://www.youtube.com/watch?v=xaoZKKm-z5Q",
+    "releaseDate": "2021/08/18",
+    "gameIds": [
+      203,
+      204,
+      205,
+      206
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

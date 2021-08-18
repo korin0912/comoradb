@@ -2252,5 +2252,57 @@
       118
     ],
     "comment": ""
+  },
+  "203": {
+    "name": "Frog Fighters",
+    "urls": [
+      "https://store.steampowered.com/app/1596950/Frog_Fighters/",
+      "https://twitter.com/Frog_Fighters",
+      "https://www.youtube.com/channel/UCBAm9qwKlf5ZdPcC-nZVzjw"
+    ],
+    "genreIds": [
+      1,
+      117,
+      133
+    ],
+    "comment": ""
+  },
+  "204": {
+    "name": "アイの亡き声 (つぐのひ)",
+    "urls": [
+      "https://store.steampowered.com/app/1322300/_/",
+      "https://www.youtube.com/watch?v=FjHu8qqe5ms"
+    ],
+    "genreIds": [
+      100,
+      118
+    ],
+    "comment": ""
+  },
+  "205": {
+    "name": "VRChat",
+    "urls": [
+      "https://hello.vrchat.com",
+      "https://store.steampowered.com/app/438100/VRChat/",
+      "https://twitter.com/VRChat"
+    ],
+    "genreIds": [
+      105
+    ],
+    "comment": ""
+  },
+  "206": {
+    "name": "ENDER LILIES: Quietus of the Knights",
+    "urls": [
+      "https://www.enderlilies.com",
+      "https://twitter.com/EnderLiliesGame",
+      "https://www.youtube.com/channel/UCK8-3pjkvRHK0FTKql620AQ",
+      "https://store.steampowered.com/app/1369630/ENDER_LILIES_Quietus_of_the_Knights/"
+    ],
+    "genreIds": [
+      1,
+      135
+    ],
+    "comment": ""
   }
 }

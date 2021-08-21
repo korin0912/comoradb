@@ -7988,5 +7988,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "604": {
+    "name": "道路の真ん中でドッジすな【Dodgeball Academia】＃6",
+    "url": "https://www.youtube.com/watch?v=0yra_5RfA00",
+    "releaseDate": "2021/08/21",
+    "gameIds": [
+      199
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

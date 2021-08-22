@@ -2268,7 +2268,7 @@
     "comment": ""
   },
   "204": {
-    "name": "アイの亡き声 (つぐのひ)",
+    "name": "アイの亡き声",
     "urls": [
       "https://store.steampowered.com/app/1322300/_/",
       "https://www.youtube.com/watch?v=FjHu8qqe5ms"
@@ -2302,6 +2302,28 @@
     "genreIds": [
       1,
       135
+    ],
+    "comment": ""
+  },
+  "207": {
+    "name": "日常侵食リアルホラー つぐのひ 第一話",
+    "urls": [
+      "https://store.steampowered.com/app/1322300/_/"
+    ],
+    "genreIds": [
+      100,
+      118
+    ],
+    "comment": ""
+  },
+  "208": {
+    "name": "日常侵食リアルホラー つぐのひ 第二話",
+    "urls": [
+      "https://store.steampowered.com/app/1322300/_/"
+    ],
+    "genreIds": [
+      100,
+      118
     ],
     "comment": ""
   }

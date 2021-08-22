@@ -8001,5 +8001,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "605": {
+    "name": "ホラーゲームは喋ってると怖くない",
+    "url": "https://www.youtube.com/watch?v=BKsxCwT-17Q",
+    "releaseDate": "2021/08/22",
+    "gameIds": [
+      207,
+      208
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

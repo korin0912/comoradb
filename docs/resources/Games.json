@@ -2326,5 +2326,16 @@
       118
     ],
     "comment": ""
+  },
+  "209": {
+    "name": "ALTF4",
+    "urls": [
+      "https://store.steampowered.com/app/1137460/ALTF4/"
+    ],
+    "genreIds": [
+      1,
+      103
+    ],
+    "comment": ""
   }
 }

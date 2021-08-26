@@ -8054,5 +8054,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "609": {
+    "name": "【雑談実況】初めてのボイスチャット【ロックマン4】＃1",
+    "url": "https://www.youtube.com/watch?v=QfFFJkKCczI",
+    "releaseDate": "2021/08/26",
+    "gameIds": [
+      210
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

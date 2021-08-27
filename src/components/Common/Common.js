@@ -10,6 +10,8 @@ function getUrlIconClass(url) {
     return "facebook";
   } else if (url.indexOf("www.youtube.com") != -1) {
     return "youtube";
+  } else if (url.indexOf("www.twitch.tv") != -1) {
+    return "twitch";
   } else if (url.indexOf("www.nintendo.co.jp") != -1 || url.indexOf(".nintendo.com") != -1) {
     return "nintendo";
   } else if (url.indexOf("www.ea.com") != -1) {

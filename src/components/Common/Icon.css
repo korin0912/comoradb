@@ -112,6 +112,14 @@
   color: #ff0000;
 }
 
+.icon.twitch::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f1e8";
+  font-size: 17px;
+  font-weight: 400;
+  color: #9147ff;
+}
+
 /* ゲーム会社 */
 .icon.nintendo::before {
   content: "";

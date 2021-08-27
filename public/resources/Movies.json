@@ -8067,5 +8067,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "610": {
+    "name": "面白すぎる鉄棒ゲーム【Pro Gymnast】",
+    "url": "https://www.youtube.com/watch?v=O4vZ-TmJido",
+    "releaseDate": "2021/08/27",
+    "gameIds": [
+      211
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

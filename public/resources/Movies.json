@@ -8080,5 +8080,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "611": {
+    "name": "生きたい(´・ω・｀)【しょぼんのるきみん!】",
+    "url": "https://www.youtube.com/watch?v=vxs76jtHN2M",
+    "releaseDate": "2021/08/28",
+    "gameIds": [
+      212
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

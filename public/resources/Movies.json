@@ -8093,5 +8093,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "612": {
+    "name": "【雑談】3周年を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=5SsZXcDetNU",
+    "releaseDate": "2021/08/29",
+    "gameIds": [
+      3
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

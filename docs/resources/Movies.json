@@ -8106,5 +8106,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "613": {
+    "name": "明日の朝食は卵焼き【LOST EGG】前編",
+    "url": "https://www.youtube.com/watch?v=0ensxWSTPb4",
+    "releaseDate": "2021/08/30",
+    "gameIds": [
+      213
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -2376,5 +2376,15 @@
       103
     ],
     "comment": ""
+  },
+  "213": {
+    "name": "LOST EGG",
+    "urls": [
+      "https://store.steampowered.com/app/1098510/LOST_EGG/?l=japanese"
+    ],
+    "genreIds": [
+      113
+    ],
+    "comment": ""
   }
 }

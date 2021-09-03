@@ -2386,5 +2386,15 @@
       113
     ],
     "comment": ""
+  },
+  "214": {
+    "name": "Burger & Frights",
+    "urls": [
+      "https://donitz.itch.io/burger-frights"
+    ],
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

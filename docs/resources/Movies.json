@@ -8158,5 +8158,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "617": {
+    "name": "【レトロ風ホラー】夜食に〇ックは危険です【Burger & Frights】",
+    "url": "https://www.youtube.com/watch?v=ISTIBVjR0Ws",
+    "releaseDate": "2021/09/03",
+    "gameIds": [
+      214
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

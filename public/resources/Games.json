@@ -2396,5 +2396,18 @@
       100
     ],
     "comment": ""
+  },
+  "215": {
+    "name": "Phantom Abyss",
+    "urls": [
+      "https://www.phantomabyss.com",
+      "https://twitter.com/PhantomAbyss",
+      "https://store.steampowered.com/app/989440/Phantom_Abyss/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

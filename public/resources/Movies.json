@@ -8171,5 +8171,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "618": {
+    "name": "挑戦権利が1度だけのトレジャーゲーム！【Phantom Abyss】",
+    "url": "https://www.youtube.com/watch?v=tXd3KLt67uY",
+    "releaseDate": "2021/09/04",
+    "gameIds": [
+      215
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

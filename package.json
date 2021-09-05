@@ -14,8 +14,8 @@
     "daily-update:git-push": "git add . && git commit -m \"daily update\" && git push"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "core-js": "^3.16.2",
+    "axios": "^0.21.3",
+    "core-js": "^3.17.2",
     "vue": "^2.6.14",
     "vue-burger-menu": "^2.0.5",
     "vue-head": "^2.2.0",
@@ -28,7 +28,7 @@
     "@vue/cli-service": "~4.5.13",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.16.0",
+    "eslint-plugin-vue": "^7.17.0",
     "npm-run-all": "^4.1.5",
     "vue-template-compiler": "^2.6.14"
   },

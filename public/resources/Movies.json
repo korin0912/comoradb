@@ -8184,5 +8184,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "619": {
+    "name": "【雑談】最近の失敗を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=UWAKnyxWL54",
+    "releaseDate": "2021/09/05",
+    "gameIds": [
+      216
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -51,9 +51,12 @@ const server = http.createServer((req, res) => {
 });
 
 function updateJson(id, file, req, res) {
-  // 動画データ読み込み
+  // データ読み込み
   let postData = {};
   req.on('data', function (data) {
+    console.log("---------------");
+    console.log(data);
+    console.log("---------------");
     postData = JSON.parse(data);
   }).on('end', function () {
     let data = JSON.parse(fs.readFileSync(`public/resources/${file}.json`));
@@ -69,11 +72,20 @@ function updateJson(id, file, req, res) {
       id++;
     }
 
+    // console.log("---------------");
+    // console.log(id);
+    // console.log(postData);
+    // console.log(postData['name']);
+    // console.log(postData['urls'][0]);
+    // console.log(postData['gameIds'][0]);
+    // console.log(postData['comment']);
+    console.log(JSON.stringify(postData));
+    // console.log("---------------");
+
     // データ追加
-    // console.log(JSON.stringify(postData));
     data[String(id)] = postData;
 
-    // 動画データ保存
+    // データ保存
     fs.writeFileSync(`public/resources/${file}.json`, JSON.stringify(data, null, 2));
 
     console.log('success');

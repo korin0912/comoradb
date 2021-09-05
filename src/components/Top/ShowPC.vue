@@ -94,7 +94,7 @@ export default {
     },
     dailyUpdate: async function () {
       this.isLoading = true;
-      await axios.post("http://localhost:8082/daily-update", `{"commitMessage":"${this.commitMessage}"}`, { headers: { "Content-Type": "application/json" } }).then((res) => {
+      await axios.post("http://localhost:8082/daily-update", `{"commitMessage":"${this.commitMessage}"}`, { headers: { "Content-Type": "text/plain" } }).then((res) => {
         console.log(res.status);
         this.isLoading = false;
         alert(res.data);

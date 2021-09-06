@@ -8197,5 +8197,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "620": {
+    "name": "どうやって進むんですか？【視聴者リクエスト】",
+    "url": "https://www.youtube.com/watch?v=q02puHKVyAU",
+    "releaseDate": "2021/09/06",
+    "gameIds": [
+      56
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

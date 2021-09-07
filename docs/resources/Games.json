@@ -2422,5 +2422,16 @@
       1
     ],
     "comment": ""
+  },
+  "217": {
+    "name": "Simple Fish Adventure",
+    "urls": [
+      "https://store.steampowered.com/app/1698520/Simple_Fish_Adventure/?l=japanese"
+    ],
+    "genreIds": [
+      2,
+      133
+    ],
+    "comment": ""
   }
 }

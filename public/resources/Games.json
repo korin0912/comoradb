@@ -2433,5 +2433,19 @@
       133
     ],
     "comment": ""
+  },
+  "218": {
+    "name": "I Wanna Maker",
+    "urls": [
+      "https://www.iwannamakergame.com",
+      "https://twitter.com/IWannaMakerGame",
+      "https://store.steampowered.com/app/1114940/I_Wanna_Maker/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      103,
+      110
+    ],
+    "comment": ""
   }
 }

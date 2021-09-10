@@ -8250,5 +8250,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "624": {
+    "name": "【雑談実況】CMという存在の危機【ロックマン4】＃3",
+    "url": "https://www.youtube.com/watch?v=HmJLb-KVwxw",
+    "releaseDate": "2021/09/10",
+    "gameIds": [
+      210
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

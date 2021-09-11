@@ -8263,5 +8263,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "625": {
+    "name": "パワハラに負けるな！カエル君！【ケロブラスター】＃1",
+    "url": "https://www.youtube.com/watch?v=QIvTLMWJEzY",
+    "releaseDate": "2021/09/11",
+    "gameIds": [
+      219
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

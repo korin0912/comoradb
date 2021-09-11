@@ -2447,5 +2447,22 @@
       110
     ],
     "comment": ""
+  },
+  "219": {
+    "name": "ケロブラスター",
+    "urls": [
+      "https://studiopixel.jp/index.html",
+      "https://www.facebook.com/PLAYISM/",
+      "https://twitter.com/playismEN",
+      "https://www.youtube.com/user/ActiveGamingMedia",
+      "https://store-jp.nintendo.com/list/software/70010000007783.html",
+      "https://store.steampowered.com/app/292500/_/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      4,
+      118
+    ],
+    "comment": ""
   }
 }

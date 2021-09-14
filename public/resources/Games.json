@@ -2383,7 +2383,7 @@
       "https://store.steampowered.com/app/1098510/LOST_EGG/?l=japanese"
     ],
     "genreIds": [
-      113
+      1
     ],
     "comment": ""
   },
@@ -2462,6 +2462,16 @@
       1,
       4,
       118
+    ],
+    "comment": ""
+  },
+  "220": {
+    "name": "LOST EGG 2: Be together",
+    "urls": [
+      "https://store.steampowered.com/app/1597400/LOST_EGG_2_Be_together/?l=japanese"
+    ],
+    "genreIds": [
+      1
     ],
     "comment": ""
   }

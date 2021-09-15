@@ -8315,5 +8315,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "629": {
+    "name": "もう一度タマゴ君とやり直したい【LOST EGG2】＃1",
+    "url": "https://www.youtube.com/watch?v=O7ANEbLHYQg",
+    "releaseDate": "2021/09/15",
+    "gameIds": [
+      220
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -8328,5 +8328,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "630": {
+    "name": "誰もいない村に生まれました【LOST EGG2】＃2",
+    "url": "https://www.youtube.com/watch?v=KAAqfY5FtPs",
+    "releaseDate": "2021/09/16",
+    "gameIds": [
+      220
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

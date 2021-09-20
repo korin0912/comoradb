@@ -8380,5 +8380,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "634": {
+    "name": "【雑談実況】前世の記憶って本当に前世なの？【ロックマン4】＃4",
+    "url": "https://www.youtube.com/watch?v=fGiBgdLkuHE",
+    "releaseDate": "2021/09/20",
+    "gameIds": [
+      210
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

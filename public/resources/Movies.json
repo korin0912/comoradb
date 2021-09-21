@@ -8393,5 +8393,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "635": {
+    "name": "命を懸けてチャリでいく【Watch Your Ride】前編",
+    "url": "https://www.youtube.com/watch?v=4egLIw6ckDE",
+    "releaseDate": "2021/09/21",
+    "gameIds": [
+      221
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

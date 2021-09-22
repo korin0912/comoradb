@@ -8406,5 +8406,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "636": {
+    "name": "二輪で立てればそこは道【Watch Your Ride】後編",
+    "url": "https://www.youtube.com/watch?v=9mVpnR5mPAE",
+    "releaseDate": "2021/09/22",
+    "gameIds": [
+      221
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

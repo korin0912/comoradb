@@ -8419,5 +8419,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "637": {
+    "name": "Vtuberになりました",
+    "url": "https://www.youtube.com/watch?v=ZejTaREla8U",
+    "releaseDate": "2021/09/23",
+    "gameIds": [
+      222
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

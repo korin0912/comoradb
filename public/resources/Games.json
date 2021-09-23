@@ -2485,5 +2485,16 @@
       133
     ],
     "comment": ""
+  },
+  "222": {
+    "name": "Vtuber Simulator : Vtuber模擬器",
+    "urls": [
+      "https://store.steampowered.com/app/1704060/Vtuber_Simulator__Vtuber/?l=japanese",
+      "https://twitter.com/ryan_94_ryan"
+    ],
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

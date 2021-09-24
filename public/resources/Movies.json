@@ -8432,5 +8432,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "638": {
+    "name": "【雑談】耳栓を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=9U_F-9_w6GI",
+    "releaseDate": "2021/09/24",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

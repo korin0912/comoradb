@@ -756,7 +756,9 @@
       "https://store.steampowered.com/app/504230/Celeste/?l=japanese"
     ],
     "genreIds": [
-      103
+      1,
+      103,
+      136
     ],
     "comment": ""
   },
@@ -2383,7 +2385,8 @@
       "https://store.steampowered.com/app/1098510/LOST_EGG/?l=japanese"
     ],
     "genreIds": [
-      1
+      1,
+      136
     ],
     "comment": ""
   },
@@ -2471,7 +2474,8 @@
       "https://store.steampowered.com/app/1597400/LOST_EGG_2_Be_together/?l=japanese"
     ],
     "genreIds": [
-      1
+      1,
+      136
     ],
     "comment": ""
   },
@@ -2509,6 +2513,19 @@
       9,
       132,
       134
+    ],
+    "comment": ""
+  },
+  "224": {
+    "name": "Fall Tower",
+    "urls": [
+      "https://store.steampowered.com/app/1659790/Fall_Tower/?l=japanese",
+      "https://twitter.com/mitsumaronomori"
+    ],
+    "genreIds": [
+      1,
+      133,
+      136
     ],
     "comment": ""
   }

@@ -12,6 +12,8 @@ function getUrlIconClass(url) {
     return "youtube";
   } else if (url.indexOf("www.twitch.tv") != -1) {
     return "twitch";
+  } else if (url.indexOf("apps.apple.com") != -1) {
+    return "appstore";
   } else if (url.indexOf("www.nintendo.co.jp") != -1 || url.indexOf(".nintendo.com") != -1) {
     return "nintendo";
   } else if (url.indexOf("www.ea.com") != -1) {

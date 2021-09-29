@@ -120,6 +120,14 @@
   color: #9147ff;
 }
 
+.icon.appstore::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f370";
+  font-size: 17px;
+  font-weight: 400;
+  color: #11befb;
+}
+
 /* ゲーム会社 */
 .icon.nintendo::before {
   content: "";

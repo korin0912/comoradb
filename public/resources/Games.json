@@ -2432,7 +2432,7 @@
       "https://store.steampowered.com/app/1698520/Simple_Fish_Adventure/?l=japanese"
     ],
     "genreIds": [
-      2,
+      1,
       133
     ],
     "comment": ""
@@ -2527,6 +2527,17 @@
       1,
       133,
       136
+    ],
+    "comment": ""
+  },
+  "225": {
+    "name": "帰らなさい、鮭さん！",
+    "urls": [
+      "https://store.steampowered.com/app/1711080/_/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      133
     ],
     "comment": ""
   }

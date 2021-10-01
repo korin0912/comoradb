@@ -8523,5 +8523,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "645": {
+    "name": "何度落ちればいいんですか？【帰らなさい、鮭さん！】＃2",
+    "url": "https://www.youtube.com/watch?v=f3SnZLdth7M",
+    "releaseDate": "2021/10/01",
+    "gameIds": [
+      225
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

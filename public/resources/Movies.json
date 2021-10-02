@@ -8536,5 +8536,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "646": {
+    "name": "今夜は鮭を食べます【帰らなさい、鮭さん！】＃3(終)",
+    "url": "https://www.youtube.com/watch?v=0v48CAQhgkM",
+    "releaseDate": "2021/10/02",
+    "gameIds": [
+      225
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -8562,5 +8562,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "648": {
+    "name": "トラップだらけの遺跡にいくぜ【しょぼみと幻の遺跡】",
+    "url": "https://www.youtube.com/watch?v=_QzIYUNKwBc",
+    "releaseDate": "2021/10/04",
+    "gameIds": [
+      226
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

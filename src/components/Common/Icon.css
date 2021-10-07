@@ -71,6 +71,22 @@
   color: #888888;
 }
 
+.icon.up::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f139";
+  font-size: 17px;
+  font-weight: 900;
+  color: #888888;
+}
+
+.icon.down::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f13a";
+  font-size: 17px;
+  font-weight: 900;
+  color: #888888;
+}
+
 /* WEBサイト */
 .icon.home::before {
   font-family: "Font Awesome 5 Brands";

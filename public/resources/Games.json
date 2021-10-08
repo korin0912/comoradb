@@ -2552,5 +2552,16 @@
       103
     ],
     "comment": ""
+  },
+  "227": {
+    "name": "Light Infantry",
+    "urls": [
+      "https://store.steampowered.com/app/1579310/Light_Infantry/"
+    ],
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

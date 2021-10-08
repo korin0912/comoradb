@@ -8614,5 +8614,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "652": {
+    "name": "令和史上一のバグにまみれたゲーム【Light Infantry】#1",
+    "url": "https://www.youtube.com/watch?v=cVabPshgkWY",
+    "releaseDate": "2021/10/08",
+    "gameIds": [
+      227
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

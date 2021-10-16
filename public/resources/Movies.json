@@ -8718,5 +8718,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "660": {
+    "name": "【雑談実況】停電してました【ロックマン4】＃6",
+    "url": "https://www.youtube.com/watch?v=t5H_TGJ35d4",
+    "releaseDate": "2021/10/16",
+    "gameIds": [
+      210
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

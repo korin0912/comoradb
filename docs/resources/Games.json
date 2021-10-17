@@ -2563,5 +2563,16 @@
       2
     ],
     "comment": ""
+  },
+  "228": {
+    "name": "Despot's Game: Dystopian Army Builder",
+    "urls": [
+      "https://www.despotsgame.com",
+      "https://store.steampowered.com/app/1227280/Despots_Game_Dystopian_Army_Builder/"
+    ],
+    "genreIds": [
+      102
+    ],
+    "comment": ""
   }
 }

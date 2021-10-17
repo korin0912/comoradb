@@ -8731,5 +8731,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "661": {
+    "name": "目指せ！最下層！仲間と供に！",
+    "url": "https://www.youtube.com/watch?v=sNMsGadilkI",
+    "releaseDate": "2021/10/17",
+    "gameIds": [
+      228
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

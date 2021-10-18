@@ -2571,7 +2571,21 @@
       "https://store.steampowered.com/app/1227280/Despots_Game_Dystopian_Army_Builder/"
     ],
     "genreIds": [
-      102
+      102,
+      107
+    ],
+    "comment": ""
+  },
+  "229": {
+    "name": "The Ghost Train | 幽霊列車",
+    "urls": [
+      "https://store.steampowered.com/app/1349960/The_Ghost_Train/?l=japanese",
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ"
+    ],
+    "genreIds": [
+      2,
+      100
     ],
     "comment": ""
   }

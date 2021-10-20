@@ -8770,5 +8770,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "664": {
+    "name": "【雑談】LGBTを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=VgKqKhglm6Y",
+    "releaseDate": "2021/10/20",
+    "gameIds": [
+      230
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -8822,5 +8822,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "668": {
+    "name": "【雑談実況】マイナンバーカードを手に入れました【ロックマン4】＃7",
+    "url": "https://www.youtube.com/watch?v=k2F7sA-C-AQ",
+    "releaseDate": "2021/10/24",
+    "gameIds": [
+      210
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

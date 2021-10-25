@@ -8835,5 +8835,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "669": {
+    "name": "世界で3人しかクリアしていないゲームに挑む！【Diamond Hands 】＃1",
+    "url": "https://www.youtube.com/watch?v=Tvox2OUCvwo",
+    "releaseDate": "2021/10/25",
+    "gameIds": [
+      232
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

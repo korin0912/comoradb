@@ -590,7 +590,7 @@
       "https://store.steampowered.com/app/1061090/Jump_King/?l=japanese"
     ],
     "genreIds": [
-      103
+      136
     ],
     "comment": ""
   },
@@ -2608,6 +2608,17 @@
     ],
     "genreIds": [
       1
+    ],
+    "comment": ""
+  },
+  "232": {
+    "name": "Diamond Hands: To The Moon",
+    "urls": [
+      "https://store.steampowered.com/app/1727810/Diamond_Hands_To_The_Moon/?l=japanese",
+      "https://twitter.com/TerrorDogStudio"
+    ],
+    "genreIds": [
+      136
     ],
     "comment": ""
   }

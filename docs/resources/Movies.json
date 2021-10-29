@@ -8887,5 +8887,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "673": {
+    "name": "【雑談】落とし穴を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=-Z1auJrgZ7U",
+    "releaseDate": "2021/10/29",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -2621,5 +2621,16 @@
       136
     ],
     "comment": ""
+  },
+  "233": {
+    "name": "にじさんじのタイプ診断",
+    "urls": [
+      "https://www.freem.ne.jp/win/game/26861",
+      "https://www.freem.ne.jp/win/game/26860"
+    ],
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

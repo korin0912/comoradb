@@ -8900,5 +8900,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "674": {
+    "name": "委員長、コモラを理解できるかな？",
+    "url": "https://www.youtube.com/watch?v=yrQVip_PO6M",
+    "releaseDate": "2021/10/30",
+    "gameIds": [
+      233
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

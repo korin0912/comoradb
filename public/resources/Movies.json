@@ -8913,5 +8913,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "675": {
+    "name": "敵、味方、主人公の思考が理解できないホラーゲーム【Hatch】前編",
+    "url": "https://www.youtube.com/watch?v=j5-NnLRG-0o",
+    "releaseDate": "2021/10/31",
+    "gameIds": [
+      234
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

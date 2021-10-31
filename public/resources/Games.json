@@ -2632,5 +2632,17 @@
       2
     ],
     "comment": ""
+  },
+  "234": {
+    "name": "Hatch",
+    "urls": [
+      "https://store.steampowered.com/app/1730920/Hatch/"
+    ],
+    "genreIds": [
+      1,
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

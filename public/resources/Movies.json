@@ -8926,5 +8926,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "676": {
+    "name": "ハッチ開放！外の世界へレッツゴー！【Hatch】後編",
+    "url": "https://www.youtube.com/watch?v=lUoRHrvPm9A",
+    "releaseDate": "2021/11/01",
+    "gameIds": [
+      234
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

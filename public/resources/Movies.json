@@ -8939,5 +8939,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "677": {
+    "name": "【雑談実況】ジョーカーに憧れるか？【ロックマン4】＃8(終)",
+    "url": "https://www.youtube.com/watch?v=ZfRZX3517WU",
+    "releaseDate": "2021/11/02",
+    "gameIds": [
+      210
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

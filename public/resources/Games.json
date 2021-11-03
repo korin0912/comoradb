@@ -2644,5 +2644,18 @@
       100
     ],
     "comment": ""
+  },
+  "235": {
+    "name": "ElecHead",
+    "urls": [
+      "https://twitter.com/hyaku1128",
+      "https://www.youtube.com/channel/UCJZ_6XrJ7QkSFWL8rck9z9g",
+      "https://store.steampowered.com/app/1456880/ElecHead/"
+    ],
+    "genreIds": [
+      1,
+      9
+    ],
+    "comment": ""
   }
 }

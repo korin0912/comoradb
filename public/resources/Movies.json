@@ -8952,5 +8952,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "678": {
+    "name": "コモラのゆったりエレキヘッド実況",
+    "url": "https://www.youtube.com/watch?v=C2fjtqUCLiU",
+    "releaseDate": "2021/11/03",
+    "gameIds": [
+      235
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

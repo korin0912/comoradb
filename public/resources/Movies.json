@@ -8954,7 +8954,7 @@
     "comment": ""
   },
   "678": {
-    "name": "コモラのゆったりエレキヘッド実況",
+    "name": "コモラのゆったりエレキヘッド実況＃1",
     "url": "https://www.youtube.com/watch?v=C2fjtqUCLiU",
     "releaseDate": "2021/11/03",
     "gameIds": [
@@ -8963,7 +8963,20 @@
     "actorIds": [
       1
     ],
-    "chat": false,
+    "chat": true,
+    "comment": ""
+  },
+  "679": {
+    "name": "ハロウィンだったので怖い話でもすっか【エレキヘッド】＃2",
+    "url": "https://www.youtube.com/watch?v=i3t-v2SzZIA",
+    "releaseDate": "2021/11/04",
+    "gameIds": [
+      235
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
     "comment": ""
   }
 }

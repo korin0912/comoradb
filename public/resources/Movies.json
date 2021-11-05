@@ -8978,5 +8978,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "680": {
+    "name": "チャンチョ〜チャンチョ〜【Happy Game】",
+    "url": "https://www.youtube.com/watch?v=eILLOYJV0Jo",
+    "releaseDate": "2021/11/05",
+    "gameIds": [
+      236
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

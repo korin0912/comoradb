@@ -2657,5 +2657,18 @@
       9
     ],
     "comment": ""
+  },
+  "236": {
+    "name": "Happy Game",
+    "urls": [
+      "https://amanita-design.net/games/happy.html",
+      "https://store-jp.nintendo.com/list/software/70010000036357.html",
+      "https://store.steampowered.com/app/1206060/Happy_Game/"
+    ],
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

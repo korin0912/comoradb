@@ -8991,5 +8991,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "681": {
+    "name": "vtuber界のスターがスーパースターを目指します【マリオパーティ スーパースターズ】前編",
+    "url": "https://www.youtube.com/watch?v=TwdutlMb8UQ",
+    "releaseDate": "2021/11/06",
+    "gameIds": [
+      237
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

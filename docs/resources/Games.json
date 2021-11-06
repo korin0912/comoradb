@@ -2670,5 +2670,15 @@
       100
     ],
     "comment": ""
+  },
+  "237": {
+    "name": "マリオパーティ スーパースターズ",
+    "urls": [
+      "https://www.nintendo.co.jp/switch/az82a/index.html"
+    ],
+    "genreIds": [
+      137
+    ],
+    "comment": ""
   }
 }

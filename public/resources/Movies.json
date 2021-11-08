@@ -9017,5 +9017,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "683": {
+    "name": "【雑談】海賊版と近況を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=dzhsxw9lmOo",
+    "releaseDate": "2021/11/08",
+    "gameIds": [
+      36
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -9030,5 +9030,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "684": {
+    "name": "実況はコモラでお送りしていきまぁす【深夜放送】前編",
+    "url": "https://www.youtube.com/watch?v=dglhcNG3fWQ",
+    "releaseDate": "2021/11/09",
+    "gameIds": [
+      238
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

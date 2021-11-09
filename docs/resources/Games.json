@@ -2680,5 +2680,18 @@
       137
     ],
     "comment": ""
+  },
+  "238": {
+    "name": "The Radio Station | 深夜放送",
+    "urls": [
+      "https://store.steampowered.com/app/1744910/The_Radio_Station/?l=japanese",
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ"
+    ],
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

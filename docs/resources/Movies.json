@@ -9056,5 +9056,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "686": {
+    "name": "【お知らせ】毎日投稿ができなくなりました",
+    "url": "https://www.youtube.com/watch?v=5esh209lek0",
+    "releaseDate": "2021/11/12",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

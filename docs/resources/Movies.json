@@ -9082,5 +9082,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "688": {
+    "name": "【雑談実況】毎日投稿を続ける意味【ロックマン5】＃1",
+    "url": "https://www.youtube.com/watch?v=dq8iJ-Jbrs4",
+    "releaseDate": "2021/11/13",
+    "gameIds": [
+      240
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

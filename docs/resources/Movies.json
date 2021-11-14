@@ -9095,5 +9095,19 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "689": {
+    "name": "【実況つき】久しぶりに魔界村をひたすらクリアしていくぞ",
+    "url": "https://www.youtube.com/watch?v=s6Dp1wC_OjE",
+    "releaseDate": "2021/11/14",
+    "gameIds": [
+      166
+    ],
+    "actorIds": [
+      1,
+      2
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

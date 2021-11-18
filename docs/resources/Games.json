@@ -2727,5 +2727,15 @@
       136
     ],
     "comment": ""
+  },
+  "242": {
+    "name": "公衆電話",
+    "urls": [
+      "https://novelgame.jp/games/show/1059"
+    ],
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

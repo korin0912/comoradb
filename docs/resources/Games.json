@@ -2737,5 +2737,16 @@
       2
     ],
     "comment": ""
+  },
+  "243": {
+    "name": "Jump Komora",
+    "urls": [
+      "https://unityroom.com/games/jumpkomora",
+      "https://twitter.com/koyakinoko"
+    ],
+    "genreIds": [
+      136
+    ],
+    "comment": ""
   }
 }

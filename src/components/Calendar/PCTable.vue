@@ -15,7 +15,12 @@
       <tr v-for="(week, weekIndex) in weeks" v-bind:key="`week-${weekIndex}`">
         <td v-for="(day, dayIndex) in week" v-bind:key="`day-${weekIndex}-${dayIndex}`" :class="day.date != -1 ? '' : 'hide'">
           <div v-if="day.date != -1" class="day">
-            <div class="date">{{ day.date }}日</div>
+            <div v-if="dayIndex == 0 || dayIndex == 6" class="date holydays">
+              {{ day.date }}日
+            </div>
+            <div v-else class="date">
+              {{ day.date }}日
+            </div>
             <div v-for="movie in day.movies" v-bind:key="`movie-${movie.id}`" class="movie">
               ・<a :href="movie.url">{{ movie.name }}</a>
             </div>
@@ -54,6 +59,11 @@ div.date {
   background-color: var(--comora-color-yellow);
   border-radius: 4px;
   margin: 1px 1px 0px 1px;
+}
+
+div.holydays {
+  color: white;
+  background-color: var(--comora-color-dirk-yellow);
 }
 
 div.movie {

@@ -2,7 +2,8 @@
   <table>
     <tbody>
       <tr v-for="(day, dayIndex) in days" v-bind:key="`day-${dayIndex}`">
-        <th class="date">{{ day.date }}日</th>
+        <th v-if="day['dayOfWeek'] == 0 || day['dayOfWeek'] == 6" class="date holydays">{{ day.date }}日</th>
+        <th v-else class="date">{{ day.date }}日</th>
         <th :class="(day['dayOfWeek'] == 0 || day['dayOfWeek'] == 6 ? 'dark' : 'pale') + ' day-of-week'">{{ dayOfWeeks[day["dayOfWeek"]] }}</th>
         <td>
           <div class="day">
@@ -40,6 +41,11 @@ th.date {
   background-color: var(--comora-color-yellow);
 }
 
+th.holydays {
+  color: white;
+  background-color: var(--comora-color-dirk-yellow);
+}
+
 th.day-of-week {
   width: 8%;
 }
@@ -57,14 +63,6 @@ tbody tr:nth-child(1) td {
 
 div.day {
   width: 100%;
-}
-
-div.date {
-  width: 100%;
-  text-align: center;
-  background-color: var(--comora-color-yellow);
-  border-radius: 4px;
-  margin: 1px 1px 0px 1px;
 }
 
 div.movie {

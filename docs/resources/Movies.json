@@ -9214,5 +9214,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "698": {
+    "name": "【雑談実況】カレー食ってる時にゴミを投げるな【ロックマン5】＃2",
+    "url": "https://www.youtube.com/watch?v=IjolZ95XFC8",
+    "releaseDate": "2021/11/25",
+    "gameIds": [
+      240
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

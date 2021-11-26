@@ -2748,5 +2748,15 @@
       136
     ],
     "comment": ""
+  },
+  "244": {
+    "name": "ポケットモンスター ブリリアントダイヤモンド/シャイニングパール",
+    "urls": [
+      "https://www.pokemon.co.jp/ex/bdsp/ja/"
+    ],
+    "genreIds": [
+      3
+    ],
+    "comment": ""
   }
 }

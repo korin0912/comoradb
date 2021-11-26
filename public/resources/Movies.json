@@ -9227,5 +9227,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "699": {
+    "name": "世界一優しいポケモン【ダイパリメイク】",
+    "url": "https://www.youtube.com/watch?v=gxnjdN0_0OY",
+    "releaseDate": "2021/11/26",
+    "gameIds": [
+      244
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -9229,9 +9229,22 @@
     "comment": ""
   },
   "699": {
-    "name": "世界一優しいポケモン【ダイパリメイク】",
+    "name": "世界一優しいポケモン【ダイパリメイク】＃1",
     "url": "https://www.youtube.com/watch?v=gxnjdN0_0OY",
     "releaseDate": "2021/11/26",
+    "gameIds": [
+      244
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "700": {
+    "name": "いつでも真顔【ダイパリメイク】＃2",
+    "url": "https://www.youtube.com/watch?v=zGxFXfGlIGU",
+    "releaseDate": "2021/11/27",
     "gameIds": [
       244
     ],

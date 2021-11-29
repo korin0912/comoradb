@@ -144,6 +144,14 @@
   color: #11befb;
 }
 
+.icon.gplay::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f3ab";
+  font-size: 17px;
+  font-weight: 400;
+  color: #00d5ff;
+}
+
 /* ゲーム会社 */
 .icon.nintendo::before {
   content: "";

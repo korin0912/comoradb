@@ -2,14 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"name": "Sample002",
-			"path": "..\\..\\..\\WioTerminal\\Sample002"
-		},
-		{
-			"name": "Sample002",
-			"path": "..\\..\\..\\M5Stack\\Sample002"
 		}
 	],
 	"settings": {}

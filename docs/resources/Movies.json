@@ -9266,5 +9266,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "702": {
+    "name": "【雑談】傷跡を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=fiaufC5KyHc",
+    "releaseDate": "2021/11/29",
+    "gameIds": [
+      245
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

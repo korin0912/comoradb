@@ -2758,5 +2758,18 @@
       3
     ],
     "comment": ""
+  },
+  "245": {
+    "name": "Infinitode 2 - Infinite Tower Defense",
+    "urls": [
+      "https://infinitode.prineside.com",
+      "https://store.steampowered.com/app/937310/Infinitode_2__Infinite_Tower_Defense/?l=japanese",
+      "https://play.google.com/store/apps/details?id=com.prineside.tdi2",
+      "https://apps.apple.com/us/app/infinitode-2/id1480178308"
+    ],
+    "genreIds": [
+      107
+    ],
+    "comment": ""
   }
 }

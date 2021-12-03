@@ -9305,5 +9305,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "705": {
+    "name": "【雑談実況】流行語大賞が2つある？【ロックマン5】＃3",
+    "url": "https://www.youtube.com/watch?v=b94RKtC6xrY",
+    "releaseDate": "2021/12/03",
+    "gameIds": [
+      240
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

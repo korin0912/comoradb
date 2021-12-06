@@ -9331,5 +9331,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "707": {
+    "name": "僕の名前は何ですか？【ダイパリメイク】＃7",
+    "url": "https://www.youtube.com/watch?v=AUX3FypuQM8",
+    "releaseDate": "2021/12/06",
+    "gameIds": [
+      244
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

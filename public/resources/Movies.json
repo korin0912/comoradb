@@ -9357,5 +9357,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "709": {
+    "name": "【雑談】パパ活を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=tk3k7VDTnXs",
+    "releaseDate": "2021/12/08",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

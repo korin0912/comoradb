@@ -9346,7 +9346,7 @@
     "comment": ""
   },
   "708": {
-    "name": "胸のトゲのせいでハグのできない悲しきポケモン【ダイパリメイク】＃7",
+    "name": "胸のトゲのせいでハグのできない悲しきポケモン【ダイパリメイク】＃8",
     "url": "https://www.youtube.com/watch?v=zKdCXZ6RuGM",
     "releaseDate": "2021/12/07",
     "gameIds": [
@@ -9369,6 +9369,19 @@
       1
     ],
     "chat": true,
+    "comment": ""
+  },
+  "710": {
+    "name": "この醜き姿ともおさらばよ！【ダイパリメイク】＃9",
+    "url": "https://www.youtube.com/watch?v=_U_AMCPbp6A",
+    "releaseDate": "2021/12/10",
+    "gameIds": [
+      244
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
     "comment": ""
   }
 }

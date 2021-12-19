@@ -2782,5 +2782,17 @@
       100
     ],
     "comment": ""
+  },
+  "247": {
+    "name": "Funmi",
+    "urls": [
+      "https://store.steampowered.com/app/1833130/Funmi/?l=japanese",
+      "https://twitter.com/AndrewNReinke",
+      "https://www.youtube.com/channel/UCAV8jw3PRP0I7wGyLIv1Bug"
+    ],
+    "genreIds": [
+      113
+    ],
+    "comment": ""
   }
 }

@@ -9474,5 +9474,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "718": {
+    "name": "これ300円ですぜ？【Funmi】",
+    "url": "https://www.youtube.com/watch?v=ebcfYOiosgM",
+    "releaseDate": "2021/12/19",
+    "gameIds": [
+      247
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

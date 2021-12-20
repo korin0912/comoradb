@@ -9487,5 +9487,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "719": {
+    "name": "弱さを許す、それがコモラ【ダイパリメイク】＃15",
+    "url": "https://www.youtube.com/watch?v=2VQRf14zyxc",
+    "releaseDate": "2021/12/20",
+    "gameIds": [
+      244
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

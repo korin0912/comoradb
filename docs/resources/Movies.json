@@ -9513,5 +9513,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "721": {
+    "name": "【雑談実況】最近投資のニュース多くね？【ロックマン5】＃5",
+    "url": "https://www.youtube.com/watch?v=gflkLRV_Bn0",
+    "releaseDate": "2021/12/22",
+    "gameIds": [
+      240
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -9526,5 +9526,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "722": {
+    "name": "この顔の角度が一番映えるんです【ダイパリメイク】＃17",
+    "url": "https://www.youtube.com/watch?v=FftGbIhzmsg",
+    "releaseDate": "2021/12/24",
+    "gameIds": [
+      244
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

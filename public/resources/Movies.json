@@ -9539,5 +9539,21 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "723": {
+    "name": "クソゲー多めのボツ動画集！",
+    "url": "https://www.youtube.com/watch?v=7MX4k6Q6TVo",
+    "releaseDate": "2021/12/25",
+    "gameIds": [
+      248,
+      249,
+      250,
+      251
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

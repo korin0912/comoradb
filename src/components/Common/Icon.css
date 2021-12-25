@@ -89,11 +89,17 @@
 
 /* WEBサイト */
 .icon.home::before {
-  font-family: "Font Awesome 5 Brands";
+  /* font-family: "Font Awesome 5 Brands";
   content: "\f268";
   font-size: 17px;
   font-weight: 400;
-  color: #6666cc;
+  color: #6666cc; */
+  content: "";
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-image: url("../../assets/images/urlicon_chrome.png");
+  background-size: contain;
 }
 
 .icon.steam::before {
@@ -102,6 +108,9 @@
   font-size: 17px;
   font-weight: 400;
   color: #324b6c;
+  background: linear-gradient(0deg, #1080B0 , #0F1C2F);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .icon.twitter::before {
@@ -109,7 +118,7 @@
   content: "\f081";
   font-size: 17px;
   font-weight: 400;
-  color: #80cafd;
+  color: #1C9CEA;
 }
 
 .icon.facebook::before {
@@ -117,12 +126,12 @@
   content: "\f082";
   font-size: 17px;
   font-weight: 400;
-  color: #4267b2;
+  color: #4064AC;
 }
 
 .icon.youtube::before {
   font-family: "Font Awesome 5 Brands";
-  content: "\f431";
+  content: "\f167";
   font-size: 17px;
   font-weight: 400;
   color: #ff0000;
@@ -142,14 +151,23 @@
   font-size: 17px;
   font-weight: 400;
   color: #11befb;
+  background: linear-gradient(0deg, #1b70ea, #19bff5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .icon.gplay::before {
-  font-family: "Font Awesome 5 Brands";
+  /* font-family: "Font Awesome 5 Brands";
   content: "\f3ab";
   font-size: 17px;
   font-weight: 400;
-  color: #00d5ff;
+  color: #00d5ff; */
+  content: "";
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-image: url("../../assets/images/urlicon_gplay.png");
+  background-size: contain;
 }
 
 /* ゲーム会社 */

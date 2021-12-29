@@ -9581,5 +9581,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "726": {
+    "name": "人生という細い綱の上を歩くゲーム【Tightrope Walking】",
+    "url": "https://www.youtube.com/watch?v=S_PL-n0C0Ls",
+    "releaseDate": "2021/12/29",
+    "gameIds": [
+      252
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

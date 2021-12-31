@@ -9607,5 +9607,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "728": {
+    "name": "2021年に投稿した動画達を眺めながら話す",
+    "url": "https://www.youtube.com/watch?v=7h-Hif9QTrU",
+    "releaseDate": "2021/12/31",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

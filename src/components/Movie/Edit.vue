@@ -72,6 +72,14 @@ export default {
     let gamesData = resources.getGamesData();
     let actorsData = resources.getActorsData();
 
+    gamesData[99999] =
+    {
+      "name": "指定なし",
+      "urls": [],
+      "genreIds": [],
+      "comment": ""
+    };
+
     let inputs = {};
     // console.log(movieId);
     if (movieId == 0) {

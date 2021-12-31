@@ -65,6 +65,7 @@ function getOriginalTableItems() {
             key: "games-" + originalTableItems.length,
             gameRow: 1,
             game: game,
+            nogame: false,
             movieRow: 1,
             movie: movie,
           });
@@ -89,6 +90,38 @@ function getOriginalTableItems() {
           });
         }
       });
+
+    // ゲーム無し動画を追加
+    Object.keys(moviesData).forEach((movieId) => {
+      let movieData = moviesData[movieId];
+      if (movieData.gameIds[0] != 99999) {
+        return;
+      }
+
+      let date = movieData.releaseDate.split("/");
+      let movie = {
+        id: movieId,
+        releaseDate: date[0] + "/" + ("0" + date[1]).slice(-2) + "/" + ("0" + date[2]).slice(-2),
+        name: movieData.name,
+        url: movieData.url,
+        actors: movieData.actorIds.map((actorId) => {
+          return {
+            id: actorId,
+            name: actorsData[actorId].name,
+          };
+        }),
+        chat: movieData.chat,
+      };
+
+      originalTableItems.push({
+        key: "games-" + originalTableItems.length,
+        gameRow: 1,
+        game: null,
+        nogame: true,
+        movieRow: 1,
+        movie: movie,
+      });
+    });
   }
 
   // 呼び出し元で加工されるので、ディープコピーを返す

@@ -35,6 +35,14 @@
               </div>
             </td>
           </template>
+          <template v-else-if="item.nogame">
+            <!-- ID -->
+            <td :rowspan="item.gameRow" class="text-center nogame">
+            </td>
+            <!-- タイトル -->
+            <td :rowspan="item.gameRow" class="nogame">
+            </td>
+          </template>
           <!-- 動画 -->
           <template v-if="item.movie != null">
             <!-- ID -->
@@ -91,6 +99,10 @@ th.movie-name {
 
 td.movie {
   font-size: 0.7rem;
+}
+
+td.nogame {
+  background-color: #dddddd;
 }
 
 div.urlicon {

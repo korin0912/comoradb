@@ -42,6 +42,20 @@
               </span>
             </td>
           </template>
+          <template v-else-if="item.nogame">
+            <!-- ID -->
+            <td :rowspan="item.gameRow" class="text-center nogame">
+            </td>
+            <!-- タイトル -->
+            <td :rowspan="item.gameRow" class="nogame">
+            </td>
+            <!-- リンク -->
+            <td :rowspan="item.gameRow" class="text-center links nogame">
+            </td>
+            <!-- ジャンル -->
+            <td :rowspan="item.gameRow" class="nogame">
+            </td>
+          </template>
           <!-- 動画 -->
           <template v-if="item.movie != null">
             <!-- ID -->
@@ -138,6 +152,10 @@ td.movie {
 td.actors {
   font-size: 0.6rem;
   width: 10%;
+}
+
+td.nogame {
+  background-color: #dddddd;
 }
 
 div.urlicon {

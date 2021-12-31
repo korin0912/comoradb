@@ -39,7 +39,7 @@
         <div v-if="isLocal && !isMobile" style="height: 21px; margin: 10px 0 10px 0">
           <button v-on:click="$router.push({ name: 'MovieEdit', params: { movieId: movieId } })" class="edit" />
         </div>
-        <div style="margin: 10px 0 60px 0">
+        <div v-if="gameIds.length > 0" style="margin: 10px 0 60px 0">
           <GameTable :gameIds="gameIds" />
         </div>
       </div>
@@ -72,7 +72,9 @@ export default {
 
     let gameIds = [];
     movie.gameIds.forEach((gameId) => {
-      gameIds.push(gameId);
+      if (gameId != 99999) {
+        gameIds.push(gameId);
+      }
     });
 
     return {

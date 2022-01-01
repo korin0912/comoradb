@@ -2857,5 +2857,15 @@
       113
     ],
     "comment": ""
+  },
+  "253": {
+    "name": "Grocket",
+    "urls": [
+      "https://store.steampowered.com/app/1839540/Grocket/"
+    ],
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

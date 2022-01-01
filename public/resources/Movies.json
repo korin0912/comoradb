@@ -9620,5 +9620,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "729": {
+    "name": "2022年の最新ゲームがレトロすぎる【Grocket】",
+    "url": "https://www.youtube.com/watch?v=6k-jnvTUBdE",
+    "releaseDate": "2022/01/01",
+    "gameIds": [
+      253
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

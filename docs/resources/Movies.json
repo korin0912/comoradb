@@ -9633,5 +9633,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "730": {
+    "name": "石鹸が自由に動いてもいいじゃない【LOST BUBBLES】＃1",
+    "url": "https://www.youtube.com/watch?v=ac5D72gQI0o",
+    "releaseDate": "2022/01/02",
+    "gameIds": [
+      254
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

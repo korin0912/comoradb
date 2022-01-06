@@ -2878,5 +2878,16 @@
       136
     ],
     "comment": ""
+  },
+  "255": {
+    "name": "A Step Forward",
+    "urls": [
+      "https://store.steampowered.com/app/1759720/A_Step_Forward/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

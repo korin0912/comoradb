@@ -9698,5 +9698,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "735": {
+    "name": "【雑談実況】正月休み外出録【ロックマン5】＃6",
+    "url": "https://www.youtube.com/watch?v=xvFqsBdDT1w",
+    "releaseDate": "2022/01/07",
+    "gameIds": [
+      240
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

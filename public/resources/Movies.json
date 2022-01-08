@@ -9711,5 +9711,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "736": {
+    "name": "こんな僕にも家族ができました【Heavy Rain】＃1",
+    "url": "https://www.youtube.com/watch?v=9270-b7Apv0",
+    "releaseDate": "2022/01/08",
+    "gameIds": [
+      256
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

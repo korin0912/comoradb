@@ -2889,5 +2889,21 @@
       136
     ],
     "comment": ""
+  },
+  "256": {
+    "name": "Heavy Rain",
+    "urls": [
+      "https://www.quanticdream.com/en/heavy-rain",
+      "https://store.steampowered.com/app/960910/Heavy_Rain/?l=japanese",
+      "https://www.jp.playstation.com/games/heavy-rain-ps4/",
+      "https://www.twitch.tv/quanticdream",
+      "https://twitter.com/Quantic_Dream",
+      "https://www.youtube.com/quanticdreamofficial"
+    ],
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

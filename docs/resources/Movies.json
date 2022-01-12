@@ -9763,5 +9763,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "740": {
+    "name": "逆走ってこんな感じで始まるんだぁ【Heavy Rain】＃4",
+    "url": "https://www.youtube.com/watch?v=N0Ox2s2oMRs",
+    "releaseDate": "2022/01/12",
+    "gameIds": [
+      256
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

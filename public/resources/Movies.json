@@ -9802,5 +9802,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "743": {
+    "name": "3日で作られた闇のゲーム【アルティメットババ抜きまーじゃん】",
+    "url": "https://www.youtube.com/watch?v=7TkdboQuAPo",
+    "releaseDate": "2022/01/15",
+    "gameIds": [
+      257
+    ],
+    "actorIds": [
+      1,
+      4
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

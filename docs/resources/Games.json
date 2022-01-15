@@ -2905,5 +2905,20 @@
       2
     ],
     "comment": ""
+  },
+  "257": {
+    "name": "アルティメットババ抜きまーじゃん～3Days～",
+    "urls": [
+      "https://store.steampowered.com/app/1829800/3Days/?l=japanese",
+      "https://www.twitch.tv/nekogameteacher",
+      "https://twitter.com/nekogameteacher",
+      "https://www.youtube.com/channel/UCST0xPC8O-rT_IAUo72ymfw/videos"
+    ],
+    "genreIds": [
+      106,
+      112,
+      117
+    ],
+    "comment": ""
   }
 }

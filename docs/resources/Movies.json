@@ -9842,5 +9842,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "746": {
+    "name": "カフェは時間を潰す場所【Coffee Shop Simulator】",
+    "url": "https://www.youtube.com/watch?v=V4BHCA50Rdg",
+    "releaseDate": "2022/01/18",
+    "gameIds": [
+      258
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -2930,5 +2930,16 @@
       113
     ],
     "comment": ""
+  },
+  "259": {
+    "name": "遊戯王 マスターデュエル",
+    "urls": [
+      "https://www.konami.com/yugioh/masterduel/jp/ja/"
+    ],
+    "genreIds": [
+      106,
+      117
+    ],
+    "comment": ""
   }
 }

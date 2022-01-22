@@ -9894,5 +9894,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "750": {
+    "name": "天国に最も近い男【天国への階段】",
+    "url": "https://www.youtube.com/watch?v=zB3FXk9EbmA",
+    "releaseDate": "2022/01/22",
+    "gameIds": [
+      260
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

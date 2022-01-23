@@ -9907,5 +9907,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "751": {
+    "name": "【雑談実況】初めて外国人と見つめ合った話【ロックマン5】＃7(終)",
+    "url": "https://www.youtube.com/watch?v=FdyNrskLT6k",
+    "releaseDate": "2022/01/23",
+    "gameIds": [
+      240
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

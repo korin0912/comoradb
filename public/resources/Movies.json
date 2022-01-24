@@ -9920,5 +9920,19 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "752": {
+    "name": "僕達の日常",
+    "url": "https://www.youtube.com/watch?v=mD2nSPemjS0",
+    "releaseDate": "2022/01/24",
+    "gameIds": [
+      254
+    ],
+    "actorIds": [
+      1,
+      4
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

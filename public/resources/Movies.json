@@ -9973,5 +9973,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "756": {
+    "name": "チームだから一人じゃない！【Hidden Deep】",
+    "url": "https://www.youtube.com/watch?v=vW3WpTvjuao",
+    "releaseDate": "2022/01/28",
+    "gameIds": [
+      262
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -2963,5 +2963,20 @@
       5
     ],
     "comment": ""
+  },
+  "262": {
+    "name": "Hidden Deep",
+    "urls": [
+      "https://www.hiddendeepgame.com",
+      "https://www.facebook.com/hiddendeepgame/",
+      "https://twitter.com/HiddenDeepGame",
+      "https://www.youtube.com/hiddendeep",
+      "https://store.steampowered.com/app/976890/Hidden_Deep/"
+    ],
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

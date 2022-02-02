@@ -2990,5 +2990,15 @@
       136
     ],
     "comment": ""
+  },
+  "264": {
+    "name": "Hikikomori life",
+    "urls": [
+      "https://store.steampowered.com/app/1597800/Hikikomori_life/"
+    ],
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

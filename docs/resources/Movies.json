@@ -10038,5 +10038,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "761": {
+    "name": "引きこもりは1人で生きていけるのか？【Hikikomori life 】",
+    "url": "https://www.youtube.com/watch?v=3qenUdjnmkk",
+    "releaseDate": "2022/02/02",
+    "gameIds": [
+      264
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

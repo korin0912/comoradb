@@ -3000,5 +3000,17 @@
       5
     ],
     "comment": ""
+  },
+  "265": {
+    "name": "Horror Drift",
+    "urls": [
+      "http://kurayamiyumegames.com",
+      "https://store.steampowered.com/app/1786150/Horror_Drift/?l=japanese"
+    ],
+    "genreIds": [
+      10,
+      100
+    ],
+    "comment": ""
   }
 }

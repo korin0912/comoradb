@@ -10051,5 +10051,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "762": {
+    "name": "幽霊を轢かないようにドリフトをきめるゲーム【Horror Drift】",
+    "url": "https://www.youtube.com/watch?v=z_ypsCBXWp0",
+    "releaseDate": "2022/02/03",
+    "gameIds": [
+      265
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

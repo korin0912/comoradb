@@ -3012,5 +3012,18 @@
       100
     ],
     "comment": ""
+  },
+  "266": {
+    "name": "Alisa",
+    "urls": [
+      "https://www.caspercroes.com",
+      "https://store.steampowered.com/app/1335530/Alisa/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

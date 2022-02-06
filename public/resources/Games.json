@@ -3025,5 +3025,17 @@
       100
     ],
     "comment": ""
+  },
+  "267": {
+    "name": "Vampire Survivors",
+    "urls": [
+      "https://store.steampowered.com/app/1794680/Vampire_Survivors/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      3,
+      102
+    ],
+    "comment": ""
   }
 }

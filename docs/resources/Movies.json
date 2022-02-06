@@ -10090,5 +10090,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "765": {
+    "name": "【雑談】応援を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=Q4vuhjSoseo",
+    "releaseDate": "2022/02/06",
+    "gameIds": [
+      267
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

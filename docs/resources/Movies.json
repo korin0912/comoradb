@@ -10103,5 +10103,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "766": {
+    "name": "わざわざハゲてるってことは人間か？【Alisa】＃3",
+    "url": "https://www.youtube.com/watch?v=sflBkYbXuVA",
+    "releaseDate": "2022/02/07",
+    "gameIds": [
+      266
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

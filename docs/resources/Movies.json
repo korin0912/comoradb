@@ -10116,5 +10116,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "767": {
+    "name": "もう1人の生存者【Alisa】＃4",
+    "url": "https://www.youtube.com/watch?v=kXJ6NYKoOpE",
+    "releaseDate": "2022/02/08",
+    "gameIds": [
+      266
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

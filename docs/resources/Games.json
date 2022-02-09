@@ -3037,5 +3037,16 @@
       102
     ],
     "comment": ""
+  },
+  "268": {
+    "name": "ロックマン6",
+    "urls": [
+      "https://www.capcom.co.jp/RCC/1/",
+      "https://store.steampowered.com/app/363440/_/"
+    ],
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

@@ -10129,5 +10129,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "768": {
+    "name": "【雑談実況】詐欺メールに引っかかる知り合い【ロックマン6】＃1",
+    "url": "https://www.youtube.com/watch?v=LfcBVcZubSE",
+    "releaseDate": "2022/02/09",
+    "gameIds": [
+      268
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

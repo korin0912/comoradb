@@ -10142,5 +10142,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "769": {
+    "name": "人形ちゃんを助けたい【Alisa】＃5",
+    "url": "https://www.youtube.com/watch?v=TJhv81-UMik",
+    "releaseDate": "2022/02/10",
+    "gameIds": [
+      266
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

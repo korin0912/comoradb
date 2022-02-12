@@ -3048,5 +3048,18 @@
       1
     ],
     "comment": ""
+  },
+  "269": {
+    "name": "ヒュプノノーツ",
+    "urls": [
+      "https://hypnonautes.jp",
+      "https://store.steampowered.com/app/1836880/_/",
+      "https://store-jp.nintendo.com/list/software/70010000043676.html"
+    ],
+    "genreIds": [
+      3,
+      102
+    ],
+    "comment": ""
   }
 }

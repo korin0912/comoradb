@@ -10207,5 +10207,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "774": {
+    "name": "【雑談】生活習慣を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=nG7qIrtbk5o",
+    "releaseDate": "2022/02/15",
+    "gameIds": [
+      254
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

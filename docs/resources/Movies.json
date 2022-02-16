@@ -10220,5 +10220,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "775": {
+    "name": "愚痴りながらやる出過杉くん",
+    "url": "https://www.youtube.com/watch?v=h1HMdyehMEU",
+    "releaseDate": "2022/02/16",
+    "gameIds": [
+      271
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

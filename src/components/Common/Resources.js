@@ -7,7 +7,7 @@ function getPath(jsonName) {
   if (process.env.NODE_ENV != 'development') {
     ret += process.env.BASE_URL;
   }
-  ret += `/resources/${jsonName}.json`;
+  ret += `resources/${jsonName}.json`;
   ret = ret.replaceAll('//', '/');
   // console.log(ret);
   return ret;

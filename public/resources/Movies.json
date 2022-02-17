@@ -10233,5 +10233,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "776": {
+    "name": "【雑談実況】彼女を作っても信じてもらえない【ロックマン6】＃2",
+    "url": "https://www.youtube.com/watch?v=Kgf8BBnvsXk",
+    "releaseDate": "2022/02/17",
+    "gameIds": [
+      268
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

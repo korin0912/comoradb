@@ -3082,5 +3082,21 @@
       113
     ],
     "comment": ""
+  },
+  "272": {
+    "name": "Struggling",
+    "urls": [
+      "https://www.struggling-game.com",
+      "https://www.facebook.com/ChasingRatsGames/",
+      "https://twitter.com/Chasing_Rats",
+      "https://www.youtube.com/channel/UCq6VQlVONnNmDMir68WRGZg",
+      "https://store.steampowered.com/app/1035560/Struggling/?l=japanese"
+    ],
+    "genreIds": [
+      1,
+      2,
+      136
+    ],
+    "comment": ""
   }
 }

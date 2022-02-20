@@ -3098,5 +3098,16 @@
       136
     ],
     "comment": ""
+  },
+  "273": {
+    "name": "Cats War",
+    "urls": [
+      "https://store.steampowered.com/app/1801850/Cats_War/"
+    ],
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

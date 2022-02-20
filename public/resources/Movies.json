@@ -10272,5 +10272,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "779": {
+    "name": "猫だらけの町でアヒルと戯れるゲーム",
+    "url": "https://www.youtube.com/watch?v=7qQOAE_2UNI",
+    "releaseDate": "2022/02/20",
+    "gameIds": [
+      273
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

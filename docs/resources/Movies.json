@@ -10337,5 +10337,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "784": {
+    "name": "【雑談】お葬式を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=sFXp6CJiKQ0",
+    "releaseDate": "2022/02/26",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

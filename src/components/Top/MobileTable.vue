@@ -28,6 +28,7 @@
             <!-- タイトル -->
             <td :rowspan="item.gameRow">
               {{ item.game.name }}
+              <a v-if="('playListUrl' in item.game) && item.game.playListUrl" :href="item.game.playListUrl" target="_blank" class="icon playlist" />
               <div>
                 <div v-for="(url, urlIndex) in item.game.urls" :key="`url-${item.game.id}-${urlIndex}`" class="urlicon">
                   <a :href="url" target="_blank" :class="'icon ' + common.getUrlIconClass(url)" />

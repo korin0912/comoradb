@@ -29,6 +29,7 @@ function getOriginalTableItems() {
           id: gameId,
           name: gameData.name,
           urls: gameData.urls,
+          playListUrl: ('playListUrl' in gameData) ? gameData.playListUrl : "",
           genres: gameData.genreIds.map((genreId) => {
             return {
               id: genreId,

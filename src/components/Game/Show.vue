@@ -17,6 +17,16 @@
               </td>
             </tr>
             <tr>
+              <th class="pale">再生リストURL</th>
+              <td>
+                <ul>
+                  <li v-if="('playListUrl' in game) && game.playListUrl">
+                    <a :href="game.playListUrl" target="_blank" class="url">{{ game.playListUrl }}</a>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
               <th class="pale">ジャンル</th>
               <td>
                 <ul>

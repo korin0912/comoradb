@@ -87,6 +87,14 @@
   color: #888888;
 }
 
+.icon.playlist::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f03a";
+  font-size: 17px;
+  font-weight: 900;
+  color: var(--comora-color-dirk-purple);
+}
+
 /* WEBサイト */
 .icon.home::before {
   /* font-family: "Font Awesome 5 Brands";
@@ -108,7 +116,7 @@
   font-size: 17px;
   font-weight: 400;
   color: #324b6c;
-  background: linear-gradient(0deg, #1080B0 , #0F1C2F);
+  background: linear-gradient(0deg, #1080b0, #0f1c2f);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -118,7 +126,7 @@
   content: "\f081";
   font-size: 17px;
   font-weight: 400;
-  color: #1C9CEA;
+  color: #1c9cea;
 }
 
 .icon.facebook::before {
@@ -126,7 +134,7 @@
   content: "\f082";
   font-size: 17px;
   font-weight: 400;
-  color: #4064AC;
+  color: #4064ac;
 }
 
 .icon.youtube::before {

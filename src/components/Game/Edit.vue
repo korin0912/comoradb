@@ -19,6 +19,14 @@
           </td>
         </tr>
         <tr>
+          <th class="edit pale">再生リストURL</th>
+          <td>
+            <div style="margin-bottom: 4px">
+              <input placeholder="" class="text" v-model="inputs.playListUrl" />
+            </div>
+          </td>
+        </tr>
+        <tr>
           <th class="edit pale">ジャンル</th>
           <td>
             <div v-for="(genre, index) in inputs.genres" :key="'genre-' + index" class="checkbox">
@@ -72,6 +80,7 @@ export default {
       inputs = {
         title: "",
         urls: [""],
+        playListUrl: "",
         genres: genres,
         comment: "",
       };
@@ -90,6 +99,7 @@ export default {
       inputs = {
         title: org.name,
         urls: org.urls,
+        playListUrl: ('playListUrl' in org) ? org.playListUrl : "",
         genres: genres,
         comment: org.comment,
       };
@@ -122,6 +132,7 @@ async function create() {
   resources.updateGame(this.gameId, {
     name: this.inputs.title,
     urls: this.inputs.urls.filter((v) => v),
+    playListUrl: this.inputs.playListUrl,
     genreIds: this.inputs.genres.filter((v) => v.checked).map((v) => parseInt(v.id)),
     comment: this.inputs.comment,
   });

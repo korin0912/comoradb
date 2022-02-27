@@ -10350,5 +10350,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "785": {
+    "name": "サボテンに感情などない【Struggling】＃5",
+    "url": "https://www.youtube.com/watch?v=nCbG4oaaUis",
+    "releaseDate": "2022/02/27",
+    "gameIds": [
+      272
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

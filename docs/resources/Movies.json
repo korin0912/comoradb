@@ -10402,5 +10402,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "789": {
+    "name": "これはクスリやってますわ【Struggling】＃7",
+    "url": "https://www.youtube.com/watch?v=ZG1_bn4xx4w",
+    "releaseDate": "2022/03/04",
+    "gameIds": [
+      272
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

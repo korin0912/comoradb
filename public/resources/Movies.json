@@ -10428,5 +10428,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "791": {
+    "name": "【雑談】再現VTRを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=xufAHVsZfhM",
+    "releaseDate": "2022/03/06",
+    "gameIds": [
+      267
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

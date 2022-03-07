@@ -10441,5 +10441,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "792": {
+    "name": "俺たちも生きてんだよぉ！【Struggling】＃9",
+    "url": "https://www.youtube.com/watch?v=Yf_7A_LH1Sw",
+    "releaseDate": "2022/03/07",
+    "gameIds": [
+      272
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

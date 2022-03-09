@@ -10467,5 +10467,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "794": {
+    "name": "【雑談実況】革靴って何であんな履きにくいん？【ロックマン6】＃4",
+    "url": "https://www.youtube.com/watch?v=Alv77bGlpg0",
+    "releaseDate": "2022/03/09",
+    "gameIds": [
+      268
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

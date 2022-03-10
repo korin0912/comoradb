@@ -10480,5 +10480,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "795": {
+    "name": "引きこもってたら襲われました【August Night】",
+    "url": "https://www.youtube.com/watch?v=sG-rHy5Oa40",
+    "releaseDate": "2022/03/10",
+    "gameIds": [
+      275
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

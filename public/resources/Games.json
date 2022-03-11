@@ -3198,5 +3198,17 @@
       100
     ],
     "comment": ""
+  },
+  "276": {
+    "name": "Zombie VS Police",
+    "urls": [
+      "https://store.steampowered.com/app/1903600/Zombie_VS_Police/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      126
+    ],
+    "comment": ""
   }
 }

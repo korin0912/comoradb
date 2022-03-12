@@ -3210,5 +3210,18 @@
       126
     ],
     "comment": ""
+  },
+  "277": {
+    "name": "Chill Corner",
+    "urls": [
+      "https://twitter.com/LowHighTech1",
+      "https://www.youtube.com/channel/UCj5S5O2bo8wc7nKodYuLqzQ",
+      "https://store.steampowered.com/app/1749630/Chill_Corner/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

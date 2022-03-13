@@ -10519,5 +10519,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "798": {
+    "name": "【最強実況生放送】タカシです、『ひとりかくれんぼ』をします。",
+    "url": "https://www.youtube.com/watch?v=n87SkIolHTs",
+    "releaseDate": "2022/03/13",
+    "gameIds": [
+      278
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

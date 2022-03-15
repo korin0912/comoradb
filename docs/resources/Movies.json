@@ -10545,5 +10545,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "800": {
+    "name": "石鹸君、夕日が綺麗だよ【LOST BUBBLES】＃6",
+    "url": "https://www.youtube.com/watch?v=RdTYWvq8t_E",
+    "releaseDate": "2022/03/15",
+    "gameIds": [
+      254
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

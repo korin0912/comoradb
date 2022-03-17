@@ -10571,5 +10571,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "802": {
+    "name": "【雑談】親戚の集まりを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=JOIhXKArf_U",
+    "releaseDate": "2022/03/17",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

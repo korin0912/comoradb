@@ -10636,5 +10636,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "807": {
+    "name": "【雑談実況】一億手に入れて仕事を辞めたい【ロックマン6】＃5",
+    "url": "https://www.youtube.com/watch?v=LWZpiuF3NJU",
+    "releaseDate": "2022/03/23",
+    "gameIds": [
+      268
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

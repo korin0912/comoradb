@@ -10649,5 +10649,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "808": {
+    "name": "救いがない【Tide Up】＃5",
+    "url": "https://www.youtube.com/watch?v=R7SV6O5kAPM",
+    "releaseDate": "2022/03/24",
+    "gameIds": [
+      279
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -3245,5 +3245,17 @@
       2
     ],
     "comment": ""
+  },
+  "280": {
+    "name": "星のカービィ ディスカバリー",
+    "urls": [
+      "https://www.nintendo.co.jp/switch/arzga/index.html"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnkfZg2-jt2aXIwlFA5Xcil",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

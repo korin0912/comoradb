@@ -3257,5 +3257,19 @@
       2
     ],
     "comment": ""
+  },
+  "281": {
+    "name": "The Closing Shift | 閉店事件",
+    "urls": [
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ",
+      "https://store.steampowered.com/app/1843090/The_Closing_Shift/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

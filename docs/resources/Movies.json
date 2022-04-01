@@ -10766,5 +10766,20 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "817": {
+    "name": "【コモラ不在】ピーナッツくん(?)がサッカーゲームをするナッツ！",
+    "url": "https://www.youtube.com/watch?v=CTaPrgsmhKw",
+    "releaseDate": "2022/04/01",
+    "gameIds": [
+      282
+    ],
+    "actorIds": [
+      1,
+      2,
+      8
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

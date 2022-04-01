@@ -10753,5 +10753,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "816": {
+    "name": "バレエダンサーとは闘うな【カービィ ディスカバリー】＃4",
+    "url": "https://www.youtube.com/watch?v=wGww77dKn_0",
+    "releaseDate": "2022/04/01",
+    "gameIds": [
+      280
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

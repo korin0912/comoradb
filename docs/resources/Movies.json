@@ -10833,5 +10833,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "822": {
+    "name": "エクスカリバーを引き抜けない【The one who pulls out the sword will be crowned king】",
+    "url": "https://www.youtube.com/watch?v=9ROgmE5SxPg",
+    "releaseDate": "2022/04/07",
+    "gameIds": [
+      283
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -10859,5 +10859,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "824": {
+    "name": "【雑談実況】現金はの僕、電子マネーを使うことを決意【ロックマン6】＃6(終)",
+    "url": "https://www.youtube.com/watch?v=PMkRg4RCqBc",
+    "releaseDate": "2022/04/09",
+    "gameIds": [
+      268
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

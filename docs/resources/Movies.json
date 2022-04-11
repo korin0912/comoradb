@@ -10872,5 +10872,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "825": {
+    "name": "何が孤高やこっちはボッチやぞ！【カービィ ディスカバリー】＃8",
+    "url": "https://www.youtube.com/watch?v=XSBiEqBNOD8",
+    "releaseDate": "2022/04/11",
+    "gameIds": [
+      280
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

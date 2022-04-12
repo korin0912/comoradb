@@ -10861,7 +10861,7 @@
     "comment": ""
   },
   "824": {
-    "name": "【雑談実況】現金はの僕、電子マネーを使うことを決意【ロックマン6】＃6(終)",
+    "name": "【雑談実況】現金派の僕、電子マネーを使うことを決意【ロックマン6】＃6(終)",
     "url": "https://www.youtube.com/watch?v=PMkRg4RCqBc",
     "releaseDate": "2022/04/09",
     "gameIds": [
@@ -10877,6 +10877,19 @@
     "name": "何が孤高やこっちはボッチやぞ！【カービィ ディスカバリー】＃8",
     "url": "https://www.youtube.com/watch?v=XSBiEqBNOD8",
     "releaseDate": "2022/04/11",
+    "gameIds": [
+      280
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "826": {
+    "name": "こんな強能力で負けることなんてないやろなぁ・・・【カービィ ディスカバリー】＃9",
+    "url": "https://www.youtube.com/watch?v=Ajfv4SxRDMU",
+    "releaseDate": "2022/04/12",
     "gameIds": [
       280
     ],

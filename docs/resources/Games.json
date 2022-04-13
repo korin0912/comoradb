@@ -3297,5 +3297,17 @@
       113
     ],
     "comment": ""
+  },
+  "284": {
+    "name": "Ib",
+    "urls": [
+      "https://store.steampowered.com/app/1901370/Ib/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

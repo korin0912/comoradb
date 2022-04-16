@@ -10937,5 +10937,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "830": {
+    "name": "美少女が仲間になってなんか怖い【Ib】＃3",
+    "url": "https://www.youtube.com/watch?v=47tlIcL7MsE",
+    "releaseDate": "2022/04/16",
+    "gameIds": [
+      284
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

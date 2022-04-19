@@ -10976,5 +10976,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "833": {
+    "name": "【雑談実況】サザエさんで笑いまくる父【ロックマン7】＃1",
+    "url": "https://www.youtube.com/watch?v=AYRlz-4kD2U",
+    "releaseDate": "2022/04/19",
+    "gameIds": [
+      285
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

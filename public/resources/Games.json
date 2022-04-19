@@ -3309,5 +3309,17 @@
       100
     ],
     "comment": ""
+  },
+  "285": {
+    "name": "ロックマン7",
+    "urls": [
+      "https://www.capcom.co.jp/RCC/2/",
+      "https://store.steampowered.com/app/495050/___2/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnEtI90RldFtc1f_GMrkin0",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

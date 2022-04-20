@@ -10989,5 +10989,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "834": {
+    "name": "また洗脳されてんのかこの王【カービィ ディスカバリー】＃11",
+    "url": "https://www.youtube.com/watch?v=Iwuh2so0niY",
+    "releaseDate": "2022/04/20",
+    "gameIds": [
+      280
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

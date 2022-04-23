@@ -11028,5 +11028,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "837": {
+    "name": "【雑談】自動販売機を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=GsUt856dNe8",
+    "releaseDate": "2022/04/23",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

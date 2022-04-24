@@ -11041,5 +11041,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "838": {
+    "name": "禁足地に生息してる奴らなんやねん【カービィ ディスカバリー】＃14",
+    "url": "https://www.youtube.com/watch?v=a4y2kol1KUs",
+    "releaseDate": "2022/04/24",
+    "gameIds": [
+      280
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

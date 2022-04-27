@@ -11080,5 +11080,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "841": {
+    "name": "【雑談実況】泣いてる子供にゃアニメを見せろ【ロックマン7】＃2",
+    "url": "https://www.youtube.com/watch?v=2Coc7I-CrgE",
+    "releaseDate": "2022/04/27",
+    "gameIds": [
+      285
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

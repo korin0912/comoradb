@@ -11093,5 +11093,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "842": {
+    "name": "いや、子供を持ち出すのはズルいて【Trolley Problem, Inc.】＃2",
+    "url": "https://www.youtube.com/watch?v=gnCHx2kGZ9M",
+    "releaseDate": "2022/04/28",
+    "gameIds": [
+      286
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

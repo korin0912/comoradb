@@ -11145,5 +11145,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "846": {
+    "name": "ピンボールで敵を倒す新感覚ローグライクゲーム！【Peglin】",
+    "url": "https://www.youtube.com/watch?v=WgX4O9sL7aE",
+    "releaseDate": "2022/05/02",
+    "gameIds": [
+      287
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

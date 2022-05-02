@@ -3334,5 +3334,19 @@
       5
     ],
     "comment": ""
+  },
+  "287": {
+    "name": "Peglin",
+    "urls": [
+      "https://rednexus.games",
+      "https://twitter.com/rednexusgames",
+      "https://store.steampowered.com/app/1296610/Peglin/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      107
+    ],
+    "comment": ""
   }
 }

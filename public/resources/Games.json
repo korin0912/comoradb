@@ -3348,5 +3348,17 @@
       107
     ],
     "comment": ""
+  },
+  "288": {
+    "name": "Repit",
+    "urls": [
+      "https://store.steampowered.com/app/1755890/Repit/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      103
+    ],
+    "comment": ""
   }
 }

@@ -3360,5 +3360,17 @@
       103
     ],
     "comment": ""
+  },
+  "289": {
+    "name": "JAMPING FISH",
+    "urls": [
+      "https://store.steampowered.com/app/1963280/JAMPING_FISH/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbk8RygoI3Y7j42JChxqmn6G",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

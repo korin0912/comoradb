@@ -3372,5 +3372,19 @@
       136
     ],
     "comment": ""
+  },
+  "290": {
+    "name": "RATUZ",
+    "urls": [
+      "https://twitter.com/BadCoffeeGames",
+      "https://www.youtube.com/channel/UCWYi_VwVgHyZZ-F6ZQ0TJWg",
+      "https://store.steampowered.com/app/1550840/RATUZ/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbl-gYnNQUDRhp-HR883Etw1",
+    "genreIds": [
+      2,
+      103
+    ],
+    "comment": ""
   }
 }

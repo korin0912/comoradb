@@ -11315,5 +11315,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "859": {
+    "name": "【雑談実況】逃げるは恥だしクズである【ロックマン7】＃3",
+    "url": "https://www.youtube.com/watch?v=JciUPQc2-L8",
+    "releaseDate": "2022/05/15",
+    "gameIds": [
+      285
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

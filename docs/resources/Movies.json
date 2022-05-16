@@ -11328,5 +11328,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "860": {
+    "name": "10分で終わるゲーム【10 Minutes Till Dawn】",
+    "url": "https://www.youtube.com/watch?v=WkhBCiUufh8",
+    "releaseDate": "2022/05/16",
+    "gameIds": [
+      291
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

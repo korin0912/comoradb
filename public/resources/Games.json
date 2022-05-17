@@ -3399,5 +3399,17 @@
       102
     ],
     "comment": ""
+  },
+  "292": {
+    "name": "Ready Action",
+    "urls": [
+      "https://store.steampowered.com/app/1955690/Ready_Action/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      103
+    ],
+    "comment": ""
   }
 }

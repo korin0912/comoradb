@@ -11341,5 +11341,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "861": {
+    "name": "1シーンを撮るのが難しすぎるゲーム【Ready Action】",
+    "url": "https://www.youtube.com/watch?v=MrKWcyxDGVs",
+    "releaseDate": "2022/05/17",
+    "gameIds": [
+      292
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

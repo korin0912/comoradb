@@ -3411,5 +3411,22 @@
       103
     ],
     "comment": ""
+  },
+  "293": {
+    "name": "殺しの館",
+    "urls": [
+      "https://www.youtube.com/puppetcombo",
+      "https://store-jp.nintendo.com/list/software/70010000048927.html",
+      "https://store.playstation.com/ja-jp/product/JP6727-CUSA30464_00-2007495638272998",
+      "https://www.xbox.com/ja-JP/games/store/5q6644gx44gu6aso/9pcsh678rs9s",
+      "https://store.steampowered.com/app/1064460/Murder_House/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbk65nHAZlXT-YcZzNVIGHh6",
+    "genreIds": [
+      2,
+      100,
+      104
+    ],
+    "comment": ""
   }
 }

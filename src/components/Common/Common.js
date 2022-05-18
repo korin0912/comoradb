@@ -24,6 +24,8 @@ function getUrlIconClass(url) {
     return "capcom";
   } else if (url.indexOf(".playstation.com") != -1) {
     return "playstation";
+  } else if (url.indexOf(".xbox.com") != -1) {
+    return "xbox";
   } else {
     return "home";
   }

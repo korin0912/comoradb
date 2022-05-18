@@ -214,6 +214,14 @@
   color: #0060b2;
 }
 
+.icon.xbox::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f412";
+  font-size: 17px;
+  font-weight: 400;
+  color: #107C10;
+}
+
 /* 出演者 */
 .icon.actor-1::before {
   content: "";

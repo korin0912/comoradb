@@ -3428,5 +3428,19 @@
       104
     ],
     "comment": ""
+  },
+  "294": {
+    "name": "Dorfromantik",
+    "urls": [
+      "https://toukana.com/dorfromantik/",
+      "https://twitter.com/_Toukana",
+      "https://store.steampowered.com/app/1455840/Dorfromantik/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      4,
+      107
+    ],
+    "comment": ""
   }
 }

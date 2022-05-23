@@ -3442,5 +3442,16 @@
       107
     ],
     "comment": ""
+  },
+  "295": {
+    "name": "HAYAI",
+    "urls": [
+      "https://store.steampowered.com/app/1983000/HAYAI/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

@@ -11419,5 +11419,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "867": {
+    "name": "一筆書きで無双する爽快ゲーム【HAYAI】",
+    "url": "https://www.youtube.com/watch?v=9-Ygl9aWoUU",
+    "releaseDate": "2022/05/23",
+    "gameIds": [
+      295
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

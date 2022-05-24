@@ -11432,5 +11432,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "868": {
+    "name": "【挑戦】POSUKEが難しくなりました【高難度POSUKE】",
+    "url": "https://www.youtube.com/watch?v=mKC5UmbVyoI",
+    "releaseDate": "2022/05/24",
+    "gameIds": [
+      56
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -11445,5 +11445,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "869": {
+    "name": "【雑談実況】youtube様！アカウントBANしないで！！【ロックマン7】＃4",
+    "url": "https://www.youtube.com/watch?v=e3-Dl19kvd0",
+    "releaseDate": "2022/05/25",
+    "gameIds": [
+      285
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

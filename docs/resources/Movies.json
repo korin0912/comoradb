@@ -11458,5 +11458,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "870": {
+    "name": "天井に生息する黄金マッチョを探せ！",
+    "url": "https://www.youtube.com/watch?v=Ca4g8R_InDI",
+    "releaseDate": "2022/05/26",
+    "gameIds": [
+      296
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

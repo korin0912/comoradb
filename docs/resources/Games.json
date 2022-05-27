@@ -3465,5 +3465,17 @@
       113
     ],
     "comment": ""
+  },
+  "297": {
+    "name": "残業深夜",
+    "urls": [
+      "https://novelgame.jp/games/show/5435"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100,
+      139
+    ],
+    "comment": ""
   }
 }

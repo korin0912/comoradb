@@ -3477,5 +3477,17 @@
       139
     ],
     "comment": ""
+  },
+  "298": {
+    "name": "Vaccine Delivery Simulator",
+    "urls": [
+      "https://store.steampowered.com/app/1540130/Vaccine_Delivery_Simulator/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      113
+    ],
+    "comment": ""
   }
 }

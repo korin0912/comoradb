@@ -3489,5 +3489,18 @@
       113
     ],
     "comment": ""
+  },
+  "299": {
+    "name": "Golfie",
+    "urls": [
+      "https://www.triheart.dk",
+      "https://store.steampowered.com/app/1579020/Golfie/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      6,
+      138
+    ],
+    "comment": ""
   }
 }

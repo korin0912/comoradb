@@ -11510,5 +11510,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "874": {
+    "name": "カード構築型ゴルフゲームが楽しすぎた【Golfie】",
+    "url": "https://www.youtube.com/watch?v=5zbDutLuiM4",
+    "releaseDate": "2022/05/30",
+    "gameIds": [
+      299
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -11523,5 +11523,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "875": {
+    "name": "【雑談】じゃんけんを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=AF-KyWLUWnU",
+    "releaseDate": "2022/05/31",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

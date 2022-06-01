@@ -3502,5 +3502,16 @@
       138
     ],
     "comment": ""
+  },
+  "300": {
+    "name": "Cheese Game",
+    "urls": [
+      "https://store.steampowered.com/app/1992430/Cheese_Game/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

@@ -11536,5 +11536,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "876": {
+    "name": "チー牛系vtuber、チーズになる【Cheese Game】",
+    "url": "https://www.youtube.com/watch?v=S6ZvRRDYvBg",
+    "releaseDate": "2022/06/01",
+    "gameIds": [
+      300
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

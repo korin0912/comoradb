@@ -3513,5 +3513,18 @@
       1
     ],
     "comment": ""
+  },
+  "301": {
+    "name": "添丁の伝説",
+    "urls": [
+      "https://store-jp.nintendo.com/list/software/70010000042617.html",
+      "https://store.steampowered.com/app/1406850/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkBxxUMTWAQeFvlVKuJC7nU",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

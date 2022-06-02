@@ -86,6 +86,18 @@ function updateJson(id, file, req, res) {
     data[String(id)] = postData;
 
     // データ保存
+    // let saveString = "";
+    // saveString += "{\n";
+    // let ids = Object.keys(data);
+    // let lastId = ids.slice(-1)[0];
+    // ids.forEach(id => {
+    //   saveString += `  \"${id}\": `;
+    //   saveString += JSON.stringify(data[id], null, null);
+    //   saveString += `${lastId != id ? "," : ""}\n`;
+    // });
+    // saveString += "}";
+    // console.log(saveString);
+    // fs.writeFileSync(`public/resources/${file}.json`, saveString);
     fs.writeFileSync(`public/resources/${file}.json`, JSON.stringify(data, null, 2));
 
     console.log('success');

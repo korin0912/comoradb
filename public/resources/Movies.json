@@ -11589,5 +11589,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "880": {
+    "name": "【雑談実況】モンモンって知ってる？【ロックマン7】＃5",
+    "url": "https://www.youtube.com/watch?v=MlZhygxAo-E",
+    "releaseDate": "2022/06/05",
+    "gameIds": [
+      285
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

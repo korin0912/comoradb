@@ -11602,5 +11602,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "881": {
+    "name": "Hなくノ一が現れた！【添丁の伝説】＃4",
+    "url": "https://www.youtube.com/watch?v=mH1yftntBMU",
+    "releaseDate": "2022/06/06",
+    "gameIds": [
+      301
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

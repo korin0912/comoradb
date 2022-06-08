@@ -11628,5 +11628,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "883": {
+    "name": "【雑談】POSUKEしながら雑に話すコモ",
+    "url": "https://www.youtube.com/watch?v=asyh6wMc9mQ",
+    "releaseDate": "2022/06/08",
+    "gameIds": [
+      56
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

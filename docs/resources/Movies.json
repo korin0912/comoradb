@@ -11654,5 +11654,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "885": {
+    "name": "息抜きに牛乳を飲みます",
+    "url": "https://www.youtube.com/watch?v=_YFOreh5NX4",
+    "releaseDate": "2022/06/10",
+    "gameIds": [
+      302
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

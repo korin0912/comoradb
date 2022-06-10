@@ -3526,5 +3526,16 @@
       2
     ],
     "comment": ""
+  },
+  "302": {
+    "name": "直に牛乳を飲め",
+    "urls": [
+      "https://store.steampowered.com/app/1924440/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113
+    ],
+    "comment": ""
   }
 }

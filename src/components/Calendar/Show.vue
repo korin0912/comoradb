@@ -17,6 +17,7 @@
 import Header from "../Common/Header.vue";
 import PCTable from "./PCTable.vue";
 import MobileTable from "./MobileTable.vue";
+import { useRoute } from 'vue-router'
 
 import common from "../Common/Common.js";
 import resources from "../Common/Resources.js";
@@ -30,7 +31,8 @@ export default {
   },
   data: function () {
     // console.clear();
-    let calendarMonth = this.$route.params.calendarMonth;
+    let route = useRoute();
+    let calendarMonth = route.params.calendarMonth;
     let year = parseInt(calendarMonth.split("-")[0]);
     let month = parseInt(calendarMonth.split("-")[1]);
     let days = makeDays(year, month);

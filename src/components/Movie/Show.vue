@@ -37,7 +37,7 @@
           </thead>
         </table>
         <div v-if="isLocal && !isMobile" style="height: 21px; margin: 10px 0 10px 0">
-          <button v-on:click="$router.push({ name: 'MovieEdit', params: { movieId: movieId } })" class="edit" />
+          <button v-on:click="router.push({ name: 'MovieEdit', params: { movieId: movieId } })" class="edit" />
         </div>
         <div v-if="gameIds.length > 0" style="margin: 10px 0 60px 0">
           <GameTable :gameIds="gameIds" />
@@ -50,6 +50,7 @@
 <script>
 import Header from "../Common/Header.vue";
 import GameTable from "../Game/Table.vue";
+import { useRoute, useRouter } from 'vue-router'
 
 import common from "../Common/Common.js";
 import resources from "../Common/Resources.js";
@@ -61,9 +62,10 @@ export default {
     GameTable,
   },
   data: function () {
+    let route = useRoute();
     let isLocal = process.env.NODE_ENV == "development";
     let isMobile = common.isMobile();
-    let movieId = this.$route.params.movieId;
+    let movieId = route.params.movieId;
 
     let moviesData = resources.getMoviesData();
     let gamesData = resources.getGamesData();
@@ -78,6 +80,7 @@ export default {
     });
 
     return {
+      router: useRouter(),
       isLocal: isLocal,
       isMobile: isMobile,
       movieId: movieId,

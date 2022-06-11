@@ -55,12 +55,14 @@
 
 <script>
 import top from "./Top.js";
+import { useRouter } from 'vue-router'
 
 export default {
   name: "TopFilter",
   props: ["initFilterParams"],
   data: function () {
     return {
+      router: useRouter(),
       params: this.initFilterParams,
     };
   },
@@ -80,7 +82,7 @@ export default {
     goActor: function (actorId) {
       // console.log(actorId);
       document.body.classList.remove("bm-overlay");
-      this.$router.push({ name: "ActorShow", params: { actorId: actorId } });
+      this.router.push({ name: "ActorShow", params: { actorId: actorId } });
     }
   },
 };

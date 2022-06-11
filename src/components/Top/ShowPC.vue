@@ -1,7 +1,7 @@
 ﻿<template>
   <div v-if="isLoading" class="container">
     <div v-if="isLoading">
-      <vue-loading type="spin" color="#333" :size="{ width: '50px', height: '50px' }"></vue-loading>
+      <vue-element-loading :active="show" color="#333" spinner="bar-fade-scale" size="50px" />
     </div>
   </div>
   <div v-else class="container">
@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import { VueLoading } from "vue-loading-template";
+import VueElementLoading from "vue-element-loading";
 import top from "./Top.js";
 import PCTable from "./PCTable.vue";
 import TopFilter from "./Filter.vue";
@@ -52,7 +52,7 @@ const { default: axios } = require("axios");
 export default {
   name: "TopShowPC",
   components: {
-    VueLoading,
+    VueElementLoading,
     PCTable,
     TopFilter,
   },

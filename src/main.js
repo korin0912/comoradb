@@ -1,11 +1,7 @@
-import Vue from 'vue';
-import VueHead from 'vue-head';
-import VueRouter from 'vue-router';
+import { createApp } from 'vue';
+import { createRouter, createWebHashHistory } from 'vue-router';
+import { createHead } from '@vueuse/head';
 import App from './App.vue';
-
-Vue.config.productionTip = false;
-Vue.use(VueHead);
-Vue.use(VueRouter);
 
 let routes = [
   {
@@ -48,20 +44,20 @@ if (process.env.NODE_ENV == 'development') {
   });
 }
 
-const router = new VueRouter({
-  mode: 'hash',
-  base: process.env.BASE_URL,
-  routes: routes,
-  scrollBehavior (to, from, savedPosition) {
+const Vue = createApp(App)
+
+Vue.use(createRouter({
+  history: createWebHashHistory(process.env.BASE_URL),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition
     } else {
       return { x: 0, y: 0 }
     }
   }
-});
+}));
 
-new Vue({
-  router,
-  render: h => h(App),
-}).$mount('#app');
+Vue.use(createHead());
+
+Vue.mount('#app');

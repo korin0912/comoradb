@@ -1,4 +1,6 @@
-﻿import Vue from "vue";
+﻿import { createApp } from "vue";
+
+const Vue = createApp({});
 
 const { default: axios } = require("axios");
 
@@ -14,10 +16,10 @@ function getPath(jsonName) {
 }
 
 function isLoadedAllData() {
-  return Vue.prototype.$actorsData &&
-    Vue.prototype.$gameGenresData &&
-    Vue.prototype.$gamesData &&
-    Vue.prototype.$moviesData;
+  return Vue.config.globalProperties.$actorsData &&
+    Vue.config.globalProperties.$gameGenresData &&
+    Vue.config.globalProperties.$gamesData &&
+    Vue.config.globalProperties.$moviesData;
 }
 
 async function loadAllData() {
@@ -28,26 +30,31 @@ async function loadAllData() {
     axios.get(getPath('Movies')),
   ]);
 
-  Vue.prototype.$actorsData = responses[0].data;
-  Vue.prototype.$gameGenresData = responses[1].data;
-  Vue.prototype.$gamesData = responses[2].data;
-  Vue.prototype.$moviesData = responses[3].data;
+  Vue.config.globalProperties.$actorsData = responses[0].data;
+  Vue.config.globalProperties.$gameGenresData = responses[1].data;
+  Vue.config.globalProperties.$gamesData = responses[2].data;
+  Vue.config.globalProperties.$moviesData = responses[3].data;
+
+  Object.freeze(Vue.config.globalProperties.$actorsData);
+  Object.freeze(Vue.config.globalProperties.$gameGenresData);
+  Object.freeze(Vue.config.globalProperties.$gamesData);
+  Object.freeze(Vue.config.globalProperties.$moviesData);
 }
 
 function getActorsData() {
-  return Vue.prototype.$actorsData;
+  return Vue.config.globalProperties.$actorsData;
 }
 
 function getGameGenresData() {
-  return Vue.prototype.$gameGenresData;
+  return Vue.config.globalProperties.$gameGenresData;
 }
 
 function getGamesData() {
-  return Vue.prototype.$gamesData;
+  return Vue.config.globalProperties.$gamesData;
 }
 
 function getMoviesData() {
-  return Vue.prototype.$moviesData;
+  return Vue.config.globalProperties.$moviesData;
 }
 
 function updateMovie(movieId, postData) {
@@ -58,11 +65,11 @@ function updateMovie(movieId, postData) {
     url = `http://localhost:8081/movie/edit/${movieId}`;
   }
 
-  if (!Vue.prototype.$editRequests) {
-    Vue.prototype.$editRequests = [];
+  if (!Vue.config.globalProperties.$editRequests) {
+    Vue.config.globalProperties.$editRequests = [];
   }
 
-  Vue.prototype.$editRequests.push({
+  Vue.config.globalProperties.$editRequests.push({
     url: url,
     postData: postData,
   });
@@ -77,24 +84,24 @@ function updateGame(gameId, postData) {
     url = `http://localhost:8081/game/edit/${gameId}`;
   }
 
-  if (!Vue.prototype.$editRequests) {
-    Vue.prototype.$editRequests = [];
+  if (!Vue.config.globalProperties.$editRequests) {
+    Vue.config.globalProperties.$editRequests = [];
   }
 
-  Vue.prototype.$editRequests.push({
+  Vue.config.globalProperties.$editRequests.push({
     url: url,
     postData: postData,
   });
 }
 
 async function execute() {
-  if (!Vue.prototype.$editRequests) {
+  if (!Vue.config.globalProperties.$editRequests) {
     return;
   }
 
   let update = false;
-  while (Vue.prototype.$editRequests.length > 0) {
-    let req = Vue.prototype.$editRequests.shift();
+  while (Vue.config.globalProperties.$editRequests.length > 0) {
+    let req = Vue.config.globalProperties.$editRequests.shift();
     console.log(`edit request: ${req.url}`);
     console.log(req.postData);
     console.log(JSON.stringify(req.postData));

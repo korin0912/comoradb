@@ -49,6 +49,7 @@
 
 <script>
 import Header from "../Common/Header.vue";
+import { useRoute, useRouter } from 'vue-router'
 
 import resources from "../Common/Resources.js";
 
@@ -58,7 +59,8 @@ export default {
     Header,
   },
   data: function () {
-    let gameId = this.$route.params.gameId;
+    let route = useRoute();
+    let gameId = route.params.gameId;
 
     let gamesData = resources.getGamesData();
     let gameGenresData = resources.getGameGenresData();
@@ -107,6 +109,7 @@ export default {
     // console.log(inputs);
 
     return {
+      router: useRouter(),
       gameId: gameId,
       gamesData: gamesData,
       gameGenresData: gameGenresData,
@@ -137,7 +140,7 @@ async function create() {
     comment: this.inputs.comment,
   });
 
-  this.$router.back();
+  this.router.back();
 }
 </script>
 

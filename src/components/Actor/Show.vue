@@ -4,7 +4,7 @@
     <div class="container">
       <!-- 出演者 -->
       <div :class="isMobile == false ? 'pc' : 'mobile'">
-        <img :src="require('../../assets/images/actor_' + this.$route.params.actorId + '.png')" class="actor" />
+        <img :src="require('../../assets/images/actor_' + route.params.actorId + '.png')" class="actor" />
         <br />
         <br />
         <table>
@@ -47,6 +47,7 @@
 import Header from "../Common/Header.vue";
 import PCTable from "../Top/PCTable.vue";
 import MobileTable from "../Top/MobileTable.vue";
+import { useRoute } from 'vue-router'
 
 import common from "../Common/Common.js";
 import resources from "../Common/Resources.js";
@@ -60,19 +61,21 @@ export default {
     MobileTable,
   },
   data: function () {
+    let route = useRoute();
     let actorsData = resources.getActorsData();
     let actorIdx = Object.keys(actorsData).find((key) => {
-      return key == this.$route.params.actorId;
+      return key == route.params.actorId;
     });
 
     let filterParams = top.getInitialFilterParams();
     filterParams.actors.forEach((elem) => {
-      if (elem.id == this.$route.params.actorId) {
+      if (elem.id == route.params.actorId) {
         elem.check = true;
       }
     });
 
     return {
+      route: route,
       actor: actorsData[actorIdx],
       isMobile: common.isMobile(),
       filterParams: filterParams,

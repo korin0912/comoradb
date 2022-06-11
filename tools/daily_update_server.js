@@ -24,6 +24,16 @@ const server = http.createServer((req, res) => {
       console.log(postData.commitMessage);
     }).on("end", function () {
       console.log('daily update');
+
+      // const d1 = new Date();
+      // while (true) {
+      //   const d2 = new Date();
+      //   if (d2 - d1 > 1000) {
+      //     break;
+      //   }
+      // }
+      // res.end('更新しました');
+
       // copy public/resources/*.json => docs/resources/
       let cmd = 'copy public\\resources\\*.json docs\\resources\\';
       exec(cmd, (err, stdout, stderr) => {

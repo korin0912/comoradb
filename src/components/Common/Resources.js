@@ -34,11 +34,6 @@ async function loadAllData() {
   Vue.config.globalProperties.$gameGenresData = responses[1].data;
   Vue.config.globalProperties.$gamesData = responses[2].data;
   Vue.config.globalProperties.$moviesData = responses[3].data;
-
-  Object.freeze(Vue.config.globalProperties.$actorsData);
-  Object.freeze(Vue.config.globalProperties.$gameGenresData);
-  Object.freeze(Vue.config.globalProperties.$gamesData);
-  Object.freeze(Vue.config.globalProperties.$moviesData);
 }
 
 function getActorsData() {

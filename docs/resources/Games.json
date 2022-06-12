@@ -3537,5 +3537,20 @@
       113
     ],
     "comment": ""
+  },
+  "303": {
+    "name": "クアリー ～悪夢のサマーキャンプ",
+    "urls": [
+      "https://quarrygame.2k.com/ja-JP/",
+      "https://store.playstation.com/ja-jp/product/JP0230-PPSA06226_00-QUARRYDLXED00000/",
+      "https://store.steampowered.com/app/1577120/_/?l=japanese",
+      "https://www.xbox.com/ja-JP/games/store/the-quarry-deluxe-edition/9PFPM1P9HQN6"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmFhZSy862YLU4WGSrOV-nt",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

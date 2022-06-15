@@ -11720,5 +11720,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "890": {
+    "name": "悪夢が始まらないんだが？【クアリー ～悪夢のサマーキャンプ】＃3",
+    "url": "https://www.youtube.com/watch?v=YQXIzjeez1s",
+    "releaseDate": "2022/06/15",
+    "gameIds": [
+      303
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -11746,5 +11746,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "892": {
+    "name": "【雑談実況】わい、改造車を乗り回していた【ロックマン7】＃6",
+    "url": "https://www.youtube.com/watch?v=wdGiICo82M4",
+    "releaseDate": "2022/06/17",
+    "gameIds": [
+      285
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

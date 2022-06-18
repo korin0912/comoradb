@@ -11759,5 +11759,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "893": {
+    "name": "最初の犠牲者【クアリー ～悪夢のサマーキャンプ】＃5",
+    "url": "https://www.youtube.com/watch?v=cqKphlJmeHQ",
+    "releaseDate": "2022/06/18",
+    "gameIds": [
+      303
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

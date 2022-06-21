@@ -11798,5 +11798,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "896": {
+    "name": "【手書き】イマジナリーフレンドを語る【雑談/これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=_bAbP3dNDRU",
+    "releaseDate": "2022/06/21",
+    "gameIds": [
+      99999
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

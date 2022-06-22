@@ -11811,5 +11811,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "897": {
+    "name": "ローラの独房生活【クアリー ～悪夢のサマーキャンプ】＃8",
+    "url": "https://www.youtube.com/watch?v=o1NvDV3E70k",
+    "releaseDate": "2022/06/22",
+    "gameIds": [
+      303
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

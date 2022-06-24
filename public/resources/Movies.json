@@ -11837,5 +11837,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "899": {
+    "name": "なんかよく分からんアクションゲームをやる【2D Platformer GAME (Toy Factory)】",
+    "url": "https://www.youtube.com/watch?v=wUo5LhHbryo",
+    "releaseDate": "2022/06/24",
+    "gameIds": [
+      304
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

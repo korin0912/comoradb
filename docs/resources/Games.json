@@ -3552,5 +3552,19 @@
       100
     ],
     "comment": ""
+  },
+  "304": {
+    "name": "2D Platformer GAME (Toy Factory)",
+    "urls": [
+      "https://twitter.com/JoJoArt15207004",
+      "https://www.youtube.com/channel/UCcfeZqrbQN_qTuUUC5FVrQQ/featured",
+      "https://store.steampowered.com/app/1570790/2D_Platformer_GAME_Toy_Factory/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

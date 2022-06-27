@@ -11876,5 +11876,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "902": {
+    "name": "【雑談実況】ハリポタの寮診断ってのをやってみた【ロックマン7】＃7(終)",
+    "url": "https://www.youtube.com/watch?v=TJgZYjHQ3vE",
+    "releaseDate": "2022/06/27",
+    "gameIds": [
+      285
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

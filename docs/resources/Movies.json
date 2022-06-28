@@ -11889,5 +11889,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "903": {
+    "name": "これがコモラのエンディング【クアリー ～悪夢のサマーキャンプ】＃12(終)",
+    "url": "https://www.youtube.com/watch?v=zAeID9YusK0",
+    "releaseDate": "2022/06/28",
+    "gameIds": [
+      303
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -11902,5 +11902,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "904": {
+    "name": "人質救って爆弾処理して敵倒す【Agent 64 Spies Never Die】",
+    "url": "https://www.youtube.com/watch?v=0KOdJF9w_w0",
+    "releaseDate": "2022/06/29",
+    "gameIds": [
+      305
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

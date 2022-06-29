@@ -3566,5 +3566,18 @@
       2
     ],
     "comment": ""
+  },
+  "305": {
+    "name": "Agent 64: Spies Never Die",
+    "urls": [
+      "https://twitter.com/Agent64game",
+      "https://www.youtube.com/channel/UCHVw3An5cz9wVhKDQ7puTsw",
+      "https://store.steampowered.com/app/1574480/Agent_64_Spies_Never_Die/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      8
+    ],
+    "comment": ""
   }
 }

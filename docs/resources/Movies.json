@@ -11928,5 +11928,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "906": {
+    "name": "酒飲みながらお客さんの愚痴を聞くゲーム【VA-11 Hall-A 】＃1",
+    "url": "https://www.youtube.com/watch?v=o63k_F6_Jqg",
+    "releaseDate": "2022/07/01",
+    "gameIds": [
+      306
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

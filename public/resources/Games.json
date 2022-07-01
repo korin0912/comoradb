@@ -3579,5 +3579,20 @@
       8
     ],
     "comment": ""
+  },
+  "306": {
+    "name": "VA-11 Hall-A: Cyberpunk Bartender Action",
+    "urls": [
+      "http://waifubartending.com",
+      "https://playism.com/game/va11halla/",
+      "https://store.steampowered.com/app/447530/VA11_HallA_Cyberpunk_Bartender_Action/?l=japanese",
+      "https://store-jp.nintendo.com/list/software/70010000017446.html",
+      "https://store.playstation.com/ja-jp/product/JP0122-CUSA15016_00-0000000000000000"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

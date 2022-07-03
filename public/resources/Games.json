@@ -3589,9 +3589,23 @@
       "https://store-jp.nintendo.com/list/software/70010000017446.html",
       "https://store.playstation.com/ja-jp/product/JP0122-CUSA15016_00-0000000000000000"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblPVG5kbecbw5DaKKqOLXQc",
     "genreIds": [
       2
+    ],
+    "comment": ""
+  },
+  "307": {
+    "name": "Salaryman Shi",
+    "urls": [
+      "https://cliax-games.com/games/salaryman-shi/",
+      "https://store.steampowered.com/app/1834950/Salaryman_Shi/?l=japanese",
+      "https://www.nintendo.com/store/products/salaryman-shi-switch/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      118
     ],
     "comment": ""
   }

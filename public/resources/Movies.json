@@ -11980,5 +11980,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "910": {
+    "name": "【雑談実況】手が触れたらもう惚れてまうやろ【ロックマン8】＃1",
+    "url": "https://www.youtube.com/watch?v=FFNljukeycA",
+    "releaseDate": "2022/07/05",
+    "gameIds": [
+      308
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

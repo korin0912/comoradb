@@ -3608,5 +3608,17 @@
       118
     ],
     "comment": ""
+  },
+  "308": {
+    "name": "ロックマン8",
+    "urls": [
+      "https://www.capcom.co.jp/RCC/2/",
+      "https://store.steampowered.com/app/495050/___2/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

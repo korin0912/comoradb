@@ -11993,5 +11993,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "911": {
+    "name": "永遠の10歳が来店しました【VA-11 Hall-A 】＃4",
+    "url": "https://www.youtube.com/watch?v=X1EZ79E2kqM",
+    "releaseDate": "2022/07/06",
+    "gameIds": [
+      306
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

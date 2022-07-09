@@ -12032,5 +12032,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "914": {
+    "name": "アヒルの戦いを見守るゲーム【Placid Plastic Duck Simulator】",
+    "url": "https://www.youtube.com/watch?v=mXmPY6fOqLI",
+    "releaseDate": "2022/07/09",
+    "gameIds": [
+      309
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

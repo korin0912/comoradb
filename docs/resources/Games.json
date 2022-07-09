@@ -3620,5 +3620,18 @@
       1
     ],
     "comment": ""
+  },
+  "309": {
+    "name": "Placid Plastic Duck Simulator",
+    "urls": [
+      "https://twitter.com/PPDuckSimulator",
+      "https://store.steampowered.com/app/1999360/Placid_Plastic_Duck_Simulator/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132,
+      133
+    ],
+    "comment": ""
   }
 }

@@ -3633,5 +3633,19 @@
       133
     ],
     "comment": ""
+  },
+  "310": {
+    "name": "煌き -Golden Light-",
+    "urls": [
+      "http://www.mrpinkfreak.com",
+      "https://store.steampowered.com/app/1245430/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      8,
+      100,
+      116
+    ],
+    "comment": ""
   }
 }

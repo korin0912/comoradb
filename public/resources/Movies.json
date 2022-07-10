@@ -12045,5 +12045,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "915": {
+    "name": "【協力】こんな面白いキモイゲームある？【煌めき Golden Light】",
+    "url": "https://www.youtube.com/watch?v=lW0B2t2WmJA",
+    "releaseDate": "2022/07/10",
+    "gameIds": [
+      310
+    ],
+    "actorIds": [
+      1,
+      4
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

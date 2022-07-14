@@ -12098,5 +12098,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "919": {
+    "name": "【雑談】復活のAさんを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=WLHoEW4IFJA",
+    "releaseDate": "2022/07/14",
+    "gameIds": [
+      56
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

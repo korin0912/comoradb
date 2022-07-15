@@ -12111,5 +12111,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "920": {
+    "name": "真のPOSUKEがここにある【高難度POSUKE】",
+    "url": "https://www.youtube.com/watch?v=HKMUxfU4Pcw",
+    "releaseDate": "2022/07/15",
+    "gameIds": [
+      56
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

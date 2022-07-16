@@ -3647,5 +3647,18 @@
       116
     ],
     "comment": ""
+  },
+  "311": {
+    "name": "廃村巡り | Haisonmeguri",
+    "urls": [
+      "https://twitter.com/torampo_tw",
+      "https://store.steampowered.com/app/2020630/__Haisonmeguri/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

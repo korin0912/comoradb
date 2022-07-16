@@ -12124,5 +12124,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "921": {
+    "name": "ウォーキングシミュレーターって聞いたんですけど？【廃村巡り】",
+    "url": "https://www.youtube.com/watch?v=LLPxHS5fuTs",
+    "releaseDate": "2022/07/16",
+    "gameIds": [
+      311
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

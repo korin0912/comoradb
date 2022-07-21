@@ -12189,5 +12189,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "926": {
+    "name": "【雑談実況】勝手に悪霊封印すんのやめてくれる？【ロックマン8】＃2",
+    "url": "https://www.youtube.com/watch?v=FkjunVinHkA",
+    "releaseDate": "2022/07/21",
+    "gameIds": [
+      308
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

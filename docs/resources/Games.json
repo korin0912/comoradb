@@ -3660,5 +3660,17 @@
       100
     ],
     "comment": ""
+  },
+  "312": {
+    "name": "Peepo Island",
+    "urls": [
+      "https://store.steampowered.com/app/2069990/Peepo_Island/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      103
+    ],
+    "comment": ""
   }
 }

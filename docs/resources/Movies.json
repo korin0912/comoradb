@@ -12254,5 +12254,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "931": {
+    "name": "おっさんは飛ぶ【Peepo Island】#3",
+    "url": "https://www.youtube.com/watch?v=aRHqJ_Gl2ME",
+    "releaseDate": "2022/07/26",
+    "gameIds": [
+      312
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -3672,5 +3672,19 @@
       103
     ],
     "comment": ""
+  },
+  "313": {
+    "name": "Blade Evolution",
+    "urls": [
+      "https://playneowiz.com/bladeassault",
+      "https://twitter.com/SuneatTeam",
+      "https://store.steampowered.com/app/1367300/Blade_Evolution/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

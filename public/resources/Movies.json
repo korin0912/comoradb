@@ -12293,5 +12293,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "934": {
+    "name": "【雑談】悪夢を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=6QoyeRZuAxU",
+    "releaseDate": "2022/07/29",
+    "gameIds": [
+      313
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

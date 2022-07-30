@@ -3686,5 +3686,17 @@
       102
     ],
     "comment": ""
+  },
+  "314": {
+    "name": "SIMBA THE CAT",
+    "urls": [
+      "https://store.steampowered.com/app/2027170/SIMBA_THE_CAT/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

@@ -12306,5 +12306,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "935": {
+    "name": "流行ってない方の猫ちゃんゲーム【SIMBA THE CAT】",
+    "url": "https://www.youtube.com/watch?v=tHIf1RFWwmg",
+    "releaseDate": "2022/07/30",
+    "gameIds": [
+      314
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

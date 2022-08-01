@@ -3698,5 +3698,18 @@
       2
     ],
     "comment": ""
+  },
+  "315": {
+    "name": "幻覚",
+    "urls": [
+      "https://store.steampowered.com/app/2005320/_/",
+      "https://twitter.com/MONZEN_Games"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

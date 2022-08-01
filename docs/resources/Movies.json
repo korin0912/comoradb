@@ -12332,5 +12332,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "937": {
+    "name": "再配達したら大変なことになった【幻覚】",
+    "url": "https://www.youtube.com/watch?v=OICJygUa2eM",
+    "releaseDate": "2022/08/01",
+    "gameIds": [
+      315
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

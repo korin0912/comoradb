@@ -3717,9 +3717,10 @@
     "urls": [
       "https://store.steampowered.com/app/1929360/_/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmAf1zD4x7C_fBzk7UjdbR1",
     "genreIds": [
       2,
+      121,
       134
     ],
     "comment": ""

@@ -3724,5 +3724,18 @@
       134
     ],
     "comment": ""
+  },
+  "317": {
+    "name": "Fungiman",
+    "urls": [
+      "https://www.youtube.com/channel/UCkOta_0M7WGkua0VpjA53vw",
+      "https://store.steampowered.com/app/2006330/Fungiman/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100,
+      104
+    ],
+    "comment": ""
   }
 }

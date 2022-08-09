@@ -167,42 +167,42 @@ function filterTableItems(items, filterParams) {
   return items.map((item) => {
     let del = false;
     // テキスト
-    if (filterText != null) {
+    if (filterText != null && item.game != null) {
       if (item.game.name.toLowerCase().indexOf(filterText) <= -1 && item.movie.name.toLowerCase().indexOf(filterText) <= -1) {
         del = true;
       }
     }
 
     // 出演者
-    if (filterActors != null && filterActors.length > 0) {
+    if (filterActors != null && filterActors.length > 0 && item.movie != null) {
       if (item.movie.actors.filter((actor) => filterActors.some((id) => id == actor.id)).length <= 0) {
         del = true;
       }
     }
 
     // 公開日 (から)
-    if (filterReleaseDateFrom) {
+    if (filterReleaseDateFrom && item.movie != null) {
       if (item.movie.releaseDate < filterReleaseDateFrom) {
         del = true;
       }
     }
 
     // 公開日 (まで)
-    if (filterReleaseDateTo) {
+    if (filterReleaseDateTo && item.movie != null) {
       if (item.movie.releaseDate > filterReleaseDateTo) {
         del = true;
       }
     }
 
     // ゲームジャンル
-    if (filterGenres != null && filterGenres.length > 0) {
+    if (filterGenres != null && filterGenres.length > 0 && item.game != null) {
       if (item.game.genres.filter((genre) => filterGenres.some((id) => id == genre.id)).length <= 0) {
         del = true;
       }
     }
 
     // 雑談
-    if (filterChat) {
+    if (filterChat && item.movie != null) {
       if (!item.movie.chat) {
         del = true;
       }

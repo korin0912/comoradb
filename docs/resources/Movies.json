@@ -12449,5 +12449,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "946": {
+    "name": "【雑談実況】筋トレ続けてる僕は偉い【ロックマン8】＃4",
+    "url": "https://www.youtube.com/watch?v=ax46d30-OY4",
+    "releaseDate": "2022/08/10",
+    "gameIds": [
+      308
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

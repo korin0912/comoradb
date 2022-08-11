@@ -12462,5 +12462,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "947": {
+    "name": "いろいろ危ない相撲ゲーム【もろだし相撲】",
+    "url": "https://www.youtube.com/watch?v=q9T6ZDNljMA",
+    "releaseDate": "2022/08/11",
+    "gameIds": [
+      318
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

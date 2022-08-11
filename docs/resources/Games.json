@@ -3737,5 +3737,16 @@
       104
     ],
     "comment": ""
+  },
+  "318": {
+    "name": "もろだし相撲",
+    "urls": [
+      "https://store.steampowered.com/app/1964310/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113
+    ],
+    "comment": ""
   }
 }

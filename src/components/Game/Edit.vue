@@ -13,7 +13,7 @@
           <td>
             <div v-for="(url, index) in inputs.urls" v-bind:key="'url-' + index" style="margin-bottom: 4px">
               <input placeholder="" class="text" v-model="inputs.urls[index]" />
-              <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeUrl(index)" />
+              <i v-show="index != 0" class="icon minus" style="margin-left: 4px" v-on:click="removeUrl(index)" />
             </div>
             <i class="icon plus" v-on:click="addUrl()" />
           </td>
@@ -49,7 +49,7 @@
 
 <script>
 import Header from "../Common/Header.vue";
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute, useRouter } from "vue-router";
 
 import resources from "../Common/Resources.js";
 
@@ -100,8 +100,8 @@ export default {
 
       inputs = {
         title: org.name,
-        urls: org.urls,
-        playListUrl: ('playListUrl' in org) ? org.playListUrl : "",
+        urls: org.urls.concat(),
+        playListUrl: "playListUrl" in org ? org.playListUrl : "",
         genres: genres,
         comment: org.comment,
       };

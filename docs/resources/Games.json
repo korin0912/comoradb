@@ -3748,5 +3748,16 @@
       113
     ],
     "comment": ""
+  },
+  "319": {
+    "name": "サッカークラブ物語",
+    "urls": [
+      "https://kairosoft.net/game/appli/soccer.html"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

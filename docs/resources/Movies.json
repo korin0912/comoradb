@@ -12501,5 +12501,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "950": {
+    "name": "猫の神ゲーを見つけたにゃん【猫ヤクザの仁義にゃき戦い】",
+    "url": "https://www.youtube.com/watch?v=mfo0W3wV5I8",
+    "releaseDate": "2022/08/14",
+    "gameIds": [
+      320
+    ],
+    "actorIds": [
+      1,
+      4
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -12528,5 +12528,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "952": {
+    "name": "鎧を信じて剣を振れ【A Bastard's Tale】＃1",
+    "url": "https://www.youtube.com/watch?v=XH0yOPMScyI",
+    "releaseDate": "2022/08/16",
+    "gameIds": [
+      321
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

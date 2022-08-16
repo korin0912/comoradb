@@ -3773,5 +3773,17 @@
       117
     ],
     "comment": ""
+  },
+  "321": {
+    "name": "A Bastard's Tale",
+    "urls": [
+      "https://store.steampowered.com/app/371550/A_Bastards_Tale/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

@@ -12580,5 +12580,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "956": {
+    "name": "【雑談】お盆休みを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=hGP0nSNimxQ",
+    "releaseDate": "2022/08/20",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -12593,5 +12593,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "957": {
+    "name": "今日のお酒は明日の為に【VA-11 Hall-A 】＃20(終)",
+    "url": "https://www.youtube.com/watch?v=zkC_rXzhwGo",
+    "releaseDate": "2022/08/21",
+    "gameIds": [
+      306
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

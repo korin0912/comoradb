@@ -12606,5 +12606,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "958": {
+    "name": "警備していただけなのに・・・【Security Booth Director's Cut】",
+    "url": "https://www.youtube.com/watch?v=bk5txXHMZhE",
+    "releaseDate": "2022/08/22",
+    "gameIds": [
+      322
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

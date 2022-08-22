@@ -3785,5 +3785,16 @@
       2
     ],
     "comment": ""
+  },
+  "322": {
+    "name": "Security Booth: Director's Cut",
+    "urls": [
+      "https://store.steampowered.com/app/1828690/Security_Booth_Directors_Cut/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

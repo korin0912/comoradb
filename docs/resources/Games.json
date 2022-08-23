@@ -3796,5 +3796,20 @@
       100
     ],
     "comment": ""
+  },
+  "323": {
+    "name": "Hamster Playground",
+    "urls": [
+      "https://wediggames.com",
+      "https://twitter.com/WeDigGames",
+      "https://www.youtube.com/hamsterplayground",
+      "https://store.steampowered.com/app/1442670/Hamster_Playground/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      10
+    ],
+    "comment": ""
   }
 }

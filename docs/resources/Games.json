@@ -3811,5 +3811,18 @@
       10
     ],
     "comment": ""
+  },
+  "324": {
+    "name": "OneBit Adventure",
+    "urls": [
+      "https://www.onebitadventure.com",
+      "https://store.steampowered.com/app/1688320/OneBit_Adventure/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      3,
+      102
+    ],
+    "comment": ""
   }
 }

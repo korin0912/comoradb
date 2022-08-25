@@ -12645,5 +12645,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "961": {
+    "name": "筆圧で鍛えたこの拳【Write 'n' Fight】",
+    "url": "https://www.youtube.com/watch?v=lON3lvM5fT4",
+    "releaseDate": "2022/08/25",
+    "gameIds": [
+      325
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

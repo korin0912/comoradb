@@ -3824,5 +3824,21 @@
       102
     ],
     "comment": ""
+  },
+  "325": {
+    "name": "Write 'n' Fight",
+    "urls": [
+      "https://writenfight.fandom.com/wiki/Write%60N%60Fight_Wiki",
+      "https://twitter.com/WriteNFight",
+      "https://www.youtube.com/channel/UCRtp4OlYamfLuf-0V06Z6wQ",
+      "https://store.steampowered.com/app/1666500/Write_n_Fight/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      11,
+      113
+    ],
+    "comment": ""
   }
 }

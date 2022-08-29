@@ -3864,5 +3864,17 @@
       104
     ],
     "comment": ""
+  },
+  "328": {
+    "name": "Seraph's Last Stand",
+    "urls": [
+      "https://store.steampowered.com/app/1919460/Seraphs_Last_Stand/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

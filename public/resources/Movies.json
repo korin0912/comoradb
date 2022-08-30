@@ -12703,12 +12703,25 @@
     "url": "https://www.youtube.com/watch?v=Z1ZKhYeGM0w",
     "releaseDate": "2022/08/29",
     "gameIds": [
-      1
+      328
     ],
     "actorIds": [
       1
     ],
     "chat": false,
+    "comment": ""
+  },
+  "966": {
+    "name": "【雑談実況】神はもうちょっと考えて身体を作れ【ロックマン8】＃5",
+    "url": "https://www.youtube.com/watch?v=bjlr7ZeenyQ",
+    "releaseDate": "2022/08/30",
+    "gameIds": [
+      308
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
     "comment": ""
   }
 }

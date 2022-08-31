@@ -3876,5 +3876,20 @@
       102
     ],
     "comment": ""
+  },
+  "329": {
+    "name": "Marble World",
+    "urls": [
+      "https://twitter.com/MarbleWorldGame",
+      "https://www.youtube.com/channel/UChxrAmNUv2ICsq2NlIiIqsw",
+      "https://www.twitch.tv/marbleworldgame",
+      "https://store.steampowered.com/app/1491340/Marble_World/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      10
+    ],
+    "comment": ""
   }
 }

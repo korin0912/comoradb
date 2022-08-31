@@ -12723,5 +12723,19 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "967": {
+    "name": "【4周年記念】いままで目をそらしてた”アレ”を決めます。",
+    "url": "https://www.youtube.com/watch?v=D-f5LEJ7MrY",
+    "releaseDate": "2022/08/31",
+    "gameIds": [
+      329
+    ],
+    "actorIds": [
+      1,
+      2
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

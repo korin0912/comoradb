@@ -12737,5 +12737,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "968": {
+    "name": "【雑談】4周年を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=q2mHBdiomdo",
+    "releaseDate": "2022/09/01",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

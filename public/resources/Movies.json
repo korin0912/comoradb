@@ -12776,5 +12776,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "971": {
+    "name": "99回ジャンプするのに100回以上やり直す間に雑談するゲーム【99 Fails】",
+    "url": "https://www.youtube.com/watch?v=Bdm1c9HIS9Y",
+    "releaseDate": "2022/09/04",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -3891,5 +3891,19 @@
       10
     ],
     "comment": ""
+  },
+  "330": {
+    "name": "99 Fails",
+    "urls": [
+      "http://neebota.com",
+      "https://twitter.com/fryingjelly",
+      "https://www.youtube.com/neebota",
+      "https://store.steampowered.com/app/2008060/99_Fails/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      103
+    ],
+    "comment": ""
   }
 }

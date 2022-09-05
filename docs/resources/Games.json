@@ -3905,5 +3905,17 @@
       103
     ],
     "comment": ""
+  },
+  "331": {
+    "name": "QUICKERFLAK_RUTHLESSMOD",
+    "urls": [
+      "https://store.steampowered.com/app/2010110/QUICKERFLAK_RUTHLESSMOD/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      4
+    ],
+    "comment": ""
   }
 }

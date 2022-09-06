@@ -12802,5 +12802,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "973": {
+    "name": "僕達は未来に絶望している",
+    "url": "https://www.youtube.com/watch?v=wVcQ0UfMXfM",
+    "releaseDate": "2022/09/06",
+    "gameIds": [
+      331
+    ],
+    "actorIds": [
+      1,
+      4
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -12816,5 +12816,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "974": {
+    "name": "止まることを許されないローグライクカードバトルゲーム！【RUNGORE Beginner Experience】",
+    "url": "https://www.youtube.com/watch?v=DDYXXRJoyPI",
+    "releaseDate": "2022/09/07",
+    "gameIds": [
+      332
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

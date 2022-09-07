@@ -3917,5 +3917,18 @@
       4
     ],
     "comment": ""
+  },
+  "332": {
+    "name": "RUNGORE: Beginner Experience",
+    "urls": [
+      "https://store.steampowered.com/app/2113050/RUNGORE_Beginner_Experience/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      106,
+      138
+    ],
+    "comment": ""
   }
 }

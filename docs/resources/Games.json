@@ -3930,5 +3930,21 @@
       138
     ],
     "comment": ""
+  },
+  "333": {
+    "name": "Egghead Gumpty",
+    "urls": [
+      "https://www.euphoricbrothers.com/egghead-gumpty",
+      "https://twitter.com/Euphoric_Bros",
+      "https://www.youtube.com/channel/UCzDYgkEUa7tcWFmhfVItiiA",
+      "https://store.steampowered.com/app/2067570/Egghead_Gumpty/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

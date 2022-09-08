@@ -12829,5 +12829,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "975": {
+    "name": "タマゴとチャンチョと黒猫に追われながら娘を探します【Egghead Gumpty】",
+    "url": "https://www.youtube.com/watch?v=07lD9hJH7mY",
+    "releaseDate": "2022/09/08",
+    "gameIds": [
+      333
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

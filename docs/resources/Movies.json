@@ -12842,5 +12842,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "976": {
+    "name": "溜りにたまったコメントを返すだけの日",
+    "url": "https://www.youtube.com/watch?v=kfhFRPoUcPI",
+    "releaseDate": "2022/09/09",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

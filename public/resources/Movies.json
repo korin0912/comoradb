@@ -12855,5 +12855,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "977": {
+    "name": "世界一賛否両論でギネスに載ったゲームが面白い【レッドシーズプロファイル】＃1",
+    "url": "https://www.youtube.com/watch?v=4T9-BnzX2tc",
+    "releaseDate": "2022/09/10",
+    "gameIds": [
+      334
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -3946,5 +3946,17 @@
       100
     ],
     "comment": ""
+  },
+  "334": {
+    "name": "Deadly Premonition Origins",
+    "urls": [
+      "https://www.toybox-games.jp/dpo/index.html",
+      "https://store-jp.nintendo.com/list/software/70010000022469.html"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

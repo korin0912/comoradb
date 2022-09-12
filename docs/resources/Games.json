@@ -3953,8 +3953,20 @@
       "https://www.toybox-games.jp/dpo/index.html",
       "https://store-jp.nintendo.com/list/software/70010000022469.html"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnCYkIKacrjwO1t3CcPfAaw",
     "genreIds": [
+      2
+    ],
+    "comment": ""
+  },
+  "335": {
+    "name": "デーモンゴー！",
+    "urls": [
+      "https://store.steampowered.com/app/2055130/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmB7Kzvb9DlfoaZY_s6SwLi",
+    "genreIds": [
+      1,
       2
     ],
     "comment": ""

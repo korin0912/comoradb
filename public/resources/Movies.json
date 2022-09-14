@@ -12907,5 +12907,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "981": {
+    "name": "【雑談】帰り道を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=vpPQH86jXKw",
+    "releaseDate": "2022/09/14",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

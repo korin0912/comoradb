@@ -12920,5 +12920,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "982": {
+    "name": "賛否両論の否がコモラを襲う！【レッドシーズプロファイル】＃4",
+    "url": "https://www.youtube.com/watch?v=a3D3MnvKW8A",
+    "releaseDate": "2022/09/15",
+    "gameIds": [
+      334
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -3981,5 +3981,19 @@
       5
     ],
     "comment": ""
+  },
+  "337": {
+    "name": "Dome Keeper",
+    "urls": [
+      "https://rawfury.com/games/dome-keeper/",
+      "https://twitter.com/BippinBits",
+      "https://www.youtube.com/channel/UCWOgdIjhxyzHe6pmE1yGX6Q",
+      "https://store.steampowered.com/app/1637320/Dome_Keeper/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102
+    ],
+    "comment": ""
   }
 }

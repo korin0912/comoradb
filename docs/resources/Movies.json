@@ -13063,5 +13063,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "993": {
+    "name": "守りたいよね僕の城【Dome Keeper】",
+    "url": "https://www.youtube.com/watch?v=HASY9VB34FY",
+    "releaseDate": "2022/09/26",
+    "gameIds": [
+      337
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

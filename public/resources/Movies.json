@@ -13089,5 +13089,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "995": {
+    "name": "【雑談】食卓を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=5oRfYNajlGU",
+    "releaseDate": "2022/09/28",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

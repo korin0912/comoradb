@@ -13102,5 +13102,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "996": {
+    "name": "泣くぐらいならやめろよ！【レッドシーズプロファイル】＃12",
+    "url": "https://www.youtube.com/watch?v=j1ykzY5Jl84",
+    "releaseDate": "2022/09/29",
+    "gameIds": [
+      334
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

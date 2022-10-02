@@ -21,7 +21,7 @@
 import top from "./Top.js";
 import MobileTable from "./MobileTable.vue";
 import TopFilter from "./Filter.vue";
-import { Slide } from "vue-burger-menu";
+import { Slide } from "vue3-burger-menu";
 
 export default {
   name: "TopShowMobile",

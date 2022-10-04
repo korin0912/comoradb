@@ -13130,7 +13130,7 @@
     "comment": ""
   },
   "998": {
-    "name": "田舎の銭湯は変人が多い【地獄銭湯】前編",
+    "name": "田舎の銭湯は変人が多い【地獄銭湯】＃1",
     "url": "https://www.youtube.com/watch?v=PBrTlSLHTpI",
     "releaseDate": "2022/10/01",
     "gameIds": [
@@ -13161,6 +13161,19 @@
     "releaseDate": "2022/10/03",
     "gameIds": [
       334
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1001": {
+    "name": "幽霊もサウナが好きなんやなぁ【地獄銭湯】＃2",
+    "url": "https://www.youtube.com/watch?v=vyHyOXqu-Hc",
+    "releaseDate": "2022/10/04",
+    "gameIds": [
+      338
     ],
     "actorIds": [
       1

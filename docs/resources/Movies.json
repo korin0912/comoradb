@@ -13206,5 +13206,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1004": {
+    "name": "1年ぶりの(´・ω・｀)【しょぼみと海賊の秘宝】",
+    "url": "https://www.youtube.com/watch?v=-yoXVaYmSCU",
+    "releaseDate": "2022/10/07",
+    "gameIds": [
+      339
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

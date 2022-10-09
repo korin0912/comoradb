@@ -13232,5 +13232,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1006": {
+    "name": "どんどんプレイヤーが脱落するゲーム【Capsule Rush】前編",
+    "url": "https://www.youtube.com/watch?v=u78Fo3Tykn0",
+    "releaseDate": "2022/10/09",
+    "gameIds": [
+      340
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

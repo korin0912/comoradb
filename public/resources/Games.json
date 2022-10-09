@@ -4021,5 +4021,17 @@
       103
     ],
     "comment": ""
+  },
+  "340": {
+    "name": "Capsule Rush",
+    "urls": [
+      "https://www.youtube.com/channel/UCBjZVPEck1K_mphJt5pcS8A",
+      "https://store.steampowered.com/app/2138480/Capsule_Rush/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

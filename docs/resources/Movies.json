@@ -13245,5 +13245,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1007": {
+    "name": "コモラ、立つ【Capsule Rush】＃2",
+    "url": "https://www.youtube.com/watch?v=FWcxz8rnZ28",
+    "releaseDate": "2022/10/10",
+    "gameIds": [
+      340
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

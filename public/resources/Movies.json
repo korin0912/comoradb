@@ -13258,5 +13258,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1008": {
+    "name": "気分はカプセル、コモラです【Capsule Rush】＃3(終)",
+    "url": "https://www.youtube.com/watch?v=8ZC8Ar5eBwo",
+    "releaseDate": "2022/10/11",
+    "gameIds": [
+      340
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

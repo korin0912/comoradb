@@ -13271,5 +13271,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1009": {
+    "name": "【雑談】風呂を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=jldgy2KtuAM",
+    "releaseDate": "2022/10/12",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

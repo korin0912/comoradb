@@ -4033,5 +4033,21 @@
       1
     ],
     "comment": ""
+  },
+  "341": {
+    "name": "神業 盗来 -KAMIWAZA TOURAI-",
+    "urls": [
+      "https://www.acquire.co.jp/kamiwaza/",
+      "https://store-jp.nintendo.com/list/software/70010000050508.html",
+      "https://store.playstation.com/ja-jp/concept/10002414",
+      "https://store.steampowered.com/app/1924810/__KAMIWAZA_TOURAI/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmKkLJTc8MyUHOucTt2vESt",
+    "genreIds": [
+      1,
+      2,
+      115
+    ],
+    "comment": ""
   }
 }

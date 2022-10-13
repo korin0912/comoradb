@@ -13284,5 +13284,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1010": {
+    "name": "盗みの美学を追求しすぎたゲーム【神業 盗来】＃1",
+    "url": "https://www.youtube.com/watch?v=r9pRGtKHh1Y",
+    "releaseDate": "2022/10/13",
+    "gameIds": [
+      341
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

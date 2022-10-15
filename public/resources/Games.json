@@ -4049,5 +4049,17 @@
       115
     ],
     "comment": ""
+  },
+  "342": {
+    "name": "一本橋ワタル",
+    "urls": [
+      "https://store.steampowered.com/app/2167560/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      6
+    ],
+    "comment": ""
   }
 }

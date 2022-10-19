@@ -13362,5 +13362,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1016": {
+    "name": "ホラーゲームの世界を監視して間違いを見つけるゲーム【Spectator】",
+    "url": "https://www.youtube.com/watch?v=bT6m1VDljfw",
+    "releaseDate": "2022/10/19",
+    "gameIds": [
+      343
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

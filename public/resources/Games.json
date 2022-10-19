@@ -4061,5 +4061,16 @@
       6
     ],
     "comment": ""
+  },
+  "343": {
+    "name": "Spectator",
+    "urls": [
+      "https://store.steampowered.com/app/2132450/Spectator/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

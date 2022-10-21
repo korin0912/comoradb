@@ -13388,5 +13388,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1018": {
+    "name": "【雑談】就活を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=9V_ED03t4jo",
+    "releaseDate": "2022/10/21",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

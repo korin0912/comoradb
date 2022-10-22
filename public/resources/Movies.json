@@ -13401,5 +13401,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1019": {
+    "name": "コメントを返すということはコメントを返すということである",
+    "url": "https://www.youtube.com/watch?v=5zZ1WdIVTYo",
+    "releaseDate": "2022/10/22",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

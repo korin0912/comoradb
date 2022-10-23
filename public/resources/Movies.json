@@ -13414,5 +13414,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1020": {
+    "name": "全てを失った【神業 盗来】＃7",
+    "url": "https://www.youtube.com/watch?v=5pvNI_x-8qE",
+    "releaseDate": "2022/10/23",
+    "gameIds": [
+      341
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

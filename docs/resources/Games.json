@@ -4072,5 +4072,18 @@
       100
     ],
     "comment": ""
+  },
+  "344": {
+    "name": "ウルトラ怪獣モンスターファーム",
+    "urls": [
+      "https://ultrakaiju-mf.bn-ent.net",
+      "https://store-jp.nintendo.com/list/software/70010000041824.html"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      121
+    ],
+    "comment": ""
   }
 }

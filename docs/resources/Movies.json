@@ -13440,5 +13440,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1022": {
+    "name": "僕だけの怪獣【ウルトラ怪獣モンスターファーム】＃1",
+    "url": "https://www.youtube.com/watch?v=zvFBUaFydoA",
+    "releaseDate": "2022/10/25",
+    "gameIds": [
+      344
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

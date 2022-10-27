@@ -13453,5 +13453,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1023": {
+    "name": "初めての友達【ウルトラ怪獣モンスターファーム】＃2",
+    "url": "https://www.youtube.com/watch?v=EQcT_GFuY-c",
+    "releaseDate": "2022/10/26",
+    "gameIds": [
+      344
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

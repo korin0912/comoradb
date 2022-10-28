@@ -4085,5 +4085,17 @@
       121
     ],
     "comment": ""
+  },
+  "345": {
+    "name": "TAKIBI",
+    "urls": [
+      "https://store.steampowered.com/app/2123050/TAKIBI/?l=japanese",
+      "https://twitter.com/oyajino_Unreal"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

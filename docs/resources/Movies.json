@@ -13505,5 +13505,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1027": {
+    "name": "新たな主役、コスモス【ウルトラ怪獣モンスターファーム】＃5",
+    "url": "https://www.youtube.com/watch?v=RXIoP5l7-S8",
+    "releaseDate": "2022/10/30",
+    "gameIds": [
+      344
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

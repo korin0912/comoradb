@@ -4097,5 +4097,17 @@
       5
     ],
     "comment": ""
+  },
+  "346": {
+    "name": "Reality",
+    "urls": [
+      "https://store.steampowered.com/app/2178340/Reality/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      100
+    ],
+    "comment": ""
   }
 }

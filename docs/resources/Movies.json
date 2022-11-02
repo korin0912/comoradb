@@ -13544,5 +13544,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1030": {
+    "name": "This is ジュラシックワールド【ウルトラ怪獣モンスターファーム】＃6",
+    "url": "https://www.youtube.com/watch?v=FJEIpUO3zz8",
+    "releaseDate": "2022/11/02",
+    "gameIds": [
+      344
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

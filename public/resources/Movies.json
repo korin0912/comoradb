@@ -13570,5 +13570,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1032": {
+    "name": "単純明快道路横断ゲームで遊ぶコモ！【Im Late】",
+    "url": "https://www.youtube.com/watch?v=H6zhhSngwwY",
+    "releaseDate": "2022/11/04",
+    "gameIds": [
+      347
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

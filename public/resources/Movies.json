@@ -13583,5 +13583,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1033": {
+    "name": "チョコバッキー怪獣【ウルトラ怪獣モンスターファーム】＃7",
+    "url": "https://www.youtube.com/watch?v=Xi8M9dJnuJk",
+    "releaseDate": "2022/11/05",
+    "gameIds": [
+      344
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

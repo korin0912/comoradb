@@ -46,7 +46,7 @@
 import top from "./Top.js";
 import PCTable from "./PCTable.vue";
 import TopFilter from "./Filter.vue";
-const { default: axios } = require("axios");
+import axios from "axios";
 
 export default {
   name: "TopShowPC",
@@ -55,7 +55,6 @@ export default {
     TopFilter,
   },
   data: function () {
-    let isLocal = process.env.NODE_ENV == "development";
     let calendarMonth = "";
     let commitMessage = "";
     let filterParams = top.getInitialFilterParams();
@@ -70,15 +69,15 @@ export default {
     calendarMonth = `${year}-${month}`;
     // console.log(calendarMonth);
 
-    if (isLocal)
+    if (import.meta.env.DEV)
     {
         commitMessage = `daily update. ${year}/${month}/${day}`;
     }
-    // console.log(process.env.NODE_ENV);
+    // console.log(import.meta.env.DEV);
 
     return {
       isLoading: false,
-      isLocal: isLocal,
+      isLocal: import.meta.env.DEV,
       calendarMonth: calendarMonth,
       commitMessage: commitMessage,
       resetKey: 0,

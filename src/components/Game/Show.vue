@@ -69,7 +69,6 @@ export default {
   },
   data: function () {
     let route = useRoute();
-    let isLocal = process.env.NODE_ENV == "development";
     let isMobile = common.isMobile();
     let gameId = route.params.gameId;
 
@@ -86,7 +85,7 @@ export default {
 
     return {
       router: useRouter(),
-      isLocal: isLocal,
+      isLocal: import.meta.env.DEV,
       isMobile: isMobile,
       gameId: gameId,
       game: gamesData[String(gameId)],

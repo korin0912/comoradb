@@ -2,12 +2,12 @@
 
 const Vue = createApp({});
 
-const { default: axios } = require("axios");
+import axios from "axios";
 
 function getPath(jsonName) {
   let ret = "";
-  if (process.env.NODE_ENV != 'development') {
-    ret += process.env.BASE_URL;
+  if (import.meta.env.DEV) {
+    ret += import.meta.env.BASE_URL;
   }
   ret += `resources/${jsonName}.json`;
   ret = ret.replaceAll('//', '/');
@@ -102,6 +102,7 @@ async function execute() {
     console.log(JSON.stringify(req.postData));
     await axios.post(req.url, JSON.stringify(req.postData), { headers: { "Content-Type": "text/plain" } }).then((res) => {
       console.log(res.status);
+      location.reload();
       update = true;
     });
   }

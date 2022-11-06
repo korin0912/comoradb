@@ -33,6 +33,7 @@ const server = http.createServer((req, res) => {
       //   }
       // }
       // res.end('更新しました');
+      // return;
 
       // copy public/resources/*.json => docs/resources/
       let cmd = 'copy public\\resources\\*.json docs\\resources\\';

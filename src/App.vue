@@ -22,11 +22,10 @@ export default {
   name: "App",
   setup() {
     useHead({
-      title: "コモラDB | ゲーム一覧",
       link: [
         {
           rel: "stylesheet",
-          href: "https://use.fontawesome.com/releases/v5.6.1/css/all.css",
+          href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css",
         },
         {
           rel: "preconnect",
@@ -36,6 +35,10 @@ export default {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@100;300",
         },
+        {
+          rel: "icon",
+          href: (import.meta.env.PROD ? import.meta.env.BASE_URL : "") + "favicon.ico",
+        }
       ],
     });
   },

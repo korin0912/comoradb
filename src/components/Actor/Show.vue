@@ -4,7 +4,7 @@
     <div class="container">
       <!-- 出演者 -->
       <div :class="isMobile == false ? 'pc' : 'mobile'">
-        <img :src="require('../../assets/images/actor_' + route.params.actorId + '.png')" class="actor" />
+        <img :src="actorImages[route.params.actorId - 1]" class="actor" />
         <br />
         <br />
         <table>
@@ -47,11 +47,20 @@
 import Header from "../Common/Header.vue";
 import PCTable from "../Top/PCTable.vue";
 import MobileTable from "../Top/MobileTable.vue";
-import { useRoute } from 'vue-router'
+import { useRoute } from "vue-router";
 
 import common from "../Common/Common.js";
 import resources from "../Common/Resources.js";
 import top from "../Top/Top.js";
+
+import actorImage1 from "../../assets/images/actor_1.png";
+import actorImage2 from "../../assets/images/actor_2.png";
+import actorImage3 from "../../assets/images/actor_3.png";
+import actorImage4 from "../../assets/images/actor_4.png";
+import actorImage5 from "../../assets/images/actor_5.png";
+import actorImage6 from "../../assets/images/actor_6.png";
+import actorImage7 from "../../assets/images/actor_7.png";
+import actorImage8 from "../../assets/images/actor_8.png";
 
 export default {
   name: "ActorShow",
@@ -76,6 +85,7 @@ export default {
 
     return {
       route: route,
+      actorImages: [actorImage1, actorImage2, actorImage3, actorImage4, actorImage5, actorImage6, actorImage7, actorImage8],
       actor: actorsData[actorIdx],
       isMobile: common.isMobile(),
       filterParams: filterParams,

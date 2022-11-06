@@ -31,7 +31,7 @@ let routes = [
   },
 ];
 
-if (process.env.NODE_ENV == 'development') {
+if (import.meta.env.DEV) {
   routes.push({
     path: '/game/:gameId/edit',
     name: 'GameEdit',
@@ -47,7 +47,7 @@ if (process.env.NODE_ENV == 'development') {
 const Vue = createApp(App)
 
 Vue.use(createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

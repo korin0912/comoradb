@@ -63,7 +63,6 @@ export default {
   },
   data: function () {
     let route = useRoute();
-    let isLocal = process.env.NODE_ENV == "development";
     let isMobile = common.isMobile();
     let movieId = route.params.movieId;
 
@@ -81,7 +80,7 @@ export default {
 
     return {
       router: useRouter(),
-      isLocal: isLocal,
+      isLocal: import.meta.env.DEV,
       isMobile: isMobile,
       movieId: movieId,
       movie: movie,

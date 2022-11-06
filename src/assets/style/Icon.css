@@ -115,10 +115,12 @@
   content: "\f1b6";
   font-size: 17px;
   font-weight: 400;
-  color: #324b6c;
-  background: linear-gradient(0deg, #1080b0, #0f1c2f);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #1080b0;
+  /* color: #324b6c; */
+  /* background: linear-gradient(0deg, #1080b0, #0f1c2f); */
+  /* background: #0f1c2f; */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .icon.twitter::before {
@@ -159,9 +161,9 @@
   font-size: 17px;
   font-weight: 400;
   color: #11befb;
-  background: linear-gradient(0deg, #1b70ea, #19bff5);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(0deg, #1b70ea, #19bff5); */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .icon.gplay::before {

@@ -95,7 +95,7 @@ export default {
       let now = new Date();
 
       let gameIds = [];
-      gameIds.push(1);
+      gameIds.push(gamesData[0].gameId);
 
       let actors = [];
       Object.keys(actorsData).forEach((actorId) => {

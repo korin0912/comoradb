@@ -21,7 +21,7 @@
           <td>
             <div v-for="(gameId, index) in inputs.gameIds" v-bind:key="'game-' + index" style="margin-bottom: 4px">
               <select v-model="inputs.gameIds[index]">
-                <option v-for="(game, index) in gamesData" :key="'game-option-' + index" :value="index">{{ game.name }}</option>
+                <option v-for="(game, index) in gamesData" :key="'game-option-' + index" :value="game.gameId">{{ game.name }}</option>
               </select>
               <a v-show="index != 0" href="#" class="icon minus" style="margin-left: 4px" v-on:click="removeGame(index)" />
             </div>
@@ -57,7 +57,7 @@
 
 <script>
 import Header from "../Common/Header.vue";
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute, useRouter } from "vue-router";
 
 import resources from "../Common/Resources.js";
 
@@ -74,13 +74,20 @@ export default {
     let gamesData = resources.getGamesData();
     let actorsData = resources.getActorsData();
 
-    gamesData[99999] =
-    {
-      "name": "指定なし",
-      "urls": [],
-      "genreIds": [],
-      "comment": ""
-    };
+    let tmp = [];
+    Object.keys(gamesData)
+      .reverse()
+      .forEach((gameId) => {
+        tmp.push({
+          gameId: gameId,
+          name: gamesData[gameId].name,
+        });
+      });
+    tmp.push({
+      gameId: 99999,
+      name: "指定なし",
+    });
+    gamesData = tmp;
 
     let inputs = {};
     // console.log(movieId);

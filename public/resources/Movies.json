@@ -13622,5 +13622,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1036": {
+    "name": "雑談たこ焼きパーティだ！【たこパ サバイバル】",
+    "url": "https://www.youtube.com/watch?v=eXfCyUIQJaA",
+    "releaseDate": "2022/11/08",
+    "gameIds": [
+      327
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

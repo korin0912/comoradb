@@ -13635,5 +13635,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1037": {
+    "name": "彼は常に命がけだった【ウルトラ怪獣モンスターファーム】＃10",
+    "url": "https://www.youtube.com/watch?v=DEA3TaeH6Wo",
+    "releaseDate": "2022/11/09",
+    "gameIds": [
+      344
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

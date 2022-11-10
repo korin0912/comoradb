@@ -4120,5 +4120,19 @@
       133
     ],
     "comment": ""
+  },
+  "348": {
+    "name": "Cave Story+",
+    "urls": [
+      "https://www.nicalis.com/games/cavestory+",
+      "https://store-jp.nintendo.com/list/software/70010000003161.html",
+      "https://store.steampowered.com/app/200900/Cave_Story/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

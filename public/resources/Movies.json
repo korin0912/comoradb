@@ -13674,5 +13674,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1040": {
+    "name": "ウサギさん顔怖っ！【洞窟物語】＃2",
+    "url": "https://www.youtube.com/watch?v=TujBJl1NH-c",
+    "releaseDate": "2022/11/12",
+    "gameIds": [
+      348
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

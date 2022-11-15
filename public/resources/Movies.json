@@ -13713,5 +13713,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1043": {
+    "name": "NGありでコメント返します！",
+    "url": "https://www.youtube.com/watch?v=FMDJSiz8wHc",
+    "releaseDate": "2022/11/15",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

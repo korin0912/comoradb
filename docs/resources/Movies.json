@@ -13726,5 +13726,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1044": {
+    "name": "タチバナさんは敗北から成長する【ウルトラ怪獣モンスターファーム】＃13",
+    "url": "https://www.youtube.com/watch?v=9fW5Ce-0S_0",
+    "releaseDate": "2022/11/16",
+    "gameIds": [
+      344
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

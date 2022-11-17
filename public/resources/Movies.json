@@ -13739,5 +13739,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1045": {
+    "name": "犬の運び方がおかしい【洞窟物語】＃4",
+    "url": "https://www.youtube.com/watch?v=nenW5VD7LP0",
+    "releaseDate": "2022/11/17",
+    "gameIds": [
+      348
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

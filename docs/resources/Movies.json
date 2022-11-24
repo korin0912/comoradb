@@ -13830,5 +13830,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1052": {
+    "name": "【雑談】サッカーを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=VVDB6t2sgu0",
+    "releaseDate": "2022/11/24",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

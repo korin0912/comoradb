@@ -13843,5 +13843,31 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1053": {
+    "name": "いや、妹は？【洞窟物語】＃8",
+    "url": "https://www.youtube.com/watch?v=iEOUsFn3QG0",
+    "releaseDate": "2022/11/25",
+    "gameIds": [
+      348
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1054": {
+    "name": "ウサギになりました【洞窟物語】＃9",
+    "url": "https://www.youtube.com/watch?v=gA8QhtcptCY",
+    "releaseDate": "2022/11/26",
+    "gameIds": [
+      348
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

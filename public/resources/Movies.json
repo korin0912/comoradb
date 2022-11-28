@@ -13882,5 +13882,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1056": {
+    "name": "ボス戦前にはセーブを置いて【洞窟物語】＃10",
+    "url": "https://www.youtube.com/watch?v=YUQs5cuISNg",
+    "releaseDate": "2022/11/28",
+    "gameIds": [
+      348
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

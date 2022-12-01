@@ -13908,5 +13908,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1058": {
+    "name": "毎日投稿が途切れたのでコメント返しをします",
+    "url": "https://www.youtube.com/watch?v=UMZXLwI6cS4",
+    "releaseDate": "2022/12/01",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

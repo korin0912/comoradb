@@ -13921,5 +13921,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1059": {
+    "name": "ここが天国ですか？【洞窟物語】＃12",
+    "url": "https://www.youtube.com/watch?v=VvcnMzCeXyQ",
+    "releaseDate": "2022/12/02",
+    "gameIds": [
+      348
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

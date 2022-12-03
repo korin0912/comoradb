@@ -4146,5 +4146,18 @@
       2
     ],
     "comment": ""
+  },
+  "350": {
+    "name": "焼肉シミュレーター",
+    "urls": [
+      "https://twitter.com/SecretCharGame",
+      "https://store.steampowered.com/app/2001570/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      133
+    ],
+    "comment": ""
   }
 }

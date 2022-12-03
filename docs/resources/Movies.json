@@ -13934,5 +13934,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1060": {
+    "name": "お肉を焼いて一休み【焼肉シミュレーター】",
+    "url": "https://www.youtube.com/watch?v=kai_bP6YTNM",
+    "releaseDate": "2022/12/03",
+    "gameIds": [
+      350
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

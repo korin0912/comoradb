@@ -4159,5 +4159,19 @@
       133
     ],
     "comment": ""
+  },
+  "351": {
+    "name": "ポケットモンスター スカーレット・バイオレット",
+    "urls": [
+      "https://www.pokemon.co.jp/ex/sv/ja/",
+      "https://store-jp.nintendo.com/list/software/70010000053965.html",
+      "https://store-jp.nintendo.com/list/software/70010000053970.html"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      3,
+      121
+    ],
+    "comment": ""
   }
 }

@@ -13999,5 +13999,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1065": {
+    "name": "【雑談】クリスマスプレゼントを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=f6Li9DtJA30",
+    "releaseDate": "2022/12/08",
+    "gameIds": [
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

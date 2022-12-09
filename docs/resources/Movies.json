@@ -14012,5 +14012,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1066": {
+    "name": "始まったな、デスゲームが【ポケモンSV/スカーレット】＃4",
+    "url": "https://www.youtube.com/watch?v=8GK1y0tQyRw",
+    "releaseDate": "2022/12/09",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

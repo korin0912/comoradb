@@ -14051,5 +14051,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1069": {
+    "name": "初めての東方がカードゲームで楽しすぎた【妖精カードローグ】",
+    "url": "https://www.youtube.com/watch?v=Imih8IGmZYI",
+    "releaseDate": "2022/12/12",
+    "gameIds": [
+      352
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

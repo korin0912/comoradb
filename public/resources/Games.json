@@ -4173,5 +4173,19 @@
       121
     ],
     "comment": ""
+  },
+  "352": {
+    "name": "妖精カードローグ ~ Fairy Card Rogue",
+    "urls": [
+      "http://46flare.net/cardrogue/index.html",
+      "https://store.steampowered.com/app/2183210/__Fairy_Card_Rogue/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      106,
+      138
+    ],
+    "comment": ""
   }
 }

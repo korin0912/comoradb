@@ -4187,5 +4187,18 @@
       138
     ],
     "comment": ""
+  },
+  "353": {
+    "name": "Cannon Jump",
+    "urls": [
+      "http://quasardeep.com",
+      "https://store.steampowered.com/app/1239800/Cannon_Jump/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

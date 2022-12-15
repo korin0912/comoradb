@@ -14090,5 +14090,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1072": {
+    "name": "ペパーのポケモン【ポケモンSV/スカーレット】＃8",
+    "url": "https://www.youtube.com/watch?v=l4bY959isgU",
+    "releaseDate": "2022/12/15",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

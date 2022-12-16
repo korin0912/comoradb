@@ -14103,5 +14103,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1073": {
+    "name": "コメント返しするぞ！",
+    "url": "https://www.youtube.com/watch?v=r0t8oVpPb88",
+    "releaseDate": "2022/12/16",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

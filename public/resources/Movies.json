@@ -14116,5 +14116,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1074": {
+    "name": "今だけのオシャレを楽しみたい【ポケモンSV/スカーレット】＃9",
+    "url": "https://www.youtube.com/watch?v=0Jetd2nnSCA",
+    "releaseDate": "2022/12/17",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

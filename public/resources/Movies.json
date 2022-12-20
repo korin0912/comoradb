@@ -14155,5 +14155,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1077": {
+    "name": "【雑談】大掃除を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=s0IZzTK-Y6g",
+    "releaseDate": "2022/12/20",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

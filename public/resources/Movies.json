@@ -14168,5 +14168,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1078": {
+    "name": "性って難しいよねって話をしながら飛びたいと思います【Cannon Jump】＃2",
+    "url": "https://www.youtube.com/watch?v=0tuLtIco_BQ",
+    "releaseDate": "2022/12/21",
+    "gameIds": [
+      353
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

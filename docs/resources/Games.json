@@ -4200,5 +4200,18 @@
       136
     ],
     "comment": ""
+  },
+  "354": {
+    "name": "FastRogue",
+    "urls": [
+      "https://note.com/tamtamgames/n/ndccf83714cb3",
+      "https://store.steampowered.com/app/2118550/FastRogue/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      133
+    ],
+    "comment": ""
   }
 }

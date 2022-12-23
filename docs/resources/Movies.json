@@ -14194,5 +14194,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1080": {
+    "name": "たまにシンプルなゲームをしたくなるとき、あるよね【FastRogue】",
+    "url": "https://www.youtube.com/watch?v=2HQg9sg2zyA",
+    "releaseDate": "2022/12/23",
+    "gameIds": [
+      354
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

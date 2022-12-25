@@ -14220,5 +14220,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1082": {
+    "name": "なんじゃ！なんじゃ！なんじゃ！【ポケモンSV/スカーレット】＃14",
+    "url": "https://www.youtube.com/watch?v=fUkWwhzhtYM",
+    "releaseDate": "2022/12/25",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

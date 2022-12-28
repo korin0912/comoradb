@@ -14259,5 +14259,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1085": {
+    "name": "クリスマスの夜に大砲で飛ぶ男がいる【Cannon Jump】＃3",
+    "url": "https://www.youtube.com/watch?v=xECcCK7fGfI",
+    "releaseDate": "2022/12/28",
+    "gameIds": [
+      353
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

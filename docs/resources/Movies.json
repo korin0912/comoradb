@@ -14285,5 +14285,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1087": {
+    "name": "どーも、コモラです【ポケモンSV/スカーレット】＃17",
+    "url": "https://www.youtube.com/watch?v=z7KncFuL94E",
+    "releaseDate": "2022/12/30",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

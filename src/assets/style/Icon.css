@@ -328,3 +328,16 @@
   border-width: 1px;
   border-color: #dddddd;
 }
+
+.icon.actor-9::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("../../assets/images/actor_9.png");
+  background-size: contain;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}

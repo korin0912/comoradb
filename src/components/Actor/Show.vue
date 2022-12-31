@@ -61,6 +61,7 @@ import actorImage5 from "../../assets/images/actor_5.png";
 import actorImage6 from "../../assets/images/actor_6.png";
 import actorImage7 from "../../assets/images/actor_7.png";
 import actorImage8 from "../../assets/images/actor_8.png";
+import actorImage9 from "../../assets/images/actor_9.png";
 
 export default {
   name: "ActorShow",
@@ -85,7 +86,7 @@ export default {
 
     return {
       route: route,
-      actorImages: [actorImage1, actorImage2, actorImage3, actorImage4, actorImage5, actorImage6, actorImage7, actorImage8],
+      actorImages: [actorImage1, actorImage2, actorImage3, actorImage4, actorImage5, actorImage6, actorImage7, actorImage8, actorImage9],
       actor: actorsData[actorIdx],
       isMobile: common.isMobile(),
       filterParams: filterParams,

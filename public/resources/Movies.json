@@ -14315,5 +14315,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1089": {
+    "name": "2022年も終わり、来年もよろしくお願いします。",
+    "url": "https://www.youtube.com/watch?v=unCCh_ptU3M",
+    "releaseDate": "2023/01/01",
+    "gameIds": [
+      99999
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

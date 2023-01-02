@@ -14328,5 +14328,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1090": {
+    "name": "2023年の最新ゲームが攻めている【Spider Queen cave】",
+    "url": "https://www.youtube.com/watch?v=DVoJrIzXZPw",
+    "releaseDate": "2023/01/02",
+    "gameIds": [
+      356
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

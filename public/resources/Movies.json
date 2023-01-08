@@ -14406,5 +14406,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1096": {
+    "name": "2023年最初のコメント返し",
+    "url": "https://www.youtube.com/watch?v=kV9CPdvSCCw",
+    "releaseDate": "2023/01/08",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

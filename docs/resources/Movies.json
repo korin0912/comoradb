@@ -14419,5 +14419,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1097": {
+    "name": "彼の心のカギを解除したい【ポケモンSV/スカーレット】＃18",
+    "url": "https://www.youtube.com/watch?v=lUtdT28yfNE",
+    "releaseDate": "2023/01/09",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

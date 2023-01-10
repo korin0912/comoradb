@@ -4239,5 +4239,16 @@
       9
     ],
     "comment": ""
+  },
+  "357": {
+    "name": "Battle Ram",
+    "urls": [
+      "https://store.steampowered.com/app/1262060/Battle_Ram/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

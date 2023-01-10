@@ -14432,5 +14432,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1098": {
+    "name": "羊がひたすら攻撃されるゲーム【Battle Ram】",
+    "url": "https://www.youtube.com/watch?v=lVTXBfh-rlU",
+    "releaseDate": "2023/01/10",
+    "gameIds": [
+      357
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

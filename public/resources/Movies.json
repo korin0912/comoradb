@@ -14471,5 +14471,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1101": {
+    "name": "ボール君は足が速い【Gum Ball Run】",
+    "url": "https://www.youtube.com/watch?v=GFX0mqwTBY4",
+    "releaseDate": "2023/01/13",
+    "gameIds": [
+      358
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

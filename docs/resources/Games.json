@@ -4264,5 +4264,18 @@
       127
     ],
     "comment": ""
+  },
+  "359": {
+    "name": "Black Cycle",
+    "urls": [
+      "https://katsuyaabe.com/Project_001",
+      "https://store.steampowered.com/app/2178550/Black_Cycle/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      133
+    ],
+    "comment": ""
   }
 }

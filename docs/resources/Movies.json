@@ -14510,5 +14510,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1104": {
+    "name": "ども社会の歯車です、そろそろウチの会社がヤバいです。【Black Cycle】",
+    "url": "https://www.youtube.com/watch?v=2z3UD_4NmC8",
+    "releaseDate": "2023/01/16",
+    "gameIds": [
+      359
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

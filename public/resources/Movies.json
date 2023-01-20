@@ -14562,5 +14562,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1108": {
+    "name": "寒さに負けず、コメント返し",
+    "url": "https://www.youtube.com/watch?v=mzNn9iorVpg",
+    "releaseDate": "2023/01/20",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

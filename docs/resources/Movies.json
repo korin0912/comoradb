@@ -14575,5 +14575,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1109": {
+    "name": "最強のイケボジムリーダー【ポケモンSV/スカーレット】＃24",
+    "url": "https://www.youtube.com/watch?v=NUIdjLrLQEU",
+    "releaseDate": "2023/01/21",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

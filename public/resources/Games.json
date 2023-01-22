@@ -4277,5 +4277,19 @@
       133
     ],
     "comment": ""
+  },
+  "360": {
+    "name": "Baldy Bounce",
+    "urls": [
+      "https://new.reddit.com/r/BaldyBounce/",
+      "https://twitter.com/BaldyBounceGame",
+      "https://www.youtube.com/channel/UC_k9pYspKFSMcHbCmdqe_5w",
+      "https://store.steampowered.com/app/1539800/Baldy_Bounce/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

@@ -14588,5 +14588,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1110": {
+    "name": "サッカーボールが財宝を探すゲーム【Baldy Bounce 】",
+    "url": "https://www.youtube.com/watch?v=0fGnMbo9CMs",
+    "releaseDate": "2023/01/22",
+    "gameIds": [
+      360
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

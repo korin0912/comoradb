@@ -4291,5 +4291,17 @@
       2
     ],
     "comment": ""
+  },
+  "361": {
+    "name": "LOST EGG 3: The Final",
+    "urls": [
+      "https://store.steampowered.com/app/2238750/LOST_EGG_3_The_Final/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

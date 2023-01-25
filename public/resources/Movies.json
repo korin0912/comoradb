@@ -14614,5 +14614,31 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1112": {
+    "name": "プロレスラーは想像通りに戦えない【ポケモンSV/スカーレット】＃25",
+    "url": "https://www.youtube.com/watch?v=Bu4vUzTvQkc",
+    "releaseDate": "2023/01/24",
+    "gameIds": [
+      351
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1113": {
+    "name": "大砲でジャンプするっておかしくね？【Cannon Jump】＃7(終)",
+    "url": "https://www.youtube.com/watch?v=Es08oTYFvNo",
+    "releaseDate": "2023/01/25",
+    "gameIds": [
+      353
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

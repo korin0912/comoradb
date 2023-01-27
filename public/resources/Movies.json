@@ -14653,5 +14653,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1115": {
+    "name": "神ゲーと神ゲーが合わさって神ゲーに見える【マインスイーパー テトリス】",
+    "url": "https://www.youtube.com/watch?v=IcOpzn-ZQR0",
+    "releaseDate": "2023/01/27",
+    "gameIds": [
+      362
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

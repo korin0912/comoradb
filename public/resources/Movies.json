@@ -14718,5 +14718,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1120": {
+    "name": "一輪車は一番危険な車【One Wheel Guy】＃1",
+    "url": "https://www.youtube.com/watch?v=DOIGjDCvjXg",
+    "releaseDate": "2023/02/01",
+    "gameIds": [
+      364
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -4325,5 +4325,18 @@
       2
     ],
     "comment": ""
+  },
+  "364": {
+    "name": "One Wheel Guy",
+    "urls": [
+      "https://store.steampowered.com/app/2198740/One_Wheel_Guy/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      6,
+      136
+    ],
+    "comment": ""
   }
 }

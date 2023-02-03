@@ -14744,5 +14744,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1122": {
+    "name": "うま娘デビューしたのでコメント返す！",
+    "url": "https://www.youtube.com/watch?v=g8rNq_IPxbA",
+    "releaseDate": "2023/02/03",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

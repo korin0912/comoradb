@@ -1556,6 +1556,7 @@
     "urls": [
       "https://store.steampowered.com/app/1253690/Teke_Teke/"
     ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
     "genreIds": [
       100
     ],
@@ -2114,6 +2115,7 @@
       "https://twitter.com/ChillasArt",
       "https://store.steampowered.com/app/1611490/Night_Delivery/?l=japanese"
     ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
     "genreIds": [
       2,
       100
@@ -2238,6 +2240,7 @@
       "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ",
       "https://store.steampowered.com/app/1671550/The_Night_Way_Home/"
     ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
     "genreIds": [
       2,
       100
@@ -2741,6 +2744,7 @@
       "https://twitter.com/ChillasArt",
       "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ"
     ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
     "genreIds": [
       2,
       100
@@ -3265,7 +3269,7 @@
       "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ",
       "https://store.steampowered.com/app/1843090/The_Closing_Shift/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
     "genreIds": [
       2,
       100
@@ -4003,7 +4007,7 @@
       "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ",
       "https://store.steampowered.com/app/1956830/Chillas_Art_The_Bathhouse/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
     "genreIds": [
       2,
       100
@@ -4346,7 +4350,7 @@
       "https://www.youtube.com/channel/UCskuYABrWRWT0zf4m7FswDQ",
       "https://store.steampowered.com/app/2200190/Chillas_Art_The_Karaoke/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
     "genreIds": [
       2,
       100

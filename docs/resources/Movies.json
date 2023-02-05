@@ -14770,5 +14770,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1124": {
+    "name": "カラオケ関係なくね？【ヒトカラ】後編",
+    "url": "https://www.youtube.com/watch?v=x9-LQB2tQnk",
+    "releaseDate": "2023/02/05",
+    "gameIds": [
+      365
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

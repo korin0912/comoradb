@@ -14796,5 +14796,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1126": {
+    "name": "永遠に打ちあがる花火を見ながら雑談するしかないゲーム【エンドレス花火シミュレーター】",
+    "url": "https://www.youtube.com/watch?v=8J8BRzd6kvw",
+    "releaseDate": "2023/02/07",
+    "gameIds": [
+      366
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

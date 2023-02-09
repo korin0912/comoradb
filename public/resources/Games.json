@@ -4367,5 +4367,20 @@
       132
     ],
     "comment": ""
+  },
+  "367": {
+    "name": "ラブラブスクールデイズ",
+    "urls": [
+      "https://twitter.com/tttery_fl",
+      "https://www.youtube.com/channel/UCSuwsSelzL-k1kCL39di2lw",
+      "https://store.steampowered.com/app/1305300/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100,
+      102
+    ],
+    "comment": ""
   }
 }

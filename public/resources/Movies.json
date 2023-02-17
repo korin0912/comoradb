@@ -14926,5 +14926,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1136": {
+    "name": "プレイヤーの選択でロレッタちゃんが結局罪を犯すゲーム【Loretta】＃1",
+    "url": "https://www.youtube.com/watch?v=3eZtwWAh2zI",
+    "releaseDate": "2023/02/17",
+    "gameIds": [
+      368
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

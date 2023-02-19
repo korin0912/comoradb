@@ -14952,5 +14952,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1138": {
+    "name": "身体の使い方が下手過ぎる泥棒【The Professional】",
+    "url": "https://www.youtube.com/watch?v=p0tDnAE32T0",
+    "releaseDate": "2023/02/19",
+    "gameIds": [
+      369
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

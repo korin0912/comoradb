@@ -4390,9 +4390,21 @@
       "https://www.youtube.com/channel/UCJixLE2z6hWrX2SgCdg_pzQ",
       "https://store.steampowered.com/app/1592540/Loretta/"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmx_gyokuk-T619DU34-xxq",
     "genreIds": [
       2
+    ],
+    "comment": ""
+  },
+  "369": {
+    "name": "The Professional",
+    "urls": [
+      "https://torfi.itch.io/the-professional"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113,
+      132
     ],
     "comment": ""
   }

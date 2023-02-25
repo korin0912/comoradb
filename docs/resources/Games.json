@@ -4407,5 +4407,18 @@
       132
     ],
     "comment": ""
+  },
+  "370": {
+    "name": "Deadly Premonition 2: A Blessing in Disguise",
+    "urls": [
+      "https://toybox-games.jp/dp2/",
+      "https://store-jp.nintendo.com/list/software/70010000022990.html",
+      "https://store.steampowered.com/app/1271100/Deadly_Premonition_2_A_Blessing_in_Disguise/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbl6EArxqRNFrWhopFFFqpNg",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

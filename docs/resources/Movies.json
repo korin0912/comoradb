@@ -15017,5 +15017,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1143": {
+    "name": "あの世界一賛否両論の神ゲーが蘇る【レッドシーズプロファイル2】＃1",
+    "url": "https://www.youtube.com/watch?v=YoI8x44UPSQ",
+    "releaseDate": "2023/02/24",
+    "gameIds": [
+      370
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

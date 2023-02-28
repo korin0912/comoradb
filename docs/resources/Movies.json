@@ -15056,5 +15056,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1146": {
+    "name": "容疑者は身長3ｍの巨人【レッドシーズプロファイル2】＃3",
+    "url": "https://www.youtube.com/watch?v=16-U1N4F4kM",
+    "releaseDate": "2023/02/28",
+    "gameIds": [
+      370
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

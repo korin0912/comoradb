@@ -15095,5 +15095,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1149": {
+    "name": "変人しかいない町【レッドシーズプロファイル2】＃4",
+    "url": "https://www.youtube.com/watch?v=ROiXMfStH8w",
+    "releaseDate": "2023/03/04",
+    "gameIds": [
+      370
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

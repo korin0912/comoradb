@@ -15108,5 +15108,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1150": {
+    "name": "もっと驚け！【レッドシーズプロファイル2】＃5",
+    "url": "https://www.youtube.com/watch?v=4Ns_tpLAZ0w",
+    "releaseDate": "2023/03/05",
+    "gameIds": [
+      370
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

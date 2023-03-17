@@ -15238,5 +15238,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1160": {
+    "name": "【雑談】友達10人を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=FYPmwLeItdo",
+    "releaseDate": "2023/03/17",
+    "gameIds": [
+      370
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -15251,5 +15251,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1161": {
+    "name": "奇跡起きとる【レッドシーズプロファイル2】＃11",
+    "url": "https://www.youtube.com/watch?v=RkbSYXhQjQY",
+    "releaseDate": "2023/03/18",
+    "gameIds": [
+      370
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

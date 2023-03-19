@@ -15264,5 +15264,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1162": {
+    "name": "相棒は巨大な竜【そこへ向かう(GO THERE)】",
+    "url": "https://www.youtube.com/watch?v=XOwaMBK1loY",
+    "releaseDate": "2023/03/19",
+    "gameIds": [
+      372
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

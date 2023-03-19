@@ -4431,5 +4431,18 @@
       10
     ],
     "comment": ""
+  },
+  "372": {
+    "name": "そこへ向かう(GO THERE)",
+    "urls": [
+      "https://twitter.com/ichthyo_stego",
+      "https://store.steampowered.com/app/1087790/GO_THERE/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      118
+    ],
+    "comment": ""
   }
 }

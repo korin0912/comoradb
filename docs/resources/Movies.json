@@ -15290,5 +15290,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1164": {
+    "name": "道化の王【レッドシーズプロファイル2】＃13",
+    "url": "https://www.youtube.com/watch?v=_QzzkjeWK9g",
+    "releaseDate": "2023/03/21",
+    "gameIds": [
+      370
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

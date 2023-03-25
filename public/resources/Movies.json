@@ -15342,5 +15342,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1168": {
+    "name": "ぽこぴーランドに行く前にコメント返す",
+    "url": "https://www.youtube.com/watch?v=5pZzgQ__5uY",
+    "releaseDate": "2023/03/25",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

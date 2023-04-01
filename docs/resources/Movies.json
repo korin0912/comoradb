@@ -15433,5 +15433,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1175": {
+    "name": "明らかに悪ふざけで生み出された怪物に追われるゲーム【尻目】",
+    "url": "https://www.youtube.com/watch?v=CMmkhMUX7mM",
+    "releaseDate": "2023/04/01",
+    "gameIds": [
+      374
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -4469,5 +4469,20 @@
       100
     ],
     "comment": ""
+  },
+  "375": {
+    "name": "Crab Champions",
+    "urls": [
+      "https://www.facebook.com/CrabChampions/",
+      "https://twitter.com/CrabChampions",
+      "https://www.youtube.com/channel/UCkikC3R967cZNm5sL7MAMHw",
+      "https://store.steampowered.com/app/774801/Crab_Champions/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      7,
+      102
+    ],
+    "comment": ""
   }
 }

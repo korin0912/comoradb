@@ -15446,5 +15446,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1176": {
+    "name": "カニのローグライクゲームが面白い【Crab Champions】",
+    "url": "https://www.youtube.com/watch?v=jIyHoJt4BMg",
+    "releaseDate": "2023/04/02",
+    "gameIds": [
+      375
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

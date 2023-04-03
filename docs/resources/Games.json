@@ -4484,5 +4484,17 @@
       102
     ],
     "comment": ""
+  },
+  "376": {
+    "name": "Water tank| 貯水槽",
+    "urls": [
+      "https://store.steampowered.com/app/2319250/Water_tank/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

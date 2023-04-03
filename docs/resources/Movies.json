@@ -15459,5 +15459,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1177": {
+    "name": "貯水槽の中に何かがある【Water tank 貯水槽】前編",
+    "url": "https://www.youtube.com/watch?v=GwQF92PtDlw",
+    "releaseDate": "2023/04/03",
+    "gameIds": [
+      376
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

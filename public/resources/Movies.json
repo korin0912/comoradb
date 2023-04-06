@@ -15498,5 +15498,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1180": {
+    "name": "メスガキの呪い【Little Hope】＃1",
+    "url": "https://www.youtube.com/watch?v=iA18zY31PUc",
+    "releaseDate": "2023/04/06",
+    "gameIds": [
+      377
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

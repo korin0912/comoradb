@@ -4496,5 +4496,21 @@
       100
     ],
     "comment": ""
+  },
+  "377": {
+    "name": "The Dark Pictures Anthology: Little Hope",
+    "urls": [
+      "https://www.thedarkpictures.com",
+      "https://darkpictures-jp.bn-ent.net/lh/",
+      "https://store.playstation.com/ja-jp/product/JP0700-CUSA18014_00-SMGTHEDARKPICSLH",
+      "https://www.xbox.com/ja-jp/games/store/the-dark-pictures-anthology-little-hope/9nj5k5f4tls6?activetab=pivot:overviewtab",
+      "https://store.steampowered.com/app/1194630/The_Dark_Pictures_Anthology_Little_Hope/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmeITHnSM3DHLcqXbD8M2RT",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

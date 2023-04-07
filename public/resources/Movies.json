@@ -15511,5 +15511,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1181": {
+    "name": "赤ずきんと狼が合体すると強い【Ravenswatch】",
+    "url": "https://www.youtube.com/watch?v=ff07_5B3ZNQ",
+    "releaseDate": "2023/04/07",
+    "gameIds": [
+      378
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

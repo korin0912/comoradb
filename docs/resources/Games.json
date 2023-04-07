@@ -4512,5 +4512,19 @@
       100
     ],
     "comment": ""
+  },
+  "378": {
+    "name": "Ravenswatch",
+    "urls": [
+      "https://twitter.com/PlayRavenswatch",
+      "https://www.youtube.com/@nacon",
+      "https://store.steampowered.com/app/2071280/Ravenswatch/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

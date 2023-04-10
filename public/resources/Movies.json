@@ -15550,5 +15550,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1184": {
+    "name": "滋賀県民のコメント返し",
+    "url": "https://www.youtube.com/watch?v=TREWWCVL4Fw",
+    "releaseDate": "2023/04/10",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

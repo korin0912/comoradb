@@ -15563,5 +15563,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1185": {
+    "name": "子供の言うことは絶対【Little Hope】＃4",
+    "url": "https://www.youtube.com/watch?v=Aby1SIGhD3w",
+    "releaseDate": "2023/04/11",
+    "gameIds": [
+      377
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

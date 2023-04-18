@@ -15654,5 +15654,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1192": {
+    "name": "ついに見つけた運転手【Little Hope】＃8(終)",
+    "url": "https://www.youtube.com/watch?v=Bjm2eTHUn74",
+    "releaseDate": "2023/04/18",
+    "gameIds": [
+      377
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

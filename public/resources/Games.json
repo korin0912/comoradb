@@ -4550,5 +4550,17 @@
       132
     ],
     "comment": ""
+  },
+  "381": {
+    "name": "HAZAMA_QUEEN",
+    "urls": [
+      "https://store.steampowered.com/app/2318810/HAZAMA_QUEEN/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      8,
+      102
+    ],
+    "comment": ""
   }
 }

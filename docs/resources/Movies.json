@@ -15706,5 +15706,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1196": {
+    "name": "無知なギャングが飲食店を経営しました【Don Duality】",
+    "url": "https://www.youtube.com/watch?v=47iArWdbmP8",
+    "releaseDate": "2023/04/22",
+    "gameIds": [
+      382
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

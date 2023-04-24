@@ -4589,5 +4589,18 @@
       2
     ],
     "comment": ""
+  },
+  "384": {
+    "name": "EXCYCLE",
+    "urls": [
+      "https://store.steampowered.com/app/2213570/EXCYCLE/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      10,
+      101
+    ],
+    "comment": ""
   }
 }

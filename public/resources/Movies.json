@@ -15745,5 +15745,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1199": {
+    "name": "GW目前コメント返し",
+    "url": "https://www.youtube.com/watch?v=l59QIqt6Ri8",
+    "releaseDate": "2023/04/25",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

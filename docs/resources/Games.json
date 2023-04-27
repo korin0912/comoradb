@@ -4602,5 +4602,19 @@
       101
     ],
     "comment": ""
+  },
+  "385": {
+    "name": "Star Fetchers",
+    "urls": [
+      "https://twitter.com/SvavelstickaDev",
+      "https://www.youtube.com/channel/UCZjRrUNMSIQVi3924fDkcpw",
+      "https://store.steampowered.com/app/1178030/Star_Fetchers/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

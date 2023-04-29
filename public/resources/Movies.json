@@ -15797,5 +15797,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1203": {
+    "name": "GWなので元気に廃墟に行ったらひどい目にあった【廃病院探索】",
+    "url": "https://www.youtube.com/watch?v=mJYR_iqqryc",
+    "releaseDate": "2023/04/29",
+    "gameIds": [
+      386
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

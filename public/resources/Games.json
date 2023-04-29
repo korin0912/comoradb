@@ -4616,5 +4616,19 @@
       2
     ],
     "comment": ""
+  },
+  "386": {
+    "name": "廃病院探索",
+    "urls": [
+      "https://twitter.com/kanikanio568",
+      "https://www.youtube.com/@user-zi7xf2qj5o",
+      "https://store.steampowered.com/app/2383530/_/?curator_clanid=4777282&utm_source=SteamDB"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

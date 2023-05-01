@@ -15823,5 +15823,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1205": {
+    "name": "バーガー君が宇宙で暴れるゲーム【BURGER IMPACT SOLAR STRIKE】",
+    "url": "https://www.youtube.com/watch?v=l8Az_RRE0Ps",
+    "releaseDate": "2023/05/01",
+    "gameIds": [
+      387
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

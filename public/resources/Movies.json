@@ -15836,5 +15836,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1206": {
+    "name": "嘘を交えてコメント返します",
+    "url": "https://www.youtube.com/watch?v=oZlSgg8igCY",
+    "releaseDate": "2023/05/02",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

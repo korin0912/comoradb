@@ -15849,5 +15849,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1207": {
+    "name": "ニワトリになりたい【ALTF4】＃3",
+    "url": "https://www.youtube.com/watch?v=ySvx49dxLFQ",
+    "releaseDate": "2023/05/03",
+    "gameIds": [
+      209
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

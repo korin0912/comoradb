@@ -4641,5 +4641,18 @@
       1
     ],
     "comment": ""
+  },
+  "388": {
+    "name": "The Cow Game",
+    "urls": [
+      "https://www.nightingames.com",
+      "https://twitter.com/NightinGames",
+      "https://store.steampowered.com/app/1521390/The_Cow_Game/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

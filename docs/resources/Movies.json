@@ -15862,5 +15862,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1208": {
+    "name": "牛さんになっちゃった☆【The Cow Game】",
+    "url": "https://www.youtube.com/watch?v=_BRauOj0ylY",
+    "releaseDate": "2023/05/04",
+    "gameIds": [
+      388
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

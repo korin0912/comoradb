@@ -15875,5 +15875,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1209": {
+    "name": "通夜の日に幽霊が八つ当たりしてきます【通夜】",
+    "url": "https://www.youtube.com/watch?v=8O_tJ19G22k",
+    "releaseDate": "2023/05/05",
+    "gameIds": [
+      389
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

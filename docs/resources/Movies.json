@@ -15888,5 +15888,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1210": {
+    "name": "【雑談】2023GWを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=K9OIsiKE3_g",
+    "releaseDate": "2023/05/06",
+    "gameIds": [
+      33
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

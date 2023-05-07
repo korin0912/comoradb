@@ -15901,5 +15901,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1211": {
+    "name": "マッチョがマッチョをマッスルするゲーム【MUSCLE GIANTS】",
+    "url": "https://www.youtube.com/watch?v=B8a1EO22BbQ",
+    "releaseDate": "2023/05/07",
+    "gameIds": [
+      390
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

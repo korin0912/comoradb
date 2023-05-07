@@ -4666,5 +4666,18 @@
       100
     ],
     "comment": ""
+  },
+  "390": {
+    "name": "MUSCLE GIANTS",
+    "urls": [
+      "https://store.steampowered.com/app/2216430/MUSCLE_GIANTS/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      4,
+      7,
+      113
+    ],
+    "comment": ""
   }
 }

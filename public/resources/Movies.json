@@ -15914,5 +15914,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1212": {
+    "name": "ゆるキャラ達の陣取り合戦！【Shieldwall】",
+    "url": "https://www.youtube.com/watch?v=eciqhUx2M_8",
+    "releaseDate": "2023/05/08",
+    "gameIds": [
+      391
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

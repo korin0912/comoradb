@@ -15940,5 +15940,31 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1214": {
+    "name": "行方不明の愛犬を探しに怪しいクリニックに侵入するワン！【CANINE】",
+    "url": "https://www.youtube.com/watch?v=aN1AUoTbT4E",
+    "releaseDate": "2023/05/11",
+    "gameIds": [
+      392
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1215": {
+    "name": "最高難易度ヘルが鬼畜すぎた【ALTF4】＃4",
+    "url": "https://www.youtube.com/watch?v=ETqhkHqQJsI",
+    "releaseDate": "2023/05/10",
+    "gameIds": [
+      209
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

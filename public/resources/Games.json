@@ -4693,5 +4693,18 @@
       107
     ],
     "comment": ""
+  },
+  "392": {
+    "name": "CANINE",
+    "urls": [
+      "https://www.youtube.com/@pukogames",
+      "https://store.steampowered.com/app/2334780/CANINE/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

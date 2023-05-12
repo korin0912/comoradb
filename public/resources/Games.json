@@ -4706,5 +4706,21 @@
       100
     ],
     "comment": ""
+  },
+  "393": {
+    "name": "The Good Life",
+    "urls": [
+      "https://playism.com/game/the-good-life/",
+      "https://store.steampowered.com/app/1452500/The_Good_Life/",
+      "https://store-jp.nintendo.com/list/software/70010000043801.html",
+      "https://store.playstation.com/ja-jp/product/JP0122-CUSA29501_00-THEGOODLIFE00000/",
+      "https://www.xbox.com/ja-jp/games/store/7b3b9159/9MSP68027100"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      5
+    ],
+    "comment": ""
   }
 }

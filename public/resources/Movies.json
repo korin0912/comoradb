@@ -15979,5 +15979,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1217": {
+    "name": "【雑談】連休明けを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=fT2xDUnoQCE",
+    "releaseDate": "2023/05/13",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

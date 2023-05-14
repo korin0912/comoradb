@@ -15992,5 +15992,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1218": {
+    "name": "犬にもホクロがあるんですね【The Good Life】＃2",
+    "url": "https://www.youtube.com/watch?v=6yh18ukJIiM",
+    "releaseDate": "2023/05/14",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

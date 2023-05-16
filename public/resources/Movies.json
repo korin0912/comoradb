@@ -16018,5 +16018,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1220": {
+    "name": "プランクしながらコメント返します",
+    "url": "https://www.youtube.com/watch?v=Q6htx83HmnI",
+    "releaseDate": "2023/05/16",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

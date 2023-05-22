@@ -16096,5 +16096,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1226": {
+    "name": "ベリーマン一家を救え！ナオミ！【The Good Life】＃6",
+    "url": "https://www.youtube.com/watch?v=HH1rH2eVHWk",
+    "releaseDate": "2023/05/22",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

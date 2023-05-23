@@ -16109,5 +16109,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1227": {
+    "name": "陰キャのコメント返し",
+    "url": "https://www.youtube.com/watch?v=TYD1sgReiLc",
+    "releaseDate": "2023/05/23",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

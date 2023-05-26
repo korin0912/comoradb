@@ -16148,5 +16148,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1230": {
+    "name": "伝説の生き物はそこらへんを歩いてる【The Good Life】＃8",
+    "url": "https://www.youtube.com/watch?v=Ut35YEBFXZs",
+    "releaseDate": "2023/05/26",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

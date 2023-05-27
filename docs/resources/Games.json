@@ -4734,5 +4734,19 @@
       100
     ],
     "comment": ""
+  },
+  "395": {
+    "name": "Against All Odds",
+    "urls": [
+      "https://store.epicgames.com/ja/p/against-all-odds-409105",
+      "https://store.steampowered.com/app/1465560/Against_All_Odds/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      6,
+      127
+    ],
+    "comment": ""
   }
 }

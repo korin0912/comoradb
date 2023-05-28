@@ -16174,5 +16174,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1232": {
+    "name": "【雑談】職場の愚痴を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=sCBw4HhqiLo",
+    "releaseDate": "2023/05/28",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

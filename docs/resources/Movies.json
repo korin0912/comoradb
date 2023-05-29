@@ -16187,5 +16187,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1233": {
+    "name": "目と耳が悪い元軍人【The Good Life】＃9",
+    "url": "https://www.youtube.com/watch?v=GITskdh9zXQ",
+    "releaseDate": "2023/05/29",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -16200,5 +16200,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1234": {
+    "name": "ミステリーで宇宙人出てきたらアカン【The Good Life】＃10",
+    "url": "https://www.youtube.com/watch?v=p6h00Zrx9vU",
+    "releaseDate": "2023/05/30",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -16239,5 +16239,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1237": {
+    "name": "台風の中コメント返すぞ！",
+    "url": "https://www.youtube.com/watch?v=UJKHU3jc_nQ",
+    "releaseDate": "2023/06/02",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

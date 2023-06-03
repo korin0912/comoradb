@@ -16252,5 +16252,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1238": {
+    "name": "我ら悪のMB社！【The Good Life】＃12",
+    "url": "https://www.youtube.com/watch?v=1fLdJFJB_P0",
+    "releaseDate": "2023/06/03",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

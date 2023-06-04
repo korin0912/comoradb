@@ -16265,5 +16265,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1239": {
+    "name": "【雑談】一週間の休みを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=JAzkOb9V8ss",
+    "releaseDate": "2023/06/04",
+    "gameIds": [
+      396
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

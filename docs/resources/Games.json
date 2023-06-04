@@ -4748,5 +4748,17 @@
       127
     ],
     "comment": ""
+  },
+  "396": {
+    "name": "トゥクトゥクレース",
+    "urls": [
+      "https://store.epicgames.com/ja/p/tuk-tuk-race-1ff590",
+      "https://store.steampowered.com/app/2398020/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      10
+    ],
+    "comment": ""
   }
 }

@@ -16278,5 +16278,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1240": {
+    "name": "謎多き町、レイニーウッズ【The Good Life】＃13",
+    "url": "https://www.youtube.com/watch?v=Mu9edqBLVQQ",
+    "releaseDate": "2023/06/05",
+    "gameIds": [
+      393
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

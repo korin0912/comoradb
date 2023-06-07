@@ -16304,5 +16304,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1242": {
+    "name": "友達と命綱で繋げられました、助けて【ブレッドとフレッド Bread & Fred】",
+    "url": "https://www.youtube.com/watch?v=hA-M2kmMMVA",
+    "releaseDate": "2023/06/07",
+    "gameIds": [
+      397
+    ],
+    "actorIds": [
+      1,
+      4
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -4760,5 +4760,19 @@
       10
     ],
     "comment": ""
+  },
+  "397": {
+    "name": "Bread & Fred",
+    "urls": [
+      "https://twitter.com/SandCastlesSt",
+      "https://www.youtube.com/channel/UC0JUgfSFLSoYNDkaaBzXYHg",
+      "https://store.steampowered.com/app/1607680/Bread__Fred/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      116
+    ],
+    "comment": ""
   }
 }

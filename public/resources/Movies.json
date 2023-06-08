@@ -16318,5 +16318,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1243": {
+    "name": "公道でナマケモノが風を感じるゲーム【Driftwood】",
+    "url": "https://www.youtube.com/watch?v=lqU7r0a0R6E",
+    "releaseDate": "2023/06/08",
+    "gameIds": [
+      398
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -4774,5 +4774,17 @@
       116
     ],
     "comment": ""
+  },
+  "398": {
+    "name": "Driftwood",
+    "urls": [
+      "https://twitter.com/Stoked_Sloth",
+      "https://store.steampowered.com/app/2223700/Driftwood/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      6
+    ],
+    "comment": ""
   }
 }

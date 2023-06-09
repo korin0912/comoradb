@@ -4786,5 +4786,19 @@
       6
     ],
     "comment": ""
+  },
+  "399": {
+    "name": "Bleak Sword DX",
+    "urls": [
+      "https://store.steampowered.com/app/2193050/Bleak_Sword_DX/?l=japanese",
+      "https://store-jp.nintendo.com/list/software/70010000062051.html",
+      "https://store.epicgames.com/ja/p/bleak-sword-dx-5b2d4c"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

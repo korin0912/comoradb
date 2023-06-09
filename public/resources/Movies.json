@@ -16331,5 +16331,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1244": {
+    "name": "勇者の夢を見たので勇者になった男【Bleak Sword DX】",
+    "url": "https://www.youtube.com/watch?v=k7oq0rohu8M",
+    "releaseDate": "2023/06/09",
+    "gameIds": [
+      399
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

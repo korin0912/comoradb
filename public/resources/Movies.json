@@ -16344,5 +16344,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1245": {
+    "name": "ペット系vtuberがコメント返しコモ！",
+    "url": "https://www.youtube.com/watch?v=pK-M1DltHkg",
+    "releaseDate": "2023/06/10",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

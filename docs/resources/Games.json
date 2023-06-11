@@ -4766,7 +4766,8 @@
     "urls": [
       "https://twitter.com/SandCastlesSt",
       "https://www.youtube.com/channel/UC0JUgfSFLSoYNDkaaBzXYHg",
-      "https://store.steampowered.com/app/1607680/Bread__Fred/?l=japanese"
+      "https://store.steampowered.com/app/1607680/Bread__Fred/?l=japanese",
+      "https://www.breadandfred.com"
     ],
     "playListUrl": "",
     "genreIds": [
@@ -4792,12 +4793,26 @@
     "urls": [
       "https://store.steampowered.com/app/2193050/Bleak_Sword_DX/?l=japanese",
       "https://store-jp.nintendo.com/list/software/70010000062051.html",
-      "https://store.epicgames.com/ja/p/bleak-sword-dx-5b2d4c"
+      "https://store.epicgames.com/ja/p/bleak-sword-dx-5b2d4c",
+      "https://www.bleaksword.com"
     ],
     "playListUrl": "",
     "genreIds": [
       1,
       102
+    ],
+    "comment": ""
+  },
+  "400": {
+    "name": "Booby And The Booby Trap",
+    "urls": [
+      "http://www.oznastudio.com",
+      "https://store.steampowered.com/app/1126090/Booby_And_The_Booby_Trap/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      133
     ],
     "comment": ""
   }

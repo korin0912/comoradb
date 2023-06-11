@@ -16357,5 +16357,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1246": {
+    "name": "俺は爆弾解体処理班、ジャック・ウィルソンだ！【Booby And The Booby Trap】",
+    "url": "https://www.youtube.com/watch?v=fs-HRopLCl4",
+    "releaseDate": "2023/06/11",
+    "gameIds": [
+      400
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

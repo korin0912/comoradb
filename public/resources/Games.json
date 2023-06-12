@@ -4815,5 +4815,17 @@
       133
     ],
     "comment": ""
+  },
+  "401": {
+    "name": "Adventure of Leek",
+    "urls": [
+      "https://store.steampowered.com/app/1805310/Adventure_of_Leek/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      118
+    ],
+    "comment": ""
   }
 }

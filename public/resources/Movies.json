@@ -16383,5 +16383,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1248": {
+    "name": "【雑談】心霊スポットを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=dxN8xAb6B9E",
+    "releaseDate": "2023/06/13",
+    "gameIds": [
+      209
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

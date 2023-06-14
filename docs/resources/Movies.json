@@ -16396,5 +16396,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1249": {
+    "name": "ゴミ掃除の仕事してたらひどい目にあった【ゴミ屋敷脱出ゲーム】",
+    "url": "https://www.youtube.com/watch?v=WQCGhPm3UO4",
+    "releaseDate": "2023/06/14",
+    "gameIds": [
+      402
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

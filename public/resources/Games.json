@@ -4827,5 +4827,17 @@
       118
     ],
     "comment": ""
+  },
+  "402": {
+    "name": "EFGH ゴミ屋敷脱出ゲーム",
+    "urls": [
+      "https://store.steampowered.com/app/2399120/EFGH/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      113
+    ],
+    "comment": ""
   }
 }

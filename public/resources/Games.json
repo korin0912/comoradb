@@ -4839,5 +4839,17 @@
       113
     ],
     "comment": ""
+  },
+  "403": {
+    "name": "Late for Class: Variety King",
+    "urls": [
+      "https://store.steampowered.com/app/1803230/Late_for_Class_Variety_King/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

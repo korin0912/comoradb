@@ -16409,5 +16409,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1250": {
+    "name": "難しすぎてクリアを諦めたゲーム【Late for Class: Variety King】",
+    "url": "https://www.youtube.com/watch?v=UI_Iw1rV-6I",
+    "releaseDate": "2023/06/15",
+    "gameIds": [
+      403
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

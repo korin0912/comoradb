@@ -16422,5 +16422,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1251": {
+    "name": "運じゃない、戦略や【Dice World】",
+    "url": "https://www.youtube.com/watch?v=kfmLbyVfwuU",
+    "releaseDate": "2023/06/16",
+    "gameIds": [
+      404
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

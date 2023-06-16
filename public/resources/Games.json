@@ -4851,5 +4851,18 @@
       136
     ],
     "comment": ""
+  },
+  "404": {
+    "name": "Dice World",
+    "urls": [
+      "https://store.steampowered.com/app/2353680/Dice_World/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      106,
+      138
+    ],
+    "comment": ""
   }
 }

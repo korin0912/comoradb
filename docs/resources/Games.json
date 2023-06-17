@@ -4864,5 +4864,19 @@
       138
     ],
     "comment": ""
+  },
+  "405": {
+    "name": "[Chilla's Art] Night Security | 夜間警備",
+    "urls": [
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/@chillasart",
+      "https://store.steampowered.com/app/2367230/Chillas_Art_Night_Security/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

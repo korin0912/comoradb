@@ -16461,5 +16461,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1254": {
+    "name": "月曜日のコメント返し",
+    "url": "https://www.youtube.com/watch?v=QinZ3zF1_YI",
+    "releaseDate": "2023/06/19",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

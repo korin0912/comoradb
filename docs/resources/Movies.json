@@ -16474,5 +16474,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1255": {
+    "name": "シンプルなのが良き、シューティングローグライク【Project Romboid】",
+    "url": "https://www.youtube.com/watch?v=ywZ0biKx46k",
+    "releaseDate": "2023/06/20",
+    "gameIds": [
+      406
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

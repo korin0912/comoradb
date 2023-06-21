@@ -16487,5 +16487,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1256": {
+    "name": "AIゲーム実況者がなんか怖い目にあいました【T.P.remake】",
+    "url": "https://www.youtube.com/watch?v=zJu8N9lMLuI",
+    "releaseDate": "2023/06/21",
+    "gameIds": [
+      407
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -4890,5 +4890,17 @@
       102
     ],
     "comment": ""
+  },
+  "407": {
+    "name": "T.P. Remake",
+    "urls": [
+      "https://codelelou.itch.io/tp-test-player-remake"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

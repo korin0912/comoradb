@@ -16500,5 +16500,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1257": {
+    "name": "笑えるホラーゲームらしい【上坟/To the grave Demo版】",
+    "url": "https://www.youtube.com/watch?v=UoSsIIDBBHE",
+    "releaseDate": "2023/06/22",
+    "gameIds": [
+      408
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

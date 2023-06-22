@@ -4902,5 +4902,17 @@
       100
     ],
     "comment": ""
+  },
+  "408": {
+    "name": "お墓参り",
+    "urls": [
+      "https://store.steampowered.com/app/2200340/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

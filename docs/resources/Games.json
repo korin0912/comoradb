@@ -4914,5 +4914,18 @@
       100
     ],
     "comment": ""
+  },
+  "409": {
+    "name": "ラーメンあぶら集め",
+    "urls": [
+      "https://twitter.com/PenguinGamers_",
+      "https://store.steampowered.com/app/2444000/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113,
+      132
+    ],
+    "comment": ""
   }
 }

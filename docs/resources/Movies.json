@@ -16526,5 +16526,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1259": {
+    "name": "エレベーターに閉じ込められました【サバイバーズ・ギルト】＃1",
+    "url": "https://www.youtube.com/watch?v=9o9808L7lno",
+    "releaseDate": "2023/06/24",
+    "gameIds": [
+      410
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

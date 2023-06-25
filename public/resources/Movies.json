@@ -16539,5 +16539,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1260": {
+    "name": "助けが来ないなら自力で脱出や！【サバイバーズ・ギルト】＃2",
+    "url": "https://www.youtube.com/watch?v=8ghiY7s9PRM",
+    "releaseDate": "2023/06/25",
+    "gameIds": [
+      410
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

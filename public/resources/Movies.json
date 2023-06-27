@@ -16565,5 +16565,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1262": {
+    "name": "水が欲しいと言ったがこれじゃない【サバイバーズ・ギルト】＃3",
+    "url": "https://www.youtube.com/watch?v=MlGPuaL9dYo",
+    "releaseDate": "2023/06/27",
+    "gameIds": [
+      410
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

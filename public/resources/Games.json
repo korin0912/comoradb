@@ -4940,5 +4940,16 @@
       104
     ],
     "comment": ""
+  },
+  "411": {
+    "name": "Dating Simulator",
+    "urls": [
+      "https://store.steampowered.com/app/1709080/Dating_Simulator/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkdX0tJD4PTo1yATY4OUpHo",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

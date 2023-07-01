@@ -16617,5 +16617,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1266": {
+    "name": "【雑談】腹痛を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=af4BHTILJac",
+    "releaseDate": "2023/07/01",
+    "gameIds": [
+      209
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

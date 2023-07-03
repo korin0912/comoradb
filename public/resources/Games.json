@@ -4951,5 +4951,17 @@
       5
     ],
     "comment": ""
+  },
+  "412": {
+    "name": "The Horror Within",
+    "urls": [
+      "https://pollero.itch.io/the-horror-within"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

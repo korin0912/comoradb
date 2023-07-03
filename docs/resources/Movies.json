@@ -16643,5 +16643,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1268": {
+    "name": "雑なホラーゲームは実況者しかプレイしてない説【The Horror Within】",
+    "url": "https://www.youtube.com/watch?v=8XSY-Fubofs",
+    "releaseDate": "2023/07/03",
+    "gameIds": [
+      412
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

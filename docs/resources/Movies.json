@@ -16669,5 +16669,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1270": {
+    "name": "泣きながらコメント返しだ！",
+    "url": "https://www.youtube.com/watch?v=-Q5U5zyK8i4",
+    "releaseDate": "2023/07/05",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -16695,5 +16695,19 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1272": {
+    "name": "グリマスってみんな憶えてる？",
+    "url": "https://www.youtube.com/watch?v=9x1UBz2N4Tk",
+    "releaseDate": "2023/07/07",
+    "gameIds": [
+      413,
+      414
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

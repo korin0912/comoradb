@@ -4963,5 +4963,29 @@
       100
     ],
     "comment": ""
+  },
+  "413": {
+    "name": "The Grimace Shake",
+    "urls": [
+      "https://triple-dev.itch.io/the-grimace-shake"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
+  },
+  "414": {
+    "name": "Grimace's Basement",
+    "urls": [
+      "https://double-vision-studios.itch.io/grimaces-birthday"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

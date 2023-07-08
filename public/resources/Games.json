@@ -4987,5 +4987,16 @@
       100
     ],
     "comment": ""
+  },
+  "415": {
+    "name": "空想少女 -前日譚-",
+    "urls": [
+      "https://store.steampowered.com/app/2445210/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

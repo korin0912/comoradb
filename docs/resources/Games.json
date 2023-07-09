@@ -4998,5 +4998,21 @@
       2
     ],
     "comment": ""
+  },
+  "416": {
+    "name": "Gimmick! Special Edition",
+    "urls": [
+      "https://www.bitwavegames.com/games/gimmick-special-edition",
+      "https://city-connection.co.jp/gimmick/",
+      "https://store-jp.nintendo.com/list/software/70010000066084.html",
+      "https://store.playstation.com/ja-jp/concept/10006506",
+      "https://www.xbox.com/ja-JP/games/store/gimmick-special-edition/9njk8dhq907h",
+      "https://store.steampowered.com/app/2131800/Gimmick_Special_Edition/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

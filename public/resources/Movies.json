@@ -16774,5 +16774,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1278": {
+    "name": "【コメント返し】ファッション陰キャです心は陽キャです",
+    "url": "https://www.youtube.com/watch?v=dkMuJcGIhmE",
+    "releaseDate": "2023/07/13",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

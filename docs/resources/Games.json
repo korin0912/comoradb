@@ -5014,5 +5014,23 @@
       1
     ],
     "comment": ""
+  },
+  "417": {
+    "name": "Sifu",
+    "urls": [
+      "https://www.sifugame.com",
+      "https://www.xbox.com/ja-JP/games/store/sifu/9p7pf6zp3958",
+      "https://store.playstation.com/ja-jp/concept/10001973/",
+      "https://www.nintendo.com/store/products/sifu-switch/",
+      "https://store.steampowered.com/app/2138710/Sifu/",
+      "https://store.epicgames.com/en-US/p/sifu",
+      "https://twitter.com/SifuGame",
+      "https://www.youtube.com/@sloclap"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

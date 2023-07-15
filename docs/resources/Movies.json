@@ -16800,5 +16800,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1280": {
+    "name": "僕はウサギです【I AM RABBIT】＃1",
+    "url": "https://www.youtube.com/watch?v=1W2ihr-vy7k",
+    "releaseDate": "2023/07/15",
+    "gameIds": [
+      418
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -5032,5 +5032,16 @@
       1
     ],
     "comment": ""
+  },
+  "418": {
+    "name": "I AM RABBIT",
+    "urls": [
+      "https://store.steampowered.com/app/2386450/I_AM_RABBIT/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

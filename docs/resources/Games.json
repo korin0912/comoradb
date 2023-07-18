@@ -5009,7 +5009,7 @@
       "https://www.xbox.com/ja-JP/games/store/gimmick-special-edition/9njk8dhq907h",
       "https://store.steampowered.com/app/2131800/Gimmick_Special_Edition/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkQLL414G0AB9JRGIy5U23P",
     "genreIds": [
       1
     ],
@@ -5038,9 +5038,22 @@
     "urls": [
       "https://store.steampowered.com/app/2386450/I_AM_RABBIT/"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblOHUM6daW5aXgMVvb0FG7Q",
     "genreIds": [
       1
+    ],
+    "comment": ""
+  },
+  "419": {
+    "name": "Nightmare Zapping",
+    "urls": [
+      "https://www.youtube.com/@mrmaldo19",
+      "https://store.steampowered.com/app/2442060/Nightmare_Zapping/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
     ],
     "comment": ""
   }

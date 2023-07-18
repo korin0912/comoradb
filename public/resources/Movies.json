@@ -16840,5 +16840,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1283": {
+    "name": "テレビをザッピングしながら呪われた町を見守るゲーム【Nightmare Zapping】",
+    "url": "https://www.youtube.com/watch?v=YzSMB_sOnV4",
+    "releaseDate": "2023/07/18",
+    "gameIds": [
+      419
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

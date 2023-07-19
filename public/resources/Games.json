@@ -5056,5 +5056,16 @@
       100
     ],
     "comment": ""
+  },
+  "420": {
+    "name": "ザ・ラムジー",
+    "urls": [
+      "https://store.steampowered.com/app/2108060/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

@@ -5067,5 +5067,19 @@
       1
     ],
     "comment": ""
+  },
+  "421": {
+    "name": "Tree Simulator 2023",
+    "urls": [
+      "https://twitter.com/revmatek",
+      "https://www.youtube.com/channel/UC2dx5h4jxxOInWaPAgT8_Tg",
+      "https://store.steampowered.com/app/1916970/Tree_Simulator_2023/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113,
+      132
+    ],
+    "comment": ""
   }
 }

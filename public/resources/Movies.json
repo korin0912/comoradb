@@ -16892,5 +16892,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1287": {
+    "name": "飛べない鳥、ペンギン【ザ・ラムジー】＃3",
+    "url": "https://www.youtube.com/watch?v=2CSaJ8XXPWk",
+    "releaseDate": "2023/07/22",
+    "gameIds": [
+      420
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

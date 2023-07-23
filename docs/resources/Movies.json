@@ -16905,5 +16905,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1288": {
+    "name": "【コメント返し】コウモリラン復活か・・・？",
+    "url": "https://www.youtube.com/watch?v=GjFD_iR0OI4",
+    "releaseDate": "2023/07/23",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

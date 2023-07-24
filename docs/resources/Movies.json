@@ -16918,5 +16918,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1289": {
+    "name": "天空の番人、紫蜘蛛【ザ・ラムジー】＃4",
+    "url": "https://www.youtube.com/watch?v=_qNbSrsFvzU",
+    "releaseDate": "2023/07/24",
+    "gameIds": [
+      420
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -16931,5 +16931,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1290": {
+    "name": "英雄は背中で語る【ザ・ラムジー】＃5(終)",
+    "url": "https://www.youtube.com/watch?v=Lb0nYVweoZE",
+    "releaseDate": "2023/07/25",
+    "gameIds": [
+      420
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

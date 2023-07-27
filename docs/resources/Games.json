@@ -5081,5 +5081,18 @@
       132
     ],
     "comment": ""
+  },
+  "422": {
+    "name": "どこかで見た“あのゲー”ムたちを棒人間でつくってみたけれど、果たしてあなたはクリアできるのか？",
+    "urls": [
+      "https://www.d3p.co.jp/anoge/",
+      "https://store-jp.nintendo.com/list/software/70010000063974.html",
+      "https://store.steampowered.com/app/2348100/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9
+    ],
+    "comment": ""
   }
 }

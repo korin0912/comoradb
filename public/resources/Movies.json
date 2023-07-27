@@ -16944,5 +16944,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1291": {
+    "name": "ピンを抜くゲームができるんですか!?【どこかで見た“あのゲー”ムたちを棒人間でつくってみたけれど、果たしてあなたはクリアできるのか？】",
+    "url": "https://www.youtube.com/watch?v=VLmacjdD-WU",
+    "releaseDate": "2023/07/27",
+    "gameIds": [
+      422
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

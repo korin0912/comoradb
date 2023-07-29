@@ -5094,5 +5094,18 @@
       9
     ],
     "comment": ""
+  },
+  "423": {
+    "name": "orz",
+    "urls": [
+      "https://twitter.com/hijikuro_inomE",
+      "https://store.steampowered.com/app/2501210/orz/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

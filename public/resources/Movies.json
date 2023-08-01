@@ -17009,5 +17009,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1296": {
+    "name": "今日も狂ったゲームをします【ドライブクレイジー】＃1",
+    "url": "https://www.youtube.com/watch?v=6MN3UhW_Niw",
+    "releaseDate": "2023/08/01",
+    "gameIds": [
+      424
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

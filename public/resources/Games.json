@@ -5107,5 +5107,19 @@
       136
     ],
     "comment": ""
+  },
+  "424": {
+    "name": "ドライブクレイジー",
+    "urls": [
+      "https://www.drive-crazy.com",
+      "https://twitter.com/takaooooooo7",
+      "https://www.youtube.com/channel/UCa_EbNqRkEdETW-Yq0cVP6g",
+      "https://store.steampowered.com/app/1556010/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblgR205Kzv5guEYoN9-bXQS",
+    "genreIds": [
+      10
+    ],
+    "comment": ""
   }
 }

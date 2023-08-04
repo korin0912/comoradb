@@ -5121,5 +5121,17 @@
       10
     ],
     "comment": ""
+  },
+  "425": {
+    "name": "かぞえ飯",
+    "urls": [
+      "https://store.steampowered.com/app/2500760/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113,
+      132
+    ],
+    "comment": ""
   }
 }

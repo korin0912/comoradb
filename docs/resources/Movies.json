@@ -17022,5 +17022,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1297": {
+    "name": "うなぎじゃああああかば焼きじゃああああああ！！【ドライブクレイジー】＃2(終?)",
+    "url": "https://www.youtube.com/watch?v=qdTSKPEnJLk",
+    "releaseDate": "2023/08/03",
+    "gameIds": [
+      424
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1298": {
+    "name": "米を数えるだけのゲームが地獄すぎた【かぞえ飯】",
+    "url": "https://www.youtube.com/watch?v=MzSzFbMYZgY",
+    "releaseDate": "2023/08/04",
+    "gameIds": [
+      425
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -5133,5 +5133,17 @@
       132
     ],
     "comment": ""
+  },
+  "426": {
+    "name": "The PenguinGame 2 -Lies of Penguin-",
+    "urls": [
+      "https://store.steampowered.com/app/2513890/The_PenguinGame_2_Lies_of_Penguin/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbk5UrRMKpmRmTH2ugunWJV7",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

@@ -17087,5 +17087,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1302": {
+    "name": "【雑談】旅行の予定を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=kaMVStNWy9o",
+    "releaseDate": "2023/08/10",
+    "gameIds": [
+      425
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -17100,5 +17100,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1303": {
+    "name": "九龍城のババァがうるさい【Welcome to Kowloon】",
+    "url": "https://www.youtube.com/watch?v=dJpl5qXjzHY",
+    "releaseDate": "2023/08/11",
+    "gameIds": [
+      427
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

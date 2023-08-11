@@ -5145,5 +5145,17 @@
       2
     ],
     "comment": ""
+  },
+  "427": {
+    "name": "Welcome to Kowloon",
+    "urls": [
+      "https://store.steampowered.com/app/2515240/Welcome_to_Kowloon/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

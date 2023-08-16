@@ -5157,5 +5157,18 @@
       100
     ],
     "comment": ""
+  },
+  "428": {
+    "name": "BlazBlue Entropy Effect",
+    "urls": [
+      "https://www.youtube.com/@bbee_global",
+      "https://store.steampowered.com/app/2273430/BlazBlue_Entropy_Effect/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

@@ -17178,5 +17178,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1309": {
+    "name": "【コメント返し】優しい人ほど騙される",
+    "url": "https://www.youtube.com/watch?v=A3ZYgvpomBA",
+    "releaseDate": "2023/08/17",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

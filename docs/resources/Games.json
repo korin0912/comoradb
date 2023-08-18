@@ -5170,5 +5170,17 @@
       102
     ],
     "comment": ""
+  },
+  "429": {
+    "name": "LOST BALLOONS: Airy mates",
+    "urls": [
+      "https://store.steampowered.com/app/2525690/LOST_BALLOONS_Airy_mates/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblcmXS7uPsXSkF1Vt3OnrIn",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

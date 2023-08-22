@@ -5194,5 +5194,18 @@
       136
     ],
     "comment": ""
+  },
+  "431": {
+    "name": "箭箭剑 Arrow a Row",
+    "urls": [
+      "https://store.steampowered.com/app/2495980/_Arrow_a_Row/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      4,
+      102,
+      119
+    ],
+    "comment": ""
   }
 }

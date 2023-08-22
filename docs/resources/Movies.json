@@ -17243,5 +17243,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1314": {
+    "name": "広告でみた感じのゲームが面白い【Arrow a Row】",
+    "url": "https://www.youtube.com/watch?v=ewja8DhSehk",
+    "releaseDate": "2023/08/22",
+    "gameIds": [
+      431
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -17256,5 +17256,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1315": {
+    "name": "マーベルのカードゲームがドキドキする【MARVEL-SNAP】",
+    "url": "https://www.youtube.com/watch?v=6QimbldGhNU",
+    "releaseDate": "2023/08/23",
+    "gameIds": [
+      432
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

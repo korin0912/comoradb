@@ -5207,5 +5207,23 @@
       119
     ],
     "comment": ""
+  },
+  "432": {
+    "name": "MARVEL SNAP (マーベル・スナップ)",
+    "urls": [
+      "https://twitter.com/MarvelSnap",
+      "https://www.youtube.com/@marvelsnap",
+      "https://www.marvelsnap.com",
+      "https://apps.apple.com/app/id1592081003",
+      "https://play.google.com/store/apps/details?id=com.nvsgames.snap",
+      "https://store.steampowered.com/app/1997040/MARVEL_SNAP/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      106,
+      107,
+      117
+    ],
+    "comment": ""
   }
 }

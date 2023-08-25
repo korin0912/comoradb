@@ -5225,5 +5225,20 @@
       117
     ],
     "comment": ""
+  },
+  "433": {
+    "name": "Remnant II",
+    "urls": [
+      "https://www.remnantgame.com/ja/",
+      "https://store.playstation.com/ja-jp/concept/10004544/",
+      "https://store.steampowered.com/app/1282100/Remnant_II/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2,
+      7
+    ],
+    "comment": ""
   }
 }

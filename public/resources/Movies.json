@@ -17282,5 +17282,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1317": {
+    "name": "【雑談】待ち時間の予定を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=ac3U_tAC_qw",
+    "releaseDate": "2023/08/25",
+    "gameIds": [
+      433
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

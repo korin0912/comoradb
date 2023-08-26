@@ -17295,5 +17295,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1318": {
+    "name": "Vtuberです、顔バレしたけどまぁいいよね【Parasocial パラソーシャル】前編",
+    "url": "https://www.youtube.com/watch?v=oKHs2dqJcp4",
+    "releaseDate": "2023/08/26",
+    "gameIds": [
+      434
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -5240,5 +5240,19 @@
       7
     ],
     "comment": ""
+  },
+  "434": {
+    "name": "[Chilla's Art] Parasocial | パラソーシャル",
+    "urls": [
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/@chillasart",
+      "https://store.steampowered.com/app/2314720/Chillas_Art_Parasocial/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

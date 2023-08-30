@@ -5254,5 +5254,16 @@
       100
     ],
     "comment": ""
+  },
+  "435": {
+    "name": "漢字でGO!",
+    "urls": [
+      "https://plicy.net/GamePlay/155561"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      140
+    ],
+    "comment": ""
   }
 }

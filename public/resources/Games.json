@@ -5265,5 +5265,18 @@
       140
     ],
     "comment": ""
+  },
+  "436": {
+    "name": "Paper Planet",
+    "urls": [
+      "https://2leftthumbs.manakeep.com/paper-planet",
+      "https://store.steampowered.com/app/1504250/Paper_Planet/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      4,
+      102
+    ],
+    "comment": ""
   }
 }

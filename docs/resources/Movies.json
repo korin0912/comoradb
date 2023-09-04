@@ -17399,5 +17399,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1326": {
+    "name": "【コメント返し】真面目にゲームするのが実は苦手",
+    "url": "https://www.youtube.com/watch?v=KzWgsMlD1Vk",
+    "releaseDate": "2023/09/04",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -5291,5 +5291,19 @@
       100
     ],
     "comment": ""
+  },
+  "438": {
+    "name": "D4: Dark Dreams Don’t Die -Season One-",
+    "urls": [
+      "http://d4-game.com/pc/index.html",
+      "https://store.steampowered.com/app/358090/D4_Dark_Dreams_Dont_Die_Season_One/",
+      "https://www.xbox.com/ja-JP/games/store/d4-dark-dreams-dont-die/BVGQMLJFSSZG",
+      "https://playism.com/game/d4-dark-dreams-dont-die-season-one/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnY3le4EDVb72isAWh4fReY",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

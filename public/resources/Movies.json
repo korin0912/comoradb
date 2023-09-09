@@ -17464,5 +17464,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1331": {
+    "name": "飛行機内で野球すな【D4 Dark Dreams Don't Die】＃3",
+    "url": "https://www.youtube.com/watch?v=Nq80r68_1pA",
+    "releaseDate": "2023/09/09",
+    "gameIds": [
+      438
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

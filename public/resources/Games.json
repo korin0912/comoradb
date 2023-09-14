@@ -5328,5 +5328,19 @@
       100
     ],
     "comment": ""
+  },
+  "441": {
+    "name": "沼落ち禁止(Love Too Easily)",
+    "urls": [
+      "https://www.mongastudio.com",
+      "https://www.youtube.com/@monsterguide_lovetooeasily",
+      "https://store.steampowered.com/app/2274500/Love_Too_Easily/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblMq9TR1RAAhILeIKRtN3Hv",
+    "genreIds": [
+      2,
+      5
+    ],
+    "comment": ""
   }
 }

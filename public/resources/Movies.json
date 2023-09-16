@@ -17542,5 +17542,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1337": {
+    "name": "働け【沼落ち禁止】＃2",
+    "url": "https://www.youtube.com/watch?v=eDD89FYFLpk",
+    "releaseDate": "2023/09/16",
+    "gameIds": [
+      441
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

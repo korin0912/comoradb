@@ -17568,5 +17568,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1339": {
+    "name": "秋と言えばコメント返し",
+    "url": "https://www.youtube.com/watch?v=uznxLRkeN_I",
+    "releaseDate": "2023/09/18",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

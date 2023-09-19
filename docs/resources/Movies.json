@@ -17581,5 +17581,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1340": {
+    "name": "ビンタでで貴族の頂点に立つゲーム【薔薇と椿】＃1",
+    "url": "https://www.youtube.com/watch?v=EU5jgx3Rpz0",
+    "releaseDate": "2023/09/19",
+    "gameIds": [
+      442
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

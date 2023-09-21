@@ -17607,5 +17607,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1342": {
+    "name": "【悲報！】毎日投稿できなくなりました",
+    "url": "https://www.youtube.com/watch?v=dO7rBIyP178",
+    "releaseDate": "2023/09/21",
+    "gameIds": [
+      99999
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

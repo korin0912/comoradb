@@ -5356,5 +5356,18 @@
       130
     ],
     "comment": ""
+  },
+  "443": {
+    "name": "決刀 -KETSUTOU-",
+    "urls": [
+      "https://unityroom.com/games/tomozo202309"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      113,
+      117
+    ],
+    "comment": ""
   }
 }

@@ -810,8 +810,10 @@
     "urls": [
       "https://www.nintendo.co.jp/switch/arzna/index.html"
     ],
+    "playListUrl": "",
     "genreIds": [
-      9
+      9,
+      117
     ],
     "comment": ""
   },
@@ -5366,6 +5368,18 @@
     "genreIds": [
       1,
       113,
+      117
+    ],
+    "comment": ""
+  },
+  "444": {
+    "name": "F-ZERO 99",
+    "urls": [
+      "https://www.nintendo.com/jp/switch/baypa/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      10,
       117
     ],
     "comment": ""

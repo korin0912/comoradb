@@ -17672,5 +17672,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1347": {
+    "name": "【雑談】ボーリングを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=i9_6bkiveKU",
+    "releaseDate": "2023/09/28",
+    "gameIds": [
+      445
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

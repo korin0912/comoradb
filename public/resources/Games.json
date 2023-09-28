@@ -5383,5 +5383,16 @@
       117
     ],
     "comment": ""
+  },
+  "445": {
+    "name": "スイカゲーム",
+    "urls": [
+      "https://store-jp.nintendo.com/list/software/70010000043363.html"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9
+    ],
+    "comment": ""
   }
 }

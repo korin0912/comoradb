@@ -5394,5 +5394,17 @@
       9
     ],
     "comment": ""
+  },
+  "446": {
+    "name": "Life is not Auto",
+    "urls": [
+      "https://www.youtube.com/@boldfishgames",
+      "https://store.steampowered.com/app/1995810/Life_is_not_Auto/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      122
+    ],
+    "comment": ""
   }
 }

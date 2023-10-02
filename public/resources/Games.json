@@ -5406,5 +5406,18 @@
       122
     ],
     "comment": ""
+  },
+  "447": {
+    "name": "Kill The Crows",
+    "urls": [
+      "https://store.steampowered.com/app/2441270/Kill_The_Crows/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      4,
+      102
+    ],
+    "comment": ""
   }
 }

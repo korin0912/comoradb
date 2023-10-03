@@ -5419,5 +5419,20 @@
       102
     ],
     "comment": ""
+  },
+  "448": {
+    "name": "IGNISTONE",
+    "urls": [
+      "https://creatorslab.kodansha.co.jp/products/1421/",
+      "https://apps.apple.com/jp/app/ignistone/id6464362665",
+      "https://play.google.com/store/apps/details?id=com.MonoEntertainment.IGNISTONE",
+      "https://store.steampowered.com/app/2393890/IGNISTONE/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

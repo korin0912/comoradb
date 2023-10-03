@@ -17711,5 +17711,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1350": {
+    "name": "ジャストガード特化のローグライクゲーム【IGNISTONE】",
+    "url": "https://www.youtube.com/watch?v=OSyNrXLCx2E",
+    "releaseDate": "2023/10/03",
+    "gameIds": [
+      448
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -5434,5 +5434,17 @@
       102
     ],
     "comment": ""
+  },
+  "449": {
+    "name": "深夜徘徊",
+    "urls": [
+      "https://store.steampowered.com/app/2556950/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -17737,5 +17737,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1352": {
+    "name": "MBTI診断するコモよ！【コメント返し】",
+    "url": "https://www.youtube.com/watch?v=OUlGncfPM84",
+    "releaseDate": "2023/10/05",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -17750,5 +17750,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1353": {
+    "name": "幽霊は地球からでていけ【幽霊部員】",
+    "url": "https://www.youtube.com/watch?v=2BBMD4NAyJw",
+    "releaseDate": "2023/10/06",
+    "gameIds": [
+      450
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -5446,5 +5446,17 @@
       100
     ],
     "comment": ""
+  },
+  "450": {
+    "name": "幽霊部員 - Ghost Member -",
+    "urls": [
+      "https://store.steampowered.com/app/2200320/__Ghost_Member/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

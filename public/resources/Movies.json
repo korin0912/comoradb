@@ -17802,5 +17802,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1357": {
+    "name": "【雑談】恐怖を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=OJu2DxvRsEU",
+    "releaseDate": "2023/10/12",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

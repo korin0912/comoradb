@@ -17854,5 +17854,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1361": {
+    "name": "【コメント返し】ロボットでいいから一緒にゲームして",
+    "url": "https://www.youtube.com/watch?v=EcDHHiYB3FY",
+    "releaseDate": "2023/10/18",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

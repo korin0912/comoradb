@@ -5507,5 +5507,18 @@
       100
     ],
     "comment": ""
+  },
+  "455": {
+    "name": "和階堂真の事件簿 TRILOGY DELUXE",
+    "urls": [
+      "https://wakaido.hakaba-bunko.net",
+      "https://store-jp.nintendo.com/list/software/70010000071632.html",
+      "https://store.steampowered.com/app/1562910/_TRILOGY_DELUXE/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblekEYloqTzi3ERnvh6Gzlp",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

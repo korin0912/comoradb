@@ -17880,5 +17880,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1363": {
+    "name": "ドラム缶です、走ります。【ドラムロール】前編",
+    "url": "https://www.youtube.com/watch?v=gZRWYqKTOC4",
+    "releaseDate": "2023/10/20",
+    "gameIds": [
+      456
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

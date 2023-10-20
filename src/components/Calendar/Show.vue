@@ -85,10 +85,24 @@ function makeDays(year, month) {
     Object.keys(moviesData).forEach((movieId) => {
       let movieData = moviesData[movieId];
       if (movieData.releaseDate == releaseDate) {
+        let thumbnail = "";
+        if (movieData.url.indexOf("https://www.youtube.com/watch") == 0)
+        {
+          var url = new URL(movieData.url);
+          var movieHash = url.searchParams.get("v");
+          if (movieHash)
+          {
+            thumbnail = "http://img.youtube.com/vi/" + movieHash + "/mqdefault.jpg";
+            // console.log(thumbnail);
+          }
+        }
+
         day["movies"].push({
           id: movieId,
           name: movieData.name,
           url: movieData.url,
+          chat: movieData.chat,
+          thumbnail: thumbnail,
         });
       }
     });

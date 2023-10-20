@@ -22,7 +22,15 @@
               {{ day.date }}日
             </div>
             <div v-for="movie in day.movies" v-bind:key="`movie-${movie.id}`" class="movie">
-              ・<a :href="movie.url">{{ movie.name }}</a>
+              <div v-if="movie.thumbnail" class="thumbnail">
+                <i v-if="movie.chat" class="icon check" />
+                <a :href="movie.url" target="_blank">
+                  <img :src="movie.thumbnail" :alt="movie.name" :title="movie.name">
+                </a>
+              </div>
+              <div v-else>
+                ・<a :href="movie.url" target="_blank">{{ movie.name }}</a>
+              </div>
             </div>
           </div>
         </td>
@@ -73,4 +81,30 @@ div.movie {
 td.hide {
   background-color: #aaaaaa;
 }
+
+.thumbnail {
+  width: 100%;
+  position: relative;
+}
+
+.thumbnail i {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 5px;
+  border-color: #ffffff;
+  border-width: 0.5px;
+  border-style: solid;
+  background-color: #000000c0;
+  padding: 2px 3px 2px 2px;
+}
+
+.thumbnail img {
+  width: 100%;
+  border-radius: 4px;
+  border-color: #222222;
+  border-width: 1px;
+  border-style: solid;
+}
+
 </style>

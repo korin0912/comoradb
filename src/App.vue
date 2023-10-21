@@ -21,6 +21,14 @@ import './assets/style/Table.css'
 export default {
   name: "App",
   setup() {
+    let faviconUrl = "";
+    if (import.meta.env.PROD)
+    {
+      faviconUrl += import.meta.env.BASE_URL;
+      faviconUrl += (faviconUrl.charAt(faviconUrl.length-1) != "/") ? "/" : "";
+    }
+    faviconUrl += "favicon.ico";
+
     useHead({
       link: [
         {
@@ -37,7 +45,7 @@ export default {
         },
         {
           rel: "icon",
-          href: (import.meta.env.PROD ? import.meta.env.BASE_URL : "") + "favicon.ico",
+          href: faviconUrl,
         }
       ],
     });

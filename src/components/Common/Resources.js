@@ -8,6 +8,7 @@ function getPath(jsonName) {
   let ret = "";
   if (import.meta.env.DEV) {
     ret += import.meta.env.BASE_URL;
+    ret += (ret.charAt(ret.length-1) != "/") ? "/" : "";
   }
   ret += `resources/${jsonName}.json`;
   ret = ret.replaceAll('//', '/');

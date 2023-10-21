@@ -25,7 +25,7 @@
               <div v-if="movie.thumbnail" class="thumbnail">
                 <i v-if="movie.chat" class="icon check" />
                 <a :href="movie.url" target="_blank">
-                  <img :src="movie.thumbnail" :alt="movie.name" :title="movie.name">
+                  <img :src="movie.thumbnail" :alt="movie.name" :title="`${(movie.gameTitle ? movie.gameTitle + '\n' : '')}${movie.name}`">
                 </a>
               </div>
               <div v-else>

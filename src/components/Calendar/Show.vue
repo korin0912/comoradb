@@ -70,6 +70,7 @@ export default {
 function makeDays(year, month) {
   let ret = [];
   let moviesData = resources.getMoviesData();
+  let gamesData = resources.getGamesData();
 
   // 月末日までを追加
   let firstDate = new Date(year, month - 1, 1);
@@ -97,11 +98,22 @@ function makeDays(year, month) {
           }
         }
 
+        let gameTitles = [];
+        movieData.gameIds.forEach((gameId) =>
+        {
+          if (gameId == 99999)
+          {
+            return;
+          }
+          gameTitles.push(gamesData[gameId].name);
+        });
+
         day["movies"].push({
           id: movieId,
           name: movieData.name,
           url: movieData.url,
           chat: movieData.chat,
+          gameTitle: gameTitles.join("\n"),
           thumbnail: thumbnail,
         });
       }

@@ -5532,5 +5532,17 @@
       1
     ],
     "comment": ""
+  },
+  "457": {
+    "name": "Sandtrix+",
+    "urls": [
+      "https://www.sandtrix.net",
+      "https://store.steampowered.com/app/2546310/Sandtrix/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9
+    ],
+    "comment": ""
   }
 }

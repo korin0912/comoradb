@@ -17893,5 +17893,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1364": {
+    "name": "このテトリス、ブロックが砂になるんですけど！【Sandtrix+】",
+    "url": "https://www.youtube.com/watch?v=32Ip-MVQipA",
+    "releaseDate": "2023/10/23",
+    "gameIds": [
+      457
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

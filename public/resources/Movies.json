@@ -17919,5 +17919,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1366": {
+    "name": "とある集落の神隠し事件【和階堂真の事件簿】＃2",
+    "url": "https://www.youtube.com/watch?v=GcBJj_4GHFM",
+    "releaseDate": "2023/10/25",
+    "gameIds": [
+      455
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

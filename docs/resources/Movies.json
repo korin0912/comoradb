@@ -17945,5 +17945,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1368": {
+    "name": "チェリーボーイなんで下ネタとか分かりません【ウーマンコミュニケーション】＃1",
+    "url": "https://www.youtube.com/watch?v=OKX7MdgEaYw",
+    "releaseDate": "2023/10/27",
+    "gameIds": [
+      459
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

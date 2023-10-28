@@ -89,13 +89,13 @@ td.hide {
 
 .thumbnail i {
   position: absolute;
-  top: 5px;
-  left: 5px;
-  border-radius: 5px;
-  border-color: #ffffff;
-  border-width: 0.5px;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 8px;
+  border-color: #dddddda0;
+  border-width: 2px;
   border-style: solid;
-  background-color: #000000c0;
+  background-color: #000000a0;
   padding: 2px 3px 2px 2px;
 }
 

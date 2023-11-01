@@ -5288,7 +5288,7 @@
       "https://www.youtube.com/@tozukugames",
       "https://store.steampowered.com/app/2382250/Seven_Nights_Ghost/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbk4vL_9RTWtaMSzHlPlaEiV",
     "genreIds": [
       100
     ],
@@ -5351,7 +5351,7 @@
       "https://store-jp.nintendo.com/list/software/70010000062212.html",
       "https://playism.com/game/rose-and-camellia/"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbktyH70ipV39us95xoDnRIq",
     "genreIds": [
       6,
       117,
@@ -5562,10 +5562,24 @@
     "urls": [
       "https://store.steampowered.com/app/2095090/_/"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblA4_8uqRKlJAZvxZmGpa0w",
     "genreIds": [
       2,
       113
+    ],
+    "comment": ""
+  },
+  "460": {
+    "name": "[Chilla's Art] The Kidnap | 誘拐事件",
+    "urls": [
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/@chillasart",
+      "https://store.steampowered.com/app/2593900/Chillas_Art_The_Kidnap/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
+    "genreIds": [
+      2,
+      100
     ],
     "comment": ""
   }

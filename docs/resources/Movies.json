@@ -17997,5 +17997,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1372": {
+    "name": "【現状報告】喉がひきこもりました",
+    "url": "https://www.youtube.com/watch?v=VuwILGpf4LM",
+    "releaseDate": "2023/11/05",
+    "gameIds": [
+      461
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

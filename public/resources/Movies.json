@@ -18010,5 +18010,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1373": {
+    "name": "隣の井澤さんがなんか笑ってる【トナリノ】",
+    "url": "https://www.youtube.com/watch?v=XJOUYC-GTl4",
+    "releaseDate": "2023/11/08",
+    "gameIds": [
+      462
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

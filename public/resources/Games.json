@@ -5594,5 +5594,17 @@
       9
     ],
     "comment": ""
+  },
+  "462": {
+    "name": "トナリノ",
+    "urls": [
+      "https://novelgame.jp/games/show/8623"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

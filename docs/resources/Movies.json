@@ -18088,5 +18088,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1379": {
+    "name": "【雑談】体調不良を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=cCpTcb_KcuQ",
+    "releaseDate": "2023/11/16",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

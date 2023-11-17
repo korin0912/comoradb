@@ -18101,5 +18101,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1380": {
+    "name": "その館の井戸には幽霊がいる【和階堂真の事件簿】＃4(終)",
+    "url": "https://www.youtube.com/watch?v=ni9bBY0KOXU",
+    "releaseDate": "2023/11/17",
+    "gameIds": [
+      455
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

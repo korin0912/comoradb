@@ -5647,5 +5647,18 @@
       8
     ],
     "comment": ""
+  },
+  "466": {
+    "name": "DON'T SCREAM",
+    "urls": [
+      "https://justdontscream.com",
+      "https://www.youtube.com/@playdontscream",
+      "https://store.steampowered.com/app/2497900/DONT_SCREAM/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

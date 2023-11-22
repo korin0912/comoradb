@@ -18116,7 +18116,7 @@
     "comment": ""
   },
   "1381": {
-    "name": "https://www.youtube.com/watch?v=1ptic45zyGE",
+    "name": "18分間叫んだら即終了のホラーゲーム【DON'T SCREAM】",
     "url": "https://www.youtube.com/watch?v=1ptic45zyGE",
     "releaseDate": "2023/11/20",
     "gameIds": [
@@ -18132,6 +18132,19 @@
     "name": "なんて尻アスなゲームなんだ【ウーマンコミュニケーション】＃3",
     "url": "https://www.youtube.com/watch?v=_NKuRIdkTU0",
     "releaseDate": "2023/11/21",
+    "gameIds": [
+      459
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1383": {
+    "name": "知らない単語を学べるゲーム【ウーマンコミュニケーション】＃4",
+    "url": "https://www.youtube.com/watch?v=CgSDvPYkxuU",
+    "releaseDate": "2023/11/22",
     "gameIds": [
       459
     ],

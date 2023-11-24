@@ -18166,5 +18166,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1385": {
+    "name": "難しすぎるローグライクカードゲーム【Resurrect】",
+    "url": "https://www.youtube.com/watch?v=3HsWH7g8Da4",
+    "releaseDate": "2023/11/24",
+    "gameIds": [
+      467
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

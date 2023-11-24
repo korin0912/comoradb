@@ -5660,5 +5660,17 @@
       100
     ],
     "comment": ""
+  },
+  "467": {
+    "name": "Resurrect",
+    "urls": [
+      "https://store.steampowered.com/app/2650210/Resurrect/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      106
+    ],
+    "comment": ""
   }
 }

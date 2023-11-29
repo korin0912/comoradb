@@ -18205,5 +18205,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1388": {
+    "name": "【雑談】私人逮捕を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=llKOZ1V4-SA",
+    "releaseDate": "2023/11/29",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -5672,5 +5672,16 @@
       106
     ],
     "comment": ""
+  },
+  "468": {
+    "name": "８番出口",
+    "urls": [
+      "https://store.steampowered.com/app/2653790/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

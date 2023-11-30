@@ -18218,5 +18218,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1389": {
+    "name": "おっさんを観察してループする地下を脱出するゲーム【８番出口】",
+    "url": "https://www.youtube.com/watch?v=oN2OIho17jg",
+    "releaseDate": "2023/11/30",
+    "gameIds": [
+      468
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

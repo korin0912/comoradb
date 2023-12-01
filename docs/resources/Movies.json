@@ -18231,5 +18231,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1390": {
+    "name": "酔ってませんよ【Drunken way to Home】",
+    "url": "https://www.youtube.com/watch?v=mN1uGKo5xyc",
+    "releaseDate": "2023/12/01",
+    "gameIds": [
+      469
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

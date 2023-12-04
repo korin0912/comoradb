@@ -5698,5 +5698,20 @@
       136
     ],
     "comment": ""
+  },
+  "470": {
+    "name": "TEVI",
+    "urls": [
+      "https://www.tevi.games",
+      "https://www.youtube.com/@crespirit_game",
+      "https://store.steampowered.com/app/2230650/TEVI/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkRWbUlb-qhOVk2VwXEgvhi",
+    "genreIds": [
+      1,
+      2,
+      135
+    ],
+    "comment": ""
   }
 }

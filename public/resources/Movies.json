@@ -18283,5 +18283,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1394": {
+    "name": "【雑談】K-POPを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=NAn2S-H0R3M",
+    "releaseDate": "2023/12/07",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
+  },
+  "1395": {
+    "name": "こんなん避けられませんて【TEVI】＃3",
+    "url": "https://www.youtube.com/watch?v=_QTVP8Go1sk",
+    "releaseDate": "2023/12/08",
+    "gameIds": [
+      470
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -18361,5 +18361,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1400": {
+    "name": "久々のコメント返しだ！",
+    "url": "https://www.youtube.com/watch?v=BDrFdV6-AEo",
+    "releaseDate": "2023/12/15",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
+  },
+  "1401": {
+    "name": "トイレに住む悪魔がヤバい【自撮】",
+    "url": "https://www.youtube.com/watch?v=q3pC0JTGy5g",
+    "releaseDate": "2023/12/18",
+    "gameIds": [
+      473
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

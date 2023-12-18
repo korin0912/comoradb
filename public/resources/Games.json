@@ -5737,5 +5737,19 @@
       113
     ],
     "comment": ""
+  },
+  "473": {
+    "name": "Jisatsu | 自撮",
+    "urls": [
+      "https://twitter.com/ChillasArt",
+      "https://www.youtube.com/@chillasart",
+      "https://store.steampowered.com/app/2716110/Jisatsu/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

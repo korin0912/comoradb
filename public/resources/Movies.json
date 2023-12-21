@@ -18413,5 +18413,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1404": {
+    "name": "隣のおっさんがやたら有能なホラーゲーム【Ep.家族】",
+    "url": "https://www.youtube.com/watch?v=XV51pUDZ-z0",
+    "releaseDate": "2023/12/21",
+    "gameIds": [
+      475
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

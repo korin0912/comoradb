@@ -5762,5 +5762,17 @@
       5
     ],
     "comment": ""
+  },
+  "475": {
+    "name": "Ep.家族",
+    "urls": [
+      "https://store.steampowered.com/app/2583920/Ep/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

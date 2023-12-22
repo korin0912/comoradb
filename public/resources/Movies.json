@@ -18426,5 +18426,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1405": {
+    "name": "ちょっと話重すぎん？【TEVI】＃8",
+    "url": "https://www.youtube.com/watch?v=BI2V-RH2IdU",
+    "releaseDate": "2023/12/22",
+    "gameIds": [
+      470
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

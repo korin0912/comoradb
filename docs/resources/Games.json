@@ -5774,5 +5774,16 @@
       100
     ],
     "comment": ""
+  },
+  "476": {
+    "name": "Chill Drive",
+    "urls": [
+      "https://store.steampowered.com/app/2579840/Chill_Drive/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

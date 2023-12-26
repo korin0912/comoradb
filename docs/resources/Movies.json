@@ -18452,5 +18452,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1407": {
+    "name": "トランプのスピードには自信があります！【スピダス】",
+    "url": "https://www.youtube.com/watch?v=MFP0b8IO4QA",
+    "releaseDate": "2023/12/26",
+    "gameIds": [
+      477
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

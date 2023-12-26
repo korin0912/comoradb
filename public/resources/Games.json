@@ -5785,5 +5785,16 @@
       5
     ],
     "comment": ""
+  },
+  "477": {
+    "name": "スピダス SPEED-DEUS-EX-MACHINA",
+    "urls": [
+      "https://store.steampowered.com/app/2685410/_SPEEDDEUSEXMACHINA/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      106
+    ],
+    "comment": ""
   }
 }

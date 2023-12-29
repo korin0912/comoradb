@@ -18491,5 +18491,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1410": {
+    "name": "声の抑揚が激しすぎるおじさん【TEVI】＃10",
+    "url": "https://www.youtube.com/watch?v=T8HMZcWWuTY",
+    "releaseDate": "2023/12/29",
+    "gameIds": [
+      470
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

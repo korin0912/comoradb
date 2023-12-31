@@ -18517,5 +18517,20 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1412": {
+    "name": "2023年の感謝をクレーンに込める！【坊主がクレーン車で除夜の鐘を叩くゲーム】",
+    "url": "https://www.youtube.com/watch?v=XSznTKUKdvk",
+    "releaseDate": "2023/12/31",
+    "gameIds": [
+      479,
+      480,
+      67
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

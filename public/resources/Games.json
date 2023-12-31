@@ -5809,5 +5809,28 @@
       107
     ],
     "comment": ""
+  },
+  "479": {
+    "name": "坊主がクレーン車で除夜の鐘を叩くゲーム",
+    "urls": [
+      "https://unityroom.com/games/bozucrane"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132,
+      134
+    ],
+    "comment": ""
+  },
+  "480": {
+    "name": "THANKS CALL",
+    "urls": [
+      "https://unityroom.com/games/thanks-call"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

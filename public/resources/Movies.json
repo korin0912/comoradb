@@ -18532,5 +18532,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1413": {
+    "name": "2024年最初のゲームがほぼファミコン【星のなっちゃん】",
+    "url": "https://www.youtube.com/watch?v=4vCo19w1F9k",
+    "releaseDate": "2024/01/01",
+    "gameIds": [
+      481
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

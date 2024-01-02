@@ -5843,5 +5843,18 @@
       1
     ],
     "comment": ""
+  },
+  "482": {
+    "name": "もちじゃんぷ",
+    "urls": [
+      "https://www.youtube.com/@ashimaru1125",
+      "https://store.steampowered.com/app/2668110/_/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbksq6vb0S1EM27W_vha4U74",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

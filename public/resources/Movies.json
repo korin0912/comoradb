@@ -18636,5 +18636,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1421": {
+    "name": "ループするエスカレーターで間違い探し！【エスカレーター | Escalator】",
+    "url": "https://www.youtube.com/watch?v=CHkAww36cnA",
+    "releaseDate": "2024/01/09",
+    "gameIds": [
+      483
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

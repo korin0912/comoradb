@@ -18649,5 +18649,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1422": {
+    "name": "【雑談】2024年正月を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=e-f9VtoNkxc",
+    "releaseDate": "2024/01/10",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -5868,5 +5868,17 @@
       2
     ],
     "comment": ""
+  },
+  "484": {
+    "name": "Super Laura Up",
+    "urls": [
+      "https://store.steampowered.com/app/2684010/Super_Laura_Up/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

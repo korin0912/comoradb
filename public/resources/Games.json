@@ -5880,5 +5880,17 @@
       136
     ],
     "comment": ""
+  },
+  "485": {
+    "name": "Lively Chair Simulator",
+    "urls": [
+      "https://store.steampowered.com/app/2575060/Lively_Chair_Simulator/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      5
+    ],
+    "comment": ""
   }
 }

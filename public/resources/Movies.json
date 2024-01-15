@@ -18714,5 +18714,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1427": {
+    "name": "椅子君は歩くのが難しい【Lively Chair Simulator】",
+    "url": "https://www.youtube.com/watch?v=G6TAdqEstSc",
+    "releaseDate": "2024/01/15",
+    "gameIds": [
+      485
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -18727,5 +18727,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1428": {
+    "name": "2024年初のコメント返しだ！！",
+    "url": "https://www.youtube.com/watch?v=XnUbmjxLbzU",
+    "releaseDate": "2024/01/16",
+    "gameIds": [
+      476
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

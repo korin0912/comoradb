@@ -5892,5 +5892,18 @@
       5
     ],
     "comment": ""
+  },
+  "486": {
+    "name": "The Glitch Prison",
+    "urls": [
+      "https://store.steampowered.com/app/2756700/The_Glitch_Prison/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2,
+      113
+    ],
+    "comment": ""
   }
 }

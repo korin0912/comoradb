@@ -5916,5 +5916,17 @@
       106
     ],
     "comment": ""
+  },
+  "488": {
+    "name": "TAKEUMA 2D",
+    "urls": [
+      "https://store.steampowered.com/app/2752760/TAKEUMA_2D/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbl5YPRmZf-dTyatAqaenLaq",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

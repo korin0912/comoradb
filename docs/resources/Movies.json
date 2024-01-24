@@ -18831,5 +18831,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1436": {
+    "name": "セーブできんゲームでバグはあかんて【TAKEUMA 2D】＃3",
+    "url": "https://www.youtube.com/watch?v=Y6QfDBRwGa4",
+    "releaseDate": "2024/01/24",
+    "gameIds": [
+      488
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -18857,5 +18857,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1438": {
+    "name": "これは聖女【TEVI】＃18",
+    "url": "https://www.youtube.com/watch?v=-dzJGX4454c",
+    "releaseDate": "2024/01/26",
+    "gameIds": [
+      470
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1439": {
+    "name": "寒いときこそ温かい心でプレイしたいね【TAKEUMA 2D】＃5",
+    "url": "https://www.youtube.com/watch?v=uM2wJK15UiI",
+    "releaseDate": "2024/01/27",
+    "gameIds": [
+      488
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

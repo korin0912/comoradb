@@ -18883,5 +18883,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1440": {
+    "name": "【雑談】2024年健康診断を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=paWAfzv9loQ",
+    "releaseDate": "2024/01/28",
+    "gameIds": [
+      330
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

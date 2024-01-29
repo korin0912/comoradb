@@ -5928,5 +5928,17 @@
       136
     ],
     "comment": ""
+  },
+  "489": {
+    "name": "不審者情報 | Suspicious Person Information",
+    "urls": [
+      "https://chanponmen.itch.io/suspiciouspersoninformation"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

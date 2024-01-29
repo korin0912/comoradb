@@ -18896,5 +18896,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1441": {
+    "name": "オタクっぽいやつが不審者ってことね!【不審者情報】",
+    "url": "https://www.youtube.com/watch?v=MuLchNsh8dM",
+    "releaseDate": "2024/01/29",
+    "gameIds": [
+      489
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

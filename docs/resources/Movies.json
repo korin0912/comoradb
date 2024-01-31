@@ -18922,5 +18922,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1443": {
+    "name": "６周年記念！６４風セレステだ！",
+    "url": "https://www.youtube.com/watch?v=6RmHHFtQU5s",
+    "releaseDate": "2024/01/31",
+    "gameIds": [
+      490
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

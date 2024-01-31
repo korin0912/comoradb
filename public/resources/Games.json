@@ -1609,8 +1609,11 @@
     "urls": [
       "https://mattmakesgames.itch.io/celeste-classic-2"
     ],
+    "playListUrl": "",
     "genreIds": [
-      103
+      1,
+      103,
+      136
     ],
     "comment": ""
   },
@@ -5938,6 +5941,19 @@
     "genreIds": [
       2,
       100
+    ],
+    "comment": ""
+  },
+  "490": {
+    "name": "Celeste 64",
+    "urls": [
+      "https://maddymakesgamesinc.itch.io/celeste64"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      103,
+      136
     ],
     "comment": ""
   }

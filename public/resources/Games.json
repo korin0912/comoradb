@@ -5956,5 +5956,16 @@
       136
     ],
     "comment": ""
+  },
+  "491": {
+    "name": "REDMASK",
+    "urls": [
+      "https://store.steampowered.com/app/1957660/REDMASK/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

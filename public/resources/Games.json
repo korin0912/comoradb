@@ -5967,5 +5967,17 @@
       1
     ],
     "comment": ""
+  },
+  "492": {
+    "name": "Six nights to die",
+    "urls": [
+      "https://store.steampowered.com/app/2483380/Six_nights_to_die/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

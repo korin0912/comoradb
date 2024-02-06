@@ -19000,5 +19000,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1449": {
+    "name": "【雑談】タニ君を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=023iX-Tr6uY",
+    "releaseDate": "2024/02/06",
+    "gameIds": [
+      493
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -19013,5 +19013,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1450": {
+    "name": "エリジウムってなんですか？【TEVI】＃22",
+    "url": "https://www.youtube.com/watch?v=iY5DxMB9W1k",
+    "releaseDate": "2024/02/07",
+    "gameIds": [
+      470
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -6002,5 +6002,17 @@
       100
     ],
     "comment": ""
+  },
+  "495": {
+    "name": "Copycat",
+    "urls": [
+      "https://www.youtube.com/c/CopycatGameDevlog",
+      "https://store.steampowered.com/app/1622350/Copycat/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

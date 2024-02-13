@@ -19091,5 +19091,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1456": {
+    "name": "やけに評価の高い謎の生物に謎に追いかけられるゲーム【ESCAPE FROM BOYKISSER】",
+    "url": "https://www.youtube.com/watch?v=AcBwDL1_7-E",
+    "releaseDate": "2024/02/13",
+    "gameIds": [
+      496
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

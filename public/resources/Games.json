@@ -6014,5 +6014,17 @@
       2
     ],
     "comment": ""
+  },
+  "496": {
+    "name": "ESCAPE FROM BOYKISSER",
+    "urls": [
+      "https://store.steampowered.com/app/2708280/ESCAPE_FROM_BOYKISSER/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

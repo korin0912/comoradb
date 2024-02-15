@@ -19117,5 +19117,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1458": {
+    "name": "スイッチを押すだけのゲームのはずだった【A Game About Flicking A Switch】",
+    "url": "https://www.youtube.com/watch?v=hhSd6_JXEBw",
+    "releaseDate": "2024/02/15",
+    "gameIds": [
+      498
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

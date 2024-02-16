@@ -6050,5 +6050,19 @@
       133
     ],
     "comment": ""
+  },
+  "499": {
+    "name": "Undulations",
+    "urls": [
+      "https://knuftfos.com/undulations/",
+      "https://www.youtube.com/@knuftfos",
+      "https://store.steampowered.com/app/2768150/Undulations/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

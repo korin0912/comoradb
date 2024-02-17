@@ -6064,5 +6064,16 @@
       2
     ],
     "comment": ""
+  },
+  "500": {
+    "name": "Snail Simulator",
+    "urls": [
+      "https://store.steampowered.com/app/1500740/Snail_Simulator/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
+    ],
+    "comment": ""
   }
 }

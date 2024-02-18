@@ -6075,5 +6075,16 @@
       132
     ],
     "comment": ""
+  },
+  "501": {
+    "name": "BlueRope",
+    "urls": [
+      "https://store.steampowered.com/app/2800030/BlueRope/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      3
+    ],
+    "comment": ""
   }
 }

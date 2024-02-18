@@ -19156,5 +19156,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1461": {
+    "name": "厨二すぎるRPGゲームが雑すぎる【BlueRope】",
+    "url": "https://www.youtube.com/watch?v=EYfXhv1tNAU",
+    "releaseDate": "2024/02/18",
+    "gameIds": [
+      501
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

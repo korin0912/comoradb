@@ -19169,5 +19169,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1462": {
+    "name": "Vtuberが戦うロックマン風ゲーム！【Virtua Unlimited Project デモ版】",
+    "url": "https://www.youtube.com/watch?v=F7mEOssA5nI",
+    "releaseDate": "2024/02/19",
+    "gameIds": [
+      502
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

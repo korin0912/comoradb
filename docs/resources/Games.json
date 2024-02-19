@@ -6086,5 +6086,19 @@
       3
     ],
     "comment": ""
+  },
+  "502": {
+    "name": "Virtua Unlimited Project",
+    "urls": [
+      "https://nlentmt.com",
+      "https://twitter.com/NeverLand_Entmt",
+      "https://www.youtube.com/@neverland_entmt",
+      "https://store.steampowered.com/app/1934030/Virtua_Unlimited_Project/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

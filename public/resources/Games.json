@@ -6100,5 +6100,16 @@
       1
     ],
     "comment": ""
+  },
+  "503": {
+    "name": "限界OL海へ行く",
+    "urls": [
+      "https://store.steampowered.com/app/2635530/OL/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      139
+    ],
+    "comment": ""
   }
 }

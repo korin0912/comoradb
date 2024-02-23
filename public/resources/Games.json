@@ -5683,7 +5683,7 @@
     ],
     "playListUrl": "",
     "genreIds": [
-      100
+      132
     ],
     "comment": ""
   },
@@ -6120,6 +6120,17 @@
     "playListUrl": "",
     "genreIds": [
       2
+    ],
+    "comment": ""
+  },
+  "505": {
+    "name": "夜間参拝 | Visiting Shrine at Night",
+    "urls": [
+      "https://store.steampowered.com/app/2769100/__Visiting_Shrine_at_Night/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
     ],
     "comment": ""
   }

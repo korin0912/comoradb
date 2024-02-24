@@ -6133,5 +6133,20 @@
       132
     ],
     "comment": ""
+  },
+  "506": {
+    "name": "SANABI",
+    "urls": [
+      "https://playneowiz.com/sanabi",
+      "https://twitter.com/SANABI_Mufin",
+      "https://store-jp.nintendo.com/list/software/70010000056430.html",
+      "https://store.steampowered.com/app/1562700/SANABI/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmAzBidr6uAN2TyJysZRYl0",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

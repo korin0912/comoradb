@@ -19260,5 +19260,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1469": {
+    "name": "【コメント返し】サインの練習してる自分ってちょっと滑稽",
+    "url": "https://www.youtube.com/watch?v=BY6zaapB0ew",
+    "releaseDate": "2024/02/26",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

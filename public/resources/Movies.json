@@ -19273,5 +19273,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1470": {
+    "name": "気軽にミサイルを飛ばすな【SANABI】＃3",
+    "url": "https://www.youtube.com/watch?v=8g4vmx9wjjo",
+    "releaseDate": "2024/02/27",
+    "gameIds": [
+      506
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

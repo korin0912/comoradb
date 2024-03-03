@@ -19338,5 +19338,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1475": {
+    "name": "デッキ構築型ポーカーが面白すぎた【Balatro】",
+    "url": "https://www.youtube.com/watch?v=IX5uFsjGtBM",
+    "releaseDate": "2024/03/03",
+    "gameIds": [
+      508
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

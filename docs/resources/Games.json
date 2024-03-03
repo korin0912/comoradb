@@ -6159,5 +6159,20 @@
       9
     ],
     "comment": ""
+  },
+  "508": {
+    "name": "Balatro",
+    "urls": [
+      "https://www.playbalatro.com",
+      "https://www.youtube.com/@playstack",
+      "https://store.steampowered.com/app/2379780/Balatro/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      106,
+      138
+    ],
+    "comment": ""
   }
 }

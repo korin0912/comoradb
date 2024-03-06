@@ -6174,5 +6174,18 @@
       138
     ],
     "comment": ""
+  },
+  "509": {
+    "name": "Run Pizza Run",
+    "urls": [
+      "https://store.steampowered.com/app/2649220/Run_Pizza_Run/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      103,
+      113
+    ],
+    "comment": ""
   }
 }

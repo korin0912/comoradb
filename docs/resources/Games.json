@@ -6198,5 +6198,16 @@
       2
     ],
     "comment": ""
+  },
+  "511": {
+    "name": "霊迷の湯",
+    "urls": [
+      "https://store.steampowered.com/app/2806350/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

@@ -6220,5 +6220,18 @@
       100
     ],
     "comment": ""
+  },
+  "513": {
+    "name": "GOODBYE WORLD",
+    "urls": [
+      "https://store-jp.nintendo.com/list/software/70010000056857.html",
+      "https://www.playstation.com/ja-jp/games/goodbye-world/",
+      "https://store.steampowered.com/app/1833490/GOODBYE_WORLD/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

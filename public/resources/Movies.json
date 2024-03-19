@@ -19546,5 +19546,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1491": {
+    "name": "逆娘、奇跡の復活",
+    "url": "https://www.youtube.com/watch?v=PXQmk8ePQFA",
+    "releaseDate": "2024/03/19",
+    "gameIds": [
+      371
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

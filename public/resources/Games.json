@@ -6233,5 +6233,18 @@
       2
     ],
     "comment": ""
+  },
+  "514": {
+    "name": "Perfect Poses",
+    "urls": [
+      "https://www.youtube.com/@quantumtechnogames",
+      "https://store.steampowered.com/app/2758210/Perfect_Poses/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

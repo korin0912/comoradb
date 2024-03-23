@@ -19598,5 +19598,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1495": {
+    "name": "ループする新幹線に乗りました【新幹線0号】前編",
+    "url": "https://www.youtube.com/watch?v=es2MrQv7rYE",
+    "releaseDate": "2024/03/23",
+    "gameIds": [
+      515
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

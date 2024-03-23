@@ -6246,5 +6246,18 @@
       136
     ],
     "comment": ""
+  },
+  "515": {
+    "name": "[Chilla's Art] Shinkansen 0 | 新幹線 0号",
+    "urls": [
+      "https://www.chillasart.co.jp",
+      "https://www.youtube.com/@chillasart",
+      "https://store.steampowered.com/app/2793370/Chillas_Art_Shinkansen_0___0/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

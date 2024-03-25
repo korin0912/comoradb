@@ -6259,5 +6259,21 @@
       100
     ],
     "comment": ""
+  },
+  "516": {
+    "name": "Thirsty Suitors",
+    "urls": [
+      "https://store-jp.nintendo.com/list/software/70010000057731.html",
+      "https://store.playstation.com/ja-jp/product/JP2517-PPSA06880_00-THIRSTYSIEJ00000",
+      "https://www.xbox.com/ja-JP/games/store/thirsty-suitors/9pls01jrjcwb",
+      "https://store.steampowered.com/app/1617220/Thirsty_Suitors/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbk-qVtKX9kGD0WoLZSYxlZv",
+    "genreIds": [
+      1,
+      2,
+      3
+    ],
+    "comment": ""
   }
 }

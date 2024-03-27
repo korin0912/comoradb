@@ -19650,5 +19650,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1499": {
+    "name": "モンスターハウスに生まれました【ケリバト！】",
+    "url": "https://www.youtube.com/watch?v=YqARHf4bnhI",
+    "releaseDate": "2024/03/27",
+    "gameIds": [
+      517
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

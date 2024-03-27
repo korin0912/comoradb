@@ -6275,5 +6275,21 @@
       3
     ],
     "comment": ""
+  },
+  "517": {
+    "name": "ケリバト！",
+    "urls": [
+      "https://www.toihaus.games/keribato",
+      "https://play.google.com/store/apps/details?id=com.toihaus.keribato&pcampaignid=web_share",
+      "https://apps.apple.com/us/app/keribato/id6466408927",
+      "https://store.steampowered.com/app/2463000/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      3,
+      9,
+      102
+    ],
+    "comment": ""
   }
 }

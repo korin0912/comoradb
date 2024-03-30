@@ -19689,5 +19689,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1502": {
+    "name": "奴らが強くなって帰ってきた【エアホッケーweb版】",
+    "url": "https://www.youtube.com/watch?v=DGq35WKv2KQ",
+    "releaseDate": "2024/03/30",
+    "gameIds": [
+      518
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

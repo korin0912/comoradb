@@ -6291,5 +6291,16 @@
       102
     ],
     "comment": ""
+  },
+  "518": {
+    "name": "エアホッケー",
+    "urls": [
+      "https://datt-airhockey.com"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      6
+    ],
+    "comment": ""
   }
 }

@@ -19702,5 +19702,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1503": {
+    "name": "ひたすた石を削ってダイヤモンドを作るゲーム【LAPIDARY Jewel Craft Simulator】",
+    "url": "https://www.youtube.com/watch?v=PX5IurqQlQ8",
+    "releaseDate": "2024/03/31",
+    "gameIds": [
+      519
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

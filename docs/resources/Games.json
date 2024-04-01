@@ -6313,5 +6313,20 @@
       5
     ],
     "comment": ""
+  },
+  "520": {
+    "name": "恋と深空",
+    "urls": [
+      "https://loveanddeepspace.infoldgames.com/ja-JP/home",
+      "https://www.youtube.com/@LoveDeepspaceJP",
+      "https://play.google.com/store/apps/details?id=com.papegames.lysk.jp&hl=ja&gl=US",
+      "https://apps.apple.com/jp/app/%E6%81%8B%E3%81%A8%E6%B7%B1%E7%A9%BA/id6443467980"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      141
+    ],
+    "comment": ""
   }
 }

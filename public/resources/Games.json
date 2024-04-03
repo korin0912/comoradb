@@ -6328,5 +6328,17 @@
       141
     ],
     "comment": ""
+  },
+  "521": {
+    "name": "DORONKO WANKO",
+    "urls": [
+      "https://store.steampowered.com/app/2512840/DORONKO_WANKO/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      5
+    ],
+    "comment": ""
   }
 }

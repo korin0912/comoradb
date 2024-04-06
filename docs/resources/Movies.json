@@ -19780,5 +19780,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1509": {
+    "name": "UFOキャッチャーで戦うローグライクゲーム【ダンジョンクロウラー】",
+    "url": "https://www.youtube.com/watch?v=w5wDcGseD_w",
+    "releaseDate": "2024/04/06",
+    "gameIds": [
+      523
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

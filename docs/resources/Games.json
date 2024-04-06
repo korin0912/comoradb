@@ -6352,5 +6352,18 @@
       5
     ],
     "comment": ""
+  },
+  "523": {
+    "name": "ダンジョンクロウラー",
+    "urls": [
+      "https://strayfawnstudio.com",
+      "https://store.steampowered.com/app/2356780/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      138
+    ],
+    "comment": ""
   }
 }

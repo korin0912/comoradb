@@ -6365,5 +6365,21 @@
       138
     ],
     "comment": ""
+  },
+  "524": {
+    "name": "DESOLATIUM",
+    "urls": [
+      "https://desolatium.com",
+      "https://store.playstation.com/ja-jp/concept/10008382/",
+      "https://www.xbox.com/ja-JP/games/store/desolatium/9plg6xwqtdgj",
+      "https://www.nintendo.com/us/store/products/desolatium-switch/",
+      "https://store.steampowered.com/app/1474900/DESOLATIUM/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

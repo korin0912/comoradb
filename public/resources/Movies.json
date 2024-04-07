@@ -19793,5 +19793,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1510": {
+    "name": "世界大戦の裏には奴がいる【DESOLATIUMデモ版】",
+    "url": "https://www.youtube.com/watch?v=iCgkKNxf4To",
+    "releaseDate": "2024/04/07",
+    "gameIds": [
+      524
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -6381,5 +6381,19 @@
       100
     ],
     "comment": ""
+  },
+  "525": {
+    "name": "Black hole Escape",
+    "urls": [
+      "https://www.youtube.com/@teleportsoft4734",
+      "https://store.steampowered.com/app/2897270/Black_hole_Escape/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      134,
+      136
+    ],
+    "comment": ""
   }
 }

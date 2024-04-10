@@ -6395,5 +6395,16 @@
       136
     ],
     "comment": ""
+  },
+  "526": {
+    "name": "Buckshot Roulette",
+    "urls": [
+      "https://store.steampowered.com/app/2835570/Buckshot_Roulette/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

@@ -6418,5 +6418,16 @@
       5
     ],
     "comment": ""
+  },
+  "528": {
+    "name": "Wacky Burgers",
+    "urls": [
+      "https://store.steampowered.com/app/2872800/Wacky_Burgers/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

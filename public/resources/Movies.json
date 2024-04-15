@@ -19897,5 +19897,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1518": {
+    "name": "【雑談】スタバを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=ON5tketkk6s",
+    "releaseDate": "2024/04/15",
+    "gameIds": [
+      529
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

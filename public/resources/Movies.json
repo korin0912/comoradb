@@ -19910,5 +19910,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1519": {
+    "name": "運と根気のみでクリアするビーバーゲーム【Save from Bobr Curve】",
+    "url": "https://www.youtube.com/watch?v=qNGOIhdr8n4",
+    "releaseDate": "2024/04/16",
+    "gameIds": [
+      530
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

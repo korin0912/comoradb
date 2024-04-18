@@ -19936,5 +19936,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1521": {
+    "name": "【コメント返し】コメントと喧嘩",
+    "url": "https://www.youtube.com/watch?v=yr_Qt-0uyUI",
+    "releaseDate": "2024/04/18",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

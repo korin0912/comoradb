@@ -19949,5 +19949,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1522": {
+    "name": "ニートだってやらしい店に行きたい！【バニーガーデン】",
+    "url": "https://www.youtube.com/watch?v=FHuyz1x7r5k",
+    "releaseDate": "2024/04/19",
+    "gameIds": [
+      531
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

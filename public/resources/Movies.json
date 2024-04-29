@@ -20066,5 +20066,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1531": {
+    "name": "【雑談】野口さんを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=0Qo3Hf_lTRs",
+    "releaseDate": "2024/04/29",
+    "gameIds": [
+      529
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

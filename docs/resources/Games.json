@@ -6502,5 +6502,17 @@
       2
     ],
     "comment": ""
+  },
+  "535": {
+    "name": "The Game of Sisyphus",
+    "urls": [
+      "https://store.steampowered.com/app/2904890/The_Game_of_Sisyphus/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

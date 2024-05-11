@@ -6514,5 +6514,17 @@
       136
     ],
     "comment": ""
+  },
+  "536": {
+    "name": "CAN BULLET",
+    "urls": [
+      "https://store.steampowered.com/app/2925270/CAN_BULLET/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      4,
+      102
+    ],
+    "comment": ""
   }
 }

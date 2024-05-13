@@ -6526,5 +6526,17 @@
       102
     ],
     "comment": ""
+  },
+  "537": {
+    "name": "Mochi Sprint",
+    "urls": [
+      "https://store.steampowered.com/app/2923690/Mochi_Sprint/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmokjwV8rIM69_r26bWj3gj",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

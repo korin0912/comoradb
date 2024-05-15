@@ -20261,5 +20261,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1546": {
+    "name": "【雑談】母の日を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=IBh5Fa6z3MQ",
+    "releaseDate": "2024/05/15",
+    "gameIds": [
+      476
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

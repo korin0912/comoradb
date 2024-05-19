@@ -6538,5 +6538,16 @@
       136
     ],
     "comment": ""
+  },
+  "538": {
+    "name": "Arctic Eggs",
+    "urls": [
+      "https://store.steampowered.com/app/2763670/Arctic_Eggs/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbl4FtJuL0NS7sNF03Eyofx0",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

@@ -20313,5 +20313,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1550": {
+    "name": "今日のお喋りクッキング【Arctic Eggs】＃2",
+    "url": "https://www.youtube.com/watch?v=F_gKgLbcZVc",
+    "releaseDate": "2024/05/20",
+    "gameIds": [
+      538
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1551": {
+    "name": "今年一番の謎ゲーやん【Arctic Eggs】＃3(終)",
+    "url": "https://www.youtube.com/watch?v=fIb_WMy2UBs",
+    "releaseDate": "2024/05/21",
+    "gameIds": [
+      538
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

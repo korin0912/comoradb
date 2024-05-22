@@ -20339,5 +20339,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1552": {
+    "name": "コメント返しするやで～",
+    "url": "https://www.youtube.com/watch?v=2h2d7_O03U0",
+    "releaseDate": "2024/05/22",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

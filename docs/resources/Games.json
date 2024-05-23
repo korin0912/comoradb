@@ -6549,5 +6549,18 @@
       2
     ],
     "comment": ""
+  },
+  "539": {
+    "name": "Shield Knight",
+    "urls": [
+      "https://www.youtube.com/@underlight_studio",
+      "https://store.steampowered.com/app/2741320/Shield_Knight/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

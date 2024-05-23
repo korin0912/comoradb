@@ -20352,5 +20352,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1553": {
+    "name": "武器は盾と折れない心【Shield Knight】＃1",
+    "url": "https://www.youtube.com/watch?v=mIW9yjJXtwo",
+    "releaseDate": "2024/05/23",
+    "gameIds": [
+      539
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

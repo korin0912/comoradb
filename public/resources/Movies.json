@@ -20365,5 +20365,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1554": {
+    "name": "お前をスイカまみれにしてやる！【スイカゲームオンライン対戦】",
+    "url": "https://www.youtube.com/watch?v=WzK7DCbnoSI",
+    "releaseDate": "2024/05/24",
+    "gameIds": [
+      445
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1555": {
+    "name": "盾でその惑星を破壊する【Shield Knight】＃2",
+    "url": "https://www.youtube.com/watch?v=G6aFdi8iDKk",
+    "releaseDate": "2024/05/25",
+    "gameIds": [
+      539
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

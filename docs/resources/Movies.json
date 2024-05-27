@@ -20404,5 +20404,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1557": {
+    "name": "コモラ、魔法少女になります",
+    "url": "https://www.youtube.com/watch?v=asdlfukDzbs",
+    "releaseDate": "2024/05/27",
+    "gameIds": [
+      540
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

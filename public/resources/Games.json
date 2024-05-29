@@ -6585,5 +6585,18 @@
       2
     ],
     "comment": ""
+  },
+  "542": {
+    "name": "ムベンベラジオ",
+    "urls": [
+      "https://www.youtube.com/@gattorocco",
+      "https://store.steampowered.com/app/2933870/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

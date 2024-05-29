@@ -20431,5 +20431,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1559": {
+    "name": "小学生がハマるホラーラジオ【ムベンベラジオ】",
+    "url": "https://www.youtube.com/watch?v=aoya7AifrQ0",
+    "releaseDate": "2024/05/29",
+    "gameIds": [
+      542
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -20444,5 +20444,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1560": {
+    "name": "飛べないハゲと飛べる馬【I dont Fall】",
+    "url": "https://www.youtube.com/watch?v=K7dN2bbv1gg",
+    "releaseDate": "2024/05/30",
+    "gameIds": [
+      543
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

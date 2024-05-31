@@ -6610,5 +6610,17 @@
       136
     ],
     "comment": ""
+  },
+  "544": {
+    "name": "Sauna of the DEAD",
+    "urls": [
+      "https://store.steampowered.com/app/2780140/Sauna_of_the_DEAD/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      3
+    ],
+    "comment": ""
   }
 }

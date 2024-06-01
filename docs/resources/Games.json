@@ -6622,5 +6622,16 @@
       3
     ],
     "comment": ""
+  },
+  "545": {
+    "name": "８番のりば",
+    "urls": [
+      "https://store.steampowered.com/app/2903560/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
+    ],
+    "comment": ""
   }
 }

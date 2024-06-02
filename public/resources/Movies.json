@@ -20483,5 +20483,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1563": {
+    "name": "【雑談】スマートバンドを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=S_wxxE3duaI",
+    "releaseDate": "2024/06/02",
+    "gameIds": [
+      546
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

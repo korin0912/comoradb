@@ -20496,5 +20496,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1564": {
+    "name": "友達に貸したゲームを取り返すゲーム【誘拐犯 Kidnappers】",
+    "url": "https://www.youtube.com/watch?v=L806QjqF4eE",
+    "releaseDate": "2024/06/03",
+    "gameIds": [
+      547
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

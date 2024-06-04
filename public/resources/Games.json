@@ -6556,7 +6556,7 @@
       "https://www.youtube.com/@underlight_studio",
       "https://store.steampowered.com/app/2741320/Shield_Knight/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmNDUeTHFZavIGzD0qa_e4A",
     "genreIds": [
       1,
       136
@@ -6651,6 +6651,18 @@
       "https://store.steampowered.com/app/2966270/_Kidnappers/?l=japanese"
     ],
     "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
+  },
+  "548": {
+    "name": "死体隠匿のメソッド",
+    "urls": [
+      "https://store.steampowered.com/app/2627270/_/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbk5QbVSSd5-vPstn0S5Cixc",
     "genreIds": [
       2,
       100

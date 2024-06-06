@@ -20535,5 +20535,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1567": {
+    "name": "変人のコメント返し",
+    "url": "https://www.youtube.com/watch?v=GLKrFpf1_Zw",
+    "releaseDate": "2024/06/06",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

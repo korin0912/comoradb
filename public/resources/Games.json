@@ -6668,5 +6668,17 @@
       100
     ],
     "comment": ""
+  },
+  "549": {
+    "name": "LOST LIGHT: Bright mates",
+    "urls": [
+      "https://store.steampowered.com/app/2981080/LOST_LIGHT_Bright_mates/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmap4h-pLoLrIIbLX364BLc",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

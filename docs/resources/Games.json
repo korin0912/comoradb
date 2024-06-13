@@ -6680,5 +6680,17 @@
       136
     ],
     "comment": ""
+  },
+  "550": {
+    "name": "Loser Simulator",
+    "urls": [
+      "https://store.steampowered.com/app/3006630/Loser_Simulator/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113,
+      132
+    ],
+    "comment": ""
   }
 }

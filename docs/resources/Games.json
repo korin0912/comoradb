@@ -6692,5 +6692,16 @@
       132
     ],
     "comment": ""
+  },
+  "551": {
+    "name": "Ells Tales: Egg",
+    "urls": [
+      "https://store.steampowered.com/app/2989860/Ells_Tales_Egg/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

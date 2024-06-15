@@ -6703,5 +6703,16 @@
       5
     ],
     "comment": ""
+  },
+  "552": {
+    "name": "Laundry Night",
+    "urls": [
+      "https://deadpossumgames.itch.io/laundry-night"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100
+    ],
+    "comment": ""
   }
 }

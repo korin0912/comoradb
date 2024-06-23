@@ -6725,5 +6725,17 @@
       2
     ],
     "comment": ""
+  },
+  "554": {
+    "name": "Jorōgumo - じょろうぐも",
+    "urls": [
+      "https://store.steampowered.com/app/2442760/Jorgumo/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

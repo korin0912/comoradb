@@ -6737,5 +6737,16 @@
       100
     ],
     "comment": ""
+  },
+  "555": {
+    "name": "Penguin Helper",
+    "urls": [
+      "https://store.steampowered.com/app/2964280/Penguin_Helper/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
+    ],
+    "comment": ""
   }
 }

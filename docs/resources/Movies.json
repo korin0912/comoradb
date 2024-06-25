@@ -20769,5 +20769,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1585": {
+    "name": "【雑談】ペンギンを語らない【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=xtA8ZA3ntKk",
+    "releaseDate": "2024/06/25",
+    "gameIds": [
+      555
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

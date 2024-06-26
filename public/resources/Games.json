@@ -6748,5 +6748,16 @@
       132
     ],
     "comment": ""
+  },
+  "556": {
+    "name": "指示待ち人間RUN",
+    "urls": [
+      "https://store.steampowered.com/app/2723510/RUN/?l=japanese&curator_clanid=4777282"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

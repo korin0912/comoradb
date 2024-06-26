@@ -20782,5 +20782,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1586": {
+    "name": "変な動きをする指示待ち人間がなんかウザい【指示待ち人間RUN】",
+    "url": "https://www.youtube.com/watch?v=0EX9L6Z_5Uw",
+    "releaseDate": "2024/06/26",
+    "gameIds": [
+      556
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

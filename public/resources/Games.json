@@ -6756,7 +6756,20 @@
     ],
     "playListUrl": "",
     "genreIds": [
-      1
+      1,
+      113
+    ],
+    "comment": ""
+  },
+  "557": {
+    "name": "僕、アルバイトォォ！！",
+    "urls": [
+      "https://store.steampowered.com/app/2985930/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      113
     ],
     "comment": ""
   }

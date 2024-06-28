@@ -20808,5 +20808,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1588": {
+    "name": "【コメント返し】田舎で染髪剤は貴重品",
+    "url": "https://www.youtube.com/watch?v=G9bsx6WytDc",
+    "releaseDate": "2024/06/28",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

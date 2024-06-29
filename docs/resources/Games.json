@@ -6772,5 +6772,21 @@
       113
     ],
     "comment": ""
+  },
+  "558": {
+    "name": "BATTLE CRUSH",
+    "urls": [
+      "https://battlecrush.plaync.com/en-us/index",
+      "https://store.steampowered.com/app/2287920/BATTLE_CRUSH/?l=japanese",
+      "https://store-jp.nintendo.com/list/software/70010000069144.html",
+      "https://play.google.com/store/apps/details?id=com.ncsoft.battlecrush.global&hl=en_US",
+      "https://apps.apple.com/jp/app/battle-crush/id6443843264?l=en-US"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      101
+    ],
+    "comment": ""
   }
 }

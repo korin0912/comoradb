@@ -20821,5 +20821,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1589": {
+    "name": "バトルクラッシュの時間だ！【BATTLE CRUSH】",
+    "url": "https://www.youtube.com/watch?v=GUip3itc5uY",
+    "releaseDate": "2024/06/29",
+    "gameIds": [
+      558
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

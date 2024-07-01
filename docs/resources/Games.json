@@ -6799,5 +6799,18 @@
       2
     ],
     "comment": ""
+  },
+  "560": {
+    "name": "Thunder Ronin",
+    "urls": [
+      "https://store.steampowered.com/app/2744340/Thunder_Ronin/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblDMZQhnumNS63Rq05HTodG",
+    "genreIds": [
+      1,
+      103,
+      136
+    ],
+    "comment": ""
   }
 }

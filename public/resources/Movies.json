@@ -20873,5 +20873,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1593": {
+    "name": "【雑談】リボ払いを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=wD3xLEIzY1M",
+    "releaseDate": "2024/07/03",
+    "gameIds": [
+      561
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

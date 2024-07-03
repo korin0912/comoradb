@@ -6812,5 +6812,16 @@
       136
     ],
     "comment": ""
+  },
+  "561": {
+    "name": "スーパーマリオブラザーズ2",
+    "urls": [
+      "https://www.nintendo.com/jp/famicom/software/smb2/index.html"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

@@ -20886,5 +20886,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1594": {
+    "name": "圧倒的成長をお見せしましょう！【Thunder Ronin】＃3",
+    "url": "https://www.youtube.com/watch?v=mRtIeCKL0x4",
+    "releaseDate": "2024/07/04",
+    "gameIds": [
+      560
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

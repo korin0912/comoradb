@@ -6836,5 +6836,18 @@
       5
     ],
     "comment": ""
+  },
+  "563": {
+    "name": "Inverted Angel",
+    "urls": [
+      "https://invertedangel.booth.pm",
+      "https://x.com/shitou_kaito",
+      "https://www.youtube.com/watch?v=lS50f66J_5Y"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkMxGo11IcUcHQnSpHjOuJd",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

@@ -20990,5 +20990,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1602": {
+    "name": "【雑談】生命保険を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=wbNOEJ5PJXs",
+    "releaseDate": "2024/07/13",
+    "gameIds": [
+      561
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

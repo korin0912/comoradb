@@ -6861,5 +6861,17 @@
       100
     ],
     "comment": ""
+  },
+  "565": {
+    "name": "動作不良 - System Malfunction -",
+    "urls": [
+      "https://store.steampowered.com/app/3009900/__System_Malfunction/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

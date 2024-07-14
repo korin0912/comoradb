@@ -21003,5 +21003,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1603": {
+    "name": "僕は優良【動作不良 - System Malfunction -】",
+    "url": "https://www.youtube.com/watch?v=xrqu58hiw70",
+    "releaseDate": "2024/07/14",
+    "gameIds": [
+      565
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

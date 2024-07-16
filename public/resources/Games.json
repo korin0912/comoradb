@@ -6873,5 +6873,16 @@
       100
     ],
     "comment": ""
+  },
+  "566": {
+    "name": "Flip Coin",
+    "urls": [
+      "https://store.steampowered.com/app/3072530/Flip_Coin/?l=japanese&curator_clanid=33733750"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

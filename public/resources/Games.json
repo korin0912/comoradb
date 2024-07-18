@@ -6879,9 +6879,10 @@
     "urls": [
       "https://store.steampowered.com/app/3072530/Flip_Coin/?l=japanese&curator_clanid=33733750"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnnqmDH-wZOH-_89bswd-eo",
     "genreIds": [
-      2
+      2,
+      136
     ],
     "comment": ""
   }

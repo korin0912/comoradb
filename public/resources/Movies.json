@@ -21107,5 +21107,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1611": {
+    "name": "ゴーストバスターじゃあああ！！【死写2】＃3",
+    "url": "https://www.youtube.com/watch?v=KFiYFkl2ffg",
+    "releaseDate": "2024/07/24",
+    "gameIds": [
+      568
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

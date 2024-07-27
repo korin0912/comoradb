@@ -6910,5 +6910,16 @@
       100
     ],
     "comment": ""
+  },
+  "569": {
+    "name": "中学校ゾンビ2",
+    "urls": [
+      "https://store.steampowered.com/app/2925980/2/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

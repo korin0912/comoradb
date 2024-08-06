@@ -21276,5 +21276,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1624": {
+    "name": "ここでは何かが作られている【Slot Waste】",
+    "url": "https://www.youtube.com/watch?v=zS86An_dvJ0",
+    "releaseDate": "2024/08/06",
+    "gameIds": [
+      572
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

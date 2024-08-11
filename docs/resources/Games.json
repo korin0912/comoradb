@@ -6959,5 +6959,19 @@
       113
     ],
     "comment": ""
+  },
+  "573": {
+    "name": "Dungeons & Degenerate Gamblers",
+    "urls": [
+      "https://x.com/DnDG_game",
+      "https://store.steampowered.com/app/2400510/Dungeons__Degenerate_Gamblers/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      106,
+      107,
+      138
+    ],
+    "comment": ""
   }
 }

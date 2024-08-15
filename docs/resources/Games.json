@@ -6973,5 +6973,18 @@
       138
     ],
     "comment": ""
+  },
+  "574": {
+    "name": "The Bathhouse | 地獄銭湯 Restored Edition",
+    "urls": [
+      "https://www.chillasart.co.jp",
+      "https://store.steampowered.com/app/2989950/The_Bathhouse___Restored_Edition/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnmpxfJKBh3HDdPNr9wOMed",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

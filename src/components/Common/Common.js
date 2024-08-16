@@ -6,6 +6,8 @@ function getUrlIconClass(url) {
     return "steam";
   } else if (url.indexOf("twitter.com") != -1) {
     return "twitter";
+  } else if (url.indexOf("/x.com") != -1) {
+    return "twitter";
   } else if (url.indexOf("www.facebook.com") != -1) {
     return "facebook";
   } else if (url.indexOf("www.youtube.com") != -1) {

@@ -125,10 +125,10 @@
 
 .icon.twitter::before {
   font-family: "Font Awesome 5 Brands";
-  content: "\f081";
+  content: "\e61a";
   font-size: 17px;
   font-weight: 400;
-  color: #1c9cea;
+  color: #000000;
 }
 
 .icon.facebook::before {

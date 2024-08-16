@@ -6986,5 +6986,19 @@
       100
     ],
     "comment": ""
+  },
+  "575": {
+    "name": "孵道",
+    "urls": [
+      "https://horakai.com",
+      "https://x.com/HORAKAI_games",
+      "https://store.steampowered.com/app/3080920/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

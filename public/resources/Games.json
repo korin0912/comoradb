@@ -7000,5 +7000,20 @@
       100
     ],
     "comment": ""
+  },
+  "576": {
+    "name": "Minds Beneath Us",
+    "urls": [
+      "https://www.facebook.com/BearHouse518",
+      "https://x.com/BearboneStudio",
+      "https://www.youtube.com/@BearBoneStudio",
+      "https://store.steampowered.com/app/1610440/Minds_Beneath_Us/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmuoCYbjfMo7XjAvB4hfsJ6",
+    "genreIds": [
+      2,
+      3
+    ],
+    "comment": ""
   }
 }

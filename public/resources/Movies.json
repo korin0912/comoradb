@@ -21458,5 +21458,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1638": {
+    "name": "【雑談】僕が陽キャになった日を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=u6qj3Nm2k8M",
+    "releaseDate": "2024/08/20",
+    "gameIds": [
+      577
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

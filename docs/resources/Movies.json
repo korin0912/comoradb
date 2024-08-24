@@ -21510,5 +21510,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1642": {
+    "name": "【コメント返し】陰キャに恋人はいらない",
+    "url": "https://www.youtube.com/watch?v=DcQ6VZeX19Y",
+    "releaseDate": "2024/08/24",
+    "gameIds": [
+      476
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

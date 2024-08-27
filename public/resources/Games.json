@@ -7029,5 +7029,17 @@
       132
     ],
     "comment": ""
+  },
+  "578": {
+    "name": "ウラヤマ",
+    "urls": [
+      "https://store.steampowered.com/app/2939550/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

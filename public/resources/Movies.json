@@ -21575,5 +21575,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1647": {
+    "name": "【雑談】6周年を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=7yhG8ebjETI",
+    "releaseDate": "2024/08/29",
+    "gameIds": [
+      99999
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

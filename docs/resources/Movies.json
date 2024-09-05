@@ -21655,9 +21655,22 @@
     "comment": ""
   },
   "1653": {
-    "name": "かっこいいですぜ！セラの兄貴！【Minds Beneath Us】＃13",
+    "name": "かっこいいですぜ！セラの兄貴！【Minds Beneath Us】＃14",
     "url": "https://www.youtube.com/watch?v=WpuIl20m67w",
     "releaseDate": "2024/09/04",
+    "gameIds": [
+      576
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1654": {
+    "name": "オフィスの角のシンホン家【Minds Beneath Us】＃15",
+    "url": "https://www.youtube.com/watch?v=4J6KoleBczY",
+    "releaseDate": "2024/09/05",
     "gameIds": [
       576
     ],

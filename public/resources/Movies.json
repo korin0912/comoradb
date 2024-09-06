@@ -21679,5 +21679,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1655": {
+    "name": "特殊な石だらけのオセロゲーム【おおむねリバーシ】",
+    "url": "https://www.youtube.com/watch?v=IliEDVBP7AE",
+    "releaseDate": "2024/09/06",
+    "gameIds": [
+      580
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

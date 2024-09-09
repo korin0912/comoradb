@@ -7067,5 +7067,18 @@
       112
     ],
     "comment": ""
+  },
+  "581": {
+    "name": "Capybara: The story of Sisyphus",
+    "urls": [
+      "https://store.steampowered.com/app/2732980/Capybara_The_story_of_Sisyphus/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      133,
+      134
+    ],
+    "comment": ""
   }
 }

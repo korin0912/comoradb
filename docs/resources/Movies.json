@@ -21757,5 +21757,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1661": {
+    "name": "【雑談】コロナを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=YmMmKgnjuzo",
+    "releaseDate": "2024/09/12",
+    "gameIds": [
+      582
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

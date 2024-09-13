@@ -21770,5 +21770,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1662": {
+    "name": "潜入作戦【Minds Beneath Us】＃20",
+    "url": "https://www.youtube.com/watch?v=Dp2U5rosuQw",
+    "releaseDate": "2024/09/13",
+    "gameIds": [
+      576
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

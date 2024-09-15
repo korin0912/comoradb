@@ -21796,5 +21796,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1664": {
+    "name": "【コメント返し】誰と一緒でも苦難は勘弁",
+    "url": "https://www.youtube.com/watch?v=kPl5zFf_vnU",
+    "releaseDate": "2024/09/15",
+    "gameIds": [
+      476
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

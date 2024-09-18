@@ -7094,5 +7094,20 @@
       3
     ],
     "comment": ""
+  },
+  "583": {
+    "name": "CalorieMate LIQUID FOR GAME CREATORS",
+    "urls": [
+      "https://x.com/CalorieMate_jp",
+      "https://www.youtube.com/@otsukaseiyaku",
+      "https://store.steampowered.com/app/3156040/CalorieMate_LIQUID_FOR_GAME_CREATORS/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2,
+      133
+    ],
+    "comment": ""
   }
 }

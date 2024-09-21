@@ -7109,5 +7109,18 @@
       133
     ],
     "comment": ""
+  },
+  "584": {
+    "name": "自宅警備",
+    "urls": [
+      "https://x.com/MOKUMOKUSOFT",
+      "https://store.steampowered.com/app/3201670/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100,
+      133
+    ],
+    "comment": ""
   }
 }

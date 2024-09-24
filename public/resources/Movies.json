@@ -21913,5 +21913,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1673": {
+    "name": "【雑談】相席焼肉を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=IYckgUleS7g",
+    "releaseDate": "2024/09/24",
+    "gameIds": [
+      561
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

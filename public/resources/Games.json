@@ -7136,5 +7136,17 @@
       133
     ],
     "comment": ""
+  },
+  "586": {
+    "name": "PLEASE SAY HI",
+    "urls": [
+      "https://store.steampowered.com/app/3165060/PLEASE_SAY_HI/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      5
+    ],
+    "comment": ""
   }
 }

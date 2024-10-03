@@ -22030,5 +22030,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1682": {
+    "name": "【雑談】バッタを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=Ii8ydiD2_mk",
+    "releaseDate": "2024/10/03",
+    "gameIds": [
+      587
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -7148,5 +7148,17 @@
       5
     ],
     "comment": ""
+  },
+  "587": {
+    "name": "Grasshoping",
+    "urls": [
+      "https://store.steampowered.com/app/2378290/Grasshoping/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

@@ -22043,5 +22043,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1683": {
+    "name": "サイレントの種が芽吹く【Minds Beneath Us】＃34",
+    "url": "https://www.youtube.com/watch?v=3CZ4v6AafT8",
+    "releaseDate": "2024/10/04",
+    "gameIds": [
+      576
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

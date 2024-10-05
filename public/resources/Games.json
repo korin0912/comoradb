@@ -7160,5 +7160,19 @@
       2
     ],
     "comment": ""
+  },
+  "588": {
+    "name": "近畿霊務局 - Kinki Spiritual Affairs Bureau",
+    "urls": [
+      "https://www.youtube.com/channel/UCn4G_MwYlfyOsUWMXvpZSsQ",
+      "https://x.com/NotoMuteki",
+      "https://store.steampowered.com/app/2956820/__Kinki_Spiritual_Affairs_Bureau/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblORu6KrNpfdH47_ee5sEcW",
+    "genreIds": [
+      1,
+      100
+    ],
+    "comment": ""
   }
 }

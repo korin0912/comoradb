@@ -22160,5 +22160,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1692": {
+    "name": "【コメント返し】裏配信の裏って言うほど裏じゃない",
+    "url": "https://www.youtube.com/watch?v=HslQFt-HzCk",
+    "releaseDate": "2024/10/13",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -22225,5 +22225,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1697": {
+    "name": "【雑談】歯擦音を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=ttQoy43eakg",
+    "releaseDate": "2024/10/18",
+    "gameIds": [
+      561
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

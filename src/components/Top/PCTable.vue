@@ -164,7 +164,7 @@ div.urlicon {
   height: 17px;
   display: block;
   float: left;
-  margin: 0 2px 2px 0;
+  margin: 0 1px 0px 0;
 }
 
 div.actoricon {
@@ -172,7 +172,7 @@ div.actoricon {
   height: 17px;
   display: block;
   float: left;
-  margin: 0 2px 2px 0;
+  margin: 0 1px 0px 0;
 }
 
 span.genre {

@@ -7226,5 +7226,17 @@
       102
     ],
     "comment": ""
+  },
+  "593": {
+    "name": "Fatal Midnight",
+    "urls": [
+      "https://store.steampowered.com/app/3177120/Fatal_Midnight/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

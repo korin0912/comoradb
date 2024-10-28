@@ -22355,5 +22355,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1707": {
+    "name": "イライラしながら人形を作るゲーム【The Maker】",
+    "url": "https://www.youtube.com/watch?v=8QxecIfxqyw",
+    "releaseDate": "2024/10/28",
+    "gameIds": [
+      594
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -7238,5 +7238,17 @@
       100
     ],
     "comment": ""
+  },
+  "594": {
+    "name": "The Maker",
+    "urls": [
+      "https://store.steampowered.com/app/3079680/The_Maker/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

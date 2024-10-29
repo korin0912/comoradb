@@ -7250,5 +7250,19 @@
       100
     ],
     "comment": ""
+  },
+  "595": {
+    "name": "Senchu/線虫",
+    "urls": [
+      "https://www.youtube.com/channel/UCWo5xw_fbWX_fEp71XS49vA",
+      "https://x.com/ysihorror",
+      "https://store.steampowered.com/app/3130670/Senchu/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

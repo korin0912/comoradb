@@ -22407,5 +22407,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1711": {
+    "name": "【雑談】30連休を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=yYWumlTusvI",
+    "releaseDate": "2024/11/02",
+    "gameIds": [
+      92
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

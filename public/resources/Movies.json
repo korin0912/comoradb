@@ -22420,5 +22420,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1712": {
+    "name": "失踪した友人の部屋に残されていたゲームが不気味すぎる",
+    "url": "https://www.youtube.com/watch?v=iWy0AiUk4TU",
+    "releaseDate": "2024/11/03",
+    "gameIds": [
+      597
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

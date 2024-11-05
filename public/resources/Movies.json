@@ -22446,5 +22446,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1714": {
+    "name": "卓球ラケットでリフティングするだけのゲームが難しい【PingPongBlock】",
+    "url": "https://www.youtube.com/watch?v=Y1SQj1fsIJM",
+    "releaseDate": "2024/11/05",
+    "gameIds": [
+      599
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

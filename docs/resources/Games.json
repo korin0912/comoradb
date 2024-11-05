@@ -7303,5 +7303,18 @@
       100
     ],
     "comment": ""
+  },
+  "599": {
+    "name": "PingPongBlock",
+    "urls": [
+      "https://x.com/Itoyo_zi",
+      "https://store.steampowered.com/app/3117950/PingPongBlock/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

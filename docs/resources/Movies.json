@@ -22459,5 +22459,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1715": {
+    "name": "極楽湯行ってきたコモ！",
+    "url": "https://www.youtube.com/watch?v=iZkW8wULbO8",
+    "releaseDate": "2024/11/06",
+    "gameIds": [
+      99999
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
+  },
+  "1716": {
+    "name": "全てを自分でデザインできるダンジョンゲーム【Sketch Crawler】",
+    "url": "https://www.youtube.com/watch?v=Dyl_12tuGK4",
+    "releaseDate": "2024/11/07",
+    "gameIds": [
+      600
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

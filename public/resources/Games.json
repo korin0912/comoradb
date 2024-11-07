@@ -7316,5 +7316,17 @@
       136
     ],
     "comment": ""
+  },
+  "600": {
+    "name": "Sketch Crawler",
+    "urls": [
+      "https://store.steampowered.com/app/1731260/Sketch_Crawler/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      106
+    ],
+    "comment": ""
   }
 }

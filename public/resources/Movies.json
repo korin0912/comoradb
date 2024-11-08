@@ -22485,5 +22485,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1717": {
+    "name": "ボールを土管に入れる高難易度ゲーム【Game Over Please】",
+    "url": "https://www.youtube.com/watch?v=hFE3p83S-yU",
+    "releaseDate": "2024/11/08",
+    "gameIds": [
+      601
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

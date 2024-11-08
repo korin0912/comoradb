@@ -7328,5 +7328,19 @@
       106
     ],
     "comment": ""
+  },
+  "601": {
+    "name": "Game Over Please",
+    "urls": [
+      "https://www.facebook.com/astrogamestudio1/",
+      "https://www.youtube.com/@astrogamestudio7595",
+      "https://store.steampowered.com/app/3155320/Game_Over_Please/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      133,
+      136
+    ],
+    "comment": ""
   }
 }

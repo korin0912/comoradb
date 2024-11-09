@@ -22498,5 +22498,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1718": {
+    "name": "ファンキーなホラーゲーム【クソデカ囃子】",
+    "url": "https://www.youtube.com/watch?v=mXQPiZg_-6c",
+    "releaseDate": "2024/11/09",
+    "gameIds": [
+      602
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

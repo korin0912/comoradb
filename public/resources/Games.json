@@ -7354,5 +7354,18 @@
       100
     ],
     "comment": ""
+  },
+  "603": {
+    "name": "Another World – 20th Anniversary Edition",
+    "urls": [
+      "https://www.anotherworld.fr",
+      "https://store.steampowered.com/app/233550/Another_World__20th_Anniversary_Edition/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

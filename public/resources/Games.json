@@ -7367,5 +7367,16 @@
       2
     ],
     "comment": ""
+  },
+  "604": {
+    "name": "Pokémon Trading Card Game Pocket",
+    "urls": [
+      "https://www.pokemontcgpocket.com/ja/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      106
+    ],
+    "comment": ""
   }
 }

@@ -7378,5 +7378,20 @@
       106
     ],
     "comment": ""
+  },
+  "605": {
+    "name": "Take me",
+    "urls": [
+      "https://x.com/therealDucat",
+      "https://www.youtube.com/@DucatChannel",
+      "https://store.steampowered.com/app/2144590/Take_me/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100,
+      113
+    ],
+    "comment": ""
   }
 }

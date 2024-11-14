@@ -7393,5 +7393,16 @@
       113
     ],
     "comment": ""
+  },
+  "606": {
+    "name": "HighKing",
+    "urls": [
+      "https://store.steampowered.com/app/2883890/HighKing/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

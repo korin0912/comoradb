@@ -22590,5 +22590,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1725": {
+    "name": "全プレイヤーが一度は詰まる場所【HighKing】＃3",
+    "url": "https://www.youtube.com/watch?v=lqlYtLamKfY",
+    "releaseDate": "2024/11/17",
+    "gameIds": [
+      606
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

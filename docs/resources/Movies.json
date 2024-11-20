@@ -22629,5 +22629,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1728": {
+    "name": "【雑談】TCGを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=jnfjUTjiIo0",
+    "releaseDate": "2024/11/20",
+    "gameIds": [
+      607
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

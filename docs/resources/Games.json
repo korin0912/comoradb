@@ -7404,5 +7404,17 @@
       1
     ],
     "comment": ""
+  },
+  "607": {
+    "name": "みんなでマインスイーパー",
+    "urls": [
+      "https://store.steampowered.com/app/2865580/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9,
+      101
+    ],
+    "comment": ""
   }
 }

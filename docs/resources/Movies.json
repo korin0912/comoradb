@@ -22642,5 +22642,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1729": {
+    "name": "地球滅亡までの6ヶ月を生きる少女【Goodbye Seoulデモ版】",
+    "url": "https://www.youtube.com/watch?v=_cXvhjbC6YU",
+    "releaseDate": "2024/11/21",
+    "gameIds": [
+      608
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

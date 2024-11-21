@@ -7416,5 +7416,19 @@
       101
     ],
     "comment": ""
+  },
+  "608": {
+    "name": "Goodbye Seoul",
+    "urls": [
+      "https://x.com/GoodByeSeoul_",
+      "https://www.youtube.com/@jino-yp4qt",
+      "https://store.steampowered.com/app/2551550/Goodbye_Seoul/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

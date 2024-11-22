@@ -7430,5 +7430,21 @@
       2
     ],
     "comment": ""
+  },
+  "609": {
+    "name": "ルビナイト",
+    "urls": [
+      "https://www.cupdoggames.com/en",
+      "https://www.facebook.com/CupDogGames",
+      "https://x.com/cupdog_games",
+      "https://www.youtube.com/@cupdog_games",
+      "https://store.steampowered.com/app/1845250/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

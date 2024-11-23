@@ -7446,5 +7446,19 @@
       136
     ],
     "comment": ""
+  },
+  "610": {
+    "name": "Anglerfish",
+    "urls": [
+      "https://www.youtube.com/@professionalvillains134",
+      "https://x.com/prof_villains",
+      "https://store.steampowered.com/app/1613670/Anglerfish/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

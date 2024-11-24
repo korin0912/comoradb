@@ -22681,5 +22681,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1732": {
+    "name": "このゲームがどこに進むか分からないよ【Anglerfish】#2",
+    "url": "https://www.youtube.com/watch?v=xwGRdZxShNM",
+    "releaseDate": "2024/11/24",
+    "gameIds": [
+      610
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

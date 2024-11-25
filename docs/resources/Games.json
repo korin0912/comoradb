@@ -7399,7 +7399,7 @@
     "urls": [
       "https://store.steampowered.com/app/2883890/HighKing/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbni3XalMQwQPuRsMJvXDPc-",
     "genreIds": [
       1
     ],
@@ -7454,9 +7454,21 @@
       "https://x.com/prof_villains",
       "https://store.steampowered.com/app/1613670/Anglerfish/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkWrDMJcUYjrG4-rr2ttRsh",
     "genreIds": [
       1,
+      2
+    ],
+    "comment": ""
+  },
+  "611": {
+    "name": "電気街の喫茶店",
+    "urls": [
+      "https://x.com/dreambaseinc",
+      "https://store.steampowered.com/app/1789030/_/?l=japanese&curator_clanid=33120141"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbliPxg7smALweReDplzkWWc",
+    "genreIds": [
       2
     ],
     "comment": ""

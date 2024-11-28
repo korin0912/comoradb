@@ -22733,5 +22733,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1736": {
+    "name": "【雑談】京都旅行を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=XxRtOe5O6j8",
+    "releaseDate": "2024/11/28",
+    "gameIds": [
+      607
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

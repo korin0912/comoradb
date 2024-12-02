@@ -7472,5 +7472,17 @@
       2
     ],
     "comment": ""
+  },
+  "612": {
+    "name": "不審者通報しました。：ホラーストーリー",
+    "urls": [
+      "https://store.steampowered.com/app/3214390/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

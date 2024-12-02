@@ -22785,5 +22785,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1740": {
+    "name": "不審者を通報したら叱られるゲーム【不審者通報しました】前編",
+    "url": "https://www.youtube.com/watch?v=NPtsD6iLiCc",
+    "releaseDate": "2024/12/02",
+    "gameIds": [
+      612
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

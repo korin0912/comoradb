@@ -7484,5 +7484,19 @@
       100
     ],
     "comment": ""
+  },
+  "613": {
+    "name": "Get To Work",
+    "urls": [
+      "https://www.youtube.com/c/istoinc",
+      "https://store.steampowered.com/app/2706170/Get_To_Work/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkBHJTYWKDuW0Ny7UzAEDC7",
+    "genreIds": [
+      1,
+      2,
+      10
+    ],
+    "comment": ""
   }
 }

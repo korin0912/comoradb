@@ -22843,6 +22843,32 @@
     "url": "https://www.youtube.com/watch?v=EFnBskzpzEE",
     "releaseDate": "2024/12/06",
     "gameIds": [
+      611
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1745": {
+    "name": "【雑談】エステを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=12zOnKpbvUY",
+    "releaseDate": "2024/12/07",
+    "gameIds": [
+      607
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
+  },
+  "1746": {
+    "name": "こんな僕を祝ってくれてありがとう【Get To Work】＃2",
+    "url": "https://www.youtube.com/watch?v=3ZOHbgYNo3Y",
+    "releaseDate": "2024/12/08",
+    "gameIds": [
       613
     ],
     "actorIds": [

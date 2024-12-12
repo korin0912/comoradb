@@ -1,5 +1,5 @@
 ﻿<template>
-  <table>
+  <table style="width: 95%; margin: auto;">
     <thead>
       <tr>
         <th class="dark">日</th>
@@ -106,5 +106,4 @@ td.hide {
   border-width: 1px;
   border-style: solid;
 }
-
 </style>

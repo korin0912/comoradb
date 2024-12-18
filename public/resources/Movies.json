@@ -22993,5 +22993,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1756": {
+    "name": "入社したら3年は働けとかいう大嘘【Get To Work】＃6",
+    "url": "https://www.youtube.com/watch?v=kQQzj7Qle1U",
+    "releaseDate": "2024/12/18",
+    "gameIds": [
+      613
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -7498,5 +7498,17 @@
       10
     ],
     "comment": ""
+  },
+  "614": {
+    "name": "漢字でGO! 集英社マンガ祭",
+    "urls": [
+      "https://rpgmakerunite.com/game/kanzidego/",
+      "https://store.steampowered.com/app/3350140/GO/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      140
+    ],
+    "comment": ""
   }
 }

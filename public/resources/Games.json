@@ -7510,5 +7510,19 @@
       140
     ],
     "comment": ""
+  },
+  "615": {
+    "name": "[Bober Bros] The Hole",
+    "urls": [
+      "https://www.youtube.com/@superboberbros",
+      "https://x.com/SuperBoberBros",
+      "https://store.steampowered.com/app/3037930/Bober_Bros_The_Hole/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

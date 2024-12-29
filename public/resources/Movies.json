@@ -23123,5 +23123,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1766": {
+    "name": "成功者の景色【Get To Work】＃11",
+    "url": "https://www.youtube.com/watch?v=BAimnO79sL4",
+    "releaseDate": "2024/12/28",
+    "gameIds": [
+      613
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1767": {
+    "name": "あ、地獄や【Get To Work】＃12",
+    "url": "https://www.youtube.com/watch?v=4vVrV5yhMYI",
+    "releaseDate": "2024/12/29",
+    "gameIds": [
+      613
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -23162,5 +23162,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1769": {
+    "name": "2024年にプレイしたゲームを振り返ろう！【Steamリプレイ】",
+    "url": "https://www.youtube.com/watch?v=EDJf3nO99Q8",
+    "releaseDate": "2024/12/31",
+    "gameIds": [
+      99999
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

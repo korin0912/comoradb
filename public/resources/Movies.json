@@ -23175,5 +23175,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1770": {
+    "name": "今年の一発目のゲームはこれだ！【がんばれ！受付嬢2】",
+    "url": "https://www.youtube.com/watch?v=PGzFEfkRiro",
+    "releaseDate": "2025/01/01",
+    "gameIds": [
+      616
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

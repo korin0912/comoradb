@@ -7524,5 +7524,19 @@
       100
     ],
     "comment": ""
+  },
+  "616": {
+    "name": "がんばれ！受付嬢2 ～Stardust Liberate～",
+    "urls": [
+      "https://x.com/OBTcompany00",
+      "https://store.steampowered.com/app/3293990/2_Stardust_Liberate/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      3,
+      5
+    ],
+    "comment": ""
   }
 }

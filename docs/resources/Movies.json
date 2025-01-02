@@ -23188,5 +23188,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1771": {
+    "name": "【雑談】2025正月を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=79eaCWD0AFk",
+    "releaseDate": "2025/01/02",
+    "gameIds": [
+      617
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

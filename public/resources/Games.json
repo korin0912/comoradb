@@ -7573,5 +7573,16 @@
       100
     ],
     "comment": ""
+  },
+  "620": {
+    "name": "世界で一番操作性が悪いゲーム",
+    "urls": [
+      "https://unityroom.com/games/badoperability"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      113
+    ],
+    "comment": ""
   }
 }

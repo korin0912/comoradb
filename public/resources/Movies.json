@@ -23253,5 +23253,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1776": {
+    "name": "今年初のイライラゲーム【世界で一番操作性が悪いゲーム】",
+    "url": "https://www.youtube.com/watch?v=d7mZ6iZNYnk",
+    "releaseDate": "2025/01/09",
+    "gameIds": [
+      620
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

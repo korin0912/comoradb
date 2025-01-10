@@ -7584,5 +7584,20 @@
       113
     ],
     "comment": ""
+  },
+  "621": {
+    "name": "Cursed Digicam | 呪われたデジカメ",
+    "urls": [
+      "https://www.chillasart.co.jp",
+      "https://x.com/ChillasArt",
+      "https://www.youtube.com/@chillasart",
+      "https://store.steampowered.com/app/3334550/Cursed_Digicam/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

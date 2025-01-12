@@ -7599,5 +7599,20 @@
       100
     ],
     "comment": ""
+  },
+  "622": {
+    "name": "ピンチ50連発!!",
+    "urls": [
+      "https://www.gamestudio.co.jp/pinch50/",
+      "https://x.com/pinch50",
+      "https://www.youtube.com/@pinch_50",
+      "https://store.steampowered.com/app/2831540/50/",
+      "https://store-jp.nintendo.com/item/software/D70010000080305"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

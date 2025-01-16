@@ -23331,5 +23331,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1782": {
+    "name": "【雑談】ガキの世話を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=v32zMVF0lPE",
+    "releaseDate": "2025/01/16",
+    "gameIds": [
+      623
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

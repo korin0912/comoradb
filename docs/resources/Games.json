@@ -7614,5 +7614,16 @@
       1
     ],
     "comment": ""
+  },
+  "623": {
+    "name": "Well Dumb",
+    "urls": [
+      "https://store.steampowered.com/app/3369300/Well_Dumb/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
+    ],
+    "comment": ""
   }
 }

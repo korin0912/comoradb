@@ -23344,5 +23344,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1783": {
+    "name": "身バレしたら即終了するホラーゲーム【P.I.】",
+    "url": "https://www.youtube.com/watch?v=3djmEqdtavI",
+    "releaseDate": "2025/01/17",
+    "gameIds": [
+      624
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

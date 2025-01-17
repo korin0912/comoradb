@@ -7625,5 +7625,20 @@
       132
     ],
     "comment": ""
+  },
+  "624": {
+    "name": "P.I.",
+    "urls": [
+      "https://www.hi-xor.studio",
+      "https://x.com/studio_hi_xor",
+      "https://www.youtube.com/channel/UCelN3s0X-SL509LEJftMOCQ",
+      "https://store.steampowered.com/app/3374280/PI/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -7640,5 +7640,18 @@
       100
     ],
     "comment": ""
+  },
+  "625": {
+    "name": "TrickShot Simulator",
+    "urls": [
+      "https://x.com/TrickShotSim",
+      "https://www.youtube.com/@TrickShotSimulator",
+      "https://store.steampowered.com/app/3384190/TrickShot_Simulator/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
+    ],
+    "comment": ""
   }
 }

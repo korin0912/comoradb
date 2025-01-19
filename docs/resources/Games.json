@@ -7653,5 +7653,20 @@
       132
     ],
     "comment": ""
+  },
+  "626": {
+    "name": "The Cabin Factory",
+    "urls": [
+      "https://www.internationalcatstudios.com",
+      "https://x.com/ICS_indie",
+      "https://www.youtube.com/@internationalcatstudios/videos",
+      "https://store.steampowered.com/app/3311740/The_Cabin_Factory/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100,
+      132
+    ],
+    "comment": ""
   }
 }

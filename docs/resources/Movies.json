@@ -23370,5 +23370,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1785": {
+    "name": "流れてくるキャビンを調査する謎の工場で働きます【The Cabin Factory】",
+    "url": "https://www.youtube.com/watch?v=4QwzGNSyTxs",
+    "releaseDate": "2025/01/19",
+    "gameIds": [
+      626
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

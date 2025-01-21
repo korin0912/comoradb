@@ -23396,5 +23396,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1787": {
+    "name": "【コメント返し】パワハラとパワプロって似てる",
+    "url": "https://www.youtube.com/watch?v=ftexwYsVpOg",
+    "releaseDate": "2025/01/21",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -23409,5 +23409,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1788": {
+    "name": "【謝罪】あの件について謝ればいいんでしょ【超土下座】",
+    "url": "https://www.youtube.com/watch?v=rRfnhc_qDkI",
+    "releaseDate": "2025/01/22",
+    "gameIds": [
+      627
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -7681,5 +7681,16 @@
       113
     ],
     "comment": ""
+  },
+  "628": {
+    "name": "簡単なゴミ捨てゲーム",
+    "urls": [
+      "https://store.steampowered.com/app/3384180/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

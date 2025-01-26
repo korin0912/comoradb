@@ -7692,5 +7692,17 @@
       5
     ],
     "comment": ""
+  },
+  "629": {
+    "name": "InKing",
+    "urls": [
+      "https://store.steampowered.com/app/3349840/InKing/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

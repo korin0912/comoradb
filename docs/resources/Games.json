@@ -7609,7 +7609,7 @@
       "https://store.steampowered.com/app/2831540/50/",
       "https://store-jp.nintendo.com/item/software/D70010000080305"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnqAA6N7OMXu-fE9LlffQ8D",
     "genreIds": [
       1
     ],
@@ -7648,7 +7648,7 @@
       "https://www.youtube.com/@TrickShotSimulator",
       "https://store.steampowered.com/app/3384190/TrickShot_Simulator/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmGkPSw6IclTqkjufzxmzfc",
     "genreIds": [
       132
     ],
@@ -7702,6 +7702,20 @@
     "genreIds": [
       1,
       102
+    ],
+    "comment": ""
+  },
+  "630": {
+    "name": "グーグーピザ：ピザを宇宙ステーションに配達するって？店長、それはちょっと無理じゃないですか！?",
+    "urls": [
+      "https://x.com/AnomalyGuys",
+      "https://www.youtube.com/channel/UC6f9TM1xgsp8PVpu03k9ueA",
+      "https://store.steampowered.com/app/3308560/_/?l=japanese&curator_clanid=33733750"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblwDNnxAivtVjQpUyntFfTV",
+    "genreIds": [
+      1,
+      136
     ],
     "comment": ""
   }

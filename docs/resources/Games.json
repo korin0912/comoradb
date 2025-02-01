@@ -7718,5 +7718,23 @@
       136
     ],
     "comment": ""
+  },
+  "631": {
+    "name": "Fear the Spotlight",
+    "urls": [
+      "https://blumhouse.com/games",
+      "https://x.com/BlumhouseGames",
+      "https://www.youtube.com/channel/UCyKn-ExxC_s057fQbLRI7MA",
+      "https://store.playstation.com/ja-jp/concept/10010737",
+      "https://www.xbox.com/ja-JP/games/store/fear-the-spotlight/9nw2s9t1gh7x",
+      "https://www.nintendo.com/us/store/products/fear-the-spotlight-switch/?srsltid=AfmBOoqONpEovQ88ycrpOXQ6vQI6HvbDbrMHpQplx-C1ALThaOSWuMcl",
+      "https://store.steampowered.com/app/1959390/Fear_the_Spotlight/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkKTF-qnMJzPYca7VxHiPoO",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

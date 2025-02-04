@@ -23565,5 +23565,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1800": {
+    "name": "探してくれてありがとう【Fear the Spotlight】＃3",
+    "url": "https://www.youtube.com/watch?v=eKGhaL_DHaw",
+    "releaseDate": "2025/02/04",
+    "gameIds": [
+      631
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

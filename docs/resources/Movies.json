@@ -23578,5 +23578,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1801": {
+    "name": "引っ越し先のエレベーターの故障が酷い【The elevator】",
+    "url": "https://www.youtube.com/watch?v=ST8Qe6aWlIs",
+    "releaseDate": "2025/02/05",
+    "gameIds": [
+      632
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

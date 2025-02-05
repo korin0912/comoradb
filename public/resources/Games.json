@@ -7736,5 +7736,17 @@
       100
     ],
     "comment": ""
+  },
+  "632": {
+    "name": "The elevator",
+    "urls": [
+      "https://store.steampowered.com/app/3090860/The_elevator/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

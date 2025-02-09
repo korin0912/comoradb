@@ -23630,5 +23630,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1805": {
+    "name": "トラックを運転するだけのゲーム【トラック運転貨物シミュレーター】",
+    "url": "https://www.youtube.com/watch?v=IVOAscx1FXk",
+    "releaseDate": "2025/02/09",
+    "gameIds": [
+      633
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

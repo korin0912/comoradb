@@ -23643,5 +23643,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1806": {
+    "name": "【雑談】携帯料金を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=dpDMiMC_bEk",
+    "releaseDate": "2025/02/10",
+    "gameIds": [
+      634
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

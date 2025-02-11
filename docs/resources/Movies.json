@@ -23656,5 +23656,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1807": {
+    "name": "リンゴを転がすだけのゲーム【Gravity's Apple】＃1",
+    "url": "https://www.youtube.com/watch?v=TJK3EcHBIfs",
+    "releaseDate": "2025/02/11",
+    "gameIds": [
+      635
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

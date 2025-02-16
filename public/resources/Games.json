@@ -7799,5 +7799,17 @@
       9
     ],
     "comment": ""
+  },
+  "637": {
+    "name": "LOST EGG the Hard Boiled",
+    "urls": [
+      "https://store.steampowered.com/app/3470870/LOST_EGG_the_Hard_Boiled/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

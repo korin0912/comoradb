@@ -7811,5 +7811,17 @@
       136
     ],
     "comment": ""
+  },
+  "638": {
+    "name": "心霊物件",
+    "urls": [
+      "https://store.steampowered.com/app/3400040/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

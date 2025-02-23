@@ -7823,5 +7823,16 @@
       100
     ],
     "comment": ""
+  },
+  "639": {
+    "name": "ネオン ブラッド",
+    "urls": [
+      "https://store.steampowered.com/app/2067310/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

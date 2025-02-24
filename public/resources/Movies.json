@@ -23814,9 +23814,22 @@
     "comment": ""
   },
   "1819": {
-    "name": "雰囲気だけは神ゲーっぽいゲーム【ネオン ブラッド】",
+    "name": "雰囲気だけは神ゲーっぽいゲーム【ネオン ブラッド】＃1",
     "url": "https://www.youtube.com/watch?v=GcTpFPcvsgM",
     "releaseDate": "2025/02/23",
+    "gameIds": [
+      639
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1820": {
+    "name": "この世界を統べる女【ネオン ブラッド】＃2",
+    "url": "https://www.youtube.com/watch?v=ak6gZMCGeTQ",
+    "releaseDate": "2025/02/24",
     "gameIds": [
       639
     ],

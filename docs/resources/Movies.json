@@ -23838,5 +23838,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1821": {
+    "name": "【雑談】社内イジメを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=dz9svnlqXnQ",
+    "releaseDate": "2025/02/25",
+    "gameIds": [
+      640
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

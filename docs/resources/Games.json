@@ -7887,5 +7887,18 @@
       107
     ],
     "comment": ""
+  },
+  "644": {
+    "name": "Death Stream",
+    "urls": [
+      "https://www.youtube.com/@CapitalWolf",
+      "https://store.steampowered.com/app/3522230/Death_Stream/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      107
+    ],
+    "comment": ""
   }
 }

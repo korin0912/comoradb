@@ -23981,5 +23981,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1832": {
+    "name": "ドアの選択するだけのゲームが難しすぎる【Death Stream】",
+    "url": "https://www.youtube.com/watch?v=9De1PX76Zvk",
+    "releaseDate": "2025/03/10",
+    "gameIds": [
+      644
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -19848,7 +19848,7 @@
   },
   "1514": {
     "name": "お似合い迷惑カップル【Thirsty Suitors】＃8",
-    "url": "https://www.youtube.com/watch?v=vN4k7ltpU-Y&t=1528s",
+    "url": "https://www.youtube.com/watch?v=vN4k7ltpU-Y",
     "releaseDate": "2024/04/11",
     "gameIds": [
       516
@@ -23988,6 +23988,19 @@
     "releaseDate": "2025/03/10",
     "gameIds": [
       644
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1833": {
+    "name": "ふとんが汚れたので吹き飛ばします【ふとんがふっとんだ！with ロケットランチャー】",
+    "url": "https://www.youtube.com/watch?v=ak-Rp3ernKQ",
+    "releaseDate": "2025/03/11",
+    "gameIds": [
+      645
     ],
     "actorIds": [
       1

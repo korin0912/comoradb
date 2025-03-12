@@ -7913,5 +7913,17 @@
       1
     ],
     "comment": ""
+  },
+  "646": {
+    "name": "ドーナツの穴",
+    "urls": [
+      "https://unityroom.com/games/judge_donut_hole"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      5
+    ],
+    "comment": ""
   }
 }

@@ -24007,5 +24007,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1834": {
+    "name": "なんか布がめっちゃ喋ってくるんですけど【ドーナツの穴】",
+    "url": "https://www.youtube.com/watch?v=l103d9YHpNE",
+    "releaseDate": "2025/03/12",
+    "gameIds": [
+      646
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

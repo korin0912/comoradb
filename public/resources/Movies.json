@@ -24046,5 +24046,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1837": {
+    "name": "ゲームのキャラは彼女になりますか？【MiSide : ミサイド】",
+    "url": "https://www.youtube.com/watch?v=yHVpVAMBqFA",
+    "releaseDate": "2025/03/15",
+    "gameIds": [
+      648
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

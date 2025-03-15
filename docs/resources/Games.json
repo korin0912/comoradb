@@ -7937,5 +7937,21 @@
       2
     ],
     "comment": ""
+  },
+  "648": {
+    "name": "MiSide : ミサイド",
+    "urls": [
+      "https://www.youtube.com/@aihastogames7830",
+      "https://x.com/aihasto",
+      "https://space.bilibili.com/485323305",
+      "https://weibo.com/n/%E7%8B%AC%E7%AB%8B%E6%96%B9%E8%88%9F_IndieArk",
+      "https://store.steampowered.com/app/2527500/MiSide/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkygd7XHMn7a4oRPqfhkvWo",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

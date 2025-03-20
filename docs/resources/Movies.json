@@ -24072,5 +24072,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1839": {
+    "name": "【雑談】40度の熱を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=24mEalj25ss",
+    "releaseDate": "2025/03/20",
+    "gameIds": [
+      649
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

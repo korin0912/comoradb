@@ -7966,5 +7966,18 @@
       113
     ],
     "comment": ""
+  },
+  "650": {
+    "name": "Bibbidiba fan game",
+    "urls": [
+      "https://x.com/shadow_2810",
+      "https://store.steampowered.com/app/3428800/Bibbidiba_fan_game/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      118
+    ],
+    "comment": ""
   }
 }

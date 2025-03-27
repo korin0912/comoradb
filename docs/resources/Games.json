@@ -7979,5 +7979,17 @@
       118
     ],
     "comment": ""
+  },
+  "651": {
+    "name": "Teleport Master",
+    "urls": [
+      "https://store.steampowered.com/app/3406610/Teleport_Master/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      133
+    ],
+    "comment": ""
   }
 }

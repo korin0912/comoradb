@@ -24163,5 +24163,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1846": {
+    "name": "テレポートするだけのゲームが難しい【Teleport Master】＃1",
+    "url": "https://www.youtube.com/watch?v=EVKEnETGyZ4",
+    "releaseDate": "2025/03/27",
+    "gameIds": [
+      651
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -7991,5 +7991,18 @@
       133
     ],
     "comment": ""
+  },
+  "652": {
+    "name": "Ambidextro",
+    "urls": [
+      "https://x.com/majorariatto",
+      "https://www.youtube.com/channel/UC523Er8E2Qfv8mrSqU48wFg",
+      "https://store.steampowered.com/app/3445580/Ambidextro/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

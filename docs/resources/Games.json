@@ -8004,5 +8004,18 @@
       1
     ],
     "comment": ""
+  },
+  "653": {
+    "name": "Last Laugh",
+    "urls": [
+      "https://www.youtube.com/@arydk_",
+      "https://store.steampowered.com/app/3576690/Last_Laugh/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

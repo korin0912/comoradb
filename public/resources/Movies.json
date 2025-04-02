@@ -24241,5 +24241,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1852": {
+    "name": "最後に笑うのは誰だ？【Last Laugh】",
+    "url": "https://www.youtube.com/watch?v=aLG93oKOrtg",
+    "releaseDate": "2025/04/02",
+    "gameIds": [
+      653
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

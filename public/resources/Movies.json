@@ -24293,5 +24293,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1856": {
+    "name": "サウナの整うって身体のバグじゃない？【コメント返し】",
+    "url": "https://www.youtube.com/watch?v=xcl4nHtKM-Q",
+    "releaseDate": "2025/04/06",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

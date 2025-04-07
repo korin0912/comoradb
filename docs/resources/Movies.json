@@ -24306,5 +24306,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1857": {
+    "name": "怪しい港に漂流しちゃいました【SEAPORT MAN】",
+    "url": "https://www.youtube.com/watch?v=936tD9ZUC7E",
+    "releaseDate": "2025/04/07",
+    "gameIds": [
+      655
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

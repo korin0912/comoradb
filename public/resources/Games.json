@@ -8031,5 +8031,20 @@
       100
     ],
     "comment": ""
+  },
+  "655": {
+    "name": "SEAPORT MAN",
+    "urls": [
+      "https://raybis.com",
+      "https://x.com/raybisgames",
+      "https://www.youtube.com/@raybisgames/featured",
+      "https://store.steampowered.com/app/3515290/SEAPORT_MAN/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

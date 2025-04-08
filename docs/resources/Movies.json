@@ -24319,5 +24319,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1858": {
+    "name": "【雑談】ちょっと良くない世の中を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=SpvtBeTbKRo",
+    "releaseDate": "2025/04/08",
+    "gameIds": [
+      656
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

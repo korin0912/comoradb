@@ -8,7 +8,7 @@ function getPath(jsonName) {
   let ret = "";
   if (import.meta.env.DEV) {
     ret += import.meta.env.BASE_URL;
-    ret += (ret.charAt(ret.length-1) != "/") ? "/" : "";
+    ret += (ret.charAt(ret.length - 1) != "/") ? "/" : "";
   }
   ret += `resources/${jsonName}.json`;
   ret = ret.replaceAll('//', '/');
@@ -71,6 +71,17 @@ function updateMovie(movieId, postData) {
   });
 }
 
+function removeMovie(movieId) {
+  let url = `http://localhost:8081/movie/remove/${movieId}`;
+
+  if (!Vue.config.globalProperties.$editRequests) {
+    Vue.config.globalProperties.$editRequests = [];
+  }
+
+  Vue.config.globalProperties.$editRequests.push({
+    url: url,
+  });
+}
 
 function updateGame(gameId, postData) {
   let url;
@@ -121,6 +132,7 @@ export default {
   getGamesData,
   getMoviesData,
   updateMovie,
+  removeMovie,
   updateGame,
   execute,
 }

@@ -27,6 +27,12 @@ const server = http.createServer((req, res) => {
     console.log(`movie edit: ${id}`);
     updateJson(id, 'Movies', req, res);
   }
+  else if (req.method == 'POST' && req.url.indexOf('/movie/remove/') == 0) {
+    // 動画: 編集
+    let id = parseInt(req.url.substring('/movie/remove/'.length));
+    console.log(`movie remove: ${id}`);
+    removeJson(id, 'Movies', res);
+  }
   else if (req.method == 'POST' && req.url == '/game/create') {
     // ゲーム: 作成
     console.log('game create');
@@ -103,6 +109,52 @@ function updateJson(id, file, req, res) {
     console.log('success');
     res.end('success');
   });
+}
+
+function removeJson(id, file, res)
+{
+  // データ読み込み
+  let data = JSON.parse(fs.readFileSync(`public/resources/${file}.json`));
+
+  // console.log("---------------");
+  // console.log(id);
+  // console.log(Object.keys(data).length);
+  console.log(data[id].name);
+  // console.log(postData);
+  // console.log(postData['name']);
+  // console.log(postData['urls'][0]);
+  // console.log(postData['gameIds'][0]);
+  // console.log(postData['comment']);
+  // console.log(JSON.stringify(postData));
+  // console.log("---------------");
+
+  // データ除去 (前詰め)
+  let maxId = Object.keys(data).length;
+  Object.keys(data).forEach(key => {
+    var curId = parseInt(key);
+    if (id <= curId && curId < maxId) {
+      data[String(curId)] = data[String(curId+1)];
+    }
+  });
+  delete data[maxId];
+
+  // データ保存
+  // let saveString = "";
+  // saveString += "{\n";
+  // let ids = Object.keys(data);
+  // let lastId = ids.slice(-1)[0];
+  // ids.forEach(id => {
+  //   saveString += `  \"${id}\": `;
+  //   saveString += JSON.stringify(data[id], null, null);
+  //   saveString += `${lastId != id ? "," : ""}\n`;
+  // });
+  // saveString += "}";
+  // console.log(saveString);
+  // fs.writeFileSync(`public/resources/${file}.json`, saveString);
+  fs.writeFileSync(`public/resources/${file}.json`, JSON.stringify(data, null, 2));
+
+  console.log('success');
+  res.end('success');
 }
 
 server.listen(port, hostname, () => {

@@ -52,6 +52,9 @@
     <div style="height: 60px">
       <button v-on:click="create()" class="submit" />
     </div>
+    <div v-if="movieId != 0" style="height: 60px">
+      <button v-on:click="remove()" class="remove" />
+    </div>
   </div>
 </template>
 
@@ -154,6 +157,7 @@ export default {
     addGame: addGame,
     removeGame: removeGame,
     create: create,
+    remove: remove,
   },
 };
 
@@ -177,6 +181,12 @@ async function create() {
   });
 
   this.router.back();
+}
+
+async function remove() {
+  resources.removeMovie(this.movieId);
+
+  this.router.push({ path: '/' });
 }
 </script>
 
@@ -237,6 +247,11 @@ label.checkbox {
 }
 
 button.submit {
+  float: right;
+  margin: 4px 0 0 0;
+}
+
+button.remove {
   float: right;
   margin: 4px 0 0 0;
 }

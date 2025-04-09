@@ -24332,5 +24332,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1859": {
+    "name": "マウスに追従するクマさんを導く高難度ゲーム【Slippy Bear】＃1",
+    "url": "https://www.youtube.com/watch?v=93KON21MI0M",
+    "releaseDate": "2025/04/09",
+    "gameIds": [
+      657
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

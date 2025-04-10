@@ -52,9 +52,9 @@
     <div style="height: 60px">
       <button v-on:click="create()" class="submit" />
     </div>
-    <div v-if="movieId != 0" style="height: 60px">
+    <!-- <div v-if="movieId != 0" style="height: 60px">
       <button v-on:click="remove()" class="remove" />
-    </div>
+    </div> -->
   </div>
 </template>
 

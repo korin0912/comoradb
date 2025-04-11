@@ -24345,5 +24345,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1860": {
+    "name": "シンプル下りゲームで世界ランクを目指す【Tower o-ven】",
+    "url": "https://www.youtube.com/watch?v=tzrkCNbzZ58",
+    "releaseDate": "2025/04/11",
+    "gameIds": [
+      658
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

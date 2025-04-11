@@ -1,5 +1,5 @@
 ﻿<template>
-  <table style="width: 95%; margin: auto;">
+  <table style="width: 85%; margin: auto;">
     <thead>
       <tr>
         <th class="dark">日</th>
@@ -15,12 +15,6 @@
       <tr v-for="(week, weekIndex) in weeks" v-bind:key="`week-${weekIndex}`">
         <td v-for="(day, dayIndex) in week" v-bind:key="`day-${weekIndex}-${dayIndex}`" :class="day.date != -1 ? '' : 'hide'">
           <div v-if="day.date != -1" class="day">
-            <div v-if="dayIndex == 0 || dayIndex == 6" class="date holydays">
-              {{ day.date }}日
-            </div>
-            <div v-else class="date">
-              {{ day.date }}日
-            </div>
             <div v-for="movie in day.movies" v-bind:key="`movie-${movie.id}`" class="movie">
               <div v-if="movie.thumbnail" class="thumbnail">
                 <i v-if="movie.chat" class="icon check" />
@@ -31,6 +25,12 @@
               <div v-else>
                 ・<a :href="movie.url" target="_blank">{{ movie.name }}</a>
               </div>
+            </div>
+            <div :class="'date-shadow'">
+              {{ day.date }}日
+            </div>
+            <div :class="'date' + (dayIndex == 0 || dayIndex == 6 ? ' holydays' : '')">
+              {{ day.date }}日
             </div>
           </div>
         </td>
@@ -46,7 +46,6 @@ export default {
 };
 </script>
 
-
 <style scoped>
 th {
   width: 14%;
@@ -59,13 +58,33 @@ td {
 
 div.day {
   width: 100%;
+  min-height: 100px;
+  position: relative;
 }
 
 div.date {
-  width: 100%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 40px;
   text-align: center;
+  font-weight: bold;
+  color: black;
   background-color: var(--comora-color-yellow);
-  border-radius: 4px;
+  border-radius: 6px;
+  margin: 1px 1px 0px 1px;
+}
+
+div.date-shadow {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: #00000000;
+  background-color: #00000060;
+  border-radius: 6px;
   margin: 1px 1px 0px 1px;
 }
 

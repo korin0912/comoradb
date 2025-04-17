@@ -24423,5 +24423,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1866": {
+    "name": "ゲーム紹介とかやってみる",
+    "url": "https://www.youtube.com/watch?v=ndM9m2UQ1B4",
+    "releaseDate": "2025/04/17",
+    "gameIds": [
+      99999
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

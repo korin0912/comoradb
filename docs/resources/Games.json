@@ -8100,5 +8100,18 @@
       100
     ],
     "comment": ""
+  },
+  "660": {
+    "name": "AIが作ったマルバツクイズを10問連続正解するまで出られない部屋",
+    "urls": [
+      "https://x.com/kiriyama_na",
+      "https://www.youtube.com/@kiriyama_natsuki",
+      "https://store.steampowered.com/app/3566850/AI10/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      140
+    ],
+    "comment": ""
   }
 }

@@ -24436,5 +24436,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1867": {
+    "name": "AI君が〇✕クイズ出してくれるってよ！【AIが作ったマルバツクイズを10問連続正解するまで出られない部屋】",
+    "url": "https://www.youtube.com/watch?v=P6UGeIQH3yk",
+    "releaseDate": "2025/04/18",
+    "gameIds": [
+      660
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

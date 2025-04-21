@@ -8113,5 +8113,17 @@
       140
     ],
     "comment": ""
+  },
+  "661": {
+    "name": "Good Luck",
+    "urls": [
+      "https://happybaragames.com",
+      "https://store.steampowered.com/app/3657240/Good_Luck/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

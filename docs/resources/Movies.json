@@ -24475,5 +24475,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1870": {
+    "name": "出社するだけで命懸けの人【Good Luck】",
+    "url": "https://www.youtube.com/watch?v=bg96i5uA5x0",
+    "releaseDate": "2025/04/21",
+    "gameIds": [
+      661
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

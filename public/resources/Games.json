@@ -8125,5 +8125,17 @@
       1
     ],
     "comment": ""
+  },
+  "662": {
+    "name": "The Children of Clay",
+    "urls": [
+      "https://store.steampowered.com/app/3478700/The_Children_of_Clay/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

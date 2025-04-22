@@ -24488,5 +24488,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1871": {
+    "name": "怪しい遺物を鑑定するゲーム【The Children of Clay】",
+    "url": "https://www.youtube.com/watch?v=bwNPufwnJD8",
+    "releaseDate": "2025/04/22",
+    "gameIds": [
+      662
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

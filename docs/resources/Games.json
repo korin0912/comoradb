@@ -8137,5 +8137,18 @@
       100
     ],
     "comment": ""
+  },
+  "663": {
+    "name": "The Boba Teashop",
+    "urls": [
+      "https://x.com/MikeTenDev",
+      "https://store.steampowered.com/app/3461920/The_Boba_Teashop/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -8150,5 +8150,18 @@
       100
     ],
     "comment": ""
+  },
+  "664": {
+    "name": "Levitation Simulator 2",
+    "urls": [
+      "http://oznastudio.com",
+      "https://store.steampowered.com/app/3646120/Levitation_Simulator_2/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnHv7uoQ-OMerzTZ04KuR0C",
+    "genreIds": [
+      132,
+      136
+    ],
+    "comment": ""
   }
 }

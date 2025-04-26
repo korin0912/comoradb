@@ -8163,5 +8163,19 @@
       136
     ],
     "comment": ""
+  },
+  "665": {
+    "name": "Sheepy: A Short Adventure",
+    "urls": [
+      "https://www.sheepythegame.com",
+      "https://x.com/MrSuicideSheep",
+      "https://www.youtube.com/channel/UC5nc_ZtjKW1htCVZVRxlQAQ",
+      "https://store.steampowered.com/app/1568400/Sheepy_A_Short_Adventure/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

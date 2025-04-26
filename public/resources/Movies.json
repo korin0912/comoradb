@@ -24540,5 +24540,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1875": {
+    "name": "【雑談】神輿を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=mbk5y0pxeTs",
+    "releaseDate": "2025/04/26",
+    "gameIds": [
+      665
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -8177,5 +8177,16 @@
       1
     ],
     "comment": ""
+  },
+  "666": {
+    "name": "POGOPPL",
+    "urls": [
+      "https://store.steampowered.com/app/1640220/POGOPPL/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmZ3AjB30_XHdzjVoYLkQjG",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

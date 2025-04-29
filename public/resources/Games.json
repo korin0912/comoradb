@@ -8188,5 +8188,16 @@
       1
     ],
     "comment": ""
+  },
+  "667": {
+    "name": "MMKK",
+    "urls": [
+      "https://store.steampowered.com/app/3506510/MMKK/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      133
+    ],
+    "comment": ""
   }
 }

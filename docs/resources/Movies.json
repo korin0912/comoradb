@@ -24631,5 +24631,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1882": {
+    "name": "ニコニコはもう終わったんや！【ニコニコさん】",
+    "url": "https://www.youtube.com/watch?v=TfHpVwLRpsk",
+    "releaseDate": "2025/05/04",
+    "gameIds": [
+      671
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

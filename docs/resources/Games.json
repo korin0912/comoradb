@@ -8240,5 +8240,19 @@
       102
     ],
     "comment": ""
+  },
+  "671": {
+    "name": "ニコニコさん | Niconico-san",
+    "urls": [
+      "https://x.com/TI_BASAN",
+      "https://www.youtube.com/@ti-ba",
+      "https://store.steampowered.com/app/3174810/__Niconicosan/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -8254,5 +8254,18 @@
       100
     ],
     "comment": ""
+  },
+  "672": {
+    "name": "Many Nights a Whisper",
+    "urls": [
+      "https://bsky.app/profile/deconstructeam.bsky.social",
+      "https://store.steampowered.com/app/3541130/Many_Nights_a_Whisper/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      133
+    ],
+    "comment": ""
   }
 }

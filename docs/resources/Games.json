@@ -8267,5 +8267,19 @@
       133
     ],
     "comment": ""
+  },
+  "673": {
+    "name": "Seek",
+    "urls": [
+      "https://space.bilibili.com/480392177",
+      "https://x.com/cloud_li13",
+      "https://store.steampowered.com/app/3193730/Seek/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblQytAYUBiEpKH6M1rhZYTJ",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

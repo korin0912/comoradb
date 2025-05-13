@@ -24696,5 +24696,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1887": {
+    "name": "雑談】2025年GWを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=aVHgl0a3Ts4",
+    "releaseDate": "2025/05/13",
+    "gameIds": [
+      674
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

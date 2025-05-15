@@ -8296,5 +8296,20 @@
       136
     ],
     "comment": ""
+  },
+  "675": {
+    "name": "箸の使い方",
+    "urls": [
+      "https://achimphang.com",
+      "https://x.com/achimphang",
+      "https://www.youtube.com/@AchimphangStudio",
+      "https://store.steampowered.com/app/3688340/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblo2ZoSMPUvYDWlTpQ70qwa",
+    "genreIds": [
+      132,
+      136
+    ],
+    "comment": ""
   }
 }

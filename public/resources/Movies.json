@@ -24774,5 +24774,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1893": {
+    "name": "【雑談】職場のミスを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=HOKzk07yK50",
+    "releaseDate": "2025/05/21",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

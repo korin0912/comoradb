@@ -24787,5 +24787,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1894": {
+    "name": "幸せになってはいけない私【Seek】＃6",
+    "url": "https://www.youtube.com/watch?v=kzpT68jALxY",
+    "releaseDate": "2025/05/22",
+    "gameIds": [
+      673
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

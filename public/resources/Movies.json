@@ -24813,5 +24813,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1896": {
+    "name": "僕は床磨きが得意です！【ゴブリン・ノーム・ホーン】",
+    "url": "https://www.youtube.com/watch?v=yvWyCa1nXxI",
+    "releaseDate": "2025/05/24",
+    "gameIds": [
+      676
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

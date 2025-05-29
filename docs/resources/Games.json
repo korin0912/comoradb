@@ -8336,5 +8336,18 @@
       133
     ],
     "comment": ""
+  },
+  "678": {
+    "name": "Sol Cesto",
+    "urls": [
+      "https://goblinzstudio.com/game/sol-cesto/",
+      "https://store.steampowered.com/app/2738490/Sol_Cesto/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9,
+      102
+    ],
+    "comment": ""
   }
 }

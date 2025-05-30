@@ -24852,5 +24852,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1899": {
+    "name": "とある学生の人生映画を観る【？？がつくった映画館】#1",
+    "url": "https://www.youtube.com/watch?v=7GhoJlur2No",
+    "releaseDate": "2025/05/30",
+    "gameIds": [
+      679
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

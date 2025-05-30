@@ -8349,5 +8349,19 @@
       102
     ],
     "comment": ""
+  },
+  "679": {
+    "name": "？？がつくった映画館",
+    "urls": [
+      "https://x.com/riinwin",
+      "https://www.youtube.com/@riinwin_2511",
+      "https://store.steampowered.com/app/3659180/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbltrFM-gjGjhrcHXZsnS8_A",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

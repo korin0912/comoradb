@@ -24904,5 +24904,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1903": {
+    "name": "頑張らない映画【？？がつくった映画館】#5(終)",
+    "url": "https://www.youtube.com/watch?v=pKNYbMb4wD0",
+    "releaseDate": "2025/06/04",
+    "gameIds": [
+      679
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

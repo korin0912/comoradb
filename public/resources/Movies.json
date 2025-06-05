@@ -24917,5 +24917,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1904": {
+    "name": "【雑談】友達の居酒屋を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=CGD2cBZevuQ",
+    "releaseDate": "2025/06/05",
+    "gameIds": [
+      678
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

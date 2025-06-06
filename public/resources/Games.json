@@ -8363,5 +8363,18 @@
       100
     ],
     "comment": ""
+  },
+  "680": {
+    "name": "カエル探偵2：見えないまほうつかい",
+    "urls": [
+      "https://frogdetective.net/case_2.html#case2",
+      "https://store.steampowered.com/app/1047220/2/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      133
+    ],
+    "comment": ""
   }
 }

@@ -24930,5 +24930,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1905": {
+    "name": "無駄話が多すぎる探偵ゲーム【カエル探偵2：見えないまほうつかい】",
+    "url": "https://www.youtube.com/watch?v=hM-6_Zi54cM",
+    "releaseDate": "2025/06/06",
+    "gameIds": [
+      680
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

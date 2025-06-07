@@ -8376,5 +8376,19 @@
       133
     ],
     "comment": ""
+  },
+  "681": {
+    "name": "DELTARUNE",
+    "urls": [
+      "https://deltarune.jp",
+      "https://store.playstation.com/ja-jp/concept/233495",
+      "https://store-jp.nintendo.com/item/software/D70010000094452",
+      "https://store.steampowered.com/app/1671210/DELTARUNE/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmISu7FnRmnfyuBvi8t27pk",
+    "genreIds": [
+      3
+    ],
+    "comment": ""
   }
 }

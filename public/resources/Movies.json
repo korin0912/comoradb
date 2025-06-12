@@ -24995,5 +24995,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1910": {
+    "name": "【雑談】ベビーを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=Nci5uu80cvA",
+    "releaseDate": "2025/06/12",
+    "gameIds": [
+      682
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

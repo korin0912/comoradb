@@ -25008,5 +25008,31 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1911": {
+    "name": "僕らはトモダチ【DELTARUNE】#5",
+    "url": "https://www.youtube.com/watch?v=Zcmfhd50_ls",
+    "releaseDate": "2025/06/13",
+    "gameIds": [
+      681
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1912": {
+    "name": "チャプター1最強キャラ【DELTARUNE】#6",
+    "url": "https://www.youtube.com/watch?v=Q2rDlYbtlcA",
+    "releaseDate": "2025/06/14",
+    "gameIds": [
+      681
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

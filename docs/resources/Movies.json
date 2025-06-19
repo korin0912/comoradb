@@ -25073,5 +25073,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1916": {
+    "name": "大人になってからの方が怒られる【コメント返し】",
+    "url": "https://www.youtube.com/watch?v=dbmCVLgOAcM",
+    "releaseDate": "2025/06/19",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

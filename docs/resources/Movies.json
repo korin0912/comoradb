@@ -25086,5 +25086,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1917": {
+    "name": "なんか勝った【DELTARUNE】#10",
+    "url": "https://www.youtube.com/watch?v=bZ4gO3ETzVo",
+    "releaseDate": "2025/06/20",
+    "gameIds": [
+      681
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

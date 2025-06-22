@@ -25099,5 +25099,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1918": {
+    "name": "初めての敗北【DELTARUNE】#11",
+    "url": "https://www.youtube.com/watch?v=5nPO1bvVdSw",
+    "releaseDate": "2025/06/22",
+    "gameIds": [
+      681
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

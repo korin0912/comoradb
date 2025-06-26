@@ -8403,5 +8403,19 @@
       5
     ],
     "comment": ""
+  },
+  "683": {
+    "name": "BALL x PIT",
+    "urls": [
+      "https://www.ballxpit.com",
+      "https://x.com/ballxpit",
+      "https://store.steampowered.com/app/2062430/BALL_x_PIT/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

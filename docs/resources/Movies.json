@@ -25216,5 +25216,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1927": {
+    "name": "【雑談】衰えを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=FXVa0TE-I_o",
+    "releaseDate": "2025/07/03",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

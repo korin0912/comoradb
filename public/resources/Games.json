@@ -8432,5 +8432,17 @@
       100
     ],
     "comment": ""
+  },
+  "685": {
+    "name": "恐怖の採点 -Score the Fear-",
+    "urls": [
+      "https://store.steampowered.com/app/3500750/_Score_the_Fear/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

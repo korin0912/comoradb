@@ -8444,5 +8444,18 @@
       100
     ],
     "comment": ""
+  },
+  "686": {
+    "name": "DRAPLINE",
+    "urls": [
+      "https://store.steampowered.com/app/3103780/DRAPLINE/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmn9343uHncUgQM9G1lzpyb",
+    "genreIds": [
+      2,
+      3,
+      5
+    ],
+    "comment": ""
   }
 }

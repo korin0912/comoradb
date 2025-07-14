@@ -8457,5 +8457,19 @@
       5
     ],
     "comment": ""
+  },
+  "687": {
+    "name": "QuattroMan",
+    "urls": [
+      "https://x.com/NatamiGame",
+      "https://www.youtube.com/channel/UCPsQG29d--lazeRfwzFZ8QQ",
+      "https://store.steampowered.com/app/3620600/QuattroMan/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

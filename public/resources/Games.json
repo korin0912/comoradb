@@ -8471,5 +8471,19 @@
       100
     ],
     "comment": ""
+  },
+  "688": {
+    "name": "Gravity's Apple 2",
+    "urls": [
+      "https://x.com/TE_Hirokawa",
+      "https://www.youtube.com/@%E6%9D%B1%E4%BA%AC%E3%82%A8%E3%82%A6%E3%83%AC%E3%82%AB",
+      "https://store.steampowered.com/app/3790120/Gravitys_Apple_2/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmnosEEVBbAc3taaShHCf8L",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

@@ -8485,5 +8485,17 @@
       136
     ],
     "comment": ""
+  },
+  "689": {
+    "name": "Dread Flats",
+    "urls": [
+      "https://store.steampowered.com/app/3114900/Dread_Flats/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

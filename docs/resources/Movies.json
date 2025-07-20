@@ -25398,5 +25398,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1941": {
+    "name": "ピアノがデカくなるゲームが雑ぅ！【BIGGEST PIANO】",
+    "url": "https://www.youtube.com/watch?v=OgkqxJopSEk",
+    "releaseDate": "2025/07/20",
+    "gameIds": [
+      690
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

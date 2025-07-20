@@ -8497,5 +8497,18 @@
       100
     ],
     "comment": ""
+  },
+  "690": {
+    "name": "BIGGEST PIANO",
+    "urls": [
+      "https://neruneko-games.github.io/biggest-piano/index.html",
+      "https://store.steampowered.com/app/3822430/BIGGEST_PIANO/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      113
+    ],
+    "comment": ""
   }
 }

@@ -25450,5 +25450,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1945": {
+    "name": "元気出せよ、モルちゃん！【DRAPLINE】#5",
+    "url": "https://www.youtube.com/watch?v=i0eN-asrURk",
+    "releaseDate": "2025/07/25",
+    "gameIds": [
+      686
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

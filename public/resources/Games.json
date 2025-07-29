@@ -8330,7 +8330,7 @@
       "https://frogdetective.net/case_1.html#case1",
       "https://store.steampowered.com/app/963000/1/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblWLt7smk-5vexSV10c_24W",
     "genreIds": [
       2,
       133
@@ -8370,7 +8370,7 @@
       "https://frogdetective.net/case_2.html#case2",
       "https://store.steampowered.com/app/1047220/2/?l=japanese"
     ],
-    "playListUrl": "",
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblWLt7smk-5vexSV10c_24W",
     "genreIds": [
       2,
       133
@@ -8521,6 +8521,19 @@
     "genreIds": [
       2,
       100
+    ],
+    "comment": ""
+  },
+  "692": {
+    "name": "カエル探偵3：カウボーイタウンの陰謀",
+    "urls": [
+      "https://frogdetective.net/case_3.html#case3",
+      "https://store.steampowered.com/app/1171320/3/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblWLt7smk-5vexSV10c_24W",
+    "genreIds": [
+      2,
+      133
     ],
     "comment": ""
   }

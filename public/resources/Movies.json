@@ -25541,5 +25541,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1952": {
+    "name": "とある画像の初出を調べたら大変なことになった",
+    "url": "https://www.youtube.com/watch?v=3vk_xBOebnI",
+    "releaseDate": "2025/08/03",
+    "gameIds": [
+      694
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

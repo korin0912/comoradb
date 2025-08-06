@@ -8571,5 +8571,17 @@
       100
     ],
     "comment": ""
+  },
+  "696": {
+    "name": "圧Q就活",
+    "urls": [
+      "https://asroni.jp/games/aq/index.html",
+      "https://store.steampowered.com/app/3636390/Q/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      139
+    ],
+    "comment": ""
   }
 }

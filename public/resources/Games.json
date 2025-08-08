@@ -8596,5 +8596,17 @@
       133
     ],
     "comment": ""
+  },
+  "698": {
+    "name": "事故運転",
+    "urls": [
+      "https://unityroom.com/games/jikounten"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100,
+      132
+    ],
+    "comment": ""
   }
 }

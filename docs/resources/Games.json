@@ -8608,5 +8608,18 @@
       132
     ],
     "comment": ""
+  },
+  "699": {
+    "name": "しずかなおそうじ",
+    "urls": [
+      "https://x.com/magiclean_jp",
+      "https://store.steampowered.com/app/3833930/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -8621,5 +8621,16 @@
       100
     ],
     "comment": ""
+  },
+  "700": {
+    "name": "The New Flesh",
+    "urls": [
+      "https://store.steampowered.com/app/3692660/The_New_Flesh/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

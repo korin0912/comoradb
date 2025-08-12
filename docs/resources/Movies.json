@@ -25632,5 +25632,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1959": {
+    "name": "カレーを混ぜるだけのゲーム【THE Curry SIMULATOR】",
+    "url": "https://www.youtube.com/watch?v=IPwOuY5rs14",
+    "releaseDate": "2025/08/12",
+    "gameIds": [
+      701
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

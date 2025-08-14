@@ -25658,5 +25658,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1961": {
+    "name": "コンセントが喋ってくる",
+    "url": "https://www.youtube.com/watch?v=Bd8rDWJy_7E",
+    "releaseDate": "2025/08/14",
+    "gameIds": [
+      703
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

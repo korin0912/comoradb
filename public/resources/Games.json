@@ -8666,5 +8666,20 @@
       2
     ],
     "comment": ""
+  },
+  "704": {
+    "name": "日本事故物件監視協会 -Japan Stigmatized Property-",
+    "urls": [
+      "https://jp-stigmatized-property.com",
+      "https://www.youtube.com/channel/UC1yUdalTGe_-KG5-MjxW83w",
+      "https://x.com/JSP_Report",
+      "https://store.steampowered.com/app/3809110/_Japan_Stigmatized_Property/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

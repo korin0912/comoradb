@@ -25684,5 +25684,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1963": {
+    "name": "事故物件を監視しながら文句を言いまくるゲーム【日本事故物件監視協会】",
+    "url": "https://www.youtube.com/watch?v=160CH21nQjY",
+    "releaseDate": "2025/08/16",
+    "gameIds": [
+      704
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

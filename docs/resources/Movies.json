@@ -25673,7 +25673,7 @@
     "comment": ""
   },
   "1962": {
-    "name": "チャプター4やるぞ！【DELTARUNE】#24",
+    "name": "チャプター4やるぞ！【DELTARUNE】#23",
     "url": "https://www.youtube.com/watch?v=2zxWUflS0Mw",
     "releaseDate": "2025/08/15",
     "gameIds": [
@@ -25702,6 +25702,19 @@
     "name": "なんや酔ってんのか？【DELTARUNE】#24",
     "url": "https://www.youtube.com/watch?v=a4GIS5Uib9A",
     "releaseDate": "2025/08/17",
+    "gameIds": [
+      681
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1965": {
+    "name": "どうせボクは除け者よ・・・【DELTARUNE】#25",
+    "url": "https://www.youtube.com/watch?v=SYZ6r6G1qXo",
+    "releaseDate": "2025/08/19",
     "gameIds": [
       681
     ],

@@ -25723,5 +25723,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1966": {
+    "name": "ショート動画の異変を探すゲーム【地獄のレコメンド】",
+    "url": "https://www.youtube.com/watch?v=bPQhCFW8puk",
+    "releaseDate": "2025/08/20",
+    "gameIds": [
+      705
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

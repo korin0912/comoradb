@@ -8681,5 +8681,17 @@
       100
     ],
     "comment": ""
+  },
+  "705": {
+    "name": "地獄のレコメンド",
+    "urls": [
+      "https://store.steampowered.com/app/3686920/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9,
+      100
+    ],
+    "comment": ""
   }
 }

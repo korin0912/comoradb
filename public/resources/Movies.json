@@ -25775,5 +25775,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1970": {
+    "name": "人の温かみ、忘れてませんか？【AFirmHandshake】",
+    "url": "https://www.youtube.com/watch?v=dVNQ9575Mr8",
+    "releaseDate": "2025/08/24",
+    "gameIds": [
+      707
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

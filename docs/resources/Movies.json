@@ -25801,5 +25801,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1972": {
+    "name": "間違い探しの刑に処されました",
+    "url": "https://www.youtube.com/watch?v=sG4yciLApI4",
+    "releaseDate": "2025/08/27",
+    "gameIds": [
+      708
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

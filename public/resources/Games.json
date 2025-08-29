@@ -8730,5 +8730,19 @@
       9
     ],
     "comment": ""
+  },
+  "709": {
+    "name": "ももっとクラッシュ",
+    "urls": [
+      "https://skoota.jp/games",
+      "https://x.com/SKOOTAGAMES",
+      "https://www.youtube.com/@SKOOTAGAMES",
+      "https://store.steampowered.com/app/3077570/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      122
+    ],
+    "comment": ""
   }
 }

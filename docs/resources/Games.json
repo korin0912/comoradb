@@ -8757,5 +8757,19 @@
       136
     ],
     "comment": ""
+  },
+  "711": {
+    "name": "ラブ・スタートアゲイン",
+    "urls": [
+      "https://lovestartsagain.jp",
+      "https://x.com/LoveStartsAgain",
+      "https://store.steampowered.com/app/3707370/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblOfaZH9rq5HjNF4cU0s90_",
+    "genreIds": [
+      2,
+      141
+    ],
+    "comment": ""
   }
 }

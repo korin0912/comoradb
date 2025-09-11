@@ -25957,5 +25957,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1984": {
+    "name": "【雑談】ミヤクミャクを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=khplzBsgdZ0",
+    "releaseDate": "2025/09/11",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

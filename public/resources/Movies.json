@@ -25970,5 +25970,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "1985": {
+    "name": "目、回っちゃうよパイセン！【ラブ・スタートアゲイン】＃3",
+    "url": "https://www.youtube.com/watch?v=XCAv6Hvi6Nc",
+    "releaseDate": "2025/09/12",
+    "gameIds": [
+      711
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

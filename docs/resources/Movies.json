@@ -26009,5 +26009,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "1988": {
+    "name": "猫に呼びかけるだけのゲーム",
+    "url": "https://www.youtube.com/watch?v=F8oteh9TIq8",
+    "releaseDate": "2025/09/17",
+    "gameIds": [
+      712
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

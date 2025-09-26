@@ -8810,5 +8810,26 @@
       132
     ],
     "comment": ""
+  },
+  "715": {
+    "name": "SILENT HILL f",
+    "urls": [
+      "https://www.konami.com/games/silenthill/f/jp/ja/",
+      "https://store.playstation.com/ja-jp/concept/10010242/",
+      "https://www.xbox.com/ja-JP/games/store/silent-hill-f/9N5NFRQV2HQQ",
+      "https://store.steampowered.com/app/2947440/SILENT_HILL_f/",
+      "https://store.epicgames.com/ja/p/silent-hill-f-714aed",
+      "https://x.com/silenthill",
+      "https://www.facebook.com/silenthill",
+      "https://www.youtube.com/@silenthillofficial"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbkcZw4xgV7cc0dnMpxd4Oyc",
+    "genreIds": [
+      1,
+      2,
+      100,
+      104
+    ],
+    "comment": ""
   }
 }

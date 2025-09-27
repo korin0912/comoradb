@@ -26089,9 +26089,22 @@
     "comment": ""
   },
   "1994": {
-    "name": "田舎の幸薄少女が暴れるホラーゲーム",
+    "name": "田舎の幸薄少女が暴れるホラーゲーム【SILENT HILL f】＃1",
     "url": "https://www.youtube.com/watch?v=rYthabSOZWw",
     "releaseDate": "2025/09/26",
+    "gameIds": [
+      715
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "1995": {
+    "name": "帰りな、今日はもう閉店だよ【SILENT HILL f】＃2",
+    "url": "https://www.youtube.com/watch?v=Pgj-Av6qvLo",
+    "releaseDate": "2025/09/27",
     "gameIds": [
       715
     ],

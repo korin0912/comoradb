@@ -26204,5 +26204,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2003": {
+    "name": "今夜の話か？【SILENT HILL f】＃9",
+    "url": "https://www.youtube.com/watch?v=-2LubjKDBoo",
+    "releaseDate": "2025/10/08",
+    "gameIds": [
+      715
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

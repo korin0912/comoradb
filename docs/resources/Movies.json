@@ -26236,7 +26236,7 @@
     "url": "https://www.youtube.com/watch?v=BgvVTriiakw",
     "releaseDate": "2025/10/10",
     "gameIds": [
-      717
+      715
     ],
     "actorIds": [
       1
@@ -26262,7 +26262,20 @@
     "url": "https://www.youtube.com/watch?v=QoN8LzrKHCI",
     "releaseDate": "2025/10/12",
     "gameIds": [
-      718
+      715
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2008": {
+    "name": "修君のYポーズ【SILENT HILL f】＃12",
+    "url": "https://www.youtube.com/watch?v=meqReKAnNK4",
+    "releaseDate": "2025/10/14",
+    "gameIds": [
+      715
     ],
     "actorIds": [
       1

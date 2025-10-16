@@ -26295,5 +26295,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2010": {
+    "name": "【雑談】SonoRepro（ソノリプロ）を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=GraumLdS_Mg",
+    "releaseDate": "2025/10/16",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

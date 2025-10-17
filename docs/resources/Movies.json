@@ -26308,5 +26308,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2011": {
+    "name": "私は深水雛子（みんな知ってる）【SILENT HILL f】＃14",
+    "url": "https://www.youtube.com/watch?v=tq-5selkL10",
+    "releaseDate": "2025/10/17",
+    "gameIds": [
+      715
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

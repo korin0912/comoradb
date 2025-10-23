@@ -8883,5 +8883,18 @@
       113
     ],
     "comment": ""
+  },
+  "720": {
+    "name": "Crime Detective: Red Flags",
+    "urls": [
+      "https://x.com/wizardteamoff",
+      "https://store.steampowered.com/app/3528280/Crime_Detective_Red_Flags/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

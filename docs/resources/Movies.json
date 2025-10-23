@@ -26373,5 +26373,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2016": {
+    "name": "僕の趣味は覗きです【Crime Detective: Red Flags】",
+    "url": "https://www.youtube.com/watch?v=RSAUKus8iHE",
+    "releaseDate": "2025/10/23",
+    "gameIds": [
+      720
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

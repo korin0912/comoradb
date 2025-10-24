@@ -8896,5 +8896,18 @@
       100
     ],
     "comment": ""
+  },
+  "721": {
+    "name": "トム・ダール",
+    "urls": [
+      "https://thebonemeal.com/games",
+      "https://store.steampowered.com/app/4003500/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

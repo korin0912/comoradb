@@ -8923,5 +8923,18 @@
       100
     ],
     "comment": ""
+  },
+  "723": {
+    "name": "BatteryNote",
+    "urls": [
+      "https://www.72studio.tokyo",
+      "https://x.com/72studio_",
+      "https://store.steampowered.com/app/3005930/BatteryNote/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

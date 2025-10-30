@@ -26451,5 +26451,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2022": {
+    "name": "【雑談】職権乱用を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=gAIFXjR-Qks",
+    "releaseDate": "2025/10/30",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

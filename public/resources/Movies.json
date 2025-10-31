@@ -26464,5 +26464,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2023": {
+    "name": "ブラック店員ロボットと弱々店長【BatteryNote】＃2",
+    "url": "https://www.youtube.com/watch?v=ojqMIRa4zJA",
+    "releaseDate": "2025/10/31",
+    "gameIds": [
+      723
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

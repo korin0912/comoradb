@@ -8936,5 +8936,17 @@
       2
     ],
     "comment": ""
+  },
+  "724": {
+    "name": "All At Once",
+    "urls": [
+      "https://store.steampowered.com/app/3935960/All_At_Once/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

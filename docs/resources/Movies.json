@@ -26516,5 +26516,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2027": {
+    "name": "謎のアンケートに答える謎のゲーム【THE SCREEN】",
+    "url": "https://www.youtube.com/watch?v=_X-QhfIk_8I",
+    "releaseDate": "2025/11/06",
+    "gameIds": [
+      725
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

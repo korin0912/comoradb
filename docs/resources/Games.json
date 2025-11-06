@@ -8948,5 +8948,17 @@
       136
     ],
     "comment": ""
+  },
+  "725": {
+    "name": "THE SCREEN",
+    "urls": [
+      "https://store.steampowered.com/app/3596320/THE_SCREEN/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      9
+    ],
+    "comment": ""
   }
 }

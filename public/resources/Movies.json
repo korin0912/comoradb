@@ -26529,5 +26529,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2028": {
+    "name": "人生初のジェンガが難しい",
+    "url": "https://www.youtube.com/watch?v=6gThZc_pHVU",
+    "releaseDate": "2025/11/07",
+    "gameIds": [
+      726
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2029": {
+    "name": "天国でパパを探すワンコゲーム【マイリトルパピー】＃1",
+    "url": "https://www.youtube.com/watch?v=V5eFC7R7bWs",
+    "releaseDate": "2025/11/08",
+    "gameIds": [
+      727
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

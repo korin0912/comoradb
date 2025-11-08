@@ -8960,5 +8960,32 @@
       9
     ],
     "comment": ""
+  },
+  "726": {
+    "name": "JINGOKU",
+    "urls": [
+      "https://buried-things.itch.io/jingoku"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9,
+      133
+    ],
+    "comment": ""
+  },
+  "727": {
+    "name": "マイリトルパピー",
+    "urls": [
+      "https://dreamotion.us/puppy.htm#en",
+      "https://www.youtube.com/@dreamotioninc.5832",
+      "https://x.com/MLP_Dreamotion",
+      "https://store.steampowered.com/app/2102040/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmhGq-k1fAst2pd3tQn6HHl",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

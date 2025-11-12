@@ -26581,5 +26581,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2032": {
+    "name": "【雑談】AI結婚を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=sBvcxKXzrgw",
+    "releaseDate": "2025/11/12",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

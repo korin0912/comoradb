@@ -8987,5 +8987,18 @@
       2
     ],
     "comment": ""
+  },
+  "728": {
+    "name": "デテイケ -GetOut-",
+    "urls": [
+      "https://x.com/ofudagames",
+      "https://store.steampowered.com/app/4052460/_GetOut/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

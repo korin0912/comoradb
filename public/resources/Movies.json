@@ -26659,5 +26659,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2038": {
+    "name": "ボク、頑張りました！【マイリトルパピー】＃8(終)",
+    "url": "https://www.youtube.com/watch?v=v9o0HjRiyTk",
+    "releaseDate": "2025/11/20",
+    "gameIds": [
+      727
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -9014,5 +9014,19 @@
       107
     ],
     "comment": ""
+  },
+  "730": {
+    "name": "ざこのあひる",
+    "urls": [
+      "https://x.com/fukuokafighters",
+      "https://www.youtube.com/watch?v=97Y1BF3_zgQ",
+      "https://store.steampowered.com/app/2879980/_/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblEnUeDM8KiuxTqnlRnwoJ8",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

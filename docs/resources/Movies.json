@@ -26724,5 +26724,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2043": {
+    "name": "机の上でのおもちゃワチャワチャバトルが楽しい【カッポーン！おもちゃ対決】",
+    "url": "https://www.youtube.com/watch?v=xTssEqjziZQ",
+    "releaseDate": "2025/11/26",
+    "gameIds": [
+      731
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -9041,5 +9041,19 @@
       107
     ],
     "comment": ""
+  },
+  "732": {
+    "name": "SANABI: A Haunted Day",
+    "urls": [
+      "https://playneowiz.com/sanabi",
+      "https://x.com/SANABI_Mufin",
+      "https://store.steampowered.com/app/3996620/SANABI_A_Haunted_Day/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmAzBidr6uAN2TyJysZRYl0",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

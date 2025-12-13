@@ -26865,6 +26865,19 @@
     "actorIds": [
       1
     ],
+    "chat": true,
+    "comment": ""
+  },
+  "2054": {
+    "name": "今日ギャルと何してたっけ？【思い出せ！更生日記女苑ちゃん！！】",
+    "url": "https://www.youtube.com/watch?v=KE7f4WcjROU",
+    "releaseDate": "2025/12/13",
+    "gameIds": [
+      735
+    ],
+    "actorIds": [
+      1
+    ],
     "chat": false,
     "comment": ""
   }

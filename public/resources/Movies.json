@@ -26880,5 +26880,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2055": {
+    "name": "弾丸とカードを駆使して戦うデスゲーム【The Panopticon】",
+    "url": "https://www.youtube.com/watch?v=gBJhTMWj11s",
+    "releaseDate": "2025/12/14",
+    "gameIds": [
+      736
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

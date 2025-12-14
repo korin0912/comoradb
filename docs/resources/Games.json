@@ -9094,5 +9094,18 @@
       140
     ],
     "comment": ""
+  },
+  "736": {
+    "name": "The Panopticon",
+    "urls": [
+      "https://www.atlantionstudio.com",
+      "https://www.youtube.com/@AtlantionSocial",
+      "https://store.steampowered.com/app/3301930/The_Panopticon/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      107
+    ],
+    "comment": ""
   }
 }

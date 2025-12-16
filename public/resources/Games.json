@@ -9107,5 +9107,17 @@
       107
     ],
     "comment": ""
+  },
+  "737": {
+    "name": "FrogCore",
+    "urls": [
+      "https://store.steampowered.com/app/4173060/FrogCore/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmlSmHZXMG3M8VIqLIgdeYr",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

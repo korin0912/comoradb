@@ -9119,5 +9119,18 @@
       136
     ],
     "comment": ""
+  },
+  "738": {
+    "name": "いえのあじ | A taste of home",
+    "urls": [
+      "https://x.com/kurogamemaker",
+      "https://store.steampowered.com/app/4161930/__A_taste_of_home/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

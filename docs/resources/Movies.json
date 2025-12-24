@@ -14297,7 +14297,7 @@
       1,
       2,
       5,
-      7,
+      8,
       9
     ],
     "chat": false,
@@ -26970,6 +26970,19 @@
       1
     ],
     "chat": false,
+    "comment": ""
+  },
+  "2062": {
+    "name": " 【雑談】メモリ高騰を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=AbGfWFzi8N0",
+    "releaseDate": "2025/12/24",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
     "comment": ""
   }
 }

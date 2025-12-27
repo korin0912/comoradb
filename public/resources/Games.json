@@ -9132,5 +9132,17 @@
       100
     ],
     "comment": ""
+  },
+  "739": {
+    "name": "醤油ラーメンFOREVER",
+    "urls": [
+      "https://store.steampowered.com/app/4227950/FOREVER/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

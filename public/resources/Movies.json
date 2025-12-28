@@ -27023,5 +27023,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2066": {
+    "name": "ユーチューバーの人生がハードすぎる【醤油ラーメンFOREVER】＃２",
+    "url": "https://www.youtube.com/watch?v=aZHlcVtVUoY",
+    "releaseDate": "2025/12/28",
+    "gameIds": [
+      739
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

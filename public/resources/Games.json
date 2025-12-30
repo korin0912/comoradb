@@ -9144,5 +9144,18 @@
       100
     ],
     "comment": ""
+  },
+  "740": {
+    "name": "Rhythm Doctor",
+    "urls": [
+      "https://rhythmdr.com",
+      "https://x.com/RhythmDrGame",
+      "https://www.youtube.com/7thbeatgames"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      122
+    ],
+    "comment": ""
   }
 }

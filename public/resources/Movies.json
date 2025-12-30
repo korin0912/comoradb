@@ -27036,5 +27036,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2067": {
+    "name": "スイッチ一つで命を救うリズムゲーム【Rhythm Doctor】",
+    "url": "https://www.youtube.com/watch?v=lCSktKn_ZeY",
+    "releaseDate": "2025/12/30",
+    "gameIds": [
+      740
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

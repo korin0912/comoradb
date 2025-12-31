@@ -27049,5 +27049,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2068": {
+    "name": "ピンボールでジャンプキングをするゲーム【FlippUp】＃1",
+    "url": "https://www.youtube.com/watch?v=LdXyTPoquWQ",
+    "releaseDate": "2025/12/31",
+    "gameIds": [
+      741
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

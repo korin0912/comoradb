@@ -9157,5 +9157,18 @@
       122
     ],
     "comment": ""
+  },
+  "741": {
+    "name": "FlippUp",
+    "urls": [
+      "https://www.youtube.com/@TryAgain_Entertainment",
+      "https://store.steampowered.com/app/3854060/FlippUp/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmf6n8UZ0pV_Bl7YBnY0wsb",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

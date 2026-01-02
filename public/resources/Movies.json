@@ -27075,5 +27075,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2070": {
+    "name": "【雑談】2026年正月を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=i3tbPf7zduA",
+    "releaseDate": "2026/01/02",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

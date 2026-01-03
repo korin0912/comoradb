@@ -27088,5 +27088,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2071": {
+    "name": "ビームが発射される中するピンボールは最高だぜ【FlippUp】＃3",
+    "url": "https://www.youtube.com/watch?v=Ma8gTbwApJw",
+    "releaseDate": "2026/01/03",
+    "gameIds": [
+      741
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

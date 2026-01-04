@@ -27101,5 +27101,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2072": {
+    "name": "ピンボール君、宇宙へ【FlippUp】＃4",
+    "url": "https://www.youtube.com/watch?v=Y1lwMl6GZPw",
+    "releaseDate": "2026/01/04",
+    "gameIds": [
+      741
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

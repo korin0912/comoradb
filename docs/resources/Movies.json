@@ -27114,5 +27114,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2073": {
+    "name": "彼女がゲームを作ってくれました【わんもあトラップ】",
+    "url": "https://www.youtube.com/watch?v=wN0HoobhyLk",
+    "releaseDate": "2026/01/06",
+    "gameIds": [
+      742
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

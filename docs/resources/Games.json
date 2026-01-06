@@ -9170,5 +9170,16 @@
       136
     ],
     "comment": ""
+  },
+  "742": {
+    "name": "わんもあトラップ",
+    "urls": [
+      "https://unityroom.com/games/onemoretrap"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

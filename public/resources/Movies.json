@@ -27140,5 +27140,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2075": {
+    "name": "【雑談】ホットアイマスクを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=ue4M2dWYY1c",
+    "releaseDate": "2026/01/08",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

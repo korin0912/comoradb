@@ -27153,5 +27153,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2076": {
+    "name": "ピンボールしててキレることもある【FlippUp】＃6(終)",
+    "url": "https://www.youtube.com/watch?v=uoSm5ZQ2L9E",
+    "releaseDate": "2026/01/09",
+    "gameIds": [
+      741
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

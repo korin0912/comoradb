@@ -27181,9 +27181,22 @@
     "comment": ""
   },
   "2078": {
-    "name": "最近は座敷わらしも社畜なんすねぇ【幽限会社わらし不動産】＃1",
+    "name": "最近は座敷わらしも社畜なんすねぇ【幽限会社わらし不動産】前編",
     "url": "https://www.youtube.com/watch?v=P41i72DnVts",
     "releaseDate": "2026/01/13",
+    "gameIds": [
+      744
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2079": {
+    "name": "完全攻略、物化けの力を一つに！【幽限会社わらし不動産】後編",
+    "url": "https://www.youtube.com/watch?v=9CuQF6XaoWY",
+    "releaseDate": "2026/01/14",
     "gameIds": [
       744
     ],

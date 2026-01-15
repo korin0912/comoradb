@@ -27205,5 +27205,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2080": {
+    "name": "選択で物語が変わる圧倒的好評のヒーロー物語【Dispatch】EP1",
+    "url": "https://www.youtube.com/watch?v=hjFbDUS19Zs",
+    "releaseDate": "2026/01/15",
+    "gameIds": [
+      745
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

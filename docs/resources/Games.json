@@ -9210,5 +9210,18 @@
       2
     ],
     "comment": ""
+  },
+  "745": {
+    "name": "Dispatch",
+    "urls": [
+      "https://x.com/theAdHocStudio",
+      "https://www.youtube.com/@AdHoc-Studio",
+      "https://store.steampowered.com/app/2592160/Dispatch/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnc4nuEiwhnKHpZ-De730Nr",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

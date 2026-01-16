@@ -27218,5 +27218,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2081": {
+    "name": "真のビッチヒーロー【Dispatch】EP2",
+    "url": "https://www.youtube.com/watch?v=RyEM5U4oATU",
+    "releaseDate": "2026/01/16",
+    "gameIds": [
+      745
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

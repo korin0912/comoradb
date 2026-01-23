@@ -27244,5 +27244,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2083": {
+    "name": "最強ヒーローの憂鬱【Dispatch】EP4",
+    "url": "https://www.youtube.com/watch?v=ZLr93DrwOl4",
+    "releaseDate": "2026/01/23",
+    "gameIds": [
+      745
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

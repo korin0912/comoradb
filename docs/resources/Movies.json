@@ -27257,5 +27257,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2084": {
+    "name": "【雑談】女子大生を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=fzE-5ycG788",
+    "releaseDate": "2026/01/27",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

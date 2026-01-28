@@ -27270,5 +27270,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2085": {
+    "name": "チームが一つになった日（彼だけを除く）【Dispatch】EP5",
+    "url": "https://www.youtube.com/watch?v=qBVetbmYNdM",
+    "releaseDate": "2026/01/28",
+    "gameIds": [
+      745
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

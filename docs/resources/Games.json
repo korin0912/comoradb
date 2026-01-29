@@ -9223,5 +9223,20 @@
       2
     ],
     "comment": ""
+  },
+  "746": {
+    "name": "都市伝説.exe",
+    "urls": [
+      "https://nbgames.jp",
+      "https://x.com/nbgames_info",
+      "https://www.youtube.com/@nbgames.information",
+      "https://store.steampowered.com/app/4173550/exe/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      100
+    ],
+    "comment": ""
   }
 }

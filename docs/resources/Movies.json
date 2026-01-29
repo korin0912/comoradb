@@ -27283,5 +27283,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2086": {
+    "name": "都市伝説って大抵、都市関係ない【都市伝説.exe】",
+    "url": "https://www.youtube.com/watch?v=CfIsh4cs4ik",
+    "releaseDate": "2026/01/29",
+    "gameIds": [
+      746
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

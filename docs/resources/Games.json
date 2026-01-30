@@ -9238,5 +9238,20 @@
       100
     ],
     "comment": ""
+  },
+  "747": {
+    "name": "Jackal",
+    "urls": [
+      "https://thd.vg/jackal/",
+      "https://www.youtube.com/@TranshumanDesign",
+      "https://x.com/THDtweet",
+      "https://store.steampowered.com/app/3124230/Jackal/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      5
+    ],
+    "comment": ""
   }
 }

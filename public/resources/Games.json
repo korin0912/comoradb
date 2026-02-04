@@ -9253,5 +9253,19 @@
       5
     ],
     "comment": ""
+  },
+  "748": {
+    "name": "INARI",
+    "urls": [
+      "https://x.com/1HPSTUDIO",
+      "https://www.youtube.com/@1HPSTUDIO_Official",
+      "https://store.steampowered.com/app/3910680/INARI/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      103
+    ],
+    "comment": ""
   }
 }

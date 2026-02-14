@@ -27426,5 +27426,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2097": {
+    "name": "FX戦士コモラ、株をする【Insider Trading】",
+    "url": "https://www.youtube.com/watch?v=T31s9Vtctug",
+    "releaseDate": "2026/02/14",
+    "gameIds": [
+      754
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

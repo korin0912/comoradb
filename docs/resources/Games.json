@@ -9334,5 +9334,21 @@
       134
     ],
     "comment": ""
+  },
+  "754": {
+    "name": "Insider Trading",
+    "urls": [
+      "https://www.naiivegames.com",
+      "https://www.youtube.com/@NaiiveGames",
+      "https://x.com/NaiiveStudio",
+      "https://store.steampowered.com/app/3166810/Insider_Trading/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      107,
+      138
+    ],
+    "comment": ""
   }
 }

@@ -9294,5 +9294,45 @@
       107
     ],
     "comment": ""
+  },
+  "751": {
+    "name": "KILL THE WITCH",
+    "urls": [
+      "https://x.com/snakeeaglegame",
+      "https://www.youtube.com/@snakeeaglegame",
+      "https://store.steampowered.com/app/2878760/KILL_THE_WITCH/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      118
+    ],
+    "comment": ""
+  },
+  "752": {
+    "name": "REPLACED",
+    "urls": [
+      "https://playreplaced.com",
+      "https://x.com/Replacedgame",
+      "https://www.youtube.com/@ThunderfulGames",
+      "https://store.steampowered.com/app/1663850/REPLACED/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
+  },
+  "753": {
+    "name": "Basement To The Sky",
+    "urls": [
+      "https://store.steampowered.com/app/4258880/Basement_To_The_Sky/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132,
+      134
+    ],
+    "comment": ""
   }
 }

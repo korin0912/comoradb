@@ -27387,5 +27387,44 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2094": {
+    "name": "人間が「虫」になった世界でバットを振り回すアクションゲーム！【KILL THE WITCH】",
+    "url": "https://www.youtube.com/watch?v=EClaotxuIaU",
+    "releaseDate": "2026/02/11",
+    "gameIds": [
+      751
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2095": {
+    "name": "ドットが美しすぎるサイバーパンクアクション！【REPLACED】",
+    "url": "https://www.youtube.com/watch?v=iyES10c3wNQ",
+    "releaseDate": "2026/02/12",
+    "gameIds": [
+      752
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2096": {
+    "name": "バイトした金で自作ロケットを飛ばすゲーム【Basement To The Sky】",
+    "url": "https://www.youtube.com/watch?v=PZbBJjlrhFI",
+    "releaseDate": "2026/02/13",
+    "gameIds": [
+      753
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

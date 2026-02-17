@@ -27439,5 +27439,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2098": {
+    "name": "【雑談】酔いましたを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=4ucSPDdZoBQ",
+    "releaseDate": "2026/02/17",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

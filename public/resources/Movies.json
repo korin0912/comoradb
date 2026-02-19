@@ -27452,5 +27452,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2099": {
+    "name": "格ゲーっぽい読み合いカードバトル【FULL BET - FIGHTING CASINO -】",
+    "url": "https://www.youtube.com/watch?v=R1YV5EGgzXY",
+    "releaseDate": "2026/02/19",
+    "gameIds": [
+      755
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

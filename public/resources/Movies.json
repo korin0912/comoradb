@@ -27465,5 +27465,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2100": {
+    "name": "寿司でレースするゲームが可愛い【わびさび寿司ダービー】",
+    "url": "https://www.youtube.com/watch?v=jATmBJsY_Jk",
+    "releaseDate": "2026/02/22",
+    "gameIds": [
+      756
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

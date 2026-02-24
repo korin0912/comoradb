@@ -27478,5 +27478,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2101": {
+    "name": "吹き飛べ！僕の電車！【電車アタック】",
+    "url": "https://www.youtube.com/watch?v=FNfqGGOBvRg",
+    "releaseDate": "2026/02/24",
+    "gameIds": [
+      757
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

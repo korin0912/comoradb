@@ -27491,5 +27491,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2102": {
+    "name": "クスリ交互に飲み合うデスゲームに参加しました【Forgive or Finalize】",
+    "url": "https://www.youtube.com/watch?v=zOkf_4xgOJY",
+    "releaseDate": "2026/02/25",
+    "gameIds": [
+      758
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

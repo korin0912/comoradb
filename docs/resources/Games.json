@@ -9415,5 +9415,25 @@
       107
     ],
     "comment": ""
+  },
+  "760": {
+    "name": "BIOHAZARD requiem",
+    "urls": [
+      "https://www.residentevil.com/requiem/ja-jp/",
+      "https://www.youtube.com/channel/UCbReH8gzVeGr6wuQHEOiHFA",
+      "https://x.com/bio_official",
+      "https://store.playstation.com/ja-jp/product/JP0102-PPSA31247_00-REREQUIEMDX00000",
+      "https://www.xbox.com/ja-JP/games/store/biohazard-requiem/9N003L5R9MMF/0010",
+      "https://store-jp.nintendo.com/item/software/D70070000031344",
+      "https://store.steampowered.com/app/3764200/BIOHAZARD_requiem/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblP4GIRl-Ayp8bDMIRmZNgx",
+    "genreIds": [
+      1,
+      2,
+      100,
+      104
+    ],
+    "comment": ""
   }
 }

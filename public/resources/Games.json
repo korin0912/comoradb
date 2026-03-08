@@ -9472,5 +9472,21 @@
       2
     ],
     "comment": ""
+  },
+  "764": {
+    "name": "Slay the Spire 2",
+    "urls": [
+      "https://megacrit.com",
+      "https://x.com/megacrit",
+      "https://store.steampowered.com/app/2868840/Slay_the_Spire_2/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      106,
+      107,
+      138
+    ],
+    "comment": ""
   }
 }

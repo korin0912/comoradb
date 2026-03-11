@@ -27647,5 +27647,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2114": {
+    "name": " 【雑談】伝言ゲームを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=TG_ieKcrN6Y",
+    "releaseDate": "2026/03/11",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

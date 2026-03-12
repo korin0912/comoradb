@@ -27660,5 +27660,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2115": {
+    "name": "オールバックオシャレグラサン【BIOHAZARD requiem】#7",
+    "url": "https://www.youtube.com/watch?v=0robxvKpjiw",
+    "releaseDate": "2026/03/12",
+    "gameIds": [
+      760
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

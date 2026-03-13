@@ -27673,5 +27673,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2116": {
+    "name": "学園SF×ボールスポーツの全力投球アクション！【BAKUDO】",
+    "url": "https://www.youtube.com/watch?v=8yPWBNLnqlU",
+    "releaseDate": "2026/03/13",
+    "gameIds": [
+      765
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

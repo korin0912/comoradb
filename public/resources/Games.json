@@ -9488,5 +9488,20 @@
       138
     ],
     "comment": ""
+  },
+  "765": {
+    "name": "BAKUDO",
+    "urls": [
+      "https://www.sayilgames.com",
+      "https://x.com/SAYILGAMES",
+      "https://www.youtube.com/@shueishagames6941",
+      "https://store.steampowered.com/app/2275860/BAKUDO/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      6
+    ],
+    "comment": ""
   }
 }

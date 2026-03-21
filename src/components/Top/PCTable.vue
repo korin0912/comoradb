@@ -28,6 +28,7 @@
             <!-- タイトル -->
             <td :rowspan="item.gameRow">
               {{ item.game.name }}
+              <span v-if="item.gameRow >= 2"> ({{ item.gameRow }}) </span>
               <a v-if="('playListUrl' in item.game) && item.game.playListUrl" :href="item.game.playListUrl" target="_blank" class="icon playlist" />
             </td>
             <!-- リンク -->

@@ -27725,5 +27725,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2120": {
+    "name": "髪無し集団【BIOHAZARD requiem】#10",
+    "url": "https://www.youtube.com/watch?v=s5byGBZ8HW4",
+    "releaseDate": "2026/03/21",
+    "gameIds": [
+      760
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

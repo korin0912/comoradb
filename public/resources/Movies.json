@@ -27751,5 +27751,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2122": {
+    "name": "誰だこいつ!?【BIOHAZARD requiem】#12",
+    "url": "https://www.youtube.com/watch?v=G-ilnIPm6ek",
+    "releaseDate": "2026/03/24",
+    "gameIds": [
+      760
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

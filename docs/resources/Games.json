@@ -9514,5 +9514,20 @@
       5
     ],
     "comment": ""
+  },
+  "767": {
+    "name": "誰かの心霊写真",
+    "urls": [
+      "https://www.bs-tvtokyo.co.jp/nogi_paso/",
+      "https://www.youtube.com/@nogi_paso",
+      "https://x.com/nogi_paso",
+      "https://store.steampowered.com/app/4161640/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

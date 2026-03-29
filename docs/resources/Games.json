@@ -9541,5 +9541,17 @@
       5
     ],
     "comment": ""
+  },
+  "769": {
+    "name": "裏拍手",
+    "urls": [
+      "https://unityroom.com/games/backclapper"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100,
+      130
+    ],
+    "comment": ""
   }
 }

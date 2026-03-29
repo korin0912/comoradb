@@ -27803,5 +27803,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2126": {
+    "name": "裏拍手って知ってる？",
+    "url": "https://www.youtube.com/watch?v=LHEBmI78KXM",
+    "releaseDate": "2026/03/29",
+    "gameIds": [
+      769
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -27829,5 +27829,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2128": {
+    "name": "【雑談】期間契約を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=UEPzNF3HSvI",
+    "releaseDate": "2026/04/01",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

@@ -9553,5 +9553,17 @@
       130
     ],
     "comment": ""
+  },
+  "770": {
+    "name": "Super Meat Boy 3D",
+    "urls": [
+      "https://x.com/supermeatboy",
+      "https://store.steampowered.com/app/3288210/Super_Meat_Boy_3D/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFblERQ373_Wtn8BsReQjzE0S",
+    "genreIds": [
+      103
+    ],
+    "comment": ""
   }
 }

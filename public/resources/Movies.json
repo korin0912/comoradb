@@ -27855,5 +27855,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2130": {
+    "name": "僕のことバカにした？【Super Meat Boy 3D】#2",
+    "url": "https://www.youtube.com/watch?v=ZnDclhFRkrQ",
+    "releaseDate": "2026/04/04",
+    "gameIds": [
+      770
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

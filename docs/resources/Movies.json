@@ -27907,5 +27907,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2134": {
+    "name": "会議に行きたいだけなのに・・・【Good Luck】",
+    "url": "https://www.youtube.com/watch?v=sgvBx56Twao",
+    "releaseDate": "2026/04/10",
+    "gameIds": [
+      661
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

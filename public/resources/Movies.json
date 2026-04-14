@@ -27933,5 +27933,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2136": {
+    "name": "セレステと同じピクセルアーティストが送るホラー人生シミュレーション【Neverway Prologue】",
+    "url": "https://www.youtube.com/watch?v=bhfzBAVKuQU",
+    "releaseDate": "2026/04/14",
+    "gameIds": [
+      772
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

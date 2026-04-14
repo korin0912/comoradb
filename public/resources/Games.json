@@ -9580,5 +9580,17 @@
       107
     ],
     "comment": ""
+  },
+  "772": {
+    "name": "Neverway",
+    "urls": [
+      "https://store.steampowered.com/app/2318330/Neverway/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      3,
+      100
+    ],
+    "comment": ""
   }
 }

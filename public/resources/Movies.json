@@ -27946,5 +27946,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2137": {
+    "name": "けん玉を100回するだけのゲーム【けん玉100人シミュレーター】",
+    "url": "https://www.youtube.com/watch?v=g98i9MWOTLo",
+    "releaseDate": "2026/04/15",
+    "gameIds": [
+      773
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -9592,5 +9592,17 @@
       100
     ],
     "comment": ""
+  },
+  "773": {
+    "name": "けん玉100人シミュレーター",
+    "urls": [
+      "https://www.winglay.com",
+      "https://store.steampowered.com/app/4293130/100/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
+    ],
+    "comment": ""
   }
 }

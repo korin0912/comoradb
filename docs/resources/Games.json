@@ -9604,5 +9604,21 @@
       132
     ],
     "comment": ""
+  },
+  "774": {
+    "name": "ボニーベア セイブズ フロッグタイム (Bonnie Bear Saves Frogtime)",
+    "urls": [
+      "https://www.bonte-avond.com",
+      "https://x.com/bonteavond",
+      "https://www.youtube.com/@Bonte_Avond",
+      "https://store.steampowered.com/app/2466130/___Bonnie_Bear_Saves_Frogtime/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbnUpm08o4Zwc7mlvQuf3Qog",
+    "genreIds": [
+      2,
+      3,
+      107
+    ],
+    "comment": ""
   }
 }

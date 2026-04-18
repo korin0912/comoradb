@@ -27985,5 +27985,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2140": {
+    "name": "【雑談】中華料理を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=fDPgcxQTIZk",
+    "releaseDate": "2026/04/18",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

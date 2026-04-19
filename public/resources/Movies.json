@@ -27998,5 +27998,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2141": {
+    "name": "この世界の秘密【ボニーベア セイブズ フロッグタイム】#3",
+    "url": "https://www.youtube.com/watch?v=9cTFBkabD1o",
+    "releaseDate": "2026/04/19",
+    "gameIds": [
+      774
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

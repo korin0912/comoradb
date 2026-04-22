@@ -271,6 +271,9 @@ function getTableItems(filterParams) {
     if (item.movie == null) {
       return;
     }
+    if (item.movie.id == 0) {
+      return;
+    }
     if (item.movie.id != prevId) {
       prevItem = item;
       prevId = item.movie.id;
@@ -284,7 +287,8 @@ function getTableItems(filterParams) {
     }
   });
 
-  // console.log(items);
+  // console.log(movieCount);
+  // console.log(movieIds.length);
 
   return {
     items: items,

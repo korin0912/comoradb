@@ -28024,5 +28024,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2143": {
+    "name": "サーモンが掃除するだけのゲーム【モルドワッシャー】",
+    "url": "https://www.youtube.com/watch?v=4JXNuzitENU",
+    "releaseDate": "2026/04/22",
+    "gameIds": [
+      775
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -9633,5 +9633,19 @@
       5
     ],
     "comment": ""
+  },
+  "776": {
+    "name": "Inkblood",
+    "urls": [
+      "https://heybird.gg",
+      "https://x.com/heybirdgg",
+      "https://store.steampowered.com/app/4114100/Inkblood/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      9
+    ],
+    "comment": ""
   }
 }

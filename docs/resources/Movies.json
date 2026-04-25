@@ -28050,5 +28050,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2145": {
+    "name": "現在と過去の事件現場を覗く推理ゲーム【Inkblood】",
+    "url": "https://www.youtube.com/watch?v=wHEAvM6YJNc",
+    "releaseDate": "2026/04/25",
+    "gameIds": [
+      776
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -28076,5 +28076,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2147": {
+    "name": "裏切る勇気【ボニーベア セイブズ フロッグタイム】#8",
+    "url": "https://www.youtube.com/watch?v=2NMjNb8jtDs",
+    "releaseDate": "2026/04/28",
+    "gameIds": [
+      774
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

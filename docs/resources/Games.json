@@ -9647,5 +9647,19 @@
       9
     ],
     "comment": ""
+  },
+  "777": {
+    "name": "Trees Hate You",
+    "urls": [
+      "https://bsky.app/profile/tykenn.games",
+      "https://www.youtube.com/@tykenngamelab",
+      "https://store.steampowered.com/app/4171850/Trees_Hate_You/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

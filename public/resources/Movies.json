@@ -28115,5 +28115,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2150": {
+    "name": "クマさんは短気【ボニーベア セイブズ フロッグタイム】#10",
+    "url": "https://www.youtube.com/watch?v=TtvezLehDAw",
+    "releaseDate": "2026/05/01",
+    "gameIds": [
+      774
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

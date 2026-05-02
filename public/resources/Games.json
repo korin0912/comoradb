@@ -9661,5 +9661,19 @@
       136
     ],
     "comment": ""
+  },
+  "778": {
+    "name": "Outer Space Bar",
+    "urls": [
+      "https://oznastudio.com",
+      "https://x.com/OznaStudio",
+      "https://store.steampowered.com/app/4602100/Outer_Space_Bar/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      136
+    ],
+    "comment": ""
   }
 }

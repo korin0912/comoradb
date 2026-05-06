@@ -9675,5 +9675,16 @@
       136
     ],
     "comment": ""
+  },
+  "779": {
+    "name": "La Madriguera",
+    "urls": [
+      "https://la-madriguera.softonic.jp"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      132
+    ],
+    "comment": ""
   }
 }

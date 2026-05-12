@@ -9686,5 +9686,20 @@
       132
     ],
     "comment": ""
+  },
+  "780": {
+    "name": "Phonopolis(フォノポリス)",
+    "urls": [
+      "https://amanita-design.net/games/phonopolis.html",
+      "https://x.com/Amanita_Design",
+      "https://www.youtube.com/@amanitadesign",
+      "https://store.steampowered.com/app/1206070/Phonopolis/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      9
+    ],
+    "comment": ""
   }
 }

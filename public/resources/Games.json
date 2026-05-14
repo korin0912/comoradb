@@ -9701,5 +9701,18 @@
       9
     ],
     "comment": ""
+  },
+  "781": {
+    "name": "悪意",
+    "urls": [
+      "https://x.com/Ghostcasestudio",
+      "https://store.steampowered.com/app/4111260/_/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

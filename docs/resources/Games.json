@@ -9714,5 +9714,20 @@
       100
     ],
     "comment": ""
+  },
+  "782": {
+    "name": "ルーンダイス",
+    "urls": [
+      "https://runedicegame.com",
+      "https://x.com/runedicegame",
+      "https://store.steampowered.com/app/3542380/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      107,
+      138
+    ],
+    "comment": ""
   }
 }

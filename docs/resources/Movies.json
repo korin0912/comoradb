@@ -28258,5 +28258,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2161": {
+    "name": "ダイスを振って連鎖させるのが気持ちいいローグライク【ルーンダイス】",
+    "url": "https://www.youtube.com/watch?v=zfLG8Sd0FSk",
+    "releaseDate": "2026/05/16",
+    "gameIds": [
+      782
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

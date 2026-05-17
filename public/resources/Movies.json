@@ -28271,5 +28271,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2162": {
+    "name": "みんな大好きアレを飛ばすゲーム【ソーセージについての奇妙なゲーム】",
+    "url": "https://www.youtube.com/watch?v=EeWDIjfBF-E",
+    "releaseDate": "2026/05/17",
+    "gameIds": [
+      783
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

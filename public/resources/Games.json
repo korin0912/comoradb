@@ -9741,5 +9741,22 @@
       134
     ],
     "comment": ""
+  },
+  "784": {
+    "name": "PockeDate! - ポケットデートシミュレータ",
+    "urls": [
+      "https://ternoxgames.com",
+      "https://x.com/Taimumari",
+      "https://www.youtube.com/channel/UC1rKs1kvj_f1S7lwpHGZ9TQ",
+      "https://store.steampowered.com/app/3107350/PockeDate/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100,
+      139,
+      141
+    ],
+    "comment": ""
   }
 }

@@ -28297,5 +28297,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2164": {
+    "name": "東京の夜に安らぎの一杯を【Coffee Talk Tokyo】#1",
+    "url": "https://www.youtube.com/watch?v=7iK4rtkuDSk",
+    "releaseDate": "2026/05/26",
+    "gameIds": [
+      785
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

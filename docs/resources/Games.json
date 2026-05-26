@@ -9758,5 +9758,19 @@
       141
     ],
     "comment": ""
+  },
+  "785": {
+    "name": "Coffee Talk Tokyo",
+    "urls": [
+      "https://chorusworldwide.com",
+      "https://x.com/ChorusWorldwide",
+      "https://www.youtube.com/@chorusworld"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLdVkEyB0wFbmWa1PBRtjTAkty7RpTEbT8",
+    "genreIds": [
+      2,
+      139
+    ],
+    "comment": ""
   }
 }

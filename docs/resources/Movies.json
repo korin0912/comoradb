@@ -28323,5 +28323,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2166": {
+    "name": "【雑談】家庭内喧嘩を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=hMG-r5z3_eI",
+    "releaseDate": "2026/05/28",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

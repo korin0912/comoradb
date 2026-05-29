@@ -28336,5 +28336,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2167": {
+    "name": "ウチは子供も入れる安全なお店です【Coffee Talk Tokyo】#3",
+    "url": "https://www.youtube.com/watch?v=A-e9quFKAlk",
+    "releaseDate": "2026/05/29",
+    "gameIds": [
+      785
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -28362,5 +28362,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2169": {
+    "name": "60秒無限ループから脱出を目指す謎解きゲーム【60病】",
+    "url": "https://www.youtube.com/watch?v=jNpGPEdaJBo",
+    "releaseDate": "2026/05/31",
+    "gameIds": [
+      786
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

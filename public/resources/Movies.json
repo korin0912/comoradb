@@ -28375,5 +28375,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2170": {
+    "name": "幽霊が見える法則【Coffee Talk Tokyo】#5",
+    "url": "https://www.youtube.com/watch?v=K0eakDI5enU",
+    "releaseDate": "2026/06/02",
+    "gameIds": [
+      785
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2171": {
+    "name": "天才は理解されない【Coffee Talk Tokyo】#6",
+    "url": "https://www.youtube.com/watch?v=lv0cNtzQ8FM",
+    "releaseDate": "2026/06/03",
+    "gameIds": [
+      785
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -28440,5 +28440,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2175": {
+    "name": "【雑談】2026年健康診断を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=qjQKVMNXTPU",
+    "releaseDate": "2026/06/09",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

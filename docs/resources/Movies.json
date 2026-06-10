@@ -28453,5 +28453,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2176": {
+    "name": "BSS！（ボクが先にしゅきだったのに！）【Coffee Talk Tokyo】#9",
+    "url": "https://www.youtube.com/watch?v=rrCBsgRMoYo",
+    "releaseDate": "2026/06/10",
+    "gameIds": [
+      785
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

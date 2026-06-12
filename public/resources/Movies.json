@@ -28466,5 +28466,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2177": {
+    "name": "推しが壊れちゃった【Coffee Talk Tokyo】#10",
+    "url": "https://www.youtube.com/watch?v=MBDBgvex6wM",
+    "releaseDate": "2026/06/12",
+    "gameIds": [
+      785
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -9812,5 +9812,17 @@
       102
     ],
     "comment": ""
+  },
+  "789": {
+    "name": "SHOWHAND",
+    "urls": [
+      "https://store.steampowered.com/app/4629890/SHOWHAND/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

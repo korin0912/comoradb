@@ -28544,5 +28544,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2183": {
+    "name": "トップアーティストの決断【Coffee Talk Tokyo】#14",
+    "url": "https://www.youtube.com/watch?v=yyqvkrbKUjY",
+    "releaseDate": "2026/06/19",
+    "gameIds": [
+      785
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

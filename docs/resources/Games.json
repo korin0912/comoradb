@@ -9836,5 +9836,21 @@
       102
     ],
     "comment": ""
+  },
+  "791": {
+    "name": "Bugscraper",
+    "urls": [
+      "https://bugscraper.net",
+      "https://x.com/ninesliced",
+      "https://www.youtube.com/@ninesliced_games",
+      "https://store.steampowered.com/app/2957130/Bugscraper/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      4,
+      102
+    ],
+    "comment": ""
   }
 }

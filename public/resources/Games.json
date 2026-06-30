@@ -9852,5 +9852,20 @@
       102
     ],
     "comment": ""
+  },
+  "792": {
+    "name": "KAZ",
+    "urls": [
+      "https://linktr.ee/playkaz",
+      "https://www.youtube.com/@playkazgame",
+      "https://x.com/play_kaz_game",
+      "https://store.steampowered.com/app/3633760/KAZ/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
   }
 }

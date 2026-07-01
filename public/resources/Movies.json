@@ -28622,5 +28622,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2189": {
+    "name": "呪文を唱えて弾幕を消せ！高難度ボスラッシュシューティング！【VOIDFACE】",
+    "url": "https://www.youtube.com/watch?v=sHMUpXZ_qFw",
+    "releaseDate": "2026/07/01",
+    "gameIds": [
+      793
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

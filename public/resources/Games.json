@@ -9867,5 +9867,19 @@
       102
     ],
     "comment": ""
+  },
+  "793": {
+    "name": "VOIDFACE",
+    "urls": [
+      "https://froghatlabs.com/voidface",
+      "https://store.steampowered.com/app/3224540/VOIDFACE/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      4,
+      136
+    ],
+    "comment": ""
   }
 }

@@ -28648,5 +28648,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2191": {
+    "name": "あらゆる物をダンクスマッシュ！【Dumb Dunks】",
+    "url": "https://www.youtube.com/watch?v=OM2pGsrP6OY",
+    "releaseDate": "2026/07/03",
+    "gameIds": [
+      795
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

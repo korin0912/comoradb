@@ -9893,5 +9893,16 @@
       107
     ],
     "comment": ""
+  },
+  "795": {
+    "name": "Dumb Dunks",
+    "urls": [
+      "https://store.steampowered.com/app/4612880/Dumb_Dunks/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

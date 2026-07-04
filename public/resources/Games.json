@@ -9904,5 +9904,18 @@
       1
     ],
     "comment": ""
+  },
+  "796": {
+    "name": "Don't Let It Starve",
+    "urls": [
+      "https://store.steampowered.com/app/3930510/Dont_Let_It_Starve/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      100,
+      102,
+      107
+    ],
+    "comment": ""
   }
 }

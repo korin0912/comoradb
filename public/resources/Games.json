@@ -9917,5 +9917,17 @@
       107
     ],
     "comment": ""
+  },
+  "797": {
+    "name": "ルーレットダンジョン",
+    "urls": [
+      "https://store.steampowered.com/app/3399930/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      138
+    ],
+    "comment": ""
   }
 }

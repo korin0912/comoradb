@@ -28687,5 +28687,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2194": {
+    "name": "【雑談】新トイレを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=2tiRyabsKPw",
+    "releaseDate": "2026/07/08",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

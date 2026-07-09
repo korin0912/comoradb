@@ -28700,5 +28700,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2195": {
+    "name": "可愛くて面白い！今年期待のウサギローグライク！【Hoptale】",
+    "url": "https://www.youtube.com/watch?v=8Z6fEySD7OI",
+    "releaseDate": "2026/07/09",
+    "gameIds": [
+      798
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

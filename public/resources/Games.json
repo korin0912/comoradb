@@ -9953,5 +9953,20 @@
       1
     ],
     "comment": ""
+  },
+  "800": {
+    "name": "BULLACATOR -pusher tank battle-",
+    "urls": [
+      "https://mangata.co.jp",
+      "https://x.com/MANGATA_GAMES",
+      "https://store.steampowered.com/app/4833680/BULLACATOR_pusher_tank_battle/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      102,
+      107,
+      138
+    ],
+    "comment": ""
   }
 }

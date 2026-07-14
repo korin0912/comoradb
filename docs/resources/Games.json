@@ -9968,5 +9968,19 @@
       138
     ],
     "comment": ""
+  },
+  "801": {
+    "name": "SNS監死人",
+    "urls": [
+      "https://x.com/ready1_official",
+      "https://www.youtube.com/@ready_official-i5o",
+      "https://store.steampowered.com/app/4727820/SNS/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -9982,5 +9982,17 @@
       100
     ],
     "comment": ""
+  },
+  "802": {
+    "name": "Stackflow",
+    "urls": [
+      "https://store.steampowered.com/app/3908810/Stackflow/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      9,
+      102
+    ],
+    "comment": ""
   }
 }

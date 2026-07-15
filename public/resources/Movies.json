@@ -28752,5 +28752,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2199": {
+    "name": "こんなローグライクテトリス一生やってまうやん！【Stackflow】",
+    "url": "https://www.youtube.com/watch?v=auOfKwf0Dpw",
+    "releaseDate": "2026/07/15",
+    "gameIds": [
+      802
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

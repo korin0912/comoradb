@@ -9994,5 +9994,21 @@
       102
     ],
     "comment": ""
+  },
+  "803": {
+    "name": "LOVE ETERNAL",
+    "urls": [
+      "https://loveeternalgame.com",
+      "https://www.nintendo.com/us/store/products/love-eternal-switch/?srsltid=AfmBOopEMHFhyWvlWAOwa2Vt_aVFSsQI4a_mKx-GXzImzQtl1n6tcygO",
+      "https://store.playstation.com/en-us/concept/10013641",
+      "https://www.gog.com/en/game/love_eternal",
+      "https://store.steampowered.com/app/3010610/LOVE_ETERNAL/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLQnq5F20JYg0",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

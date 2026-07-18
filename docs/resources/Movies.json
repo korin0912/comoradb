@@ -28765,5 +28765,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2200": {
+    "name": "重力を操り女神から逃げろ！高難易度アクションホラー！【LOVE ETERNAL（ラブエターナル）】#1",
+    "url": "https://www.youtube.com/watch?v=ZjtD-ch1Oz4",
+    "releaseDate": "2026/07/17",
+    "gameIds": [
+      803
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2201": {
+    "name": "ディベッシュが何をしたっていうんだ！【LOVE ETERNAL（ラブエターナル）】#2",
+    "url": "https://www.youtube.com/watch?v=lMjKhC611BE",
+    "releaseDate": "2026/07/18",
+    "gameIds": [
+      803
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

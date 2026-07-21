@@ -28791,5 +28791,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2202": {
+    "name": "話題の恐竜剣戟ソウルライクを遊んでみた【Dinoblade】",
+    "url": "https://www.youtube.com/watch?v=baOhltx5e5E",
+    "releaseDate": "2026/07/21",
+    "gameIds": [
+      804
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

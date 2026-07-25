@@ -28843,5 +28843,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2206": {
+    "name": "【雑談】好感度を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=x1tKLwCr1Pc",
+    "releaseDate": "2026/07/25",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

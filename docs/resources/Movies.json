@@ -28856,5 +28856,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2207": {
+    "name": "ハードボイルドすぎるワンちゃんの見下ろし型シューティング！【Kusan: オオカミの街】",
+    "url": "https://www.youtube.com/watch?v=9mUmSvL1ctg",
+    "releaseDate": "2026/07/28",
+    "gameIds": [
+      805
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

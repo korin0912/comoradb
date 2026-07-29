@@ -10037,5 +10037,18 @@
       1
     ],
     "comment": ""
+  },
+  "806": {
+    "name": "Icycle: On Thin Ice",
+    "urls": [
+      "https://www.dampgnat.com/icycleonthinice/",
+      "https://store.steampowered.com/app/658990/Icycle_On_Thin_Ice/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      113
+    ],
+    "comment": ""
   }
 }

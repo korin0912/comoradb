@@ -28895,5 +28895,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2210": {
+    "name": "チェックインした部屋を探すだけのゲーム【HotelParadise】",
+    "url": "https://www.youtube.com/watch?v=NGezdXmPyGQ",
+    "releaseDate": "2026/07/31",
+    "gameIds": [
+      807
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

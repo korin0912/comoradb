@@ -10050,5 +10050,17 @@
       113
     ],
     "comment": ""
+  },
+  "807": {
+    "name": "HotelParadise",
+    "urls": [
+      "https://kaiclavier.itch.io/hotel-paradise"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      133
+    ],
+    "comment": ""
   }
 }

@@ -10075,5 +10075,31 @@
       1
     ],
     "comment": ""
+  },
+  "809": {
+    "name": "13 Seconds",
+    "urls": [
+      "https://store.steampowered.com/app/2761620/13_Seconds/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102
+    ],
+    "comment": ""
+  },
+  "810": {
+    "name": "Hachishakusama | 八尺様がいた夏休み",
+    "urls": [
+      "https://x.com/FukachiWorld",
+      "https://www.youtube.com/@FukachiWorld",
+      "https://store.steampowered.com/app/4689420/Hachishakusama/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

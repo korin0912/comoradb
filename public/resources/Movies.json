@@ -28921,5 +28921,31 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2212": {
+    "name": "2体のロボットを同時操作する弾幕回避鬼畜ゲーム！【13 Seconds】",
+    "url": "https://www.youtube.com/watch?v=_w31Ogylf5w",
+    "releaseDate": "2026/08/06",
+    "gameIds": [
+      809
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2213": {
+    "name": "あの夏、ボクは長身の女に恋をした【 八尺様がいた夏休み】前編",
+    "url": "https://www.youtube.com/watch?v=Z1xQ7VN9tDs",
+    "releaseDate": "2026/08/07",
+    "gameIds": [
+      810
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

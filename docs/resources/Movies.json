@@ -28973,5 +28973,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2216": {
+    "name": "【雑談】お盆の別れを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=7-2S-LPzPdc",
+    "releaseDate": "2026/08/11",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

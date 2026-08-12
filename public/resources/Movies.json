@@ -28986,5 +28986,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2217": {
+    "name": " Vtuberするのも命がけ【ゆるゆる生配信する推しは100万回死ぬ】#1",
+    "url": "https://www.youtube.com/watch?v=h4OnnQ_j21U",
+    "releaseDate": "2026/08/12",
+    "gameIds": [
+      763
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

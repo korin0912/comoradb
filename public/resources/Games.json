@@ -10101,5 +10101,18 @@
       100
     ],
     "comment": ""
+  },
+  "811": {
+    "name": "けものたちの髪切り屋",
+    "urls": [
+      "https://x.com/sigonogames",
+      "https://www.youtube.com/sigono",
+      "https://store.steampowered.com/app/4093320/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

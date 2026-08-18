@@ -10114,5 +10114,18 @@
       2
     ],
     "comment": ""
+  },
+  "812": {
+    "name": "Potato Simulato: Together",
+    "urls": [
+      "https://www.youtube.com/@PotatoGameDev0",
+      "https://store.steampowered.com/app/4567510/Potato_Simulato_Together/?l=japanese"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLXp6bA3xSjsU",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

@@ -10127,5 +10127,17 @@
       136
     ],
     "comment": ""
+  },
+  "813": {
+    "name": "クエスチョン・ルーレット",
+    "urls": [
+      "https://mysteriousalien.com",
+      "https://store.steampowered.com/app/4246780/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      140
+    ],
+    "comment": ""
   }
 }

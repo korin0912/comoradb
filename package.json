@@ -50,5 +50,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "allowScripts": {
+    "vue-demi@0.14.10": true,
+    "core-js@3.50.0": true
+  }
 }

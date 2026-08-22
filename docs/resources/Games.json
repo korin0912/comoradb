@@ -10139,5 +10139,16 @@
       140
     ],
     "comment": ""
+  },
+  "814": {
+    "name": "AIドット絵バトル",
+    "urls": [
+      "https://store.steampowered.com/app/3994120/AI/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

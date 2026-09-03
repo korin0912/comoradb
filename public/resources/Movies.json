@@ -29207,5 +29207,18 @@
     ],
     "chat": true,
     "comment": ""
+  },
+  "2234": {
+    "name": "ハムではなく泡になりたい【ハムコイ】#7",
+    "url": "https://www.youtube.com/watch?v=JG1AbWbfTC4",
+    "releaseDate": "2026/09/03",
+    "gameIds": [
+      815
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

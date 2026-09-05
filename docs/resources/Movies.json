@@ -29233,5 +29233,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2236": {
+    "name": "タンポポが育つだけのゲーム【タンポポは耐える。】",
+    "url": "https://www.youtube.com/watch?v=gXekJho93ws",
+    "releaseDate": "2026/09/05",
+    "gameIds": [
+      816
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

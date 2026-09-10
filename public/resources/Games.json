@@ -10179,5 +10179,18 @@
       133
     ],
     "comment": ""
+  },
+  "817": {
+    "name": "SILENT HILL f × 都市伝説解体センター",
+    "urls": [
+      "https://shueisha-games.com/news/20260909_umdc-silenthill-collaboration/",
+      "https://shf-umdc-specialminigame.shueisha-games.com"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

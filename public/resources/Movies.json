@@ -29311,5 +29311,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2242": {
+    "name": "SNSで流行ってたTDMI診断やってみた！",
+    "url": "https://www.youtube.com/watch?v=u53IXXz05kU&t=628s",
+    "releaseDate": "2026/09/15",
+    "gameIds": [
+      818
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

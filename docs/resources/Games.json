@@ -10192,5 +10192,16 @@
       100
     ],
     "comment": ""
+  },
+  "818": {
+    "name": "TDMI - トロッコ・ジレンマ道徳目録",
+    "urls": [
+      "https://tdmi.ls8h.com"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

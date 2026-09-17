@@ -10203,5 +10203,18 @@
       5
     ],
     "comment": ""
+  },
+  "819": {
+    "name": "Rehaunted",
+    "urls": [
+      "https://cauchemarstudio.com",
+      "https://store.steampowered.com/app/4538140/Rehaunted/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

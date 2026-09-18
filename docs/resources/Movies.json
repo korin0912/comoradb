@@ -29337,5 +29337,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2244": {
+    "name": "【雑談】睡眠を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=06-kKMGRwdQ",
+    "releaseDate": "2026/09/18",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

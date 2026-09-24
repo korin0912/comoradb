@@ -10241,5 +10241,18 @@
       2
     ],
     "comment": ""
+  },
+  "822": {
+    "name": "おかあさん",
+    "urls": [
+      "https://x.com/purihana_manga",
+      "https://store.steampowered.com/app/4930640/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

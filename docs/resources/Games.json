@@ -10265,5 +10265,17 @@
       2
     ],
     "comment": ""
+  },
+  "824": {
+    "name": "デス桃太郎",
+    "urls": [
+      "https://store.steampowered.com/app/5119790/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      113
+    ],
+    "comment": ""
   }
 }

@@ -10277,5 +10277,17 @@
       113
     ],
     "comment": ""
+  },
+  "825": {
+    "name": "First Cut: Samurai Duel",
+    "urls": [
+      "https://store.steampowered.com/app/2193490/First_Cut_Samurai_Duel/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

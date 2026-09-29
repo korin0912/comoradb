@@ -10289,5 +10289,19 @@
       136
     ],
     "comment": ""
+  },
+  "826": {
+    "name": "ハイローラーペニー",
+    "urls": [
+      "https://kniv.studio/#games",
+      "https://x.com/knivstudio",
+      "https://www.youtube.com/@knivstudio",
+      "https://store.steampowered.com/app/4944410/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5
+    ],
+    "comment": ""
   }
 }

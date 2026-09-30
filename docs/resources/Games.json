@@ -10303,5 +10303,18 @@
       5
     ],
     "comment": ""
+  },
+  "827": {
+    "name": "入ってしまった",
+    "urls": [
+      "https://x.com/installing_smth",
+      "https://store.steampowered.com/app/4832050/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

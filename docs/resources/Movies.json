@@ -29480,5 +29480,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2255": {
+    "name": "漢の魂をぶつけ合う決闘ゲーム【ソーセージレジェンド・アリーナ 】",
+    "url": "https://www.youtube.com/watch?v=4Xn1aZn01_Q",
+    "releaseDate": "2026/10/02",
+    "gameIds": [
+      828
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

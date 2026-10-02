@@ -10316,5 +10316,18 @@
       100
     ],
     "comment": ""
+  },
+  "828": {
+    "name": "ソーセージレジェンド・アリーナ",
+    "urls": [
+      "https://store.steampowered.com/app/2959830/_/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1,
+      102,
+      113
+    ],
+    "comment": ""
   }
 }

@@ -29493,5 +29493,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2256": {
+    "name": "常に自撮りのホラーゲーム【Cyan Heart】",
+    "url": "https://www.youtube.com/watch?v=4n61ywEn3vQ",
+    "releaseDate": "2026/10/03",
+    "gameIds": [
+      829
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -10341,5 +10341,18 @@
       100
     ],
     "comment": ""
+  },
+  "830": {
+    "name": "Near The Sun",
+    "urls": [
+      "https://unityroom.com/games/nts_taiken",
+      "https://x.com/dogwood1081",
+      "https://store.steampowered.com/app/3039960/Near_The_Sun/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      1
+    ],
+    "comment": ""
   }
 }

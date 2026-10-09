@@ -10368,5 +10368,23 @@
       3
     ],
     "comment": ""
+  },
+  "832": {
+    "name": "Forever Ago",
+    "urls": [
+      "https://forever-ago.com",
+      "https://x.com/_ThirdShift",
+      "https://www.youtube.com/channel/UC0Opx2ZMMWMt9TnI3hkO0Lg",
+      "https://store.steampowered.com/app/1215940/Forever_Ago/?l=japanese",
+      "https://store.epicgames.com/p/forever-ago-c55775",
+      "https://store.playstation.com/ja-jp/concept/10018129/",
+      "https://www.nintendo.com/us/store/products/forever-ago-switch-2/",
+      "https://www.xbox.com/ja-JP/games/store/forever-ago/9NFB47H2SDRX"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLeB4uR5JCDkU",
+    "genreIds": [
+      2
+    ],
+    "comment": ""
   }
 }

@@ -10386,5 +10386,19 @@
       2
     ],
     "comment": ""
+  },
+  "833": {
+    "name": "Tenebris Somnia",
+    "urls": [
+      "https://www.youtube.com/@andres_borghi",
+      "https://x.com/TenebrisSomnia",
+      "https://store.steampowered.com/app/2121510/Tenebris_Somnia/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -29597,5 +29597,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2264": {
+    "name": "命の恩人【Forever Ago】#3",
+    "url": "https://www.youtube.com/watch?v=RNdTgugojQM",
+    "releaseDate": "2026/10/13",
+    "gameIds": [
+      832
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

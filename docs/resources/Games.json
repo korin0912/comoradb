@@ -10400,5 +10400,20 @@
       100
     ],
     "comment": ""
+  },
+  "834": {
+    "name": "Kickin' Elevator",
+    "urls": [
+      "https://byking.jp/#1",
+      "https://x.com/byking_official",
+      "https://www.youtube.com/@BYKING_GAME",
+      "https://store.steampowered.com/app/4744830/Kickin_Elevator/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      100
+    ],
+    "comment": ""
   }
 }

@@ -29623,5 +29623,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2266": {
+    "name": "エレベーター内の邪魔者を蹴り飛ばすゲーム【Kickin' Elevator】",
+    "url": "https://www.youtube.com/watch?v=7VsWgpWh2Co",
+    "releaseDate": "2026/10/15",
+    "gameIds": [
+      834
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

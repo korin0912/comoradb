@@ -29636,5 +29636,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2267": {
+    "name": "また来よう【Forever Ago】#5",
+    "url": "https://www.youtube.com/watch?v=PyCkuYDLIlo",
+    "releaseDate": "2026/10/16",
+    "gameIds": [
+      832
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

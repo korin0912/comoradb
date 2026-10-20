@@ -10426,5 +10426,20 @@
       2
     ],
     "comment": ""
+  },
+  "836": {
+    "name": "The Doll Shop",
+    "urls": [
+      "https://ateliersento.com",
+      "https://x.com/AtelierSento",
+      "https://www.youtube.com/user/ateliersento",
+      "https://store.steampowered.com/app/3851680/The_Doll_Shop/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLZ2DokRt9LzI",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

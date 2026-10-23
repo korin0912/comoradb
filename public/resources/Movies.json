@@ -29688,5 +29688,44 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2271": {
+    "name": "どうして こうなるまで放っておいたんだ！【The Doll Shop】#2",
+    "url": "https://www.youtube.com/watch?v=qP2LMOWGFnA",
+    "releaseDate": "2026/10/21",
+    "gameIds": [
+      836
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2272": {
+    "name": "【雑談】ストーカーを語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=rvhsmC4fm4w",
+    "releaseDate": "2026/10/22",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
+  },
+  "2273": {
+    "name": "来てるかもしれない、モテ期【The Doll Shop】#3",
+    "url": "https://www.youtube.com/watch?v=JnY3OIGjvN8",
+    "releaseDate": "2026/10/23",
+    "gameIds": [
+      836
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

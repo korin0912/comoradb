@@ -29792,5 +29792,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2279": {
+    "name": "ボクの怖いものを診断してくれるらしい【恐応研式 恐怖診断】",
+    "url": "https://www.youtube.com/watch?v=V1vYwmKJw20",
+    "releaseDate": "2026/10/30",
+    "gameIds": [
+      838
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

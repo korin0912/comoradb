@@ -10467,5 +10467,17 @@
       100
     ],
     "comment": ""
+  },
+  "839": {
+    "name": "Softboiled",
+    "urls": [
+      "https://store.steampowered.com/app/4454110/Softboiled/"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLWZVlibg8YRk",
+    "genreIds": [
+      1,
+      136
+    ],
+    "comment": ""
   }
 }

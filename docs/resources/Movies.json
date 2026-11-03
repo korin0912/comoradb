@@ -29831,5 +29831,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2282": {
+    "name": "マーブル連鎖で敵を倒せ！今年期待のローグライク！【玉リン】",
+    "url": "https://www.youtube.com/watch?v=_q0kUXfumT0",
+    "releaseDate": "2026/11/03",
+    "gameIds": [
+      840
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

@@ -10375,7 +10375,7 @@
       "https://forever-ago.com",
       "https://x.com/_ThirdShift",
       "https://www.youtube.com/channel/UC0Opx2ZMMWMt9TnI3hkO0Lg",
-      "https://store.steampowered.com/app/1215940/Forever_Ago/?l=japanese",
+      "https://store.steampowered.com/app/1215940/Forever_Ago/",
       "https://store.epicgames.com/p/forever-ago-c55775",
       "https://store.playstation.com/ja-jp/concept/10018129/",
       "https://www.nintendo.com/us/store/products/forever-ago-switch-2/",
@@ -10407,7 +10407,7 @@
       "https://byking.jp/#1",
       "https://x.com/byking_official",
       "https://www.youtube.com/@BYKING_GAME",
-      "https://store.steampowered.com/app/4744830/Kickin_Elevator/?l=japanese"
+      "https://store.steampowered.com/app/4744830/Kickin_Elevator/"
     ],
     "playListUrl": "",
     "genreIds": [
@@ -10447,7 +10447,7 @@
     "urls": [
       "https://x.com/DucktopusGames",
       "https://www.youtube.com/@ducktopus_games",
-      "https://store.steampowered.com/app/3878740/Tiny_Chills_Not_From_Ear/?l=japanese&cc=US"
+      "https://store.steampowered.com/app/3878740/Tiny_Chills_Not_From_Ear/"
     ],
     "playListUrl": "",
     "genreIds": [
@@ -10460,7 +10460,7 @@
     "urls": [
       "https://hinanlab.com/games/fear-diagnosis/",
       "https://x.com/HinanLab",
-      "https://store.steampowered.com/app/5349710/%E6%81%90%E5%BF%9C%E7%A0%94%E5%BC%8F_%E6%81%90%E6%80%96%E8%A8%BA%E6%96%AD/?l=japanese"
+      "https://store.steampowered.com/app/5349710/%E6%81%90%E5%BF%9C%E7%A0%94%E5%BC%8F_%E6%81%90%E6%80%96%E8%A8%BA%E6%96%AD/"
     ],
     "playListUrl": "",
     "genreIds": [
@@ -10478,6 +10478,17 @@
       1,
       136
     ],
+    "comment": ""
+  },
+  "840": {
+    "name": "玉リン",
+    "urls": [
+      "https://x.com/JohnMugen",
+      "https://www.youtube.com/@QSauce",
+      "https://store.steampowered.com/app/4560170/%E7%8E%89%E3%83%AA%E3%83%B3/"
+    ],
+    "playListUrl": "",
+    "genreIds": [],
     "comment": ""
   }
 }

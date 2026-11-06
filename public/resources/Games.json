@@ -10490,5 +10490,22 @@
     "playListUrl": "",
     "genreIds": [],
     "comment": ""
+  },
+  "841": {
+    "name": "崩落の国",
+    "urls": [
+      "https://cygames-edge.com/ja/where_the_seeds_fall/",
+      "https://x.com/CygamesEdge",
+      "https://www.youtube.com/@CygamesEdge",
+      "https://store.steampowered.com/app/4139580/%E5%B4%A9%E8%90%BD%E3%81%AE%E5%9B%BD/?l=japanese",
+      "https://store.playstation.com/ja-jp/concept/10019729/",
+      "https://store-jp.nintendo.com/item/software/D70010000129703"
+    ],
+    "playListUrl": "https://www.youtube.com/playlist?list=PLd9T80ugBcp8",
+    "genreIds": [
+      1,
+      2
+    ],
+    "comment": ""
   }
 }

@@ -29883,5 +29883,18 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2286": {
+    "name": "【雑談】2026年流行語を語る【これがコモラ】",
+    "url": "https://www.youtube.com/watch?v=zuER__Fis1o",
+    "releaseDate": "2026/11/07",
+    "gameIds": [
+      277
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": true,
+    "comment": ""
   }
 }

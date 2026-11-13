@@ -29909,5 +29909,44 @@
     ],
     "chat": false,
     "comment": ""
+  },
+  "2288": {
+    "name": "忌み子の謎【崩落の国】#3",
+    "url": "https://www.youtube.com/watch?v=ERZqovgr8F8&t=2122s",
+    "releaseDate": "2026/11/11",
+    "gameIds": [
+      841
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2289": {
+    "name": "別れの時【崩落の国】#4(終)",
+    "url": "https://www.youtube.com/watch?v=5j3E2kXjPhA",
+    "releaseDate": "2026/11/12",
+    "gameIds": [
+      841
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2290": {
+    "name": "行方不明の夫を探し続る逆ループホラー【REC:REWIND】前編",
+    "url": "https://www.youtube.com/watch?v=CSIbDB14V4M",
+    "releaseDate": "2026/11/13",
+    "gameIds": [
+      842
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
   }
 }

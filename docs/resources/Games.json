@@ -10507,5 +10507,18 @@
       2
     ],
     "comment": ""
+  },
+  "842": {
+    "name": "REC:REWIND",
+    "urls": [
+      "https://x.com/SoraiCG",
+      "https://store.steampowered.com/app/5379260/RECREWIND/"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      2,
+      100
+    ],
+    "comment": ""
   }
 }

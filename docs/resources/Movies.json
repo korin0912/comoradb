@@ -28091,7 +28091,7 @@
     "comment": ""
   },
   "2148": {
-    "name": "理不尽すぎる森から脱出する高難易度ゲーム【Trees Hate You】",
+    "name": "理不尽すぎる森から脱出する高難易度ゲーム【Trees Hate You】#1",
     "url": "https://www.youtube.com/watch?v=BHJA4K2HOSg",
     "releaseDate": "2026/04/29",
     "gameIds": [
@@ -29955,6 +29955,19 @@
     "releaseDate": "2026/11/14",
     "gameIds": [
       842
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2292": {
+    "name": "森がロケランぶっ放すゲーム【Trees Hate You】#2",
+    "url": "https://www.youtube.com/watch?v=4rc9EhmiLU0",
+    "releaseDate": "2026/11/17",
+    "gameIds": [
+      777
     ],
     "actorIds": [
       1

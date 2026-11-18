@@ -29963,9 +29963,22 @@
     "comment": ""
   },
   "2292": {
-    "name": "森がロケランぶっ放すゲーム【Trees Hate You】#2",
+    "name": "森がロケランぶっ放すゲーム【Trees Hate You】",
     "url": "https://www.youtube.com/watch?v=4rc9EhmiLU0",
     "releaseDate": "2026/11/17",
+    "gameIds": [
+      777
+    ],
+    "actorIds": [
+      1
+    ],
+    "chat": false,
+    "comment": ""
+  },
+  "2293": {
+    "name": "鬼畜の森から砂漠まで来てしまった【Trees Hate You】",
+    "url": "https://www.youtube.com/watch?v=pYn8FHkJoSg",
+    "releaseDate": "2026/11/18",
     "gameIds": [
       777
     ],

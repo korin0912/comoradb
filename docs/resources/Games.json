@@ -10534,5 +10534,19 @@
       100
     ],
     "comment": ""
+  },
+  "844": {
+    "name": "HAPPY PROPAGANDA",
+    "urls": [
+      "https://notadog.jp",
+      "https://x.com/NotaDog_stg",
+      "https://store.steampowered.com/app/4950600/HAPPY_PROPAGANDA/?l=japanese"
+    ],
+    "playListUrl": "",
+    "genreIds": [
+      5,
+      139
+    ],
+    "comment": ""
   }
 }
